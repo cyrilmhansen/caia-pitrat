@@ -1,3 +1,12 @@
+# Quick notes for this fork
+
+Use the MALICE branch to access the limited demo version of the solver, similar to the version described in http://jacques.pitrat.pagesperso-orange.fr/MALICE.html
+
+If you have problems with the compilation of encounter a SIGALRM crash, I suggest to build using this oneliner:
+musl-gcc -O2 -std=c99 *.c -rdynamic -ldl -o caia
+
+musl-gcc is provided by the musl-tools package and force the use of the musl C library. This fixes https://github.com/bstarynk/caia-pitrat/issues/1 for me.
+
 # caia-pitrat
 
 The CAIA artificial intelligence system of *late* Jacques Pitrat (1934- oct. 2019)
