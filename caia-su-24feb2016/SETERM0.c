@@ -35,7 +35,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=jvj+4;
 x[jvj+2]=t[x[jvj+2]];
 l1:if((x[jvj+2]>0)) goto l2;
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; 
-(*f[1964])( );     /*SETERM0(jvj+5,jvj+6)*/
+(*f[1966])( );     /*SETERM0(jvj+5,jvj+6)*/
 l3:if((x[jvj+6]>0)) goto l4;
 x[R]=x[jvj+3] ;z[R]=z[jvj+3];
 goto l8;
@@ -53,6 +53,6 @@ pile[v[22]]=103; pile[WZ2]=jvj+5;
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(103,A,jvj+5)*/
 x[jvj+3]=0 ;z[jvj+3]=0;
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
-(*f[1964])( );     /*SETERM0(jvj+1,jvj+2)*/
+(*f[1966])( );     /*SETERM0(jvj+1,jvj+2)*/
 goto l1;
 }

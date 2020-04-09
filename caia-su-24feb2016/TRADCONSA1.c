@@ -26,7 +26,7 @@ for(a=x[EA];a>0;a=t[a]) if(s[a]==W) goto l3;
 pile[v[22]]=EA; pile[WZ1]=W; 
 (*f[331])( );     /*PLUE3(EA,W)*/
 pile[WZ1]=EB; pile[WZ2]=V; pile[WZ3]=M; pile[WZ4]=jvj+1; 
-(*f[1914])( );     /*TRADCONSA1(EA,EB,V,M,jvj+1)*/
+(*f[1916])( );     /*TRADCONSA1(EA,EB,V,M,jvj+1)*/
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
 (*f[255])( );     /*COPEXP0(jvj+1,jvj+2)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=1320; pile[WZ4]=jvj+3; 

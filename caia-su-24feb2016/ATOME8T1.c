@@ -14,7 +14,7 @@ v[0]+=26;
 x[jvj+1]=20008;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3162&&v[97]==0) {
+if(v[90]==3164&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -46,7 +46,7 @@ l11:pile[v[22]]=R; pile[WZ1]=jvj+9;
 l12:if((x[jvj+9]<=0)) goto l19;
 x[jvj+10]=s[x[jvj+9]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+9];
 pile[v[22]]=509; pile[WZ1]=jvj+10; pile[WZ2]=jvj+11; 
-(*f[1969])( );     /*FNDEND0(509,jvj+10,jvj+11)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+10,jvj+11)*/
 for(a=x[jvj+11];a>0;a=t[a]) if(s[a]==x[R]) goto l15;
 l13:x[jvj+9]=t[x[jvj+9]];
 goto l12;
@@ -57,9 +57,9 @@ pile[WZ1]=jvj+3; pile[WZ2]=jvj+5;
 V22=x[jvj+4];
 l2:if((V22>0)) goto l3;
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+10; pile[WZ2]=67; pile[WZ3]=jvj+16; 
-(*f[1931])( );if(v[102]) goto l16;     /*ISOLONS0(jvj+3,jvj+10,67,jvj+16)*/
+(*f[1933])( );if(v[102]) goto l16;     /*ISOLONS0(jvj+3,jvj+10,67,jvj+16)*/
 pile[v[22]]=V4; pile[WZ1]=jvj+17; pile[WZ2]=jvj+18; 
-(*f[1552])( );     /*PROG0(V4,jvj+17,jvj+18)*/
+(*f[1554])( );     /*PROG0(V4,jvj+17,jvj+18)*/
 pile[v[22]]=101; pile[WZ1]=R; pile[WZ2]=110; pile[WZ3]=(-601); pile[WZ4]=jvj+23; 
 (*f[270])( );     /*QUADRI7(101,R,110,(-601),jvj+23)*/
 pile[WZ1]=jvj+3; pile[WZ3]=(-631); pile[WZ4]=jvj+24; 
@@ -70,8 +70,8 @@ pile[v[22]]=jvj+18; pile[WZ1]=715; pile[WZ2]=jvj+20;
 (*f[54])( );     /*TRI1(jvj+18,715,jvj+20)*/
 pile[v[22]]=jvj+20; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+21; 
 (*f[189])( );     /*TRI4(jvj+20,v[13],642,jvj+21)*/
-pile[v[22]]=jvj+21; pile[WZ1]=3161; pile[WZ2]=246; pile[WZ3]=jvj+22; 
-(*f[189])( );     /*TRI4(jvj+21,3161,246,jvj+22)*/
+pile[v[22]]=jvj+21; pile[WZ1]=3163; pile[WZ2]=246; pile[WZ3]=jvj+22; 
+(*f[189])( );     /*TRI4(jvj+21,3163,246,jvj+22)*/
 pile[v[22]]=158; pile[WZ1]=289; pile[WZ2]=218; pile[WZ3]=20008; pile[WZ4]=jvj+22; pile[WZ5]=jvj+19; 
 (*f[269])( );     /*QUADRI6(158,289,218,20008,jvj+22,jvj+19)*/
 pile[v[22]]=jvj+19; pile[WZ1]=159; pile[WZ2]=jvj+23; 

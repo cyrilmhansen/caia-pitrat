@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=44;
 x[jvj+1]=20194;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3379&&v[97]==0) {
+if(v[90]==3381&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -53,9 +53,9 @@ V32=x[jvj+3];
 l1:if((V32>0)) goto l2;
 x[jvj+6]=x[jvj+31] ;z[jvj+6]=z[jvj+31];
 pile[v[22]]=498; pile[WZ1]=jvj+6; pile[WZ2]=jvj+7; 
-(*f[1948])( );if(v[102]) goto l9;     /*FNDOND0(498,jvj+6,jvj+7)*/
+(*f[1950])( );if(v[102]) goto l9;     /*FNDOND0(498,jvj+6,jvj+7)*/
 pile[v[22]]=688; pile[WZ1]=jvj+7; 
-(*f[1975])( );if(v[102]) goto l9;     /*FNDCND0(688,jvj+7,V9)*/
+(*f[1977])( );if(v[102]) goto l9;     /*FNDCND0(688,jvj+7,V9)*/
 V9=pile[WZ2]; 
 if((V9==1)) goto l14;
 l9:x[jvj+17]=vo[14];z[jvj+17]=vz[14];
@@ -63,7 +63,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+17;
 (*f[26])( );if(v[102]) goto l12;     /*FNDC0(642,jvj+17,V27)*/
 V27=pile[WZ2]; 
 pile[v[22]]=509; pile[WZ1]=jvj+6; pile[WZ2]=jvj+18; 
-(*f[1969])( );     /*FNDEND0(509,jvj+6,jvj+18)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+6,jvj+18)*/
 x[jvj+44]=x[jvj+18] ;z[jvj+44]=z[jvj+18];
 l10:if((x[jvj+44]<=0)) goto l12;
 x[jvj+10]=s[x[jvj+44]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+44];
@@ -76,7 +76,7 @@ pile[v[22]]=jvj+10; pile[WZ1]=jvj+11;
 V33=x[jvj+9];
 l3:if((V33>0)) goto l4;
 pile[v[22]]=jvj+10; pile[WZ1]=jvj+19; pile[WZ2]=jvj+4; pile[WZ3]=jvj+16; pile[WZ4]=jvj+20; 
-(*f[3130])( );if(v[102]) goto l11;     /*SUBSTITUVAR1(jvj+10,jvj+19,jvj+4,jvj+16,jvj+20)*/
+(*f[3132])( );if(v[102]) goto l11;     /*SUBSTITUVAR1(jvj+10,jvj+19,jvj+4,jvj+16,jvj+20)*/
 if((x[jvj+20]==135)) goto l8;
 l11:x[jvj+44]=t[x[jvj+44]];
 goto l10;
@@ -98,8 +98,8 @@ pile[v[22]]=V27; pile[WZ1]=858; pile[WZ2]=jvj+33;
 (*f[46])( );     /*TRI0(V27,858,jvj+33)*/
 pile[v[22]]=jvj+33; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+34; 
 (*f[189])( );     /*TRI4(jvj+33,v[13],642,jvj+34)*/
-pile[v[22]]=jvj+34; pile[WZ1]=3379; pile[WZ2]=246; pile[WZ3]=jvj+35; 
-(*f[189])( );     /*TRI4(jvj+34,3379,246,jvj+35)*/
+pile[v[22]]=jvj+34; pile[WZ1]=3381; pile[WZ2]=246; pile[WZ3]=jvj+35; 
+(*f[189])( );     /*TRI4(jvj+34,3381,246,jvj+35)*/
 pile[v[22]]=jvj+35; pile[WZ1]=20194; pile[WZ2]=218; pile[WZ3]=jvj+36; 
 (*f[58])( );     /*TRI3(jvj+35,20194,218,jvj+36)*/
 pile[v[22]]=jvj+37; pile[WZ1]=(-20); pile[WZ2]=jvj+36; pile[WZ3]=159; pile[WZ4]=jvj+38; 
@@ -116,8 +116,8 @@ pile[v[22]]=V27; pile[WZ1]=858; pile[WZ2]=jvj+39;
 (*f[46])( );     /*TRI0(V27,858,jvj+39)*/
 pile[v[22]]=jvj+39; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+40; 
 (*f[189])( );     /*TRI4(jvj+39,v[13],642,jvj+40)*/
-pile[v[22]]=jvj+40; pile[WZ1]=3379; pile[WZ2]=246; pile[WZ3]=jvj+41; 
-(*f[189])( );     /*TRI4(jvj+40,3379,246,jvj+41)*/
+pile[v[22]]=jvj+40; pile[WZ1]=3381; pile[WZ2]=246; pile[WZ3]=jvj+41; 
+(*f[189])( );     /*TRI4(jvj+40,3381,246,jvj+41)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20194; pile[WZ4]=jvj+41; pile[WZ5]=jvj+21; 
 (*f[269])( );     /*QUADRI6(158,1,218,20194,jvj+41,jvj+21)*/
 pile[v[22]]=jvj+21; pile[WZ1]=159; pile[WZ2]=jvj+42; 
@@ -125,7 +125,7 @@ pile[v[22]]=jvj+21; pile[WZ1]=159; pile[WZ2]=jvj+42;
 pile[WZ2]=jvj+43; 
 (*f[36])( );     /*PLUSC0(jvj+21,159,jvj+43)*/
 pile[v[22]]=jvj+16; pile[WZ1]=jvj+21; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+16,jvj+21)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+16,jvj+21)*/
 goto l11;
 l8:pile[v[22]]=1070; pile[WZ1]=jvj+10; pile[WZ2]=jvj+15; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(1070,jvj+10,jvj+15)*/
@@ -138,7 +138,7 @@ pile[v[22]]=jvj+10; pile[WZ1]=jvj+13;
 V34=x[jvj+12];
 goto l6;
 l12:pile[v[22]]=498; pile[WZ1]=jvj+6; pile[WZ2]=jvj+22; 
-(*f[1948])( );if(v[102]) goto l14;     /*FNDOND0(498,jvj+6,jvj+22)*/
+(*f[1950])( );if(v[102]) goto l14;     /*FNDOND0(498,jvj+6,jvj+22)*/
 pile[v[22]]=1348; pile[WZ1]=jvj+22; pile[WZ2]=jvj+23; 
 (*f[32])( );if(v[102]) goto l14;     /*FNDO0(1348,jvj+22,jvj+23)*/
 if((x[jvj+23]!=68)) goto l14;

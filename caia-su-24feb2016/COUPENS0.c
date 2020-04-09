@@ -38,6 +38,6 @@ pile[v[22]]=jvj+2; pile[WZ1]=128; pile[WZ2]=jvj+3;
 pile[v[22]]=R; pile[WZ1]=jvj+3; 
 (*f[68])( );     /*PLUE0(R,jvj+3)*/
 pile[v[22]]=V6; pile[WZ1]=B; pile[WZ2]=R; pile[WZ3]=jvj+3; pile[WZ4]=V7; 
-(*f[2182])( );     /*COUPENS1(V6,B,R,jvj+3,V7)*/
+(*f[2184])( );     /*COUPENS1(V6,B,R,jvj+3,V7)*/
 goto l3;
 }

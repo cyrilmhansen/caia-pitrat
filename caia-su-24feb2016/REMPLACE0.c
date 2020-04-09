@@ -61,9 +61,9 @@ pile[v[22]]=268; pile[WZ1]=jvj+11; pile[WZ2]=jvj+13;
 pile[v[22]]=jvj+13; pile[WZ1]=S; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(jvj+13,S,jvj+14)*/
 pile[v[22]]=jvj+12; pile[WZ1]=P; pile[WZ2]=102; pile[WZ3]=S; 
-(*f[1147])( );     /*TREQM0(jvj+12,P,102,S)*/
+(*f[1149])( );     /*TREQM0(jvj+12,P,102,S)*/
 pile[v[22]]=jvj+14; pile[WZ2]=103; 
-(*f[1147])( );     /*TREQM0(jvj+14,P,103,S)*/
+(*f[1149])( );     /*TREQM0(jvj+14,P,103,S)*/
 l4:x[jvj+10]=t[x[jvj+10]];
 goto l3;
 l1:pile[v[22]]=160; pile[WZ1]=R; pile[WZ2]=jvj+6; 
@@ -77,7 +77,7 @@ pile[v[22]]=jvj+16; pile[WZ1]=R; pile[WZ2]=jvj+17;
 pile[v[22]]=514; pile[WZ1]=jvj+16; pile[WZ2]=jvj+18; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(514,jvj+16,jvj+18)*/
 pile[v[22]]=S; 
-(*f[1148])( );     /*METINV0(S)*/
+(*f[1150])( );     /*METINV0(S)*/
 if((V34=w[x[jvj+18]][1])==incon) goto l9;
 if((V34!=23)) goto l11;
 V33=x[R];
@@ -87,7 +87,7 @@ pile[v[22]]=jvj+17; pile[WZ1]=jvj+18; pile[WZ2]=S;
 (*f[36])( );     /*PLUSC0(jvj+17,jvj+18,S)*/
 l9:x[NZ]=x[jvj+17] ;z[NZ]=z[jvj+17];
 pile[v[22]]=jvj+17; 
-(*f[2111])( );     /*ENLSTOCK0(jvj+17)*/
+(*f[2113])( );     /*ENLSTOCK0(jvj+17)*/
 pile[v[22]]=S; pile[WZ1]=jvj+16; pile[WZ2]=jvj+17; 
 (*f[35])( );     /*CHGC1(S,jvj+16,jvj+17)*/
 l10:v[0]=jvj; v[22]-=3; return;

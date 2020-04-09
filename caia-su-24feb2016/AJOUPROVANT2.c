@@ -14,7 +14,7 @@ v[0]+=10;
 x[jvj+1]=11546;z[jvj+1]=(-100);
 x[jvj+2]=2;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1223&&v[97]==0) {
+if(v[90]==1225&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 N=pile[v[22]]; U=pile[v[22]+1]; ND=pile[v[22]+2]; V=pile[v[22]+3]; TY=pile[v[22]+4]; P=pile[v[22]+5]; v[22]+=6; 

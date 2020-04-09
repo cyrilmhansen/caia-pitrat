@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=4;
 x[jvj+1]=10914;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1329&&v[97]==0) {
+if(v[90]==1331&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 M=pile[v[22]]; R=pile[v[22]+1]; v[22]+=2; 
@@ -26,7 +26,7 @@ l3:pile[v[22]]=559; pile[WZ1]=158; pile[WZ2]=jvj+4;
 (*f[54])( );     /*TRI1(559,158,jvj+4)*/
 x[jvj+3]=vo[14];z[jvj+3]=vz[14];
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+3; 
-(*f[1287])( );     /*SQUELETTE0(jvj+4,jvj+3)*/
+(*f[1289])( );     /*SQUELETTE0(jvj+4,jvj+3)*/
 x[R]=x[jvj+4] ;z[R]=z[jvj+4];
 l2:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; v[102]=0;return;
 }

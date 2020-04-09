@@ -37,7 +37,7 @@ if((V3==44)) goto l2;
 DF=DY;
 l3:v[0]=jvj; v[22]-=3; pile[v[22]+2]=DF; return;
 l2:pile[v[22]]=R; pile[WZ1]=DY; pile[WZ2]=jvj+2; 
-(*f[1106])( );     /*LCONS1(R,DY,jvj+2,DF)*/
+(*f[1108])( );     /*LCONS1(R,DY,jvj+2,DF)*/
 DF=pile[WZ3]; 
 goto l3;
 }

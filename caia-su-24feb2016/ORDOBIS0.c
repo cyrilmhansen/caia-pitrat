@@ -32,7 +32,7 @@ pile[v[22]]=959; pile[WZ1]=jvj+2; pile[WZ2]=jvj+6;
 pile[v[22]]=101; pile[WZ1]=jvj+6; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(101,jvj+6,jvj+7)*/
 l3:pile[v[22]]=jvj+7; pile[WZ1]=jvj+2; pile[WZ2]=X; 
-(*f[1095])( );     /*INSVAL0(jvj+7,jvj+2,X)*/
+(*f[1097])( );     /*INSVAL0(jvj+7,jvj+2,X)*/
 l4:if(x[jvj+3]!=incon) goto l7;
 l5:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;
 l2:x[jvj+7]=301 ;z[jvj+7]=301;

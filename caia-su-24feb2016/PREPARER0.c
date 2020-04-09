@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=52;
 x[jvj+1]=10343;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1910&&v[97]==0) {
+if(v[90]==1912&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; v[22]+=1; 
@@ -38,7 +38,7 @@ pile[v[22]]=jvj+25;
 (*f[605])( );     /*MONITEUR0(jvj+25)*/
 l14:if(x[jvj+5]!=incon) goto l15;
 l17:pile[v[22]]=X; pile[WZ1]=jvj+4; 
-(*f[2042])( );     /*PREPFIN1(X,jvj+4)*/
+(*f[2044])( );     /*PREPFIN1(X,jvj+4)*/
 if(x[jvj+7]!=incon) goto l18;
 l19:pile[v[22]]=158; pile[WZ1]=X; pile[WZ2]=jvj+36; 
 (*f[32])( );if(v[102]) goto l21;     /*FNDO0(158,X,jvj+36)*/
@@ -126,7 +126,7 @@ pile[v[22]]=jvj+16; pile[WZ1]=120;
 (*f[35])( );     /*CHGC1(jvj+16,120,jvj+18)*/
 goto l13;
 l11:pile[v[22]]=X; 
-(*f[2041])( );     /*PREPFIN0(X)*/
+(*f[2043])( );     /*PREPFIN0(X)*/
 goto l12;
 l15:if(x[jvj+7]!=44&&x[jvj+7]!=187&&x[jvj+7]!=714) goto l16;
 pile[v[22]]=111; pile[WZ1]=jvj+4; pile[WZ2]=jvj+26; 

@@ -94,7 +94,7 @@ pile[v[22]]=134; pile[WZ1]=jvj+13; pile[WZ2]=jvj+19;
 pile[v[22]]=jvj+13; pile[WZ1]=515; pile[WZ2]=0; 
 (*f[43])( );     /*CHGC2(jvj+13,515,0)*/
 pile[v[22]]=jvj+19; 
-(*f[2105])( );     /*ORKB0(jvj+19)*/
+(*f[2107])( );     /*ORKB0(jvj+19)*/
 l3:x[jvj+2]=t[x[jvj+2]];
 goto l1;
 l5:x[jvj+23]=s[x[jvj+21]] ;z[jvj+23]=(x[jvj+23]<=sepcte) ? x[jvj+23] : z[jvj+21];

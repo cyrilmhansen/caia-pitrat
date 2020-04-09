@@ -30,7 +30,7 @@ x[jvj+2]=0 ;z[jvj+2]=0;
 V15=x[E];
 l8:if((V15>0)) goto l9;
 pile[v[22]]=jvj+2; pile[WZ1]=V5; pile[WZ2]=V11; pile[WZ3]=M; 
-(*f[3996])( );if(v[102]) goto l16;     /*NIEME1(jvj+2,V5,V11,M,V7)*/
+(*f[3998])( );if(v[102]) goto l16;     /*NIEME1(jvj+2,V5,V11,M,V7)*/
 V7=pile[WZ4]; 
 L=V7;
 l18:v[0]=jvj; v[22]-=5; pile[v[22]+4]=L; v[102]=0;return;
@@ -42,7 +42,7 @@ x[jvj+1]=0 ;z[jvj+1]=0;
 V13=x[E];
 l3:if((V13>0)) goto l4;
 pile[v[22]]=jvj+1; pile[WZ1]=X; pile[WZ2]=V4; pile[WZ3]=M; 
-(*f[3996])( );if(v[102]) goto l14;     /*NIEME1(jvj+1,X,V4,M,LL)*/
+(*f[3998])( );if(v[102]) goto l14;     /*NIEME1(jvj+1,X,V4,M,LL)*/
 LL=pile[WZ4]; 
 L=LL;
 goto l18;

@@ -41,7 +41,7 @@ if(RES==incon) goto l12;
 l13:pile[v[22]]=274; pile[WZ1]=Z; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l15;     /*FNDO0(274,Z,jvj+14)*/
 pile[v[22]]=RES; pile[WZ1]=jvj+14; pile[WZ2]=RN; 
-(*f[1145])( );     /*TRIE0(RES,jvj+14,RN)*/
+(*f[1147])( );     /*TRIE0(RES,jvj+14,RN)*/
 l15:v[0]=jvj; v[22]-=3; pile[v[22]+2]=RES; v[102]=0;return;
 l4:x[jvj+15]=t[x[jvj+15]];
 goto l2;

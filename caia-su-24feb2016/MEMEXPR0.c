@@ -15,9 +15,9 @@ if(v[0]>99700) (*f[6])( );
 V=pile[v[22]]; W=pile[v[22]+1]; BA=pile[v[22]+2]; v[22]+=3; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=V; pile[WZ1]=BA; pile[WZ2]=jvj+1; 
-(*f[1915])( );     /*NATFNDA1(V,BA,jvj+1)*/
+(*f[1917])( );     /*NATFNDA1(V,BA,jvj+1)*/
 pile[v[22]]=W; pile[WZ2]=jvj+2; 
-(*f[1915])( );     /*NATFNDA1(W,BA,jvj+2)*/
+(*f[1917])( );     /*NATFNDA1(W,BA,jvj+2)*/
 pile[v[22]]=jvj+2; pile[WZ1]=1752; pile[WZ2]=jvj+1; 
 (*f[36])( );     /*PLUSC0(jvj+2,1752,jvj+1)*/
 pile[v[22]]=jvj+1; pile[WZ2]=jvj+2; 

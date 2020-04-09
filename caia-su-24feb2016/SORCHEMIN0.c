@@ -37,7 +37,7 @@ pile[v[22]]=191; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6;
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(191,jvj+5,jvj+6)*/
 if((x[jvj+6]!=68)) goto l6;
 pile[v[22]]=V14; pile[WZ2]=250; 
-(*f[1200])( );     /*SORARC0(V14,jvj+5,250,V10)*/
+(*f[1202])( );     /*SORARC0(V14,jvj+5,250,V10)*/
 V10=pile[WZ3]; 
 pile[v[22]]=191; 
 (*f[71])( );     /*ENLV0(191,jvj+5)*/

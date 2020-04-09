@@ -70,14 +70,14 @@ l34:if((K<=B)) goto l1;
 N++;
 goto l33;
 l4:pile[v[22]]=N; pile[WZ1]=K; pile[WZ2]=I; 
-(*f[1041])( );if(v[102]) goto l3;     /*MODPUI0(N,K,I,V2)*/
+(*f[1043])( );if(v[102]) goto l3;     /*MODPUI0(N,K,I,V2)*/
 V2=pile[WZ3]; 
 pile[v[22]]=jvj+2; pile[WZ1]=V2; 
 (*f[207])( );     /*PLUE2(jvj+2,V2)*/
 l3:I++;
 goto l2;
 l7:pile[v[22]]=N; pile[WZ1]=K; pile[WZ2]=J; 
-(*f[1041])( );if(v[102]) goto l6;     /*MODPUI0(N,K,J,V4)*/
+(*f[1043])( );if(v[102]) goto l6;     /*MODPUI0(N,K,J,V4)*/
 V4=pile[WZ3]; 
 if((V4!=II)) goto l6;
 pile[v[22]]=jvj+3; pile[WZ1]=J; 

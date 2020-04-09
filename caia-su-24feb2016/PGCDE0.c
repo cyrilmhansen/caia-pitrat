@@ -49,7 +49,7 @@ pile[v[22]]=130; pile[WZ1]=jvj+3;
 (*f[26])( );if(v[102]) goto l7;     /*FNDC0(130,jvj+3,V5)*/
 V5=pile[WZ2]; 
 pile[v[22]]=V5; pile[WZ1]=XN; 
-(*f[1011])( );     /*PGCD0(V5,XN,R)*/
+(*f[1012])( );     /*PGCD0(V5,XN,R)*/
 R=pile[WZ2]; 
 goto l9;
 l7:x[jvj+11]=t[x[jvj+11]];
@@ -68,7 +68,7 @@ pile[v[22]]=jvj+4;
 (*f[622])( );if(v[102]) goto l8;     /*PGCDE0(jvj+4,V7)*/
 V7=pile[WZ1]; 
 pile[v[22]]=V7; pile[WZ1]=XN; 
-(*f[1011])( );     /*PGCD0(V7,XN,R)*/
+(*f[1012])( );     /*PGCD0(V7,XN,R)*/
 R=pile[WZ2]; 
 goto l9;
 l14:x[jvj+9]=s[x[jvj+13]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+13];

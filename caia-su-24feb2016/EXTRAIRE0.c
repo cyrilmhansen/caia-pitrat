@@ -29,7 +29,7 @@ pile[v[22]]=R; pile[WZ1]=jvj+1;
 l4:V3=A-1;
 if((V3<=0)) goto l5;
 pile[v[22]]=R; pile[WZ1]=V3; pile[WZ2]=B; pile[WZ3]=68; 
-(*f[3997])( );     /*EXTRAIRE1(R,V3,B,68)*/
+(*f[3999])( );     /*EXTRAIRE1(R,V3,B,68)*/
 l5:v[0]=jvj; v[22]-=3; return;
 l1:x[R]=x[B] ;z[R]=z[B];
 goto l5;

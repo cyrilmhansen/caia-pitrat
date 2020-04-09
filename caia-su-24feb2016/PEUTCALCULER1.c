@@ -72,7 +72,7 @@ V24=pile[WZ2];
 pile[v[22]]=107; pile[WZ1]=jvj+6; pile[WZ2]=jvj+10; 
 (*f[33])( );     /*FNDE0(107,jvj+6,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=jvj+11; pile[WZ2]=jvj+5; pile[WZ3]=jvj+12; 
-(*f[1812])( );     /*PEUTCALCULER1(jvj+10,jvj+11,jvj+5,jvj+12)*/
+(*f[1814])( );     /*PEUTCALCULER1(jvj+10,jvj+11,jvj+5,jvj+12)*/
 if((x[jvj+12]==135)) goto l13;
 l12:x[jvj+25]=t[x[jvj+25]];
 goto l10;

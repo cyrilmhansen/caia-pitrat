@@ -58,12 +58,12 @@ l5:x[jvj+6]=s[x[jvj+13]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+13];
 pile[v[22]]=jvj+6; pile[WZ1]=R; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+6,R,jvj+7)*/
 pile[WZ3]=B; 
-(*f[1146])( );     /*INSTANTIE1(jvj+6,R,jvj+7,B)*/
+(*f[1148])( );     /*INSTANTIE1(jvj+6,R,jvj+7,B)*/
 l6:x[jvj+13]=t[x[jvj+13]];
 goto l4;
 l9:x[jvj+10]=s[x[jvj+15]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+15];
 pile[v[22]]=jvj+8; pile[WZ1]=R; pile[WZ2]=jvj+10; pile[WZ3]=B; 
-(*f[1146])( );     /*INSTANTIE1(jvj+8,R,jvj+10,B)*/
+(*f[1148])( );     /*INSTANTIE1(jvj+8,R,jvj+10,B)*/
 x[jvj+15]=t[x[jvj+15]];
 goto l8;
 l11:pile[v[22]]=RR; pile[WZ1]=BT; pile[WZ2]=jvj+11; 

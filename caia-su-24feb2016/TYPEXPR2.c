@@ -117,7 +117,7 @@ l22:pile[v[22]]=140; pile[WZ1]=Q;
 (*f[44])( );if(v[102]) goto l24;     /*FNDC1(140,Q,V)*/
 V=pile[WZ2]; 
 pile[v[22]]=BA; pile[WZ1]=V; pile[WZ2]=jvj+4; 
-(*f[1491])( );     /*VDSBA0(BA,V,jvj+4)*/
+(*f[1493])( );     /*VDSBA0(BA,V,jvj+4)*/
 x[jvj+37]=incon;
 pile[v[22]]=1261; pile[WZ1]=jvj+4; pile[WZ2]=jvj+10; 
 (*f[33])( );     /*FNDE0(1261,jvj+4,jvj+10)*/

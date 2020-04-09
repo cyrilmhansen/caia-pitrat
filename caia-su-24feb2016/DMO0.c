@@ -85,9 +85,9 @@ pile[v[22]]=A; pile[WZ1]=jvj+19;
 (*f[255])( );     /*COPEXP0(A,jvj+19)*/
 pile[v[22]]=ATT; pile[WZ1]=jvj+20; 
 (*f[255])( );     /*COPEXP0(ATT,jvj+20)*/
-(*f[1817])( );     /*NOUV2(W)*/
+(*f[1819])( );     /*NOUV2(W)*/
 W=pile[v[22]]; 
-(*f[1817])( );     /*NOUV2(VV)*/
+(*f[1819])( );     /*NOUV2(VV)*/
 VV=pile[v[22]]; 
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=10226; pile[WZ4]=jvj+32; 
 (*f[181])( );     /*QUADRI2(100,20,101,10226,jvj+32)*/
@@ -152,7 +152,7 @@ pile[v[22]]=jvj+60; pile[WZ1]=jvj+61; pile[WZ2]=111; pile[WZ3]=jvj+62;
 pile[v[22]]=100; pile[WZ1]=435; pile[WZ2]=102; pile[WZ3]=jvj+63; pile[WZ4]=jvj+62; pile[WZ5]=jvj+21; 
 (*f[269])( );     /*QUADRI6(100,435,102,jvj+63,jvj+62,jvj+21)*/
 pile[v[22]]=jvj+21; pile[WZ1]=BT; pile[WZ2]=X; pile[WZ3]=R; 
-(*f[1647])( );     /*DMT0(jvj+21,BT,X,R)*/
+(*f[1649])( );     /*DMT0(jvj+21,BT,X,R)*/
 goto l11;
 l9:x[jvj+15]=s[x[jvj+12]] ;z[jvj+15]=(x[jvj+15]<=sepcte) ? x[jvj+15] : z[jvj+12];
 pile[v[22]]=140; pile[WZ1]=jvj+15; 

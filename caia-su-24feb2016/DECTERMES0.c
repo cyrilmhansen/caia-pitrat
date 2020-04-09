@@ -27,9 +27,9 @@ pile[v[22]]=103; pile[WZ2]=jvj+4;
 x[jvj+5]=0 ;z[jvj+5]=0;
 x[E]=x[jvj+5] ;z[E]=z[jvj+5];
 pile[v[22]]=jvj+3; pile[WZ1]=E; 
-(*f[2053])( );     /*DECTERMES1(jvj+3,E)*/
+(*f[2055])( );     /*DECTERMES1(jvj+3,E)*/
 pile[v[22]]=jvj+4; 
-(*f[2053])( );     /*DECTERMES1(jvj+4,E)*/
+(*f[2055])( );     /*DECTERMES1(jvj+4,E)*/
 v[0]=jvj; v[22]-=2; v[102]=0;return;
 l1:v[0]=jvj; v[22]-=2; v[102]=1;return;
 }

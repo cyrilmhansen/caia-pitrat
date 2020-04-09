@@ -20,7 +20,7 @@ pile[v[22]]=670; pile[WZ1]=240; pile[WZ2]=jvj+1;
 (*f[33])( );     /*FNDE0(670,240,jvj+1)*/
 if((x[jvj+1]>0)) goto l1;
 pile[v[22]]=10153; 
-(*f[1389])( );     /*FAUTE6(10153)*/
+(*f[1391])( );     /*FAUTE6(10153)*/
 v[0]=jvj; v[22]-=2; v[102]=1;return;
 l1:x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];
 V2=x[jvj+2];

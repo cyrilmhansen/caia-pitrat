@@ -20,7 +20,7 @@ l1:if((x[jvj+1]>0)) goto l2;
 x[jvj+6]=d[10];z[jvj+6]=0;
 l6:if((x[jvj+6]>0)) goto l7;
 pile[v[22]]=R; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2212])( );     /*OROK0(R,VA,VB)*/
+(*f[2214])( );     /*OROK0(R,VA,VB)*/
 x[jvj+41]=x[R] ;z[jvj+41]=z[R];
 l28:pile[v[22]]=253; pile[WZ1]=jvj+41; pile[WZ2]=jvj+42; 
 (*f[33])( );     /*FNDE0(253,jvj+41,jvj+42)*/
@@ -87,7 +87,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+34; pile[WZ2]=jvj+35;
 (*f[32])( );if(v[102]) goto l24;     /*FNDO0(101,jvj+34,jvj+35)*/
 if(x[jvj+35]==55||x[jvj+35]==48||x[jvj+35]==54||x[jvj+35]==50) goto l25;
 l24:pile[v[22]]=VA; pile[WZ1]=VB; pile[WZ2]=jvj+9; 
-(*f[2101])( );     /*SUBVT0(VA,VB,jvj+9)*/
+(*f[2103])( );     /*SUBVT0(VA,VB,jvj+9)*/
 l12:x[jvj+46]=t[x[jvj+46]];
 goto l11;
 l10:x[jvj+45]=t[x[jvj+45]];
@@ -133,7 +133,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+39; pile[WZ2]=jvj+40;
 (*f[32])( );if(v[102]) goto l26;     /*FNDO0(101,jvj+39,jvj+40)*/
 if(x[jvj+40]==55||x[jvj+40]==48||x[jvj+40]==54||x[jvj+40]==50) goto l27;
 l26:pile[v[22]]=VA; pile[WZ1]=VB; pile[WZ2]=jvj+19; 
-(*f[2101])( );     /*SUBVT0(VA,VB,jvj+19)*/
+(*f[2103])( );     /*SUBVT0(VA,VB,jvj+19)*/
 l19:x[jvj+49]=t[x[jvj+49]];
 goto l18;
 l17:x[jvj+48]=t[x[jvj+48]];
@@ -153,19 +153,19 @@ pile[v[22]]=101; pile[WZ1]=jvj+29; pile[WZ2]=jvj+30;
 (*f[32])( );if(v[102]) goto l22;     /*FNDO0(101,jvj+29,jvj+30)*/
 if(x[jvj+30]==55||x[jvj+30]==48||x[jvj+30]==54||x[jvj+30]==50) goto l23;
 l22:pile[v[22]]=VA; pile[WZ1]=VB; pile[WZ2]=jvj+4; 
-(*f[2101])( );     /*SUBVT0(VA,VB,jvj+4)*/
+(*f[2103])( );     /*SUBVT0(VA,VB,jvj+4)*/
 goto l5;
 l23:pile[v[22]]=jvj+27; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2214])( );     /*SUBTOU0(jvj+27,VA,VB)*/
-(*f[2215])( );     /*ENLEVEFAIT0(jvj+27)*/
+(*f[2216])( );     /*SUBTOU0(jvj+27,VA,VB)*/
+(*f[2217])( );     /*ENLEVEFAIT0(jvj+27)*/
 goto l5;
 l25:pile[v[22]]=jvj+32; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2214])( );     /*SUBTOU0(jvj+32,VA,VB)*/
-(*f[2215])( );     /*ENLEVEFAIT0(jvj+32)*/
+(*f[2216])( );     /*SUBTOU0(jvj+32,VA,VB)*/
+(*f[2217])( );     /*ENLEVEFAIT0(jvj+32)*/
 goto l12;
 l27:pile[v[22]]=jvj+37; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2214])( );     /*SUBTOU0(jvj+37,VA,VB)*/
-(*f[2215])( );     /*ENLEVEFAIT0(jvj+37)*/
+(*f[2216])( );     /*SUBTOU0(jvj+37,VA,VB)*/
+(*f[2217])( );     /*ENLEVEFAIT0(jvj+37)*/
 goto l19;
 l30:V68=VB;
 pile[v[22]]=253; pile[WZ1]=jvj+41; pile[WZ2]=V68; 

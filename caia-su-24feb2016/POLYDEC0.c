@@ -46,7 +46,7 @@ pile[v[22]]=107; pile[WZ1]=jvj+5; pile[WZ2]=jvj+17;
 l12:if((x[jvj+17]<=0)) goto l13;
 x[jvj+18]=s[x[jvj+17]] ;z[jvj+18]=(x[jvj+18]<=sepcte) ? x[jvj+18] : z[jvj+17];
 pile[v[22]]=jvj+18; pile[WZ1]=V35; pile[WZ2]=E; 
-(*f[3577])( );     /*POLYDEC0(jvj+18,V35,E)*/
+(*f[3579])( );     /*POLYDEC0(jvj+18,V35,E)*/
 x[jvj+17]=t[x[jvj+17]];
 goto l12;
 l2:x[jvj+1]=s[x[jvj+13]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+13];

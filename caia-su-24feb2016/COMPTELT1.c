@@ -77,12 +77,12 @@ l11:x[jvj+10]=s[x[jvj+17]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+17
 pile[v[22]]=jvj+10; pile[WZ1]=A; pile[WZ2]=jvj+11; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(jvj+10,A,jvj+11)*/
 pile[v[22]]=jvj+11; pile[WZ1]=T; 
-(*f[1209])( );     /*COMPTELT1(jvj+11,T)*/
+(*f[1211])( );     /*COMPTELT1(jvj+11,T)*/
 l12:x[jvj+17]=t[x[jvj+17]];
 goto l10;
 l15:x[jvj+14]=s[x[jvj+19]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+19];
 pile[v[22]]=jvj+14; pile[WZ1]=T; 
-(*f[1209])( );     /*COMPTELT1(jvj+14,T)*/
+(*f[1211])( );     /*COMPTELT1(jvj+14,T)*/
 x[jvj+19]=t[x[jvj+19]];
 goto l14;
 }

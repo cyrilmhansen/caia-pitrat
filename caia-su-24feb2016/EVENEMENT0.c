@@ -12,7 +12,7 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=10931;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1047&&v[97]==0) {
+if(v[90]==1049&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 HIST=pile[v[22]]; A=pile[v[22]+1]; B=pile[v[22]+2]; v[22]+=3; 
@@ -25,7 +25,7 @@ if((x[jvj+3]==67)) goto l2;
 if((x[jvj+3]==67)) goto l5;
 l11:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; return;
 l1:pile[v[22]]=A; pile[WZ1]=B; pile[WZ2]=HIST; 
-(*f[1366])( );     /*EVENEMENTBIS0(A,B,HIST)*/
+(*f[1368])( );     /*EVENEMENTBIS0(A,B,HIST)*/
 goto l11;
 l2:x[jvj+4]=vo[16];z[jvj+4]=vz[16];
 pile[v[22]]=1087; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
@@ -50,7 +50,7 @@ pile[v[22]]=B; pile[WZ1]=jvj+13;
 pile[v[22]]=jvj+9; pile[WZ1]=509; pile[WZ2]=jvj+13; 
 (*f[36])( );     /*PLUSC0(jvj+9,509,jvj+13)*/
 l10:pile[v[22]]=A; pile[WZ1]=B; pile[WZ2]=HIST; 
-(*f[1365])( );     /*AJOUTER0(A,B,HIST)*/
+(*f[1367])( );     /*AJOUTER0(A,B,HIST)*/
 goto l11;
 l4:x[jvj+5]=t[x[jvj+5]];
 goto l3;

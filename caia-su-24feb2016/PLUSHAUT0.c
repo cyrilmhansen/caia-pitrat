@@ -14,7 +14,7 @@ v[0]+=44;
 x[jvj+1]=10725;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1525&&v[97]==0) {
+if(v[90]==1527&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 N=pile[v[22]]; E=pile[v[22]+1]; B=pile[v[22]+2]; v[22]+=3; 
@@ -43,7 +43,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=892;
 pile[WZ1]=333; pile[WZ2]=jvj+37; 
 (*f[36])( );     /*PLUSC0(jvj+3,333,jvj+37)*/
 pile[v[22]]=jvj+37; pile[WZ1]=B; 
-(*f[1251])( );     /*NDCOMMUNS0(jvj+37,B)*/
+(*f[1253])( );     /*NDCOMMUNS0(jvj+37,B)*/
 l31:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=3; return;
 l3:x[jvj+5]=t[x[jvj+5]];
 goto l2;
@@ -94,7 +94,7 @@ pile[WZ1]=1099;
 V53=pile[WZ2]; 
 if((V51>=V53)) goto l25;
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+14; pile[WZ2]=B; 
-(*f[1721])( );     /*ENVIDOUBLE0(jvj+3,jvj+14,B)*/
+(*f[1723])( );     /*ENVIDOUBLE0(jvj+3,jvj+14,B)*/
 l25:pile[v[22]]=jvj+26; pile[WZ1]=1044; pile[WZ2]=1; 
 (*f[186])( );     /*BTC0(jvj+26,1044,1)*/
 l23:V38=g[457];
@@ -106,7 +106,7 @@ l18:pile[v[22]]=457; pile[WZ1]=10725; pile[WZ2]=0; pile[WZ3]=(-6676); pile[WZ4]=
 (*f[612])( );     /*INTERP9(457,10725,0,(-6676),V22,jvj+23)*/
 if((x[jvj+23]==135)) goto l20;
 l26:pile[v[22]]=jvj+3; 
-(*f[1275])( );     /*SORCHEMIN0(jvj+3)*/
+(*f[1277])( );     /*SORCHEMIN0(jvj+3)*/
 l15:if((x[jvj+14]>0)) goto l16;
 x[jvj+3]=x[jvj+18] ;z[jvj+3]=z[jvj+18];
 pile[v[22]]=jvj+41; pile[WZ1]=892; pile[WZ2]=jvj+9; 
@@ -131,7 +131,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=892; pile[WZ2]=jvj+14;
 pile[WZ1]=333; pile[WZ2]=jvj+34; 
 (*f[36])( );     /*PLUSC0(jvj+3,333,jvj+34)*/
 pile[v[22]]=jvj+34; pile[WZ1]=B; 
-(*f[1251])( );     /*NDCOMMUNS0(jvj+34,B)*/
+(*f[1253])( );     /*NDCOMMUNS0(jvj+34,B)*/
 goto l31;
 l11:x[jvj+15]=t[x[jvj+15]];
 goto l10;
@@ -205,7 +205,7 @@ l27:pile[v[22]]=20; pile[WZ1]=jvj+3; pile[WZ2]=jvj+32;
 l33:pile[v[22]]=jvj+32; pile[WZ1]=892; pile[WZ2]=jvj+33; 
 (*f[300])( );     /*TRI10(jvj+32,892,jvj+33)*/
 pile[v[22]]=jvj+30; pile[WZ1]=jvj+33; 
-(*f[1722])( );     /*PLUSHAUT1(jvj+30,jvj+33)*/
+(*f[1724])( );     /*PLUSHAUT1(jvj+30,jvj+33)*/
 goto l31;
 l28:pile[v[22]]=498; pile[WZ1]=jvj+3; pile[WZ2]=jvj+30; 
 (*f[32])( );if(v[102]) goto l31;     /*FNDO0(498,jvj+3,jvj+30)*/

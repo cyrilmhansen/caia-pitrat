@@ -28,7 +28,7 @@ l3:pile[v[22]]=V2; pile[WZ1]=V11; pile[WZ2]=R;
 (*f[213])( );     /*TRI7(V2,V11,R)*/
 V13=t[X];
 pile[v[22]]=V13; pile[WZ1]=R; 
-(*f[2076])( );     /*COPELFAIT1(V13,R)*/
+(*f[2078])( );     /*COPELFAIT1(V13,R)*/
 goto l4;
 l2:V11=r[X];
 V2=incon;
@@ -38,7 +38,7 @@ V7=s[X];
 if((V7<=sepcte)) goto l1;
 x[jvj+1]=V7 ;z[jvj+1]=(V7<=sepcte) ? V7 : 0;
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
-(*f[1770])( );     /*COPEXPFAIT0(jvj+1,jvj+2)*/
+(*f[1772])( );     /*COPEXPFAIT0(jvj+1,jvj+2)*/
 V10=x[jvj+2];
 V2=V10;
 goto l3;

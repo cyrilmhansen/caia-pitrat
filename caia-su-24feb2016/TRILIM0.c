@@ -17,7 +17,7 @@ if(v[0]>99700) (*f[6])( );
 X=pile[v[22]]; Y=pile[v[22]+1]; FF=pile[v[22]+2]; F=pile[v[22]+7]; v[22]+=8; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=X; pile[WZ4]=jvj+2; 
-(*f[1675])( );if(v[102]) goto l17;     /*TRINOME0(X,AA,BB,CC,jvj+2)*/
+(*f[1677])( );if(v[102]) goto l17;     /*TRINOME0(X,AA,BB,CC,jvj+2)*/
 AA=pile[WZ1]; BB=pile[WZ2]; CC=pile[WZ3]; 
 if((x[jvj+2]==68)) goto l8;
 l17:RA=RB=RC=RD=x[F]=incon;
@@ -42,17 +42,17 @@ x[jvj+4]=x[jvj+1] ;z[jvj+4]=z[jvj+1];
 V29=B%2;
 if((V29==0)) goto l11;
 pile[v[22]]=B; pile[WZ1]=B; 
-(*f[1024])( );if(v[102]) goto l17;     /*POSPRD0(B,B,V37)*/
+(*f[1025])( );if(v[102]) goto l17;     /*POSPRD0(B,B,V37)*/
 V37=pile[WZ2]; 
 pile[v[22]]=C; pile[WZ1]=A; 
-(*f[1024])( );if(v[102]) goto l17;     /*POSPRD0(C,A,V36)*/
+(*f[1025])( );if(v[102]) goto l17;     /*POSPRD0(C,A,V36)*/
 V36=pile[WZ2]; 
 pile[v[22]]=V36; pile[WZ1]=4; 
-(*f[1024])( );if(v[102]) goto l17;     /*POSPRD0(V36,4,V35)*/
+(*f[1025])( );if(v[102]) goto l17;     /*POSPRD0(V36,4,V35)*/
 V35=pile[WZ2]; 
 V39=(-V35);
 pile[v[22]]=V39; pile[WZ1]=V37; 
-(*f[1025])( );if(v[102]) goto l17;     /*POSOM0(V39,V37,DS)*/
+(*f[1026])( );if(v[102]) goto l17;     /*POSOM0(V39,V37,DS)*/
 DS=pile[WZ2]; 
 NB=B;
 ND=2;
@@ -73,7 +73,7 @@ goto l6;
 l7:x[jvj+1]=x[FF] ;z[jvj+1]=z[FF];
 goto l10;
 l8:pile[v[22]]=Y; pile[WZ4]=jvj+3; 
-(*f[1675])( );if(v[102]) goto l17;     /*TRINOME0(Y,XA,XB,XC,jvj+3)*/
+(*f[1677])( );if(v[102]) goto l17;     /*TRINOME0(Y,XA,XB,XC,jvj+3)*/
 XA=pile[WZ1]; XB=pile[WZ2]; XC=pile[WZ3]; 
 if((x[jvj+3]==68)) goto l9;
 goto l17;
@@ -87,24 +87,24 @@ V10=(-V7);
 V3=V10;
 goto l2;
 l11:pile[v[22]]=C; pile[WZ1]=A; 
-(*f[1024])( );if(v[102]) goto l17;     /*POSPRD0(C,A,V27)*/
+(*f[1025])( );if(v[102]) goto l17;     /*POSPRD0(C,A,V27)*/
 V27=pile[WZ2]; 
 V30=(-V27);
 V31=B/2;
 NB=V31;
 pile[v[22]]=NB; pile[WZ1]=NB; 
-(*f[1024])( );if(v[102]) goto l17;     /*POSPRD0(NB,NB,V28)*/
+(*f[1025])( );if(v[102]) goto l17;     /*POSPRD0(NB,NB,V28)*/
 V28=pile[WZ2]; 
 pile[v[22]]=V30; pile[WZ1]=V28; 
-(*f[1025])( );if(v[102]) goto l17;     /*POSOM0(V30,V28,DS)*/
+(*f[1026])( );if(v[102]) goto l17;     /*POSOM0(V30,V28,DS)*/
 DS=pile[WZ2]; 
 ND=1;
 goto l12;
 l13:pile[v[22]]=30; pile[WZ1]=2; pile[WZ2]=DS; 
-(*f[1005])( );if(v[102]) goto l17;     /*RACN0(30,2,DS,V32)*/
+(*f[1006])( );if(v[102]) goto l17;     /*RACN0(30,2,DS,V32)*/
 V32=pile[WZ3]; 
 pile[v[22]]=28; 
-(*f[1005])( );if(v[102]) goto l17;     /*RACN0(28,2,DS,DB)*/
+(*f[1006])( );if(v[102]) goto l17;     /*RACN0(28,2,DS,DB)*/
 DB=pile[WZ3]; 
 DA=V32;
 V22=DA-NB;

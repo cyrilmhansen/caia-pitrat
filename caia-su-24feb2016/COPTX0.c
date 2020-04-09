@@ -12,7 +12,7 @@ jvj=v[0];
 v[0]+=19;
 x[jvj+1]=11162;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1826&&v[97]==0) {
+if(v[90]==1828&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; BT=pile[v[22]+1]; R=pile[v[22]+2]; RM=pile[v[22]+3]; v[22]+=4; 
@@ -25,7 +25,7 @@ l1:x[jvj+3]=x[X] ;z[jvj+3]=z[X];
 pile[v[22]]=X; pile[WZ1]=1225; pile[WZ2]=68; 
 (*f[35])( );     /*CHGC1(X,1225,68)*/
 pile[v[22]]=R; pile[WZ1]=BT; pile[WZ2]=jvj+3; pile[WZ3]=RM; pile[WZ4]=jvj+6; 
-(*f[1987])( );     /*COPS0(R,BT,jvj+3,RM,jvj+6)*/
+(*f[1989])( );     /*COPS0(R,BT,jvj+3,RM,jvj+6)*/
 pile[v[22]]=100; pile[WZ1]=jvj+3; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(100,jvj+3,jvj+7)*/
 if((x[jvj+7]==42)) goto l2;
@@ -42,7 +42,7 @@ pile[v[22]]=184; pile[WZ1]=jvj+3; pile[WZ2]=jvj+8;
 l4:if((x[jvj+8]<=0)) goto l5;
 x[jvj+9]=s[x[jvj+8]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+8];
 pile[v[22]]=jvj+9; pile[WZ1]=184; pile[WZ2]=jvj+3; pile[WZ3]=jvj+9; 
-(*f[1826])( );     /*COPTX0(jvj+9,184,jvj+3,jvj+9)*/
+(*f[1828])( );     /*COPTX0(jvj+9,184,jvj+3,jvj+9)*/
 x[jvj+8]=t[x[jvj+8]];
 goto l4;
 l2:x[jvj+13]=x[jvj+3] ;z[jvj+13]=z[jvj+3];
@@ -63,7 +63,7 @@ x[jvj+19]=x[jvj+15] ;z[jvj+19]=z[jvj+15];
 l14:if((x[jvj+19]<=0)) goto l13;
 x[jvj+16]=s[x[jvj+19]] ;z[jvj+16]=(x[jvj+16]<=sepcte) ? x[jvj+16] : z[jvj+19];
 pile[v[22]]=jvj+16; pile[WZ1]=jvj+14; pile[WZ2]=jvj+3; pile[WZ3]=jvj+13; 
-(*f[1826])( );     /*COPTX0(jvj+16,jvj+14,jvj+3,jvj+13)*/
+(*f[1828])( );     /*COPTX0(jvj+16,jvj+14,jvj+3,jvj+13)*/
 x[jvj+19]=t[x[jvj+19]];
 goto l14;
 l6:x[jvj+13]=x[RM] ;z[jvj+13]=z[RM];
@@ -75,7 +75,7 @@ l10:x[jvj+11]=s[x[jvj+17]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+17
 pile[v[22]]=jvj+11; pile[WZ1]=jvj+3; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l11;     /*FNDO0(jvj+11,jvj+3,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+11; pile[WZ2]=jvj+3; pile[WZ3]=jvj+13; 
-(*f[1826])( );     /*COPTX0(jvj+12,jvj+11,jvj+3,jvj+13)*/
+(*f[1828])( );     /*COPTX0(jvj+12,jvj+11,jvj+3,jvj+13)*/
 l11:x[jvj+17]=t[x[jvj+17]];
 goto l9;
 l13:x[jvj+18]=t[x[jvj+18]];

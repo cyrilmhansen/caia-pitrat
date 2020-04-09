@@ -40,6 +40,6 @@ if(x[jvj+2]==178||x[jvj+2]==493) goto l6;
 l5:x[jvj+3]=t[x[jvj+3]];
 goto l3;
 l6:pile[v[22]]=jvj+1; 
-(*f[1280])( );     /*REDUIREMEM0(jvj+1)*/
+(*f[1282])( );     /*REDUIREMEM0(jvj+1)*/
 goto l5;
 }

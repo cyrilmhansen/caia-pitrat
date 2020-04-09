@@ -57,7 +57,7 @@ pile[v[22]]=109; pile[WZ1]=jvj+23; pile[WZ2]=117; pile[WZ3]=V33; pile[WZ4]=jvj+2
 pile[v[22]]=jvj+22; pile[WZ1]=719; pile[WZ2]=jvj+26; 
 (*f[35])( );     /*CHGC1(jvj+22,719,jvj+26)*/
 pile[v[22]]=jvj+24; 
-(*f[1070])( );     /*CE0(jvj+24)*/
+(*f[1072])( );     /*CE0(jvj+24)*/
 l24:x[jvj+21]=t[x[jvj+21]];
 goto l23;
 l2:x[jvj+2]=s[x[jvj+28]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+28];
@@ -96,7 +96,7 @@ pile[v[22]]=159; pile[WZ1]=A; pile[WZ2]=V28;
 pile[v[22]]=A; pile[WZ1]=218; pile[WZ2]=68; 
 (*f[35])( );     /*CHGC1(A,218,68)*/
 pile[v[22]]=jvj+15; pile[WZ1]=jvj+17; 
-(*f[1069])( );     /*CG0(jvj+15,jvj+17)*/
+(*f[1071])( );     /*CG0(jvj+15,jvj+17)*/
 l18:x[jvj+32]=t[x[jvj+32]];
 goto l17;
 l4:x[jvj+4]=s[x[jvj+29]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+29];

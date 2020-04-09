@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=10;
 x[jvj+1]=15561;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1866&&v[97]==0) {
+if(v[90]==1868&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NNNY=pile[v[22]]; NNNX=pile[v[22]+1]; v[22]+=3; 
@@ -34,7 +34,7 @@ NNNT=24;
 pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=1; pile[WZ4]=jvj+8; 
 (*f[192])( );     /*QUADRI4(100,41,130,1,jvj+8)*/
 pile[v[22]]=NNNY; pile[WZ1]=jvj+8; pile[WZ2]=NNNX; 
-(*f[2021])( );     /*REMPLACE0(NNNY,jvj+8,NNNX)*/
+(*f[2023])( );     /*REMPLACE0(NNNY,jvj+8,NNNX)*/
 l6:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; pile[v[22]+2]=NNNT; v[102]=0;return;
 l1:if(x[jvj+6]!=485&&x[jvj+6]!=486&&x[jvj+6]!=55&&x[jvj+6]!=48&&x[jvj+6]!=1029) goto l5;
 pile[v[22]]=100; pile[WZ1]=NNNY; pile[WZ2]=jvj+9; 
@@ -48,7 +48,7 @@ l5:x[NNNX]=NNNT=incon;
 l4:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; v[102]=1;return;
 l3:NNNT=7;
 pile[v[22]]=NNNY; pile[WZ1]=jvj+2; pile[WZ2]=NNNX; 
-(*f[2021])( );     /*REMPLACE0(NNNY,jvj+2,NNNX)*/
+(*f[2023])( );     /*REMPLACE0(NNNY,jvj+2,NNNX)*/
 goto l6;
 l2:if((x[jvj+10]<=0)) goto l5;
 x[jvj+2]=s[x[jvj+10]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+10];

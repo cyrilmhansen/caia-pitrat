@@ -13,14 +13,14 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=20165;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3508&&v[97]==0) {
+if(v[90]==3510&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 D=pile[v[22]]; v[22]+=1; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 x[jvj+2]=vo[16];z[jvj+2]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
-(*f[1948])( );if(v[102]) goto l6;     /*FNDOND0(498,jvj+2,jvj+3)*/
+(*f[1950])( );if(v[102]) goto l6;     /*FNDOND0(498,jvj+2,jvj+3)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(1182,jvj+3,jvj+4)*/
 if((68!=x[jvj+4])) goto l6;
@@ -41,7 +41,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+6;
 (*f[26])( );if(v[102]) goto l6;     /*FNDC0(642,jvj+6,V16)*/
 V16=pile[WZ2]; 
 pile[v[22]]=280; pile[WZ1]=D; 
-(*f[1975])( );if(v[102]) goto l6;     /*FNDCND0(280,D,M)*/
+(*f[1977])( );if(v[102]) goto l6;     /*FNDCND0(280,D,M)*/
 M=pile[WZ2]; 
 V6=M%P;
 V3=incon;
@@ -59,8 +59,8 @@ pile[v[22]]=V16; pile[WZ1]=858; pile[WZ2]=jvj+8;
 (*f[46])( );     /*TRI0(V16,858,jvj+8)*/
 pile[v[22]]=jvj+8; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+9; 
 (*f[189])( );     /*TRI4(jvj+8,v[13],642,jvj+9)*/
-pile[v[22]]=jvj+9; pile[WZ1]=3508; pile[WZ2]=246; pile[WZ3]=jvj+10; 
-(*f[189])( );     /*TRI4(jvj+9,3508,246,jvj+10)*/
+pile[v[22]]=jvj+9; pile[WZ1]=3510; pile[WZ2]=246; pile[WZ3]=jvj+10; 
+(*f[189])( );     /*TRI4(jvj+9,3510,246,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=20165; pile[WZ2]=218; pile[WZ3]=jvj+11; 
 (*f[58])( );     /*TRI3(jvj+10,20165,218,jvj+11)*/
 pile[v[22]]=jvj+12; pile[WZ1]=(-20); pile[WZ2]=jvj+11; pile[WZ3]=159; pile[WZ4]=jvj+13; 
@@ -68,7 +68,7 @@ pile[v[22]]=jvj+12; pile[WZ1]=(-20); pile[WZ2]=jvj+11; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+13; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+7; 
 (*f[58])( );     /*TRI3(jvj+13,1,158,jvj+7)*/
 pile[v[22]]=jvj+7; pile[WZ1]=280; pile[WZ2]=D; pile[WZ3]=V18; 
-(*f[2056])( );     /*VAUT0(jvj+7,280,D,V18)*/
+(*f[2058])( );     /*VAUT0(jvj+7,280,D,V18)*/
 l6:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l1:V14=V5+P;
 V2=V14;

@@ -22,7 +22,7 @@ if((V6>=ATT)) goto l2;
 V2=t[X];
 if((V2<=0)) goto l2;
 pile[v[22]]=ATT; pile[WZ1]=V2; pile[WZ2]=C; pile[WZ3]=X; pile[WZ4]=BBL; 
-(*f[1433])( );     /*INCT0(ATT,V2,C,X,BBL,RES)*/
+(*f[1435])( );     /*INCT0(ATT,V2,C,X,BBL,RES)*/
 RES=pile[WZ5]; 
 l3:if((K>0)) goto l4;
 if((K!=0)) goto l5;

@@ -51,7 +51,7 @@ l18:pile[v[22]]=242; pile[WZ1]=Q; pile[WZ2]=jvj+15;
 pile[WZ2]=jvj+16; 
 (*f[32])( );if(v[102]) goto l20;     /*FNDO0(242,Q,jvj+16)*/
 pile[v[22]]=jvj+16; pile[WZ1]=N; pile[WZ2]=E; pile[WZ3]=JJ; 
-(*f[1100])( );if(v[102]) goto l20;     /*SORGRAMA0(jvj+16,N,E,JJ,J)*/
+(*f[1102])( );if(v[102]) goto l20;     /*SORGRAMA0(jvj+16,N,E,JJ,J)*/
 J=pile[WZ4]; 
 l24:v[0]=jvj; v[22]-=5; pile[v[22]+4]=J; v[102]=0;return;
 l2:x[jvj+28]=t[x[jvj+28]];

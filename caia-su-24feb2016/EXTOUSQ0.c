@@ -49,7 +49,7 @@ l1:if((x[jvj+4]>0)) goto l2;
 V4=bh[v[1]][0];
 if((V4==32)) goto l5;
 pile[v[22]]=EA; 
-(*f[1225])( );     /*EXTOUSQ1(EA)*/
+(*f[1227])( );     /*EXTOUSQ1(EA)*/
 l5:v[0]=jvj; v[22]-=1; return;
 l2:I=s[x[jvj+4]];
 pile[v[22]]=I; pile[WZ1]=64; pile[WZ2]=67; pile[WZ3]=jvj+5; 

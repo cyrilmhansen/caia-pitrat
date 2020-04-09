@@ -28,7 +28,7 @@ pile[v[22]]=jvj+1; pile[WZ1]=117; pile[WZ2]=1;
 (*f[186])( );     /*BTC0(jvj+1,117,1)*/
 l1:if((AA<=YY)) goto l2;
 pile[v[22]]=A; pile[WZ1]=jvj+1; 
-(*f[1212])( );     /*AJMEM1(A,jvj+1)*/
+(*f[1214])( );     /*AJMEM1(A,jvj+1)*/
 l2:if((AA>=YY)) goto l4;
 pile[v[22]]=117; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=A; pile[WZ4]=jvj+4; 
 (*f[567])( );     /*QUADRI11(117,1,218,A,jvj+4)*/

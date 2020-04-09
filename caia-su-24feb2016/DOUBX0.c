@@ -24,7 +24,7 @@ l1:x[RES]=135 ;z[RES]=135;
 v[0]=jvj; v[22]-=3; v[102]=0;return;
 l3:x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];
 pile[v[22]]=R; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
-(*f[1989])( );if(v[102]) goto l4;     /*DOUBX0(R,jvj+2,jvj+3)*/
+(*f[1991])( );if(v[102]) goto l4;     /*DOUBX0(R,jvj+2,jvj+3)*/
 if((x[jvj+3]==135)) goto l1;
 l4:x[jvj+1]=t[x[jvj+1]];
 goto l2;

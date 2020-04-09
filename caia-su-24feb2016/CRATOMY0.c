@@ -24,7 +24,7 @@ x[EA]=x[jvj+123] ;z[EA]=z[jvj+123];
 pile[v[22]]=1688; pile[WZ1]=N; pile[WZ2]=jvj+48; 
 (*f[33])( );     /*FNDE0(1688,N,jvj+48)*/
 pile[v[22]]=N; pile[WZ1]=jvj+49; 
-(*f[1242])( );     /*CRATOMETRAD1(N,jvj+49)*/
+(*f[1244])( );     /*CRATOMETRAD1(N,jvj+49)*/
 x[jvj+50]=d[232];z[jvj+50]=0;
 x[jvj+128]=x[jvj+48] ;z[jvj+128]=z[jvj+48];
 l31:if((x[jvj+128]>0)) goto l32;
@@ -64,7 +64,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=jvj+41;
 V172=x[jvj+40];
 l23:if((V172>0)) goto l24;
 pile[v[22]]=N; pile[WZ1]=jvj+3; pile[WZ2]=jvj+81; 
-(*f[1243])( );     /*CRATOMETRAD2(N,jvj+3,jvj+81)*/
+(*f[1245])( );     /*CRATOMETRAD2(N,jvj+3,jvj+81)*/
 pile[v[22]]=576; pile[WZ1]=860; pile[WZ2]=jvj+121; 
 (*f[54])( );     /*TRI1(576,860,jvj+121)*/
 pile[v[22]]=218; pile[WZ1]=jvj+3; pile[WZ2]=447; pile[WZ3]=jvj+81; pile[WZ4]=jvj+121; pile[WZ5]=jvj+82; 
@@ -102,7 +102,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=jvj+4;
 V166=x[jvj+2];
 l1:if((V166>0)) goto l2;
 pile[v[22]]=N; pile[WZ1]=jvj+3; pile[WZ2]=jvj+84; 
-(*f[1243])( );     /*CRATOMETRAD2(N,jvj+3,jvj+84)*/
+(*f[1245])( );     /*CRATOMETRAD2(N,jvj+3,jvj+84)*/
 pile[v[22]]=576; pile[WZ1]=860; pile[WZ2]=jvj+122; 
 (*f[54])( );     /*TRI1(576,860,jvj+122)*/
 pile[v[22]]=218; pile[WZ1]=jvj+3; pile[WZ2]=447; pile[WZ3]=jvj+84; pile[WZ4]=jvj+122; pile[WZ5]=jvj+85; 
@@ -152,7 +152,7 @@ if((x[jvj+23]==904)) goto l49;
 l14:x[jvj+125]=t[x[jvj+125]];
 l12:if((x[jvj+125]>0)) goto l13;
 pile[v[22]]=N; pile[WZ1]=jvj+24; 
-(*f[1242])( );     /*CRATOMETRAD1(N,jvj+24)*/
+(*f[1244])( );     /*CRATOMETRAD1(N,jvj+24)*/
 x[jvj+25]=d[232];z[jvj+25]=0;
 pile[v[22]]=1814; pile[WZ1]=860; pile[WZ2]=jvj+106; 
 (*f[54])( );     /*TRI1(1814,860,jvj+106)*/
@@ -197,7 +197,7 @@ if((x[jvj+30]==67)) goto l42;
 l18:x[jvj+126]=t[x[jvj+126]];
 l16:if((x[jvj+126]>0)) goto l17;
 pile[v[22]]=N; pile[WZ1]=jvj+3; pile[WZ2]=jvj+77; 
-(*f[1243])( );     /*CRATOMETRAD2(N,jvj+3,jvj+77)*/
+(*f[1245])( );     /*CRATOMETRAD2(N,jvj+3,jvj+77)*/
 pile[v[22]]=576; pile[WZ1]=860; pile[WZ2]=jvj+120; 
 (*f[54])( );     /*TRI1(576,860,jvj+120)*/
 pile[v[22]]=218; pile[WZ1]=jvj+3; pile[WZ2]=447; pile[WZ3]=jvj+77; pile[WZ4]=jvj+120; pile[WZ5]=jvj+78; 

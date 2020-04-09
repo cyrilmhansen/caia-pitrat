@@ -15,7 +15,7 @@ v[0]+=8;
 x[jvj+1]=11400;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3732&&v[97]==0) {
+if(v[90]==3734&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; P=pile[v[22]+1]; RT=pile[v[22]+2]; v[22]+=3; 
@@ -28,13 +28,13 @@ if((x[jvj+4]!=25)) goto l1;
 pile[v[22]]=102; pile[WZ1]=R; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(102,R,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=P; pile[WZ2]=jvj+6; 
-(*f[4026])( );     /*SIMPEXPA0(jvj+5,P,jvj+6)*/
+(*f[4028])( );     /*SIMPEXPA0(jvj+5,P,jvj+6)*/
 pile[v[22]]=103; pile[WZ1]=R; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(103,R,jvj+7)*/
 pile[v[22]]=jvj+7; pile[WZ1]=P; pile[WZ2]=jvj+8; 
-(*f[4026])( );     /*SIMPEXPA0(jvj+7,P,jvj+8)*/
+(*f[4028])( );     /*SIMPEXPA0(jvj+7,P,jvj+8)*/
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+8; pile[WZ2]=P; pile[WZ3]=RT; 
-(*f[4027])( );     /*SIMPTOT0(jvj+6,jvj+8,P,RT)*/
+(*f[4029])( );     /*SIMPTOT0(jvj+6,jvj+8,P,RT)*/
 if((v[142]<=0)) goto l2;
 V7=x[RT];
 pile[v[22]]=20; pile[WZ1]=11400; pile[WZ2]=0; 

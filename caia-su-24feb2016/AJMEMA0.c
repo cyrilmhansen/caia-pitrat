@@ -45,6 +45,6 @@ goto l5;
 l3:x[jvj+4]=t[x[jvj+4]];
 goto l1;
 l4:pile[v[22]]=A; pile[WZ1]=jvj+2; pile[WZ2]=B; pile[WZ3]=jvj+7; 
-(*f[1932])( );     /*AJMEMA2(A,jvj+2,B,jvj+7)*/
+(*f[1934])( );     /*AJMEMA2(A,jvj+2,B,jvj+7)*/
 goto l5;
 }

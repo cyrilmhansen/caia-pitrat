@@ -43,7 +43,7 @@ if((x[jvj+3]!=52)) goto l27;
 pile[v[22]]=102; pile[WZ1]=XA; pile[WZ2]=jvj+28; 
 (*f[32])( );if(v[102]) goto l27;     /*FNDO0(102,XA,jvj+28)*/
 pile[v[22]]=jvj+28; 
-(*f[2143])( );if(v[102]) goto l27;     /*COEFFDEGA1(jvj+28,D,KK)*/
+(*f[2145])( );if(v[102]) goto l27;     /*COEFFDEGA1(jvj+28,D,KK)*/
 D=pile[WZ1]; KK=pile[WZ2]; 
 V98=(-KK);
 K=V98;

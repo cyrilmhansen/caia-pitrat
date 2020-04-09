@@ -155,7 +155,7 @@ l14:pile[v[22]]=1455; pile[WZ1]=158; pile[WZ2]=jvj+9;
 vo[10]=x[jvj+9];vz[10]=0;
 if((x[KX]==12)) goto l13;
 pile[WZ1]=NM; 
-(*f[1178])( );     /*FAIREXP2(1455,NM)*/
+(*f[1180])( );     /*FAIREXP2(1455,NM)*/
 goto l13;
 l17:x[jvj+15]=x[jvj+13] ;z[jvj+15]=z[jvj+13];
 x[jvj+4]=x[jvj+15] ;z[jvj+4]=z[jvj+15];

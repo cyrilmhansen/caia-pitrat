@@ -124,7 +124,7 @@ goto l24;
 l22:pile[v[22]]=103; pile[WZ1]=A; pile[WZ2]=jvj+22; 
 (*f[32])( );if(v[102]) goto l24;     /*FNDO0(103,A,jvj+22)*/
 pile[v[22]]=jvj+22; pile[WZ1]=jvj+23; 
-(*f[1353])( );     /*POSOUNUL0(jvj+22,jvj+23)*/
+(*f[1355])( );     /*POSOUNUL0(jvj+22,jvj+23)*/
 if((x[jvj+23]==135)) goto l23;
 goto l24;
 l23:pile[v[22]]=102; pile[WZ1]=A; pile[WZ2]=jvj+24; 

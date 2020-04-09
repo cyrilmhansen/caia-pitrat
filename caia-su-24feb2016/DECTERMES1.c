@@ -30,7 +30,7 @@ l3:pile[v[22]]=107; pile[WZ1]=jvj+2; pile[WZ2]=jvj+5;
 l1:if((x[jvj+5]<=0)) goto l5;
 x[jvj+1]=s[x[jvj+5]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+5];
 pile[v[22]]=jvj+1; pile[WZ1]=E; 
-(*f[2053])( );     /*DECTERMES1(jvj+1,E)*/
+(*f[2055])( );     /*DECTERMES1(jvj+1,E)*/
 x[jvj+5]=t[x[jvj+5]];
 goto l1;
 l4:pile[v[22]]=E; pile[WZ1]=jvj+2; 

@@ -45,7 +45,7 @@ pile[v[22]]=N; pile[WZ1]=0; pile[WZ2]=42;
 V3=pile[WZ3]; 
 l17:V183=x[jvj+6];
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+7; 
-(*f[1176])( );     /*STOMSG0(jvj+3,jvj+7)*/
+(*f[1178])( );     /*STOMSG0(jvj+3,jvj+7)*/
 pile[v[22]]=20; pile[WZ1]=V183; pile[WZ2]=V3; 
 (*f[39])( );     /*SDX0(20,V183,V3,V6)*/
 V6=pile[WZ3]; 

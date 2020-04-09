@@ -123,13 +123,13 @@ pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+14; pile[WZ4]=jvj+35
 pile[v[22]]=jvj+15; pile[WZ1]=1688; pile[WZ2]=jvj+16; 
 (*f[36])( );     /*PLUSC0(jvj+15,1688,jvj+16)*/
 l17:pile[v[22]]=jvj+15; pile[WZ1]=jvj+15; pile[WZ2]=jvj+2; pile[WZ3]=jvj+29; 
-(*f[1247])( );     /*TRADNAM0(jvj+15,jvj+15,jvj+2,jvj+29)*/
+(*f[1249])( );     /*TRADNAM0(jvj+15,jvj+15,jvj+2,jvj+29)*/
 pile[v[22]]=jvj+29; pile[WZ1]=1682; 
 (*f[35])( );     /*CHGC1(jvj+29,1682,jvj+2)*/
 pile[v[22]]=F; pile[WZ1]=jvj+26; pile[WZ2]=jvj+9; pile[WZ3]=jvj+28; pile[WZ4]=jvj+29; pile[WZ5]=jvj+15; pile[v[22]+6]=jvj+2; pile[v[22]+7]=jvj+30; 
-(*f[1248])( );     /*CREXB0(F,jvj+26,jvj+9,jvj+28,jvj+29,jvj+15,jvj+2,jvj+30)*/
+(*f[1250])( );     /*CREXB0(F,jvj+26,jvj+9,jvj+28,jvj+29,jvj+15,jvj+2,jvj+30)*/
 pile[v[22]]=jvj+30; 
-(*f[1237])( );     /*TOUCHEFINALE0(jvj+30)*/
+(*f[1239])( );     /*TOUCHEFINALE0(jvj+30)*/
 pile[v[22]]=jvj+2; pile[WZ1]=184; pile[WZ2]=jvj+30; 
 (*f[36])( );     /*PLUSC0(jvj+2,184,jvj+30)*/
 pile[v[22]]=1260; pile[WZ1]=jvj+15; 

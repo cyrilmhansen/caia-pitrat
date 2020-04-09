@@ -26,7 +26,7 @@ H=V1;
 if((H==0)) goto l4;
 if((H<=1)) goto l5;
 pile[v[22]]=YY; pile[WZ1]=H; 
-(*f[1358])( );     /*PGCD1(YY,H,R)*/
+(*f[1360])( );     /*PGCD1(YY,H,R)*/
 R=pile[WZ2]; 
 l8:v[22]-=3; pile[v[22]+2]=R; return;
 l1:if((AA<=1)) goto l5;

@@ -21,12 +21,12 @@ l5:pile[v[22]]=130; pile[WZ1]=jvj+4;
 (*f[26])( );if(v[102]) goto l6;     /*FNDC0(130,jvj+4,N)*/
 N=pile[WZ2]; 
 pile[v[22]]=P; pile[WZ1]=N; 
-(*f[1027])( );     /*PUIDANS0(P,N,R)*/
+(*f[1028])( );     /*PUIDANS0(P,N,R)*/
 R=pile[WZ2]; 
 l10:v[0]=jvj; v[22]-=3; pile[v[22]+2]=R; return;
 l2:x[jvj+1]=s[x[jvj+8]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+8];
 pile[v[22]]=jvj+1; pile[WZ1]=P; 
-(*f[1674])( );     /*SIMPRODX0(jvj+1,P,RS)*/
+(*f[1676])( );     /*SIMPRODX0(jvj+1,P,RS)*/
 RS=pile[WZ2]; 
 pile[v[22]]=jvj+2; pile[WZ1]=117; pile[WZ2]=RS; 
 (*f[818])( );     /*MTC0(jvj+2,117,RS)*/
@@ -39,7 +39,7 @@ R=V4;
 goto l10;
 l4:x[jvj+3]=s[x[jvj+7]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+7];
 pile[v[22]]=jvj+3; pile[WZ1]=P; 
-(*f[1674])( );     /*SIMPRODX0(jvj+3,P,V17)*/
+(*f[1676])( );     /*SIMPRODX0(jvj+3,P,V17)*/
 V17=pile[WZ2]; 
 if(V17<V16) V16=V17;
 x[jvj+7]=t[x[jvj+7]];

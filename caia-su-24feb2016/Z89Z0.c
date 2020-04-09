@@ -85,7 +85,7 @@ pile[v[22]]=100; pile[WZ1]=jvj+15; pile[WZ2]=jvj+16;
 if((x[jvj+16]!=484)) goto l7;
 x[jvj+17]=vo[16];z[jvj+17]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+17; pile[WZ2]=jvj+18; 
-(*f[1948])( );if(v[102]) goto l7;     /*FNDOND0(498,jvj+17,jvj+18)*/
+(*f[1950])( );if(v[102]) goto l7;     /*FNDOND0(498,jvj+17,jvj+18)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+18; pile[WZ2]=jvj+19; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(1182,jvj+18,jvj+19)*/
 if((68!=x[jvj+19])) goto l7;
@@ -108,7 +108,7 @@ for(i=x[jvj+23],V134=0;i>0;i=t[i],V134++)  ;
 if((V134!=2)) goto l12;
 x[jvj+24]=vo[16];z[jvj+24]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+24; pile[WZ2]=jvj+25; 
-(*f[1948])( );if(v[102]) goto l12;     /*FNDOND0(498,jvj+24,jvj+25)*/
+(*f[1950])( );if(v[102]) goto l12;     /*FNDOND0(498,jvj+24,jvj+25)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+25; pile[WZ2]=jvj+26; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(1182,jvj+25,jvj+26)*/
 if((68!=x[jvj+26])) goto l12;
@@ -137,7 +137,7 @@ pile[v[22]]=100; pile[WZ1]=jvj+10; pile[WZ2]=jvj+11;
 if((x[jvj+11]!=41)) goto l7;
 x[jvj+12]=vo[16];z[jvj+12]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+12; pile[WZ2]=jvj+13; 
-(*f[1948])( );if(v[102]) goto l7;     /*FNDOND0(498,jvj+12,jvj+13)*/
+(*f[1950])( );if(v[102]) goto l7;     /*FNDOND0(498,jvj+12,jvj+13)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+13; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(1182,jvj+13,jvj+14)*/
 if((68!=x[jvj+14])) goto l7;
@@ -163,7 +163,7 @@ V170=pile[WZ2];
 if((V170!=0)) goto l51;
 x[jvj+35]=vo[16];z[jvj+35]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+35; pile[WZ2]=jvj+36; 
-(*f[1948])( );if(v[102]) goto l51;     /*FNDOND0(498,jvj+35,jvj+36)*/
+(*f[1950])( );if(v[102]) goto l51;     /*FNDOND0(498,jvj+35,jvj+36)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+36; pile[WZ2]=jvj+37; 
 (*f[32])( );if(v[102]) goto l51;     /*FNDO0(1182,jvj+36,jvj+37)*/
 if((68!=x[jvj+37])) goto l51;
@@ -410,7 +410,7 @@ pile[v[22]]=100; pile[WZ1]=jvj+102; pile[WZ2]=jvj+103;
 if((x[jvj+103]!=41)) goto l44;
 x[jvj+104]=vo[16];z[jvj+104]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+104; pile[WZ2]=jvj+105; 
-(*f[1948])( );if(v[102]) goto l44;     /*FNDOND0(498,jvj+104,jvj+105)*/
+(*f[1950])( );if(v[102]) goto l44;     /*FNDOND0(498,jvj+104,jvj+105)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+105; pile[WZ2]=jvj+106; 
 (*f[32])( );if(v[102]) goto l44;     /*FNDO0(1182,jvj+105,jvj+106)*/
 if((68!=x[jvj+106])) goto l44;

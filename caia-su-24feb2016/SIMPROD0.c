@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=21;
 x[jvj+1]=11658;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1152&&v[97]==0) {
+if(v[90]==1154&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; QQ=pile[v[22]+1]; RES=pile[v[22]+2]; v[22]+=3; 
@@ -35,9 +35,9 @@ pile[v[22]]=102; pile[WZ1]=R; pile[WZ2]=jvj+8;
 pile[v[22]]=103; pile[WZ2]=jvj+9; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(103,R,jvj+9)*/
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+10; 
-(*f[1455])( );if(v[102]) goto l7;     /*SIMPRODA0(jvj+8,jvj+10)*/
+(*f[1457])( );if(v[102]) goto l7;     /*SIMPRODA0(jvj+8,jvj+10)*/
 pile[v[22]]=jvj+9; pile[WZ1]=jvj+11; 
-(*f[1455])( );if(v[102]) goto l7;     /*SIMPRODA0(jvj+9,jvj+11)*/
+(*f[1457])( );if(v[102]) goto l7;     /*SIMPRODA0(jvj+9,jvj+11)*/
 l2:if((x[jvj+11]<=0)) goto l7;
 x[jvj+3]=s[x[jvj+11]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+11];
 pile[v[22]]=510; pile[WZ1]=jvj+3; 
@@ -62,9 +62,9 @@ V3=V17;
 l6:Q=V3;
 if((Q<=0)) goto l5;
 pile[v[22]]=V6; pile[WZ1]=Q; pile[WZ2]=jvj+8; pile[WZ3]=jvj+12; 
-(*f[1456])( );if(v[102]) goto l5;     /*SIMPRODEL0(V6,Q,jvj+8,jvj+12)*/
+(*f[1458])( );if(v[102]) goto l5;     /*SIMPRODEL0(V6,Q,jvj+8,jvj+12)*/
 pile[WZ2]=jvj+9; pile[WZ3]=jvj+13; 
-(*f[1456])( );if(v[102]) goto l5;     /*SIMPRODEL0(V6,Q,jvj+9,jvj+13)*/
+(*f[1458])( );if(v[102]) goto l5;     /*SIMPRODEL0(V6,Q,jvj+9,jvj+13)*/
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+14; 
 (*f[255])( );     /*COPEXP0(jvj+12,jvj+14)*/
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+15; 
@@ -79,7 +79,7 @@ pile[v[22]]=jvj+19; pile[WZ1]=jvj+15; pile[WZ2]=103; pile[WZ3]=jvj+20;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+14; pile[WZ4]=jvj+20; pile[WZ5]=jvj+16; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+14,jvj+20,jvj+16)*/
 pile[v[22]]=jvj+16; pile[WZ1]=QQ; pile[WZ2]=jvj+17; 
-(*f[1152])( );     /*SIMPROD0(jvj+16,QQ,jvj+17)*/
+(*f[1154])( );     /*SIMPROD0(jvj+16,QQ,jvj+17)*/
 l8:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; return;
 l1:pile[v[22]]=515; pile[WZ1]=jvj+3; 
 (*f[26])( );if(v[102]) goto l5;     /*FNDC0(515,jvj+3,V16)*/

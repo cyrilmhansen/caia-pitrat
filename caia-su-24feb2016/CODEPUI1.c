@@ -91,7 +91,7 @@ l36:x[jvj+176]=t[x[jvj+176]];
 goto l35;
 l1:x[jvj+55]=x[jvj+1] ;z[jvj+55]=z[jvj+1];
 l23:pile[v[22]]=jvj+55; pile[WZ1]=P; pile[WZ2]=jvj+56; 
-(*f[1662])( );     /*CODEPUI1(jvj+55,P,jvj+56)*/
+(*f[1664])( );     /*CODEPUI1(jvj+55,P,jvj+56)*/
 x[jvj+172]=x[jvj+41] ;z[jvj+172]=z[jvj+41];
 l24:if((x[jvj+172]<=0)) goto l21;
 x[jvj+58]=s[x[jvj+172]] ;z[jvj+58]=(x[jvj+58]<=sepcte) ? x[jvj+58] : z[jvj+172];
@@ -199,7 +199,7 @@ x[jvj+178]=x[jvj+196] ;z[jvj+178]=z[jvj+196];
 goto l41;
 l10:x[jvj+25]=s[x[jvj+39]] ;z[jvj+25]=(x[jvj+25]<=sepcte) ? x[jvj+25] : z[jvj+39];
 pile[v[22]]=jvj+25; pile[WZ1]=P; pile[WZ2]=jvj+26; 
-(*f[1662])( );     /*CODEPUI1(jvj+25,P,jvj+26)*/
+(*f[1664])( );     /*CODEPUI1(jvj+25,P,jvj+26)*/
 pile[v[22]]=jvj+27; pile[WZ1]=jvj+26; 
 (*f[68])( );     /*PLUE0(jvj+27,jvj+26)*/
 x[jvj+39]=t[x[jvj+39]];

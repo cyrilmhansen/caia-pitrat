@@ -46,7 +46,7 @@ pile[v[22]]=jvj+36; pile[WZ1]=22; pile[WZ2]=100; pile[WZ3]=R;
 l17:v[0]=jvj; v[22]-=4; v[102]=0;return;
 l2:x[jvj+1]=s[x[jvj+19]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+19];
 pile[v[22]]=jvj+1; pile[WZ1]=Y; pile[WZ2]=67; pile[WZ3]=F; pile[WZ4]=jvj+2; 
-(*f[4000])( );if(v[102]) goto l3;     /*DIVFACTEURA1(jvj+1,Y,67,F,jvj+2)*/
+(*f[4002])( );if(v[102]) goto l3;     /*DIVFACTEURA1(jvj+1,Y,67,F,jvj+2)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+2; 
 (*f[68])( );     /*PLUE0(jvj+3,jvj+2)*/
 l3:x[jvj+19]=t[x[jvj+19]];
@@ -63,7 +63,7 @@ l6:pile[v[22]]=102; pile[WZ1]=X; pile[WZ2]=jvj+10;
 pile[v[22]]=844; pile[WZ1]=F; pile[WZ2]=jvj+11; 
 (*f[32])( );if(v[102]) goto l14;     /*FNDO0(844,F,jvj+11)*/
 pile[v[22]]=jvj+10; pile[WZ1]=Y; pile[WZ3]=jvj+12; 
-(*f[4001])( );if(v[102]) goto l14;     /*DIVFACTEURA2(jvj+10,Y,jvj+11,jvj+12)*/
+(*f[4003])( );if(v[102]) goto l14;     /*DIVFACTEURA2(jvj+10,Y,jvj+11,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+13; 
 (*f[255])( );     /*COPEXP0(jvj+12,jvj+13)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=52; pile[WZ4]=jvj+29; 

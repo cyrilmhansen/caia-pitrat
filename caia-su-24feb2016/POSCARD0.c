@@ -15,7 +15,7 @@ v[0]+=27;
 x[jvj+1]=11244;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2031&&v[97]==0) {
+if(v[90]==2033&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; R=pile[v[22]+1]; v[22]+=2; 
@@ -134,7 +134,7 @@ if((x[jvj+14]!=1214)) goto l19;
 pile[v[22]]=107; pile[WZ1]=jvj+12; pile[WZ2]=jvj+15; 
 (*f[33])( );     /*FNDE0(107,jvj+12,jvj+15)*/
 pile[v[22]]=jvj+15; 
-(*f[2112])( );if(v[102]) goto l19;     /*POSCARD1(jvj+15,N,M)*/
+(*f[2114])( );if(v[102]) goto l19;     /*POSCARD1(jvj+15,N,M)*/
 N=pile[WZ1]; M=pile[WZ2]; 
 V16=N;
 goto l10;

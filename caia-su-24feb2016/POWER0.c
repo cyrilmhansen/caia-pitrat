@@ -41,7 +41,7 @@ l13:if((V8==1)) goto l14;
 if((V8<=1)) goto l8;
 V5=V8-1;
 pile[v[22]]=A; pile[WZ1]=V9; 
-(*f[1024])( );if(v[102]) goto l8;     /*POSPRD0(A,V9,V6)*/
+(*f[1025])( );if(v[102]) goto l8;     /*POSPRD0(A,V9,V6)*/
 V6=pile[WZ2]; 
 V8=V5;
 V9=V6;

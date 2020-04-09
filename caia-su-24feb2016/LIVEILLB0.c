@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=57;
 x[jvj+1]=11527;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1486&&v[97]==0) {
+if(v[90]==1488&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 QM=pile[v[22]]; MV=pile[v[22]+1]; MW=pile[v[22]+2]; EX=pile[v[22]+3]; TY=pile[v[22]+4]; TX=pile[v[22]+5]; v[22]+=6; 

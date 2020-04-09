@@ -16,7 +16,7 @@ if(v[0]>99700) (*f[6])( );
 A=pile[v[22]]; B=pile[v[22]+1]; BA=pile[v[22]+2]; C=pile[v[22]+3]; RT=pile[v[22]+4]; v[22]+=5; 
 WZ5=v[22]+5; WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=C; pile[WZ1]=BA; pile[WZ2]=A; pile[WZ3]=jvj+1; 
-(*f[1503])( );if(v[102]) goto l4;     /*BOOTRADA0(C,BA,A,jvj+1)*/
+(*f[1505])( );if(v[102]) goto l4;     /*BOOTRADA0(C,BA,A,jvj+1)*/
 if((x[B]==1668)) goto l1;
 if((x[B]==1751)) goto l2;
 if((x[B]==1750)) goto l3;

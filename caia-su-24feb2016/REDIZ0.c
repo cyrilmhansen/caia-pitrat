@@ -88,7 +88,7 @@ x[jvj+22]=t[x[jvj+22]];
 goto l6;
 l9:x[jvj+14]=s[x[jvj+23]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+23];
 pile[v[22]]=L; pile[WZ1]=H; pile[WZ2]=jvj+14; pile[WZ3]=jvj+12; pile[WZ4]=X; 
-(*f[3993])( );     /*REDIZ0(L,H,jvj+14,jvj+12,X)*/
+(*f[3995])( );     /*REDIZ0(L,H,jvj+14,jvj+12,X)*/
 x[jvj+23]=t[x[jvj+23]];
 goto l8;
 l10:x[jvj+24]=w[x[jvj+11]][9];
@@ -112,7 +112,7 @@ if((x[jvj+4]==625)) goto l13;
 l14:pile[v[22]]=jvj+15; pile[WZ1]=X; pile[WZ2]=jvj+16; 
 (*f[32])( );if(v[102]) goto l13;     /*FNDO0(jvj+15,X,jvj+16)*/
 pile[v[22]]=L; pile[WZ1]=H; pile[WZ3]=jvj+15; pile[WZ4]=X; 
-(*f[3993])( );     /*REDIZ0(L,H,jvj+16,jvj+15,X)*/
+(*f[3995])( );     /*REDIZ0(L,H,jvj+16,jvj+15,X)*/
 l13:x[jvj+24]=t[x[jvj+24]];
 goto l11;
 l18:pile[v[22]]=S; pile[WZ1]=BT; pile[WZ2]=jvj+20; 

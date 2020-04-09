@@ -75,7 +75,7 @@ goto l14;
 l8:x[jvj+6]=t[x[jvj+6]];
 goto l7;
 l11:pile[v[22]]=jvj+15; pile[WZ1]=V17; pile[WZ2]=CC; 
-(*f[1765])( );     /*AJARR0(jvj+15,V17,CC)*/
+(*f[1767])( );     /*AJARR0(jvj+15,V17,CC)*/
 goto l14;
 l13:x[BB]=x[CC]=incon;
 v[0]=jvj; v[22]-=5; v[102]=1;return;

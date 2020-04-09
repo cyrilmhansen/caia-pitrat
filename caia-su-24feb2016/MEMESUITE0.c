@@ -25,7 +25,7 @@ l5:pile[v[22]]=120; pile[WZ1]=A; pile[WZ2]=jvj+5;
 pile[WZ1]=B; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(120,B,jvj+6)*/
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; pile[WZ2]=jvj+7; 
-(*f[1345])( );     /*MEMESUITE0(jvj+5,jvj+6,jvj+7)*/
+(*f[1347])( );     /*MEMESUITE0(jvj+5,jvj+6,jvj+7)*/
 if((x[jvj+7]==134)) goto l3;
 l6:pile[v[22]]=102; pile[WZ1]=A; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(102,A,jvj+8)*/

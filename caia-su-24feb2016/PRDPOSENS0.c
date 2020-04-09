@@ -15,14 +15,14 @@ v[0]+=6;
 x[jvj+1]=11443;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3762&&v[97]==0) {
+if(v[90]==3764&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 E=pile[v[22]]; EE=pile[v[22]+1]; v[22]+=2; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 for(i=x[E],V1=0;i>0;i=t[i],V1++)  ;
 pile[v[22]]=E; 
-(*f[1809])( );     /*NUMEROTENS3(E)*/
+(*f[1811])( );     /*NUMEROTENS3(E)*/
 N=V1;
 x[jvj+5]=0 ;z[jvj+5]=0;
 x[EE]=x[jvj+5] ;z[EE]=z[jvj+5];
@@ -47,13 +47,13 @@ V8=I+1;
 l4:if((x[jvj+4]<=0)) goto l6;
 K=s[x[jvj+4]];
 pile[v[22]]=K; pile[WZ1]=V7; 
-(*f[1006])( );if(v[102]) goto l5;     /*POWER0(K,V7,V4)*/
+(*f[1007])( );if(v[102]) goto l5;     /*POWER0(K,V7,V4)*/
 V4=pile[WZ2]; 
 pile[v[22]]=V4; pile[WZ1]=T; 
-(*f[1024])( );if(v[102]) goto l5;     /*POSPRD0(V4,T,V3)*/
+(*f[1025])( );if(v[102]) goto l5;     /*POSPRD0(V4,T,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=N; pile[WZ1]=EE; pile[WZ2]=V3; pile[WZ3]=V8; pile[WZ4]=E; 
-(*f[4032])( );     /*PRDPOSENS1(N,EE,V3,V8,E)*/
+(*f[4034])( );     /*PRDPOSENS1(N,EE,V3,V8,E)*/
 l5:x[jvj+4]=t[x[jvj+4]];
 goto l4;
 l3:x[jvj+6]=t[x[jvj+6]];

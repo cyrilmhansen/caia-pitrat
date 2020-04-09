@@ -17,7 +17,7 @@ if(v[0]>99700) (*f[6])( );
 B=pile[v[22]]; A=pile[v[22]+1]; v[22]+=3; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=B; pile[WZ1]=jvj+1; 
-(*f[1007])( );if(v[102]) goto l3;     /*DECFACTPREM0(B,jvj+1)*/
+(*f[1008])( );if(v[102]) goto l3;     /*DECFACTPREM0(B,jvj+1)*/
 x[jvj+3]=x[jvj+1] ;z[jvj+3]=z[jvj+1];
 l1:if((x[jvj+3]<=0)) goto l3;
 x[jvj+2]=s[x[jvj+3]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+3];

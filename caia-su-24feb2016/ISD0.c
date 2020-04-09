@@ -45,7 +45,7 @@ x[jvj+14]=t[x[jvj+14]];
 goto l7;
 l1:x[jvj+9]=x[jvj+1] ;z[jvj+9]=z[jvj+1];
 l10:pile[v[22]]=V; pile[WZ1]=jvj+9; pile[WZ2]=R; pile[WZ3]=T; 
-(*f[2004])( );     /*ISD0(V,jvj+9,R,T)*/
+(*f[2006])( );     /*ISD0(V,jvj+9,R,T)*/
 x[jvj+15]=t[x[jvj+15]];
 goto l8;
 l5:x[jvj+5]=s[x[jvj+13]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+13];
@@ -53,7 +53,7 @@ if((x[jvj+5]==436)) goto l6;
 pile[v[22]]=jvj+5; pile[WZ1]=X; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+5,X,jvj+6)*/
 pile[v[22]]=V; pile[WZ1]=jvj+6; pile[WZ2]=R; pile[WZ3]=T; 
-(*f[2004])( );     /*ISD0(V,jvj+6,R,T)*/
+(*f[2006])( );     /*ISD0(V,jvj+6,R,T)*/
 l6:x[jvj+13]=t[x[jvj+13]];
 goto l4;
 l9:x[jvj+1]=s[x[jvj+15]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+15];

@@ -27,7 +27,7 @@ pile[v[22]]=159; pile[WZ2]=jvj+2;
 (*f[33])( );     /*FNDE0(159,G,jvj+2)*/
 for(a=x[jvj+2];a>0;a=t[a]) if(s[a]==x[N]) goto l39;
 pile[v[22]]=N; 
-(*f[1273])( );     /*STRT3(N,NK)*/
+(*f[1275])( );     /*STRT3(N,NK)*/
 NK=pile[WZ1]; 
 if((NK<=500)) goto l39;
 x[jvj+3]=x[N] ;z[jvj+3]=z[N];
@@ -64,7 +64,7 @@ V1=pile[WZ2];
 pile[v[22]]=V1; 
 (*f[40])( );     /*SLG0(V1)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
-(*f[1274])( );     /*ATTRIBOBJ0(jvj+3,jvj+4,jvj+5)*/
+(*f[1276])( );     /*ATTRIBOBJ0(jvj+3,jvj+4,jvj+5)*/
 x[jvj+21]=x[jvj+5] ;z[jvj+21]=z[jvj+5];
 l10:if((x[jvj+21]>0)) goto l11;
 pile[v[22]]=100; pile[WZ1]=jvj+3; pile[WZ2]=jvj+11; 

@@ -410,7 +410,7 @@ if((x[jvj+92]==22)) goto l4;
 l31:x[jvj+77]=t[x[jvj+77]];
 goto l29;
 l36:pile[v[22]]=jvj+1; pile[WZ1]=jvj+93; 
-(*f[1446])( );     /*NONUL0(jvj+1,jvj+93)*/
+(*f[1448])( );     /*NONUL0(jvj+1,jvj+93)*/
 if((x[jvj+93]==135)) goto l38;
 goto l31;
 l38:x[jvj+164]=x[jvj+91] ;z[jvj+164]=z[jvj+91];

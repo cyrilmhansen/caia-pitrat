@@ -19,7 +19,7 @@ if((B<=1)) goto l4;
 V3=A%C;
 V4=B-1;
 pile[v[22]]=C; pile[WZ1]=V4; pile[WZ2]=V3; 
-(*f[1043])( );if(v[102]) goto l4;     /*MODPUIPOS0(C,V4,V3,V2)*/
+(*f[1045])( );if(v[102]) goto l4;     /*MODPUIPOS0(C,V4,V3,V2)*/
 V2=pile[WZ3]; 
 V6=V3*V2;
 V5=V6%C;

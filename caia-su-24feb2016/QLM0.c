@@ -118,12 +118,12 @@ l11:x[jvj+31]=s[x[jvj+40]] ;z[jvj+31]=(x[jvj+31]<=sepcte) ? x[jvj+31] : z[jvj+40
 pile[v[22]]=jvj+31; pile[WZ1]=X; pile[WZ2]=jvj+32; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(jvj+31,X,jvj+32)*/
 pile[v[22]]=jvj+32; 
-(*f[2188])( );     /*QLM0(jvj+32)*/
+(*f[2190])( );     /*QLM0(jvj+32)*/
 l12:x[jvj+40]=t[x[jvj+40]];
 goto l10;
 l15:x[jvj+35]=s[x[jvj+42]] ;z[jvj+35]=(x[jvj+35]<=sepcte) ? x[jvj+35] : z[jvj+42];
 pile[v[22]]=jvj+35; 
-(*f[2188])( );     /*QLM0(jvj+35)*/
+(*f[2190])( );     /*QLM0(jvj+35)*/
 x[jvj+42]=t[x[jvj+42]];
 goto l14;
 l16:v[0]=jvj; v[22]-=1; return;

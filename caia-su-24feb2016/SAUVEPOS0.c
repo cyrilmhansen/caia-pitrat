@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=15;
 x[jvj+1]=10930;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1313&&v[97]==0) {
+if(v[90]==1315&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 B=pile[v[22]]; v[22]+=1; 
@@ -43,12 +43,12 @@ pile[v[22]]=489; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4;
 for(i=x[jvj+4],V6=0;i>0;i=t[i],V6++)  ;
 if((V6>=V8)) goto l5;
 l6:pile[v[22]]=jvj+3; pile[WZ1]=jvj+10; 
-(*f[1290])( );if(v[102]) goto l5;     /*DEPEXP0(jvj+3,jvj+10)*/
+(*f[1292])( );if(v[102]) goto l5;     /*DEPEXP0(jvj+3,jvj+10)*/
 x[jvj+15]=x[jvj+9] ;z[jvj+15]=z[jvj+9];
 l7:if((x[jvj+15]<=0)) goto l5;
 x[jvj+11]=s[x[jvj+15]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+15];
 pile[v[22]]=jvj+11; pile[WZ1]=jvj+12; 
-(*f[1291])( );if(v[102]) goto l8;     /*CONVEXP0(jvj+11,jvj+12)*/
+(*f[1293])( );if(v[102]) goto l8;     /*CONVEXP0(jvj+11,jvj+12)*/
 pile[v[22]]=80; pile[WZ2]=287; pile[WZ3]=jvj+10; pile[WZ4]=jvj+13; 
 (*f[181])( );     /*QUADRI2(80,jvj+12,287,jvj+10,jvj+13)*/
 pile[v[22]]=jvj+7; pile[WZ1]=1246; pile[WZ2]=jvj+13; 

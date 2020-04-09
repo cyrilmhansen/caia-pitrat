@@ -15,7 +15,7 @@ v[0]+=147;
 x[jvj+1]=11057;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1408&&v[97]==0) {
+if(v[90]==1410&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 Z=pile[v[22]]; BL=pile[v[22]+1]; CT=pile[v[22]+2]; E=pile[v[22]+3]; V=pile[v[22]+4]; G=pile[v[22]+5]; Y=pile[v[22]+6]; v[22]+=7; 
@@ -411,7 +411,7 @@ if((x[jvj+51]==135)) goto l48;
 x[jvj+147]=t[x[jvj+147]];
 l43:if((x[jvj+147]>0)) goto l44;
 pile[v[22]]=Z; pile[WZ1]=jvj+50; pile[WZ2]=CT; pile[WZ3]=G; pile[WZ4]=jvj+52; 
-(*f[1436])( );if(v[102]) goto l48;     /*CHERSAUT0(Z,jvj+50,CT,G,jvj+52)*/
+(*f[1438])( );if(v[102]) goto l48;     /*CHERSAUT0(Z,jvj+50,CT,G,jvj+52)*/
 pile[v[22]]=jvj+53; 
 (*f[68])( );     /*PLUE0(jvj+53,jvj+50)*/
 goto l48;
@@ -430,7 +430,7 @@ goto l55;
 l53:if(x[jvj+53]!=incon) goto l54;
 goto l55;
 l54:pile[v[22]]=jvj+52; pile[WZ1]=BL; pile[WZ2]=366; pile[WZ3]=E; pile[WZ4]=V; pile[WZ5]=G; pile[v[22]+6]=jvj+53; pile[v[22]+7]=Y; 
-(*f[1622])( );     /*AJOUSAUT1(jvj+52,BL,366,E,V,G,jvj+53,Y)*/
+(*f[1624])( );     /*AJOUSAUT1(jvj+52,BL,366,E,V,G,jvj+53,Y)*/
 goto l55;
 l56:x[Y]=x[Z] ;z[Y]=z[Z];
 goto l58;

@@ -48,7 +48,7 @@ if((x[jvj+5]==x[C])) goto l5;
 l3:x[jvj+6]=t[x[jvj+6]];
 goto l1;
 l4:pile[v[22]]=A; pile[WZ1]=jvj+2; pile[WZ2]=B; pile[WZ3]=C; 
-(*f[1932])( );     /*AJMEMA2(A,jvj+2,B,C)*/
+(*f[1934])( );     /*AJMEMA2(A,jvj+2,B,C)*/
 goto l7;
 l5:pile[v[22]]=jvj+4; pile[WZ1]=117; pile[WZ2]=1; 
 (*f[186])( );     /*BTC0(jvj+4,117,1)*/

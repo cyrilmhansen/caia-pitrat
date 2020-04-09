@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=43;
 x[jvj+1]=20005;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3132&&v[97]==0) {
+if(v[90]==3134&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -107,7 +107,7 @@ pile[v[22]]=100; pile[WZ1]=jvj+31; pile[WZ2]=jvj+32;
 if(x[jvj+32]==96||x[jvj+32]==89||x[jvj+32]==41||x[jvj+32]==20||x[jvj+32]==128||x[jvj+32]==570||x[jvj+32]==1317) goto l8;
 l10:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l1:pile[v[22]]=365; pile[WZ1]=jvj+2; pile[WZ2]=jvj+4; 
-(*f[1969])( );     /*FNDEND0(365,jvj+2,jvj+4)*/
+(*f[1971])( );     /*FNDEND0(365,jvj+2,jvj+4)*/
 x[jvj+43]=x[jvj+4] ;z[jvj+43]=z[jvj+4];
 l2:if((x[jvj+43]>0)) goto l3;
 pile[v[22]]=101; pile[WZ1]=R; pile[WZ2]=110; pile[WZ3]=(-601); pile[WZ4]=jvj+41; 
@@ -118,8 +118,8 @@ pile[v[22]]=V53; pile[WZ1]=858; pile[WZ2]=jvj+38;
 (*f[46])( );     /*TRI0(V53,858,jvj+38)*/
 pile[v[22]]=jvj+38; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+39; 
 (*f[189])( );     /*TRI4(jvj+38,v[13],642,jvj+39)*/
-pile[v[22]]=jvj+39; pile[WZ1]=3132; pile[WZ2]=246; pile[WZ3]=jvj+40; 
-(*f[189])( );     /*TRI4(jvj+39,3132,246,jvj+40)*/
+pile[v[22]]=jvj+39; pile[WZ1]=3134; pile[WZ2]=246; pile[WZ3]=jvj+40; 
+(*f[189])( );     /*TRI4(jvj+39,3134,246,jvj+40)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20005; pile[WZ4]=jvj+40; pile[WZ5]=jvj+37; 
 (*f[269])( );     /*QUADRI6(158,1,218,20005,jvj+40,jvj+37)*/
 pile[v[22]]=jvj+37; pile[WZ1]=159; pile[WZ2]=jvj+41; 
@@ -132,12 +132,12 @@ l9:x[jvj+34]=t[x[jvj+34]];
 l8:if((x[jvj+34]<=0)) goto l10;
 x[jvj+2]=s[x[jvj+34]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+34];
 pile[v[22]]=509; pile[WZ1]=jvj+2; pile[WZ2]=jvj+36; 
-(*f[1969])( );     /*FNDEND0(509,jvj+2,jvj+36)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+2,jvj+36)*/
 for(a=x[jvj+36];a>0;a=t[a]) if(s[a]==x[R]) goto l1;
 goto l9;
 l3:x[jvj+3]=s[x[jvj+43]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+43];
 pile[v[22]]=R; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
-(*f[1738])( );if(v[102]) goto l9;     /*EVLM0(R,jvj+2,jvj+3,V1)*/
+(*f[1740])( );if(v[102]) goto l9;     /*EVLM0(R,jvj+2,jvj+3,V1)*/
 V1=pile[WZ3]; 
 if((V1!=135)) goto l9;
 x[jvj+43]=t[x[jvj+43]];

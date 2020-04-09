@@ -80,7 +80,7 @@ V8=vg[645];
 if((V8!=0)) goto l7;
 if((V7<3)) goto l9;
 l7:pile[v[22]]=645; pile[WZ1]=11710; pile[WZ2]=0; pile[WZ3]=(-611); pile[WZ4]=V; pile[WZ5]=(-697); pile[v[22]+6]=jvj+4; pile[v[22]+7]=jvj+5; 
-(*f[1705])( );     /*INTERP22(645,11710,0,(-611),V,(-697),jvj+4,jvj+5)*/
+(*f[1707])( );     /*INTERP22(645,11710,0,(-611),V,(-697),jvj+4,jvj+5)*/
 if((x[jvj+5]==135)) goto l8;
 goto l31;
 l12:if(x[jvj+4]!=incon) goto l13;

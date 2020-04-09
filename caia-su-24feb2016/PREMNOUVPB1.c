@@ -93,7 +93,7 @@ goto l10;
 l11:if(x[jvj+1]!=incon) goto l12;
 goto l14;
 l12:pile[v[22]]=jvj+1; pile[WZ1]=R; 
-(*f[1532])( );if(v[102]) goto l14;     /*PREMNOUVPB1(jvj+1,R)*/
+(*f[1534])( );if(v[102]) goto l14;     /*PREMNOUVPB1(jvj+1,R)*/
 goto l14;
 l15:v[0]=jvj; v[22]-=2; v[102]=0;return;
 }

@@ -43,7 +43,7 @@ l4:V5=incon;
 if((x[BK]==11040)) goto l5;
 if((x[BK]==10833)) goto l6;
 pile[v[22]]=1; pile[WZ1]=240; pile[WZ2]=246; 
-(*f[1113])( );     /*INCM0(1,240,246,V5)*/
+(*f[1115])( );     /*INCM0(1,240,246,V5)*/
 V5=pile[WZ3]; 
 l10:V9=x[BK];
 L=V5;

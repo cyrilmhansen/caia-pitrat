@@ -68,6 +68,6 @@ V10=DX+1;
 V9=bh[v[1]][V10];
 if((V9==125)) goto l8;
 pile[v[22]]=DX; pile[WZ1]=N; pile[WZ2]=jvj+3; 
-(*f[1129])( );     /*LIRESAUT1(DX,N,jvj+3)*/
+(*f[1131])( );     /*LIRESAUT1(DX,N,jvj+3)*/
 goto l8;
 }

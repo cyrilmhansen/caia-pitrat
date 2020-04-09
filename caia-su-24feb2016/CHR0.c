@@ -81,7 +81,7 @@ l9:v[0]=jvj; v[22]-=4; v[102]=0;return;
 l6:pile[v[22]]=K; pile[WZ1]=120; pile[WZ2]=jvj+1; 
 (*f[35])( );     /*CHGC1(K,120,jvj+1)*/
 pile[v[22]]=V9; pile[WZ1]=jvj+1; pile[WZ2]=P; pile[WZ3]=L; 
-(*f[1904])( );if(v[102]) goto l8;     /*CHR0(V9,jvj+1,P,L)*/
+(*f[1906])( );if(v[102]) goto l8;     /*CHR0(V9,jvj+1,P,L)*/
 l8:if(x[L]!=incon) goto l9;
 l7:v[0]=jvj; v[22]-=4; v[102]=1;return;
 }

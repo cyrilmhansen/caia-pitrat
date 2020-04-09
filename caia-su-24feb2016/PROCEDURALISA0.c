@@ -14,7 +14,7 @@ v[0]+=23;
 x[jvj+1]=11890;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1509&&v[97]==0) {
+if(v[90]==1511&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 E=pile[v[22]]; EE=pile[v[22]+1]; N=pile[v[22]+2]; TX=pile[v[22]+3]; AT=pile[v[22]+4]; P=pile[v[22]+5]; VV=pile[v[22]+6]; TA=pile[v[22]+7]; v[22]+=8; 
@@ -66,7 +66,7 @@ pile[v[22]]=P; pile[WZ1]=AT; pile[WZ2]=jvj+12;
 pile[v[22]]=100; pile[WZ1]=21; pile[WZ2]=140; pile[WZ3]=VV; pile[WZ4]=jvj+13; 
 (*f[270])( );     /*QUADRI7(100,21,140,VV,jvj+13)*/
 pile[v[22]]=E; pile[WZ1]=EE; pile[WZ2]=N; pile[WZ3]=jvj+13; pile[WZ4]=AT; pile[WZ5]=P; pile[v[22]+6]=TX; pile[v[22]+7]=TA; 
-(*f[1510])( );     /*PROCEDURALISA1(E,EE,N,jvj+13,AT,P,TX,TA)*/
+(*f[1512])( );     /*PROCEDURALISA1(E,EE,N,jvj+13,AT,P,TX,TA)*/
 l4:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=8; return;
 l2:x[jvj+23]=t[x[jvj+23]];
 goto l1;

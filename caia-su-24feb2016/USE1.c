@@ -27,7 +27,7 @@ l3:if(x[jvj+1]!=incon) goto l4;
 l13:v[0]=jvj; v[22]-=2; return;
 l1:x[jvj+9]=x[jvj+3] ;z[jvj+9]=z[jvj+3];
 l12:pile[v[22]]=jvj+9; pile[WZ1]=R; 
-(*f[1238])( );     /*USE1(jvj+9,R)*/
+(*f[1240])( );     /*USE1(jvj+9,R)*/
 x[jvj+12]=t[x[jvj+12]];
 l11:if((x[jvj+12]<=0)) goto l10;
 x[jvj+3]=s[x[jvj+12]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+12];
@@ -49,7 +49,7 @@ if((x[jvj+5]==103)) goto l6;
 l7:pile[v[22]]=jvj+5; pile[WZ1]=A; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+5,A,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=R; 
-(*f[1238])( );     /*USE1(jvj+6,R)*/
+(*f[1240])( );     /*USE1(jvj+6,R)*/
 l6:x[jvj+10]=t[x[jvj+10]];
 goto l5;
 l8:x[jvj+11]=w[x[jvj+1]][8];

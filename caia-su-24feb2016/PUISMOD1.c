@@ -16,7 +16,7 @@ if((B==1)) goto l1;
 if((B<=1)) goto l2;
 V1=B-1;
 pile[v[22]]=AA; pile[WZ1]=V1; pile[WZ2]=C; 
-(*f[1364])( );if(v[102]) goto l2;     /*PUISMOD1(AA,V1,C,RT)*/
+(*f[1366])( );if(v[102]) goto l2;     /*PUISMOD1(AA,V1,C,RT)*/
 RT=pile[WZ3]; 
 V3=RT*AA;
 V2=V3%C;

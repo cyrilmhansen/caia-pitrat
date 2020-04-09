@@ -28,6 +28,6 @@ V3=pile[WZ1];
 pile[v[22]]=EN; pile[WZ1]=jvj+1; 
 (*f[68])( );     /*PLUE0(EN,jvj+1)*/
 pile[v[22]]=V3; pile[WZ1]=EN; 
-(*f[1177])( );     /*LINHIBE1(V3,EN)*/
+(*f[1179])( );     /*LINHIBE1(V3,EN)*/
 l1:v[0]=jvj; v[22]-=2; return;
 }

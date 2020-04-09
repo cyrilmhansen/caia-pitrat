@@ -14,7 +14,7 @@ v[0]+=41;
 x[jvj+1]=20198;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3744&&v[97]==0) {
+if(v[90]==3746&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; D=pile[v[22]+1]; v[22]+=2; 
@@ -34,7 +34,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+23;
 (*f[26])( );if(v[102]) goto l10;     /*FNDC0(642,jvj+23,V31)*/
 V31=pile[WZ2]; 
 pile[v[22]]=R; pile[WZ1]=jvj+24; 
-(*f[3517])( );     /*DECSOM2(R,jvj+24)*/
+(*f[3519])( );     /*DECSOM2(R,jvj+24)*/
 x[jvj+12]=0 ;z[jvj+12]=0;
 l1:if((x[jvj+24]>0)) goto l2;
 pile[v[22]]=102; pile[WZ1]=R; pile[WZ2]=jvj+25; 
@@ -93,7 +93,7 @@ if((x[jvj+18]!=x[D])) goto l6;
 I=V29;
 PP=2;
 l8:pile[v[22]]=PP; pile[WZ1]=V10; pile[WZ2]=I; 
-(*f[1041])( );if(v[102]) goto l7;     /*MODPUI0(PP,V10,I,V6)*/
+(*f[1043])( );if(v[102]) goto l7;     /*MODPUI0(PP,V10,I,V6)*/
 V6=pile[WZ3]; 
 if((V6!=1)) goto l7;
 pile[v[22]]=jvj+19; pile[WZ1]=PP; 
@@ -112,8 +112,8 @@ pile[v[22]]=V31; pile[WZ1]=858; pile[WZ2]=jvj+32;
 (*f[46])( );     /*TRI0(V31,858,jvj+32)*/
 pile[v[22]]=jvj+32; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+33; 
 (*f[189])( );     /*TRI4(jvj+32,v[13],642,jvj+33)*/
-pile[v[22]]=jvj+33; pile[WZ1]=3744; pile[WZ2]=246; pile[WZ3]=jvj+34; 
-(*f[189])( );     /*TRI4(jvj+33,3744,246,jvj+34)*/
+pile[v[22]]=jvj+33; pile[WZ1]=3746; pile[WZ2]=246; pile[WZ3]=jvj+34; 
+(*f[189])( );     /*TRI4(jvj+33,3746,246,jvj+34)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20198; pile[WZ4]=jvj+34; pile[WZ5]=jvj+30; 
 (*f[269])( );     /*QUADRI6(158,1,218,20198,jvj+34,jvj+30)*/
 pile[v[22]]=jvj+30; pile[WZ1]=159; pile[WZ2]=jvj+35; 
@@ -133,7 +133,7 @@ pile[v[22]]=jvj+40; pile[WZ1]=jvj+28; pile[WZ2]=103; pile[WZ3]=jvj+41;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+26; pile[WZ4]=jvj+41; pile[WZ5]=jvj+31; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+26,jvj+41,jvj+31)*/
 pile[v[22]]=jvj+31; pile[WZ1]=jvj+30; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+31,jvj+30)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+31,jvj+30)*/
 x[jvj+19]=t[x[jvj+19]];
 goto l9;
 }

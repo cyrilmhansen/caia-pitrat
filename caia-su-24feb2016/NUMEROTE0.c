@@ -22,6 +22,6 @@ pile[v[22]]=120; pile[WZ1]=L; pile[WZ2]=jvj+1;
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(120,L,jvj+1)*/
 V2=N+1;
 pile[v[22]]=jvj+1; pile[WZ1]=V2; 
-(*f[1720])( );     /*NUMEROTE1(jvj+1,V2)*/
+(*f[1722])( );     /*NUMEROTE1(jvj+1,V2)*/
 l1:v[0]=jvj; v[22]-=1; return;
 }

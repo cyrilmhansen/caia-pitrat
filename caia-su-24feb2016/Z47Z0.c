@@ -381,7 +381,7 @@ l24:if((x[jvj+131]<=0)) goto l23;
 x[jvj+62]=s[x[jvj+131]] ;z[jvj+62]=(x[jvj+62]<=sepcte) ? x[jvj+62] : z[jvj+131];
 if((x[jvj+130]==x[jvj+62])) goto l25;
 pile[v[22]]=jvj+62; pile[WZ1]=jvj+63; 
-(*f[1446])( );     /*NONUL0(jvj+62,jvj+63)*/
+(*f[1448])( );     /*NONUL0(jvj+62,jvj+63)*/
 if((x[jvj+63]==135)) goto l26;
 l25:x[jvj+131]=t[x[jvj+131]];
 goto l24;

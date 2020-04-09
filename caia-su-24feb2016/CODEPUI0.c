@@ -32,7 +32,7 @@ x[jvj+5]=s[x[jvj+4]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+4];
 pile[v[22]]=jvj+5; pile[WZ1]=R; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(jvj+5,R,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=PP; pile[WZ2]=jvj+7; 
-(*f[1662])( );     /*CODEPUI1(jvj+6,PP,jvj+7)*/
+(*f[1664])( );     /*CODEPUI1(jvj+6,PP,jvj+7)*/
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
 (*f[255])( );     /*COPEXP0(jvj+7,jvj+8)*/
 pile[v[22]]=268; pile[WZ1]=jvj+5; pile[WZ2]=jvj+9; 
@@ -40,7 +40,7 @@ pile[v[22]]=268; pile[WZ1]=jvj+5; pile[WZ2]=jvj+9;
 pile[v[22]]=jvj+9; pile[WZ1]=R; pile[WZ2]=jvj+10; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(jvj+9,R,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=PP; pile[WZ2]=jvj+11; 
-(*f[1662])( );     /*CODEPUI1(jvj+10,PP,jvj+11)*/
+(*f[1664])( );     /*CODEPUI1(jvj+10,PP,jvj+11)*/
 pile[v[22]]=jvj+11; pile[WZ1]=jvj+12; 
 (*f[255])( );     /*COPEXP0(jvj+11,jvj+12)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=625; pile[WZ4]=jvj+15; 

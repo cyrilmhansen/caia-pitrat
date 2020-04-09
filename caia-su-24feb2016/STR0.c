@@ -288,7 +288,7 @@ V82=vg[91];
 if((V82!=0)) goto l25;
 if((V81<3)) goto l28;
 l25:pile[v[22]]=91; pile[WZ1]=10029; pile[WZ2]=0; pile[WZ3]=(-625); pile[WZ4]=N; pile[WZ5]=(-682); pile[v[22]+6]=QQ; pile[v[22]+7]=(-2364); pile[v[22]+8]=NK; pile[v[22]+9]=jvj+34; 
-(*f[1059])( );     /*INTERP11(91,10029,0,(-625),N,(-682),QQ,(-2364),NK,jvj+34)*/
+(*f[1061])( );     /*INTERP11(91,10029,0,(-625),N,(-682),QQ,(-2364),NK,jvj+34)*/
 if((x[jvj+34]==135)) goto l27;
 goto l33;
 }

@@ -32,7 +32,7 @@ pile[v[22]]=130; pile[WZ1]=jvj+2;
 (*f[26])( );if(v[102]) goto l4;     /*FNDC0(130,jvj+2,V6)*/
 V6=pile[WZ2]; 
 pile[v[22]]=V5; pile[WZ1]=V6; pile[WZ2]=jvj+3; 
-(*f[2022])( );     /*POSOM1(V5,V6,jvj+3)*/
+(*f[2024])( );     /*POSOM1(V5,V6,jvj+3)*/
 if((x[jvj+3]==135)) goto l3;
 if((x[jvj+3]!=134)) goto l4;
 x[RT]=134 ;z[RT]=134;
@@ -43,14 +43,14 @@ v[0]=jvj; v[22]-=3; pile[v[22]+1]=R; v[102]=0;return;
 l2:x[jvj+7]=t[x[jvj+7]];
 goto l1;
 l3:pile[v[22]]=V6; pile[WZ1]=V5; 
-(*f[1025])( );if(v[102]) goto l4;     /*POSOM0(V6,V5,V1)*/
+(*f[1026])( );if(v[102]) goto l4;     /*POSOM0(V6,V5,V1)*/
 V1=pile[WZ2]; 
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+2; 
 (*f[68])( );     /*PLUE0(jvj+4,jvj+2)*/
 pile[v[22]]=jvj+1; pile[WZ1]=117; pile[WZ2]=V1; 
 (*f[43])( );     /*CHGC2(jvj+1,117,V1)*/
 pile[WZ1]=A; pile[WZ2]=jvj+4; pile[WZ3]=RT; 
-(*f[2114])( );     /*CMLPOS1(jvj+1,A,jvj+4,RT)*/
+(*f[2116])( );     /*CMLPOS1(jvj+1,A,jvj+4,RT)*/
 goto l5;
 l4:x[RT]=135 ;z[RT]=135;
 goto l5;

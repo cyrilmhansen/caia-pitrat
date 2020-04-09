@@ -12,13 +12,13 @@ jvj=v[0];
 v[0]+=1;
 x[jvj+1]=10243;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1635&&v[97]==0) {
+if(v[90]==1637&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; BT=pile[v[22]+1]; R=pile[v[22]+2]; RM=pile[v[22]+3]; v[22]+=4; 
 WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=X; pile[WZ1]=BT; pile[WZ2]=R; pile[WZ3]=RM; 
-(*f[1826])( );     /*COPTX0(X,BT,R,RM)*/
-(*f[1827])( );     /*COPTF0(X)*/
+(*f[1828])( );     /*COPTX0(X,BT,R,RM)*/
+(*f[1829])( );     /*COPTF0(X)*/
 l1:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; return;
 }

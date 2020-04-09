@@ -20,7 +20,7 @@ pile[v[22]]=140; pile[WZ1]=A;
 (*f[44])( );if(v[102]) goto l4;     /*FNDC1(140,A,V)*/
 V=pile[WZ2]; 
 pile[v[22]]=B; pile[WZ1]=V; pile[WZ2]=jvj+1; 
-(*f[1491])( );     /*VDSBA0(B,V,jvj+1)*/
+(*f[1493])( );     /*VDSBA0(B,V,jvj+1)*/
 pile[v[22]]=129; pile[WZ1]=jvj+1; pile[WZ2]=R; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(129,jvj+1,R)*/
 l11:v[0]=jvj; v[22]-=3; return;

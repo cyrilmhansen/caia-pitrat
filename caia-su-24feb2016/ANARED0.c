@@ -43,7 +43,7 @@ x[jvj+16]=x[jvj+13] ;z[jvj+16]=z[jvj+13];
 l9:if((x[jvj+16]<=0)) goto l8;
 x[jvj+2]=s[x[jvj+16]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+16];
 pile[v[22]]=jvj+2; pile[WZ1]=jvj+14; 
-(*f[1179])( );if(v[102]) goto l10;     /*TRDESSAIS0(jvj+2,jvj+14)*/
+(*f[1181])( );if(v[102]) goto l10;     /*TRDESSAIS0(jvj+2,jvj+14)*/
 pile[v[22]]=642; pile[WZ1]=LA; 
 (*f[26])( );if(v[102]) goto l10;     /*FNDC0(642,LA,V15)*/
 V15=pile[WZ2]; 

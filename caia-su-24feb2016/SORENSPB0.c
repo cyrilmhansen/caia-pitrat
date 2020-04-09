@@ -44,7 +44,7 @@ l4:V9=t[EE];
 if((V9==0)) goto l5;
 if((V9<=0)) goto l6;
 pile[v[22]]=V9; pile[WZ1]=K; pile[WZ2]=N; 
-(*f[1174])( );     /*SORENSPB1(V9,K,N)*/
+(*f[1176])( );     /*SORENSPB1(V9,K,N)*/
 l6:v[0]=jvj; v[22]-=3; return;
 l1:pile[v[22]]=498; pile[WZ1]=jvj+1; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(498,jvj+1,jvj+3)*/
@@ -54,6 +54,6 @@ l3:pile[v[22]]=J; pile[WZ1]=41;
 K=pile[WZ2]; 
 goto l4;
 l5:pile[v[22]]=K; pile[WZ1]=N; 
-(*f[1175])( );     /*SLG4(K,N)*/
+(*f[1177])( );     /*SLG4(K,N)*/
 goto l6;
 }

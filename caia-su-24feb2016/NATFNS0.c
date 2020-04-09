@@ -50,7 +50,7 @@ pile[v[22]]=1752; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4;
 l5:if((x[jvj+4]<=0)) goto l9;
 x[jvj+5]=s[x[jvj+4]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+4];
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+5; 
-(*f[1713])( );     /*MEMEXPR1(jvj+3,jvj+5)*/
+(*f[1715])( );     /*MEMEXPR1(jvj+3,jvj+5)*/
 x[jvj+4]=t[x[jvj+4]];
 goto l5;
 }

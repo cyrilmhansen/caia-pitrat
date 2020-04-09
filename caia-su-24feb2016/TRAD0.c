@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=5;
 x[jvj+1]=10129;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1078&&v[97]==0) {
+if(v[90]==1080&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 B=pile[v[22]]; A=pile[v[22]+1]; R=pile[v[22]+2]; v[22]+=3; 
@@ -23,14 +23,14 @@ pile[v[22]]=A; pile[WZ1]=jvj+2;
 pile[v[22]]=jvj+2; pile[WZ1]=208; pile[WZ2]=jvj+3; 
 (*f[54])( );     /*TRI1(jvj+2,208,jvj+3)*/
 pile[v[22]]=208; pile[WZ1]=jvj+3; pile[WZ2]=jvj+2; 
-(*f[1390])( );     /*TRADR0(208,jvj+3,jvj+2)*/
+(*f[1392])( );     /*TRADR0(208,jvj+3,jvj+2)*/
 if((x[B]!=68)) goto l1;
 pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(208,jvj+3,jvj+4)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
-(*f[1392])( );     /*TROUVETYPE0(jvj+4,jvj+5)*/
+(*f[1394])( );     /*TROUVETYPE0(jvj+4,jvj+5)*/
 pile[v[22]]=jvj+3; pile[WZ1]=208; pile[WZ2]=jvj+4; pile[WZ3]=jvj+5; 
-(*f[1391])( );     /*TRADA0(jvj+3,208,jvj+4,jvj+5)*/
+(*f[1393])( );     /*TRADA0(jvj+3,208,jvj+4,jvj+5)*/
 l1:pile[v[22]]=208; pile[WZ1]=jvj+3; pile[WZ2]=R; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(208,jvj+3,R)*/
 l3:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; v[102]=0;return;

@@ -19,7 +19,7 @@ if(v[90]==697&&v[97]==0) {
 EN=pile[v[22]]; v[22]+=1; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=11161; pile[WZ1]=jvj+12; 
-(*f[1083])( );     /*CREFONCDANSA0(11161,jvj+12)*/
+(*f[1085])( );     /*CREFONCDANSA0(11161,jvj+12)*/
 x[jvj+10]=0 ;z[jvj+10]=0;
 pile[v[22]]=1484; pile[WZ1]=854; 
 (*f[26])( );if(v[102]) goto l10;     /*FNDC0(1484,854,V13)*/
@@ -31,7 +31,7 @@ V15=r[V11];
 if((V15!=1)) goto l8;
 x[jvj+8]=V11 ;z[jvj+8]=(V11<=sepcte) ? V11 : 0;
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
-(*f[1083])( );     /*CREFONCDANSA0(jvj+8,jvj+9)*/
+(*f[1085])( );     /*CREFONCDANSA0(jvj+8,jvj+9)*/
 x[jvj+20]=x[jvj+9] ;z[jvj+20]=z[jvj+9];
 l9:if((x[jvj+20]<=0)) goto l8;
 x[jvj+11]=s[x[jvj+20]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+20];
@@ -58,7 +58,7 @@ x[EN]=x[jvj+13] ;z[EN]=z[jvj+13];
 l17:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l4:x[jvj+4]=s[x[jvj+18]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+18];
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
-(*f[1083])( );     /*CREFONCDANSA0(jvj+4,jvj+5)*/
+(*f[1085])( );     /*CREFONCDANSA0(jvj+4,jvj+5)*/
 x[jvj+19]=x[jvj+5] ;z[jvj+19]=z[jvj+5];
 l5:if((x[jvj+19]>0)) goto l6;
 x[jvj+18]=t[x[jvj+18]];

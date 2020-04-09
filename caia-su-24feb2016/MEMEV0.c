@@ -20,7 +20,7 @@ pile[v[22]]=102; pile[WZ1]=X1; pile[WZ2]=jvj+10;
 pile[WZ1]=X2; pile[WZ2]=jvj+11; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(102,X2,jvj+11)*/
 pile[v[22]]=jvj+10; pile[WZ1]=jvj+11; pile[WZ2]=L; pile[WZ3]=jvj+12; 
-(*f[2210])( );     /*MEMEL0(jvj+10,jvj+11,L,jvj+12)*/
+(*f[2212])( );     /*MEMEL0(jvj+10,jvj+11,L,jvj+12)*/
 if((x[jvj+12]==134)) goto l6;
 l1:pile[v[22]]=1157; pile[WZ1]=X1; pile[WZ2]=jvj+1; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(1157,X1,jvj+1)*/
@@ -37,7 +37,7 @@ l5:pile[v[22]]=jvj+2; pile[WZ1]=X1; pile[WZ2]=jvj+7;
 pile[WZ1]=X2; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l9;     /*FNDO0(jvj+2,X2,jvj+8)*/
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; pile[WZ2]=L; pile[WZ3]=jvj+9; 
-(*f[2172])( );if(v[102]) goto l9;     /*MEMEV0(jvj+7,jvj+8,L,jvj+9)*/
+(*f[2174])( );if(v[102]) goto l9;     /*MEMEV0(jvj+7,jvj+8,L,jvj+9)*/
 if((x[jvj+9]==134)) goto l6;
 l9:x[jvj+13]=t[x[jvj+13]];
 goto l7;

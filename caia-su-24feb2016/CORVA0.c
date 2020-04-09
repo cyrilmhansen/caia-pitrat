@@ -24,7 +24,7 @@ if((V15<=32767)) goto l2;
 V14=0;
 l3:V17=N+1;
 pile[v[22]]=A; pile[WZ1]=V17; pile[WZ2]=V14; 
-(*f[1065])( );     /*CORVA1(A,V17,V14,BB)*/
+(*f[1067])( );     /*CORVA1(A,V17,V14,BB)*/
 BB=pile[WZ3]; 
 l4:v[22]-=1; return;
 l1:V13=v[8]+1;

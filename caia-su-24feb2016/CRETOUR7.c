@@ -14,25 +14,25 @@ jvj=v[0];
 v[0]+=2;
 x[jvj+1]=26121;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2481&&v[97]==0) {
+if(v[90]==2483&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 I=pile[v[22]]; NP=pile[v[22]+1]; v[22]+=3; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=I; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l4;     /*FVECT0(I,(-1544),V1)*/
+(*f[1011])( );if(v[102]) goto l4;     /*FVECT0(I,(-1544),V1)*/
 V1=pile[WZ2]; 
 if((V1==NP)) goto l4;
 pile[v[22]]=0; pile[WZ1]=117; pile[WZ2]=jvj+2; 
 (*f[46])( );     /*TRI0(0,117,jvj+2)*/
 pile[v[22]]=I; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l3;     /*FVECT0(I,(-1544),V5)*/
+(*f[1011])( );if(v[102]) goto l3;     /*FVECT0(I,(-1544),V5)*/
 V5=pile[WZ2]; 
 V6=NP-1;
 J=0;
 l1:if((J>V6)) goto l3;
 pile[v[22]]=J; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l2;     /*FVECT0(J,(-1544),V4)*/
+(*f[1011])( );if(v[102]) goto l2;     /*FVECT0(J,(-1544),V4)*/
 V4=pile[WZ2]; 
 if((V4>V5)) goto l2;
 pile[v[22]]=jvj+2; pile[WZ1]=117; pile[WZ2]=1; 

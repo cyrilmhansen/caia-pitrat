@@ -99,13 +99,13 @@ pile[v[22]]=jvj+26; pile[WZ1]=jvj+17; pile[WZ2]=107; pile[WZ3]=jvj+27;
 pile[v[22]]=jvj+27; pile[WZ1]=22; pile[WZ2]=100; pile[WZ3]=jvj+22; 
 (*f[58])( );     /*TRI3(jvj+27,22,100,jvj+22)*/
 pile[v[22]]=jvj+22; 
-(*f[1160])( );if(v[102]) goto l20;     /*SUP0(jvj+22,V22)*/
+(*f[1162])( );if(v[102]) goto l20;     /*SUP0(jvj+22,V22)*/
 V22=pile[WZ1]; 
 if((V22>=V27)) goto l20;
 pile[v[22]]=DD; pile[WZ1]=jvj+21; 
 (*f[68])( );     /*PLUE0(DD,jvj+21)*/
 pile[v[22]]=jvj+18; pile[WZ1]=jvj+13; pile[WZ2]=DD; 
-(*f[1208])( );     /*CALDETVAR1(jvj+18,jvj+13,DD)*/
+(*f[1210])( );     /*CALDETVAR1(jvj+18,jvj+13,DD)*/
 l20:for(i=x[E],V34=0;i>0;i=t[i],V34++)  ;
 if((V34!=1)) goto l21;
 x[jvj+32]=x[E] ;z[jvj+32]=z[E];

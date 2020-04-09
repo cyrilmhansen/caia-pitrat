@@ -31,7 +31,7 @@ L=I;
 l3:if(x[jvj+5]!=incon) goto l4;
 l7:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; return;
 l1:pile[v[22]]=I; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6; 
-(*f[1200])( );     /*SORARC0(I,jvj+5,jvj+6,L)*/
+(*f[1202])( );     /*SORARC0(I,jvj+5,jvj+6,L)*/
 L=pile[WZ3]; 
 goto l3;
 l4:pile[v[22]]=226; pile[WZ1]=jvj+5; pile[WZ2]=jvj+8; 
@@ -47,15 +47,15 @@ if((V5!=1)) goto l7;
 if((x[jvj+8]<=0)) goto l7;
 x[jvj+9]=s[x[jvj+8]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+8];
 pile[v[22]]=jvj+9; pile[WZ1]=L; pile[WZ2]=K; pile[WZ3]=jvj+6; 
-(*f[1201])( );     /*SORARB1(jvj+9,L,K,jvj+6)*/
+(*f[1203])( );     /*SORARB1(jvj+9,L,K,jvj+6)*/
 goto l7;
 l6:pile[v[22]]=L; pile[WZ1]=K; 
-(*f[1175])( );     /*SLG4(L,K)*/
+(*f[1177])( );     /*SLG4(L,K)*/
 V8=K+1;
 l2:if((x[jvj+8]<=0)) goto l7;
 x[jvj+7]=s[x[jvj+8]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+8];
 pile[v[22]]=jvj+7; pile[WZ1]=0; pile[WZ2]=V8; pile[WZ3]=jvj+6; 
-(*f[1201])( );     /*SORARB1(jvj+7,0,V8,jvj+6)*/
+(*f[1203])( );     /*SORARB1(jvj+7,0,V8,jvj+6)*/
 x[jvj+8]=t[x[jvj+8]];
 goto l2;
 }

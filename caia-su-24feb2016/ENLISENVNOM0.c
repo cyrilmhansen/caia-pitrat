@@ -72,7 +72,7 @@ l14:x[jvj+16]=x[jvj+19] ;z[jvj+16]=z[jvj+19];
 x[jvj+15]=x[jvj+2] ;z[jvj+15]=z[jvj+2];
 l16:if((x[jvj+13]==250)) goto l17;
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+15; pile[WZ2]=jvj+16; pile[WZ3]=N; 
-(*f[1573])( );     /*ENLISENVNOM1(jvj+13,jvj+15,jvj+16,N)*/
+(*f[1575])( );     /*ENLISENVNOM1(jvj+13,jvj+15,jvj+16,N)*/
 goto l17;
 l12:pile[v[22]]=717; pile[WZ1]=jvj+2; 
 (*f[71])( );     /*ENLV0(717,jvj+2)*/

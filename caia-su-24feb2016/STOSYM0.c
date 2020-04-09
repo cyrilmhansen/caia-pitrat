@@ -132,7 +132,7 @@ pile[v[22]]=477; pile[WZ1]=jvj+11; pile[WZ2]=jvj+12;
 x[jvj+65]=x[jvj+12] ;z[jvj+65]=z[jvj+12];
 goto l4;
 l14:pile[v[22]]=jvj+16; pile[WZ1]=jvj+19; pile[WZ2]=jvj+20; 
-(*f[1328])( );     /*VERIFSYM0(jvj+16,jvj+19,jvj+20)*/
+(*f[1330])( );     /*VERIFSYM0(jvj+16,jvj+19,jvj+20)*/
 if((x[jvj+20]==135)) goto l23;
 goto l13;
 l17:if((V25<4)) goto l18;

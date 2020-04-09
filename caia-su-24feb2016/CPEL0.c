@@ -37,14 +37,14 @@ if((V16!=V4)) goto l4;
 V5=s[X];
 if((V5<=sepcte)) goto l4;
 pile[v[22]]=V5; pile[WZ1]=T; pile[WZ2]=jvj+3; 
-(*f[1799])( );     /*CPIM1(V5,T,jvj+3)*/
+(*f[1801])( );     /*CPIM1(V5,T,jvj+3)*/
 V7=x[jvj+3];
 V1=V7;
 l7:pile[v[22]]=V1; pile[WZ1]=V16; pile[WZ2]=R; 
 (*f[213])( );     /*TRI7(V1,V16,R)*/
 V18=t[X];
 pile[v[22]]=V18; pile[WZ1]=R; pile[WZ2]=T; 
-(*f[1980])( );     /*CPEL1(V18,R,T)*/
+(*f[1982])( );     /*CPEL1(V18,R,T)*/
 goto l8;
 l4:if(V1==incon) goto l5;
 goto l7;

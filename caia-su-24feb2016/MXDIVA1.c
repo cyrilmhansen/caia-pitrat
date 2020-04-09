@@ -43,7 +43,7 @@ pile[v[22]]=117; pile[WZ1]=jvj+29;
 (*f[26])( );if(v[102]) goto l31;     /*FNDC0(117,jvj+29,V25)*/
 V25=pile[WZ2]; 
 pile[v[22]]=V25; pile[WZ1]=V30; 
-(*f[1011])( );     /*PGCD0(V25,V30,P)*/
+(*f[1012])( );     /*PGCD0(V25,V30,P)*/
 P=pile[WZ2]; 
 V41=V30/P;
 V42=V25/P;

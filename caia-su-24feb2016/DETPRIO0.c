@@ -60,7 +60,7 @@ l5:pile[v[22]]=158; pile[WZ1]=Z; pile[WZ2]=jvj+10;
 if((x[jvj+10]==67)) goto l6;
 if((x[jvj+10]!=68)) goto l11;
 pile[v[22]]=jvj+4; pile[WZ1]=NR; pile[WZ2]=N; pile[WZ3]=Z; pile[WZ4]=jvj+11; pile[WZ5]=jvj+8; 
-(*f[1140])( );if(v[102]) goto l11;     /*CALPRIO0(jvj+4,NR,N,Z,jvj+11,jvj+8)*/
+(*f[1142])( );if(v[102]) goto l11;     /*CALPRIO0(jvj+4,NR,N,Z,jvj+11,jvj+8)*/
 x[jvj+9]=incon;
 pile[v[22]]=1033; pile[WZ1]=jvj+4; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(1033,jvj+4,jvj+7)*/
@@ -76,7 +76,7 @@ pile[v[22]]=242; pile[WZ1]=jvj+8; pile[WZ2]=jvj+9;
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(242,jvj+8,jvj+9)*/
 goto l7;
 l6:pile[v[22]]=jvj+4; pile[WZ1]=NR; pile[WZ2]=Z; 
-(*f[1142])( );     /*CALPRIO1(jvj+4,NR,Z)*/
+(*f[1144])( );     /*CALPRIO1(jvj+4,NR,Z)*/
 goto l11;
 l9:if((x[jvj+19]==616)) goto l11;
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=jvj+19; pile[WZ4]=jvj+12; 

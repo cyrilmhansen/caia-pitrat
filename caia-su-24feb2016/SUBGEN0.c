@@ -69,12 +69,12 @@ l5:x[jvj+5]=s[x[jvj+16]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+16];
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+1; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+5,jvj+1,jvj+6)*/
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+5; 
-(*f[1096])( );     /*SUBGEN1(jvj+1,jvj+5,jvj+6)*/
+(*f[1098])( );     /*SUBGEN1(jvj+1,jvj+5,jvj+6)*/
 l6:x[jvj+16]=t[x[jvj+16]];
 goto l4;
 l9:x[jvj+9]=s[x[jvj+18]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+18];
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+7; pile[WZ2]=jvj+9; 
-(*f[1096])( );     /*SUBGEN1(jvj+1,jvj+7,jvj+9)*/
+(*f[1098])( );     /*SUBGEN1(jvj+1,jvj+7,jvj+9)*/
 x[jvj+18]=t[x[jvj+18]];
 goto l8;
 l10:pile[v[22]]=102; pile[WZ1]=jvj+10; pile[WZ2]=Y; 

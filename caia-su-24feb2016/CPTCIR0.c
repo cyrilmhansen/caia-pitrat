@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=7;
 x[jvj+1]=11627;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1575&&v[97]==0) {
+if(v[90]==1577&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 L=pile[v[22]]; LS=pile[v[22]+1]; N=pile[v[22]+2]; NK=pile[v[22]+3]; LA=pile[v[22]+4]; v[22]+=6; 
@@ -32,7 +32,7 @@ l8:NM=V5;
 l9:x[jvj+1]=incon; v[0]=jvj; v[22]-=6; pile[v[22]+5]=NM; return;
 l3:x[jvj+4]=s[x[jvj+3]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+3];
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
-(*f[1576])( );if(v[102]) goto l4;     /*SYMET0(jvj+4,jvj+5)*/
+(*f[1578])( );if(v[102]) goto l4;     /*SYMET0(jvj+4,jvj+5)*/
 x[jvj+7]=x[jvj+5] ;z[jvj+7]=z[jvj+5];
 if((x[jvj+7]==V9)) goto l4;
 x[jvj+6]=x[jvj+7] ;z[jvj+6]=z[jvj+7];

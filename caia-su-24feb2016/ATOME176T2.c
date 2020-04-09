@@ -14,7 +14,7 @@ v[0]+=38;
 x[jvj+1]=20176;z[jvj+1]=(-100);
 x[jvj+2]=2;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3654&&v[97]==0) {
+if(v[90]==3656&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 RR=pile[v[22]]; v[22]+=1; 
@@ -30,7 +30,7 @@ if((x[jvj+18]!=68)) goto l13;
 pile[v[22]]=1006; pile[WZ2]=jvj+19; 
 (*f[33])( );     /*FNDE0(1006,RR,jvj+19)*/
 pile[v[22]]=929; 
-(*f[1975])( );if(v[102]) goto l13;     /*FNDCND0(929,RR,V15)*/
+(*f[1977])( );if(v[102]) goto l13;     /*FNDCND0(929,RR,V15)*/
 V15=pile[WZ2]; 
 x[jvj+15]=0 ;z[jvj+15]=0;
 pile[v[22]]=RR; pile[WZ1]=jvj+12; 
@@ -38,7 +38,7 @@ pile[v[22]]=RR; pile[WZ1]=jvj+12;
 l2:if((x[jvj+12]<=0)) goto l7;
 x[jvj+13]=s[x[jvj+12]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+12];
 pile[v[22]]=509; pile[WZ1]=jvj+13; pile[WZ2]=jvj+14; 
-(*f[1969])( );     /*FNDEND0(509,jvj+13,jvj+14)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+13,jvj+14)*/
 x[jvj+38]=x[jvj+14] ;z[jvj+38]=z[jvj+14];
 l3:if((x[jvj+38]>0)) goto l4;
 x[jvj+12]=t[x[jvj+12]];
@@ -79,7 +79,7 @@ pile[v[22]]=102; pile[WZ2]=jvj+24;
 pile[v[22]]=103; pile[WZ2]=jvj+25; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(103,jvj+3,jvj+25)*/
 pile[v[22]]=929; 
-(*f[1975])( );if(v[102]) goto l8;     /*FNDCND0(929,jvj+3,V17)*/
+(*f[1977])( );if(v[102]) goto l8;     /*FNDCND0(929,jvj+3,V17)*/
 V17=pile[WZ2]; 
 for(a=x[jvj+19];a>0;a=t[a]) if(s[a]==V17) goto l8;
 pile[v[22]]=1370; 
@@ -123,8 +123,8 @@ pile[v[22]]=206; pile[WZ1]=715; pile[WZ2]=jvj+33;
 (*f[54])( );     /*TRI1(206,715,jvj+33)*/
 pile[v[22]]=jvj+33; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+34; 
 (*f[189])( );     /*TRI4(jvj+33,v[13],642,jvj+34)*/
-pile[v[22]]=jvj+34; pile[WZ1]=3652; pile[WZ2]=246; pile[WZ3]=jvj+35; 
-(*f[189])( );     /*TRI4(jvj+34,3652,246,jvj+35)*/
+pile[v[22]]=jvj+34; pile[WZ1]=3654; pile[WZ2]=246; pile[WZ3]=jvj+35; 
+(*f[189])( );     /*TRI4(jvj+34,3654,246,jvj+35)*/
 pile[v[22]]=158; pile[WZ1]=289; pile[WZ2]=218; pile[WZ3]=20176; pile[WZ4]=jvj+35; pile[WZ5]=jvj+32; 
 (*f[269])( );     /*QUADRI6(158,289,218,20176,jvj+35,jvj+32)*/
 pile[v[22]]=jvj+32; pile[WZ1]=159; pile[WZ2]=jvj+36; 

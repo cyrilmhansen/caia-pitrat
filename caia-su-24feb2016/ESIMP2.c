@@ -15,7 +15,7 @@ v[0]+=3;
 x[jvj+1]=10741;z[jvj+1]=(-100);
 x[jvj+2]=2;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1665&&v[97]==0) {
+if(v[90]==1667&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 T=pile[v[22]]; NY=pile[v[22]+1]; O=pile[v[22]+2]; NX=pile[v[22]+3]; v[22]+=5; 
@@ -25,7 +25,7 @@ if((x[T]!=826)) goto l34;
 if((x[O]==134)) goto l28;
 if((x[O]!=135)) goto l34;
 pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1873])( );if(v[102]) goto l34;     /*Z64Z0(NY,NX,NT)*/
+(*f[1875])( );if(v[102]) goto l34;     /*Z64Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 l32:V1=g[266];
 if((V1<=0)) goto l35;
@@ -33,7 +33,7 @@ V2=vg[266];
 if((V2!=0)) goto l29;
 if((V1<3)) goto l31;
 l29:pile[v[22]]=266; pile[WZ1]=10741; pile[WZ2]=2; pile[WZ3]=(-620); pile[WZ4]=T; pile[WZ5]=(-3188); pile[v[22]+6]=NY; pile[v[22]+7]=(-3141); pile[v[22]+8]=NT; pile[v[22]+9]=(-2863); pile[v[22]+10]=O; pile[v[22]+11]=jvj+3; 
-(*f[1272])( );     /*INTERP14(266,10741,2,(-620),T,(-3188),NY,(-3141),NT,(-2863),O,jvj+3)*/
+(*f[1274])( );     /*INTERP14(266,10741,2,(-620),T,(-3188),NY,(-3141),NT,(-2863),O,jvj+3)*/
 if((x[jvj+3]==135)) goto l30;
 l35:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=5; pile[v[22]+4]=NT; v[102]=0;return;
 l1:if((x[O]==485)) goto l2;
@@ -64,115 +64,115 @@ if((x[O]==636)) goto l26;
 if((x[O]==1280)) goto l27;
 if((x[O]!=1356)) goto l34;
 pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1896])( );if(v[102]) goto l34;     /*Z244Z0(NY,NX,NT)*/
+(*f[1898])( );if(v[102]) goto l34;     /*Z244Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l2:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1868])( );if(v[102]) goto l34;     /*Z54Z0(NY,NX,NT)*/
+(*f[1870])( );if(v[102]) goto l34;     /*Z54Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l3:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1869])( );if(v[102]) goto l34;     /*Z55Z0(NY,NX,NT)*/
+(*f[1871])( );if(v[102]) goto l34;     /*Z55Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l4:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1870])( );if(v[102]) goto l34;     /*Z56Z0(NY,NX,NT)*/
+(*f[1872])( );if(v[102]) goto l34;     /*Z56Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l5:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1871])( );if(v[102]) goto l34;     /*Z57Z0(NY,NX,NT)*/
+(*f[1873])( );if(v[102]) goto l34;     /*Z57Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l6:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1874])( );if(v[102]) goto l34;     /*Z66Z0(NY,NX,NT)*/
+(*f[1876])( );if(v[102]) goto l34;     /*Z66Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l7:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1875])( );if(v[102]) goto l34;     /*Z69Z0(NY,NX,NT)*/
+(*f[1877])( );if(v[102]) goto l34;     /*Z69Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l8:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1876])( );if(v[102]) goto l34;     /*Z70Z0(NY,NX,NT)*/
+(*f[1878])( );if(v[102]) goto l34;     /*Z70Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l9:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1877])( );if(v[102]) goto l34;     /*Z71Z0(NY,NX,NT)*/
+(*f[1879])( );if(v[102]) goto l34;     /*Z71Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l10:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1878])( );if(v[102]) goto l34;     /*Z140Z0(NY,NX,NT)*/
+(*f[1880])( );if(v[102]) goto l34;     /*Z140Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l11:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1879])( );if(v[102]) goto l34;     /*Z141Z0(NY,NX,NT)*/
+(*f[1881])( );if(v[102]) goto l34;     /*Z141Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l12:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1880])( );if(v[102]) goto l34;     /*Z142Z0(NY,NX,NT)*/
+(*f[1882])( );if(v[102]) goto l34;     /*Z142Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l13:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1881])( );if(v[102]) goto l34;     /*Z143Z0(NY,NX,NT)*/
+(*f[1883])( );if(v[102]) goto l34;     /*Z143Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l14:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1882])( );if(v[102]) goto l34;     /*Z149Z0(NY,NX,NT)*/
+(*f[1884])( );if(v[102]) goto l34;     /*Z149Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l15:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1883])( );if(v[102]) goto l34;     /*Z150Z0(NY,NX,NT)*/
+(*f[1885])( );if(v[102]) goto l34;     /*Z150Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l16:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1884])( );if(v[102]) goto l34;     /*Z152Z0(NY,NX,NT)*/
+(*f[1886])( );if(v[102]) goto l34;     /*Z152Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l17:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1885])( );if(v[102]) goto l34;     /*Z153Z0(NY,NX,NT)*/
+(*f[1887])( );if(v[102]) goto l34;     /*Z153Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l18:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1886])( );if(v[102]) goto l34;     /*Z154Z0(NY,NX,NT)*/
+(*f[1888])( );if(v[102]) goto l34;     /*Z154Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l19:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1887])( );if(v[102]) goto l34;     /*Z157Z0(NY,NX,NT)*/
+(*f[1889])( );if(v[102]) goto l34;     /*Z157Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l20:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1888])( );if(v[102]) goto l34;     /*Z162Z0(NY,NX,NT)*/
+(*f[1890])( );if(v[102]) goto l34;     /*Z162Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l21:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1889])( );if(v[102]) goto l34;     /*Z166Z0(NY,NX,NT)*/
+(*f[1891])( );if(v[102]) goto l34;     /*Z166Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l22:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1890])( );if(v[102]) goto l34;     /*Z257Z0(NY,NX,NT)*/
+(*f[1892])( );if(v[102]) goto l34;     /*Z257Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l23:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1891])( );if(v[102]) goto l34;     /*Z259Z0(NY,NX,NT)*/
+(*f[1893])( );if(v[102]) goto l34;     /*Z259Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l24:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1892])( );if(v[102]) goto l34;     /*Z267Z0(NY,NX,NT)*/
+(*f[1894])( );if(v[102]) goto l34;     /*Z267Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l25:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1893])( );if(v[102]) goto l34;     /*Z270Z0(NY,NX,NT)*/
+(*f[1895])( );if(v[102]) goto l34;     /*Z270Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l26:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1894])( );if(v[102]) goto l34;     /*Z215Z0(NY,NX,NT)*/
+(*f[1896])( );if(v[102]) goto l34;     /*Z215Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l27:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1895])( );if(v[102]) goto l34;     /*Z282Z0(NY,NX,NT)*/
+(*f[1897])( );if(v[102]) goto l34;     /*Z282Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l28:pile[v[22]]=NY; pile[WZ1]=NX; 
-(*f[1872])( );if(v[102]) goto l34;     /*Z63Z0(NY,NX,NT)*/
+(*f[1874])( );if(v[102]) goto l34;     /*Z63Z0(NY,NX,NT)*/
 NT=pile[WZ2]; 
 goto l32;
 l30:if((V1<4)) goto l31;

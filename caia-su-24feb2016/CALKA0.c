@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=74;
 x[jvj+1]=11788;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1511&&v[97]==0) {
+if(v[90]==1513&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 Y=pile[v[22]]; NA=pile[v[22]+1]; RES=pile[v[22]+2]; v[22]+=3; 
@@ -94,7 +94,7 @@ pile[v[22]]=113; pile[WZ2]=jvj+69;
 x[jvj+29]=0 ;z[jvj+29]=0;
 l14:if((x[jvj+69]>0)) goto l15;
 pile[v[22]]=Y; pile[WZ1]=jvj+70; pile[WZ2]=jvj+29; pile[WZ3]=NA; pile[WZ4]=jvj+71; 
-(*f[1716])( );     /*CALKB0(Y,jvj+70,jvj+29,NA,jvj+71)*/
+(*f[1718])( );     /*CALKB0(Y,jvj+70,jvj+29,NA,jvj+71)*/
 if((x[jvj+71]==68)) goto l20;
 l34:pile[v[22]]=273; pile[WZ1]=NA; pile[WZ2]=jvj+72; 
 (*f[33])( );     /*FNDE0(273,NA,jvj+72)*/
@@ -108,7 +108,7 @@ l12:x[jvj+23]=t[x[jvj+23]];
 l10:if((x[jvj+23]>0)) goto l11;
 x[RES]=68 ;z[RES]=68;
 pile[v[22]]=jvj+24; pile[WZ1]=jvj+25; 
-(*f[1715])( );     /*USETOTAL0(jvj+24,jvj+25)*/
+(*f[1717])( );     /*USETOTAL0(jvj+24,jvj+25)*/
 l13:if((x[jvj+25]<=0)) goto l38;
 W=s[x[jvj+25]];
 pile[v[22]]=NA; pile[WZ1]=273; pile[WZ2]=W; 
@@ -139,7 +139,7 @@ pile[v[22]]=jvj+30; pile[WZ1]=273; pile[WZ2]=jvj+61;
 pile[v[22]]=96; pile[WZ1]=V152; pile[WZ2]=jvj+60; 
 (*f[328])( );     /*TRI12(96,V152,jvj+60)*/
 pile[v[22]]=jvj+24; pile[WZ1]=jvj+59; pile[WZ3]=jvj+61; pile[WZ4]=jvj+62; 
-(*f[1716])( );     /*CALKB0(jvj+24,jvj+59,jvj+60,jvj+61,jvj+62)*/
+(*f[1718])( );     /*CALKB0(jvj+24,jvj+59,jvj+60,jvj+61,jvj+62)*/
 if((x[jvj+62]==68)) goto l30;
 l31:pile[v[22]]=1045; pile[WZ1]=jvj+33; pile[WZ2]=jvj+64; 
 (*f[32])( );if(v[102]) goto l32;     /*FNDO0(1045,jvj+33,jvj+64)*/
@@ -222,7 +222,7 @@ x[jvj+56]=0 ;z[jvj+56]=0;
 pile[v[22]]=96; pile[WZ1]=V64; pile[WZ2]=jvj+55; 
 (*f[328])( );     /*TRI12(96,V64,jvj+55)*/
 pile[v[22]]=jvj+24; pile[WZ1]=jvj+56; pile[WZ3]=NA; pile[WZ4]=jvj+57; 
-(*f[1716])( );     /*CALKB0(jvj+24,jvj+56,jvj+55,NA,jvj+57)*/
+(*f[1718])( );     /*CALKB0(jvj+24,jvj+56,jvj+55,NA,jvj+57)*/
 if((x[jvj+57]==68)) goto l28;
 l29:if(x[jvj+33]!=1741&&x[jvj+33]!=1715) goto l31;
 pile[v[22]]=102; pile[WZ1]=Y; pile[WZ2]=jvj+58; 

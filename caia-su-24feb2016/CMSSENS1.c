@@ -14,7 +14,7 @@ v[0]+=25;
 x[jvj+1]=11440;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==4008&&v[97]==0) {
+if(v[90]==4010&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 N=pile[v[22]]; EZ=pile[v[22]+1]; T=pile[v[22]+2]; I=pile[v[22]+3]; L=pile[v[22]+4]; P=pile[v[22]+5]; S=pile[v[22]+6]; M=pile[v[22]+7]; LA=pile[v[22]+8]; v[22]+=9; 
@@ -77,7 +77,7 @@ pile[v[22]]=117; pile[WZ1]=K; pile[WZ2]=218; pile[WZ3]=jvj+14; pile[WZ4]=jvj+15;
 pile[v[22]]=LA; pile[WZ1]=120; pile[WZ2]=jvj+15; 
 (*f[35])( );     /*CHGC1(LA,120,jvj+15)*/
 pile[v[22]]=N; pile[WZ1]=EZ; pile[WZ2]=V3; pile[WZ3]=V7; pile[WZ4]=L; pile[WZ5]=P; pile[v[22]+6]=S; pile[v[22]+7]=M; pile[v[22]+8]=jvj+15; 
-(*f[4008])( );     /*CMSSENS1(N,EZ,V3,V7,L,P,S,M,jvj+15)*/
+(*f[4010])( );     /*CMSSENS1(N,EZ,V3,V7,L,P,S,M,jvj+15)*/
 l9:x[jvj+13]=t[x[jvj+13]];
 goto l8;
 l6:if(x[jvj+10]!=incon) goto l7;

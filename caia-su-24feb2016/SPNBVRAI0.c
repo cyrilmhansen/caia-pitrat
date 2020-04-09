@@ -91,7 +91,7 @@ pile[v[22]]=V40; pile[WZ1]=40;
 (*f[38])( );     /*SPC0(V40,40,V42)*/
 V42=pile[WZ2]; 
 pile[v[22]]=jvj+8; pile[WZ1]=V42; 
-(*f[2190])( );if(v[102]) goto l10;     /*SPCARD0(jvj+8,V42,V43)*/
+(*f[2192])( );if(v[102]) goto l10;     /*SPCARD0(jvj+8,V42,V43)*/
 V43=pile[WZ2]; 
 pile[v[22]]=V43; pile[WZ1]=41; 
 (*f[38])( );     /*SPC0(V43,41,V41)*/
@@ -144,7 +144,7 @@ pile[v[22]]=V21; pile[WZ1]=40;
 (*f[38])( );     /*SPC0(V21,40,V23)*/
 V23=pile[WZ2]; 
 pile[v[22]]=jvj+16; pile[WZ1]=V23; 
-(*f[2077])( );     /*SPR0(jvj+16,V23,V24)*/
+(*f[2079])( );     /*SPR0(jvj+16,V23,V24)*/
 V24=pile[WZ2]; 
 pile[v[22]]=V24; pile[WZ1]=41; 
 (*f[38])( );     /*SPC0(V24,41,V22)*/

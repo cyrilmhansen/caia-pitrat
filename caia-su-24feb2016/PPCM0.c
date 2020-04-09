@@ -14,15 +14,15 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=11060;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1021&&v[97]==0) {
+if(v[90]==1022&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 B=pile[v[22]]; A=pile[v[22]+1]; v[22]+=3; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=A; pile[WZ1]=jvj+8; 
-(*f[1359])( );if(v[102]) goto l21;     /*DECPREM0(A,jvj+8)*/
+(*f[1361])( );if(v[102]) goto l21;     /*DECPREM0(A,jvj+8)*/
 pile[v[22]]=B; pile[WZ1]=jvj+9; 
-(*f[1359])( );if(v[102]) goto l21;     /*DECPREM0(B,jvj+9)*/
+(*f[1361])( );if(v[102]) goto l21;     /*DECPREM0(B,jvj+9)*/
 x[jvj+3]=0 ;z[jvj+3]=0;
 x[jvj+10]=x[jvj+8] ;z[jvj+10]=z[jvj+8];
 l1:if((x[jvj+10]>0)) goto l2;

@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=39;
 x[jvj+1]=11352;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1482&&v[97]==0) {
+if(v[90]==1484&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 B=pile[v[22]]; EE=pile[v[22]+1]; M=pile[v[22]+2]; R=pile[v[22]+3]; v[22]+=4; 
@@ -67,7 +67,7 @@ pile[WZ1]=23; pile[WZ2]=jvj+6;
 for(a=x[jvj+6];a>0;a=t[a]) if(s[a]==V) goto l3;
 l14:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; v[102]=1;return;
 l3:pile[v[22]]=V; pile[WZ1]=EE; pile[WZ2]=M; pile[WZ3]=jvj+7; 
-(*f[1699])( );     /*TRADCONSA0(V,EE,M,jvj+7)*/
+(*f[1701])( );     /*TRADCONSA0(V,EE,M,jvj+7)*/
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
 (*f[255])( );     /*COPEXP0(jvj+7,jvj+8)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=585; pile[WZ4]=jvj+31; 
@@ -80,12 +80,12 @@ goto l9;
 l4:if((x[jvj+22]<=0)) goto l15;
 x[jvj+23]=s[x[jvj+22]] ;z[jvj+23]=(x[jvj+23]<=sepcte) ? x[jvj+23] : z[jvj+22];
 pile[v[22]]=jvj+23; pile[WZ1]=EE; pile[WZ2]=M; pile[WZ3]=jvj+24; 
-(*f[1482])( );if(v[102]) goto l15;     /*TRADCONS0(jvj+23,EE,M,jvj+24)*/
+(*f[1484])( );if(v[102]) goto l15;     /*TRADCONS0(jvj+23,EE,M,jvj+24)*/
 pile[v[22]]=R; pile[WZ1]=107; pile[WZ2]=jvj+24; 
 (*f[36])( );     /*PLUSC0(R,107,jvj+24)*/
 goto l15;
 l5:pile[v[22]]=VA; pile[WZ1]=EE; pile[WZ2]=M; pile[WZ3]=jvj+11; 
-(*f[1699])( );     /*TRADCONSA0(VA,EE,M,jvj+11)*/
+(*f[1701])( );     /*TRADCONSA0(VA,EE,M,jvj+11)*/
 pile[v[22]]=jvj+11; pile[WZ1]=jvj+12; 
 (*f[255])( );     /*COPEXP0(jvj+11,jvj+12)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=585; pile[WZ4]=jvj+33; 
@@ -126,7 +126,7 @@ l11:x[jvj+19]=s[x[jvj+18]] ;z[jvj+19]=(x[jvj+19]<=sepcte) ? x[jvj+19] : z[jvj+18
 pile[v[22]]=jvj+19; pile[WZ1]=B; pile[WZ2]=jvj+20; 
 (*f[32])( );if(v[102]) goto l13;     /*FNDO0(jvj+19,B,jvj+20)*/
 pile[v[22]]=jvj+20; pile[WZ1]=EE; pile[WZ2]=M; pile[WZ3]=jvj+21; 
-(*f[1482])( );if(v[102]) goto l13;     /*TRADCONS0(jvj+20,EE,M,jvj+21)*/
+(*f[1484])( );if(v[102]) goto l13;     /*TRADCONS0(jvj+20,EE,M,jvj+21)*/
 pile[v[22]]=R; pile[WZ1]=jvj+19; pile[WZ2]=jvj+21; 
 (*f[35])( );     /*CHGC1(R,jvj+19,jvj+21)*/
 l13:x[jvj+18]=t[x[jvj+18]];

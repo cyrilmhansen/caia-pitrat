@@ -22,7 +22,7 @@ l1:if((x[jvj+13]<=0)) goto l11;
 x[jvj+10]=s[x[jvj+13]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+13];
 x[jvj+1]=x[jvj+10] ;z[jvj+1]=z[jvj+10];
 pile[v[22]]=jvj+1; pile[WZ1]=BA; pile[WZ2]=1881; pile[WZ3]=XD; pile[WZ4]=jvj+2; 
-(*f[1498])( );     /*CALCULABLE0(jvj+1,BA,1881,XD,jvj+2)*/
+(*f[1500])( );     /*CALCULABLE0(jvj+1,BA,1881,XD,jvj+2)*/
 if((x[jvj+2]==68)) goto l3;
 x[jvj+13]=t[x[jvj+13]];
 goto l1;
@@ -39,7 +39,7 @@ l7:if((x[jvj+12]<=0)) goto l10;
 x[jvj+6]=s[x[jvj+12]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+12];
 if((x[jvj+6]==x[jvj+1])) goto l8;
 pile[v[22]]=jvj+6; pile[WZ1]=BA; pile[WZ2]=1881; pile[WZ3]=XD; pile[WZ4]=jvj+7; 
-(*f[1498])( );     /*CALCULABLE0(jvj+6,BA,1881,XD,jvj+7)*/
+(*f[1500])( );     /*CALCULABLE0(jvj+6,BA,1881,XD,jvj+7)*/
 if((x[jvj+7]==68)) goto l9;
 l8:x[jvj+12]=t[x[jvj+12]];
 goto l7;

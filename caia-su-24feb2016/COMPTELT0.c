@@ -98,12 +98,12 @@ l11:x[jvj+11]=s[x[jvj+20]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+20
 pile[v[22]]=jvj+11; pile[WZ1]=A; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(jvj+11,A,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+2; 
-(*f[1209])( );     /*COMPTELT1(jvj+12,jvj+2)*/
+(*f[1211])( );     /*COMPTELT1(jvj+12,jvj+2)*/
 l12:x[jvj+20]=t[x[jvj+20]];
 goto l10;
 l15:x[jvj+15]=s[x[jvj+22]] ;z[jvj+15]=(x[jvj+15]<=sepcte) ? x[jvj+15] : z[jvj+22];
 pile[v[22]]=jvj+15; pile[WZ1]=jvj+2; 
-(*f[1209])( );     /*COMPTELT1(jvj+15,jvj+2)*/
+(*f[1211])( );     /*COMPTELT1(jvj+15,jvj+2)*/
 x[jvj+22]=t[x[jvj+22]];
 goto l14;
 l22:if(C!=incon) goto l23;

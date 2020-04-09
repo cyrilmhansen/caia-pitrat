@@ -31,7 +31,7 @@ if((C!=10)) goto l2;
 pile[v[22]]=K; 
 (*f[40])( );     /*SLG0(K)*/
 pile[v[22]]=V7; pile[WZ1]=C; pile[WZ2]=0; 
-(*f[1052])( );     /*XL1(V7,C,0,J)*/
+(*f[1054])( );     /*XL1(V7,C,0,J)*/
 J=pile[WZ3]; 
 l4:v[0]=jvj; v[22]-=4; pile[v[22]+3]=J; return;
 l1:J=K;
@@ -39,7 +39,7 @@ goto l4;
 l2:V6=K+1;
 c[v[1]][K]=C;
 pile[v[22]]=V7; pile[WZ1]=C; pile[WZ2]=V6; 
-(*f[1052])( );     /*XL1(V7,C,V6,J)*/
+(*f[1054])( );     /*XL1(V7,C,V6,J)*/
 J=pile[WZ3]; 
 goto l4;
 l3:J=I;

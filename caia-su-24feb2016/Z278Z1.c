@@ -30,7 +30,7 @@ x[jvj+4]=s[x[jvj+9]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+9];
 pile[v[22]]=jvj+4; pile[WZ1]=BXXX; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(jvj+4,BXXX,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=BTTT; 
-(*f[1937])( );     /*Z278Z1(jvj+5,BTTT)*/
+(*f[1939])( );     /*Z278Z1(jvj+5,BTTT)*/
 l3:x[jvj+9]=t[x[jvj+9]];
 goto l2;
 l4:x[jvj+10]=w[x[jvj+3]][8];
@@ -44,7 +44,7 @@ x[jvj+10]=t[x[jvj+10]];
 goto l5;
 l7:x[jvj+8]=s[x[jvj+11]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+11];
 pile[v[22]]=jvj+8; pile[WZ1]=BTTT; 
-(*f[1937])( );     /*Z278Z1(jvj+8,BTTT)*/
+(*f[1939])( );     /*Z278Z1(jvj+8,BTTT)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l6;
 l8:v[0]=jvj; v[22]-=2; return;

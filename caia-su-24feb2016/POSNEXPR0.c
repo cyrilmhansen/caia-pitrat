@@ -17,7 +17,7 @@ if(v[0]>99700) (*f[6])( );
 A=pile[v[22]]; BA=pile[v[22]+1]; RES=pile[v[22]+2]; v[22]+=3; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=BA; pile[WZ1]=A; pile[WZ2]=jvj+1; 
-(*f[1492])( );     /*EXPVAUT0(BA,A,jvj+1)*/
+(*f[1494])( );     /*EXPVAUT0(BA,A,jvj+1)*/
 if((x[jvj+1]==1881)) goto l1;
 pile[v[22]]=140; 
 (*f[44])( );if(v[102]) goto l3;     /*FNDC1(140,A,V)*/
@@ -25,7 +25,7 @@ V=pile[WZ2];
 pile[v[22]]=1481; pile[WZ1]=100; pile[WZ2]=jvj+2; 
 (*f[33])( );     /*FNDE0(1481,100,jvj+2)*/
 pile[v[22]]=BA; pile[WZ1]=V; pile[WZ2]=jvj+3; 
-(*f[1491])( );     /*VDSBA0(BA,V,jvj+3)*/
+(*f[1493])( );     /*VDSBA0(BA,V,jvj+3)*/
 pile[v[22]]=1261; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4; 
 (*f[33])( );     /*FNDE0(1261,jvj+3,jvj+4)*/
 for(a=x[jvj+4];a>0;a=t[a]) if(s[a]==1881) goto l2;

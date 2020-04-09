@@ -21,7 +21,7 @@ V23=A;
 l8:if((V24==0)) goto l9;
 if((V24<=0)) goto l19;
 pile[v[22]]=30; pile[WZ1]=2; pile[WZ2]=V23; 
-(*f[1005])( );if(v[102]) goto l19;     /*RACN0(30,2,V23,V7)*/
+(*f[1006])( );if(v[102]) goto l19;     /*RACN0(30,2,V23,V7)*/
 V7=pile[WZ3]; 
 V12=V7/2;
 I=V24;

@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=57;
 x[jvj+1]=10496;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1828&&v[97]==0) {
+if(v[90]==1830&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; T=pile[v[22]+1]; v[22]+=2; 
@@ -35,7 +35,7 @@ pile[v[22]]=140; pile[WZ1]=jvj+9;
 (*f[44])( );if(v[102]) goto l2;     /*FNDC1(140,jvj+9,V8)*/
 V8=pile[WZ2]; 
 pile[v[22]]=jvj+10; pile[WZ1]=V8; pile[WZ2]=jvj+11; 
-(*f[1988])( );     /*USV0(jvj+10,V8,jvj+11)*/
+(*f[1990])( );     /*USV0(jvj+10,V8,jvj+11)*/
 if((x[jvj+11]==135)) goto l26;
 l2:x[jvj+49]=t[x[jvj+49]];
 l1:if((x[jvj+49]<=0)) goto l27;
@@ -46,7 +46,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6;
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(101,jvj+5,jvj+6)*/
 if((x[jvj+6]!=54)) goto l2;
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+4; pile[WZ2]=jvj+8; 
-(*f[1989])( );if(v[102]) goto l2;     /*DOUBX0(jvj+7,jvj+4,jvj+8)*/
+(*f[1991])( );if(v[102]) goto l2;     /*DOUBX0(jvj+7,jvj+4,jvj+8)*/
 if((x[jvj+8]==135)) goto l3;
 goto l2;
 l5:x[jvj+50]=t[x[jvj+50]];
@@ -80,12 +80,12 @@ pile[v[22]]=140; pile[WZ1]=jvj+28;
 V72=pile[WZ2]; 
 V45=V72;
 pile[v[22]]=V45; pile[WZ1]=V46; pile[WZ2]=R; pile[WZ3]=jvj+22; 
-(*f[1802])( );     /*SUBST1(V45,V46,R,jvj+22)*/
+(*f[1804])( );     /*SUBST1(V45,V46,R,jvj+22)*/
 l7:x[jvj+51]=t[x[jvj+51]];
 goto l6;
 l10:x[jvj+32]=s[x[jvj+53]] ;z[jvj+32]=(x[jvj+32]<=sepcte) ? x[jvj+32] : z[jvj+53];
 pile[v[22]]=T; pile[WZ1]=jvj+32; pile[WZ2]=R; 
-(*f[1990])( );     /*DOUBC0(T,jvj+32,R)*/
+(*f[1992])( );     /*DOUBC0(T,jvj+32,R)*/
 x[jvj+53]=t[x[jvj+53]];
 goto l9;
 l11:pile[v[22]]=107; pile[WZ1]=R; pile[WZ2]=jvj+33; 
@@ -109,7 +109,7 @@ x[jvj+56]=t[x[jvj+54]];
 l19:if((x[jvj+56]<=0)) goto l23;
 x[jvj+17]=s[x[jvj+56]] ;z[jvj+17]=(x[jvj+17]<=sepcte) ? x[jvj+17] : z[jvj+56];
 pile[v[22]]=jvj+17; pile[WZ1]=jvj+19; pile[WZ2]=jvj+40; 
-(*f[1991])( );     /*MEMEY0(jvj+17,jvj+19,jvj+40)*/
+(*f[1993])( );     /*MEMEY0(jvj+17,jvj+19,jvj+40)*/
 if((x[jvj+40]==135)) goto l21;
 l20:x[jvj+56]=t[x[jvj+56]];
 goto l19;
@@ -201,7 +201,7 @@ goto l25;
 l28:V33=x[jvj+7];
 W=V30;
 pile[v[22]]=W; pile[WZ1]=V; pile[WZ2]=R; pile[WZ3]=jvj+44; 
-(*f[1802])( );     /*SUBST1(W,V,R,jvj+44)*/
+(*f[1804])( );     /*SUBST1(W,V,R,jvj+44)*/
 pile[v[22]]=107; pile[WZ1]=R; pile[WZ2]=V33; 
 (*f[134])( );     /*OTA0(107,R,V33)*/
 pile[v[22]]=T; pile[WZ1]=415; pile[WZ2]=68; 

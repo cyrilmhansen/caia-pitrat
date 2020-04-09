@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=1;
 x[jvj+1]=26122;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2489&&v[97]==0) {
+if(v[90]==2491&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 J=pile[v[22]]; I=pile[v[22]+1]; v[22]+=3; 
@@ -24,34 +24,34 @@ if((I==3)) goto l5;
 if((I==2)) goto l6;
 if((I!=1)) goto l8;
 pile[v[22]]=J; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l8;     /*FVECT0(J,(-1544),V9)*/
+(*f[1011])( );if(v[102]) goto l8;     /*FVECT0(J,(-1544),V9)*/
 V9=pile[WZ2]; 
 if((V9!=0)) goto l8;
 V12=J-1;
 K=1;
 l3:if((K>V12)) goto l7;
 pile[v[22]]=K; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l4;     /*FVECT0(K,(-1544),V10)*/
+(*f[1011])( );if(v[102]) goto l4;     /*FVECT0(K,(-1544),V10)*/
 V10=pile[WZ2]; 
 if((V10!=0)) goto l8;
 l4:K++;
 goto l3;
 l5:pile[v[22]]=J; pile[WZ1]=(-630); 
-(*f[1010])( );if(v[102]) goto l8;     /*FVECT0(J,(-630),V2)*/
+(*f[1011])( );if(v[102]) goto l8;     /*FVECT0(J,(-630),V2)*/
 V2=pile[WZ2]; 
 l11:pile[v[22]]=V2; 
 (*f[979])( );if(v[102]) goto l12;     /*CHILET0(V2,NNNX)*/
 NNNX=pile[WZ1]; 
 l13:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; pile[v[22]+2]=NNNX; v[102]=0;return;
 l6:pile[v[22]]=J; pile[WZ1]=(-2041); 
-(*f[1010])( );if(v[102]) goto l8;     /*FVECT0(J,(-2041),V7)*/
+(*f[1011])( );if(v[102]) goto l8;     /*FVECT0(J,(-2041),V7)*/
 V7=pile[WZ2]; 
 if((V7!=0)) goto l8;
 V11=J-1;
 KK=1;
 l1:if((KK>V11)) goto l7;
 pile[v[22]]=KK; pile[WZ1]=(-2041); 
-(*f[1010])( );if(v[102]) goto l2;     /*FVECT0(KK,(-2041),V8)*/
+(*f[1011])( );if(v[102]) goto l2;     /*FVECT0(KK,(-2041),V8)*/
 V8=pile[WZ2]; 
 if((V8!=0)) goto l8;
 l2:KK++;
@@ -61,12 +61,12 @@ goto l11;
 l8:V3=incon;
 if((I!=1)) goto l9;
 pile[v[22]]=J; pile[WZ1]=(-1544); 
-(*f[1010])( );if(v[102]) goto l9;     /*FVECT0(J,(-1544),V3)*/
+(*f[1011])( );if(v[102]) goto l9;     /*FVECT0(J,(-1544),V3)*/
 V3=pile[WZ2]; 
 l10:V2=V3;
 goto l11;
 l9:pile[v[22]]=J; pile[WZ1]=(-2041); 
-(*f[1010])( );if(v[102]) goto l12;     /*FVECT0(J,(-2041),V3)*/
+(*f[1011])( );if(v[102]) goto l12;     /*FVECT0(J,(-2041),V3)*/
 V3=pile[WZ2]; 
 goto l10;
 l12:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; v[102]=1;return;

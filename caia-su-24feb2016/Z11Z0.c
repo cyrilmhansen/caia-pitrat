@@ -203,7 +203,7 @@ pile[v[22]]=I; pile[WZ1]=jvj+6;
 (*f[641])( );if(v[102]) goto l12;     /*XY0(I,jvj+6,JJ)*/
 JJ=pile[WZ2]; 
 pile[v[22]]=JJ; pile[WZ1]=40; pile[WZ2]=jvj+14; 
-(*f[1368])( );     /*XG0(JJ,40,jvj+14,KK)*/
+(*f[1370])( );     /*XG0(JJ,40,jvj+14,KK)*/
 KK=pile[WZ3]; 
 pile[v[22]]=KK; pile[WZ1]=41; 
 (*f[38])( );     /*SPC0(KK,41,J)*/

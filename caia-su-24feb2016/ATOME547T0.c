@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=46;
 x[jvj+1]=20547;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3825&&v[97]==0) {
+if(v[90]==3827&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NNNI=pile[v[22]]; v[22]+=1; 
@@ -36,7 +36,7 @@ pile[v[22]]=V27; pile[WZ1]=jvj+8;
 (*f[992])( );if(v[102]) goto l7;     /*FACTPREM0(V27,jvj+8)*/
 x[jvj+3]=0 ;z[jvj+3]=0;
 pile[v[22]]=929; pile[WZ1]=jvj+2; 
-(*f[1975])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V30)*/
+(*f[1977])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V30)*/
 V30=pile[WZ2]; 
 pile[v[22]]=jvj+3; pile[WZ1]=V30; 
 (*f[207])( );     /*PLUE2(jvj+3,V30)*/
@@ -78,7 +78,7 @@ V37=x[jvj+8];
 l6:if((V37<=0)) goto l5;
 P=s[V37];
 pile[v[22]]=V27; pile[WZ1]=P; 
-(*f[1033])( );     /*VALEXPO0(V27,P,NI)*/
+(*f[1034])( );     /*VALEXPO0(V27,P,NI)*/
 NI=pile[WZ2]; 
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=625; pile[WZ4]=jvj+24; 
 (*f[181])( );     /*QUADRI2(100,20,101,625,jvj+24)*/
@@ -126,8 +126,8 @@ pile[v[22]]=V33; pile[WZ1]=858; pile[WZ2]=jvj+41;
 (*f[46])( );     /*TRI0(V33,858,jvj+41)*/
 pile[v[22]]=jvj+41; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+42; 
 (*f[189])( );     /*TRI4(jvj+41,v[13],642,jvj+42)*/
-pile[v[22]]=jvj+42; pile[WZ1]=3825; pile[WZ2]=246; pile[WZ3]=jvj+43; 
-(*f[189])( );     /*TRI4(jvj+42,3825,246,jvj+43)*/
+pile[v[22]]=jvj+42; pile[WZ1]=3827; pile[WZ2]=246; pile[WZ3]=jvj+43; 
+(*f[189])( );     /*TRI4(jvj+42,3827,246,jvj+43)*/
 pile[v[22]]=jvj+43; pile[WZ1]=20547; pile[WZ2]=218; pile[WZ3]=jvj+44; 
 (*f[58])( );     /*TRI3(jvj+43,20547,218,jvj+44)*/
 pile[v[22]]=jvj+45; pile[WZ1]=(-20); pile[WZ2]=jvj+44; pile[WZ3]=159; pile[WZ4]=jvj+46; 
@@ -135,7 +135,7 @@ pile[v[22]]=jvj+45; pile[WZ1]=(-20); pile[WZ2]=jvj+44; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+46; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+21; 
 (*f[58])( );     /*TRI3(jvj+46,1,158,jvj+21)*/
 pile[v[22]]=jvj+20; pile[WZ1]=jvj+21; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+20,jvj+21)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+20,jvj+21)*/
 V37=t[V37];
 goto l6;
 l3:V9=s[x[jvj+4]];

@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=25;
 x[jvj+1]=10680;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2090&&v[97]==0) {
+if(v[90]==2092&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -108,7 +108,7 @@ pile[v[22]]=jvj+2; pile[WZ1]=333; pile[WZ2]=jvj+13;
 (*f[36])( );     /*PLUSC0(jvj+2,333,jvj+13)*/
 goto l17;
 l19:pile[v[22]]=R; pile[WZ1]=jvj+4; pile[WZ2]=jvj+2; 
-(*f[2169])( );     /*ORU2(R,jvj+4,jvj+2)*/
+(*f[2171])( );     /*ORU2(R,jvj+4,jvj+2)*/
 l12:x[jvj+15]=t[x[jvj+15]];
 goto l10;
 }

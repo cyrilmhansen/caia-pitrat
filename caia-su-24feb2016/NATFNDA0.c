@@ -35,7 +35,7 @@ pile[v[22]]=1752; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5;
 l6:if((x[jvj+5]<=0)) goto l8;
 x[jvj+6]=s[x[jvj+5]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+5];
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+6; 
-(*f[1713])( );     /*MEMEXPR1(jvj+4,jvj+6)*/
+(*f[1715])( );     /*MEMEXPR1(jvj+4,jvj+6)*/
 x[jvj+5]=t[x[jvj+5]];
 goto l6;
 l1:x[jvj+8]=x[K] ;z[jvj+8]=z[K];

@@ -52,7 +52,7 @@ if((V9>=V11)) goto l8;
 pile[v[22]]=120; pile[WZ1]=jvj+5; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(120,jvj+5,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=S; pile[WZ2]=jvj+5; pile[WZ3]=67; 
-(*f[1166])( );     /*ENLISENV1(jvj+12,S,jvj+5,67)*/
+(*f[1168])( );     /*ENLISENV1(jvj+12,S,jvj+5,67)*/
 l8:pile[v[22]]=715; pile[WZ1]=jvj+5; pile[WZ2]=jvj+15; 
 (*f[32])( );if(v[102]) goto l9;     /*FNDO0(715,jvj+5,jvj+15)*/
 pile[WZ1]=S; pile[WZ2]=jvj+16; 

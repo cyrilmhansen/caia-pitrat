@@ -47,12 +47,12 @@ l4:x[jvj+7]=s[x[jvj+13]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+13];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+3; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+7,jvj+3,jvj+8)*/
 pile[v[22]]=jvj+8; pile[WZ1]=R; 
-(*f[1489])( );     /*ENSOP1(jvj+8,R)*/
+(*f[1491])( );     /*ENSOP1(jvj+8,R)*/
 l5:x[jvj+13]=t[x[jvj+13]];
 goto l3;
 l8:x[jvj+11]=s[x[jvj+15]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+15];
 pile[v[22]]=jvj+11; pile[WZ1]=R; 
-(*f[1489])( );     /*ENSOP1(jvj+11,R)*/
+(*f[1491])( );     /*ENSOP1(jvj+11,R)*/
 x[jvj+15]=t[x[jvj+15]];
 goto l7;
 l9:v[0]=jvj; v[22]-=2; return;

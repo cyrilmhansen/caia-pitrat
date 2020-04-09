@@ -52,11 +52,11 @@ goto l4;
 l9:pile[v[22]]=102; pile[WZ1]=jvj+1; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(102,jvj+1,jvj+7)*/
 pile[v[22]]=YY; pile[WZ1]=jvj+7; 
-(*f[1414])( );     /*AJANT0(YY,jvj+7)*/
+(*f[1416])( );     /*AJANT0(YY,jvj+7)*/
 pile[v[22]]=EE; pile[WZ1]=WW; 
 (*f[331])( );     /*PLUE3(EE,WW)*/
 pile[v[22]]=N; pile[WZ1]=TL; pile[WZ2]=YY; pile[WZ3]=EE; 
-(*f[1418])( );     /*CREKPRODA0(N,TL,YY,EE)*/
+(*f[1420])( );     /*CREKPRODA0(N,TL,YY,EE)*/
 l8:V12=t[V12];
 goto l6;
 }

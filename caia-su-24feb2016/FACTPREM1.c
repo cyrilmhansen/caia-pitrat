@@ -15,7 +15,7 @@ V9=PP;
 l1:if((V9==0)) goto l2;
 if((V9<=0)) goto l7;
 pile[v[22]]=30; pile[WZ1]=2; pile[WZ2]=AA; 
-(*f[1005])( );if(v[102]) goto l5;     /*RACN0(30,2,AA,V3)*/
+(*f[1006])( );if(v[102]) goto l5;     /*RACN0(30,2,AA,V3)*/
 V3=pile[WZ3]; 
 V7=V3/2;
 I=V9;
@@ -35,7 +35,7 @@ pile[v[22]]=RR; pile[WZ1]=2;
 l6:V2=AA/P;
 if((V2<=1)) goto l7;
 pile[v[22]]=V2; pile[WZ1]=RR; pile[WZ2]=Q; 
-(*f[1351])( );     /*FACTPREM1(V2,RR,Q)*/
+(*f[1353])( );     /*FACTPREM1(V2,RR,Q)*/
 l7:if((V9==0)) goto l8;
 l9:v[22]-=3; return;
 l4:P=V4;

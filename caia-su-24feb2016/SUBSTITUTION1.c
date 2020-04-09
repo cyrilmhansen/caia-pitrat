@@ -46,12 +46,12 @@ l4:x[jvj+4]=s[x[jvj+9]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+9];
 pile[v[22]]=jvj+4; pile[WZ1]=S; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+4,S,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ2]=jvj+4; pile[WZ3]=XX; pile[WZ4]=YY; 
-(*f[1778])( );     /*SUBSTITUTION1(jvj+5,S,jvj+4,XX,YY)*/
+(*f[1780])( );     /*SUBSTITUTION1(jvj+5,S,jvj+4,XX,YY)*/
 l5:x[jvj+9]=t[x[jvj+9]];
 goto l3;
 l8:x[jvj+8]=s[x[jvj+11]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+11];
 pile[v[22]]=jvj+8; pile[WZ1]=S; pile[WZ2]=jvj+6; pile[WZ3]=XX; pile[WZ4]=YY; 
-(*f[1778])( );     /*SUBSTITUTION1(jvj+8,S,jvj+6,XX,YY)*/
+(*f[1780])( );     /*SUBSTITUTION1(jvj+8,S,jvj+6,XX,YY)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l7;
 l10:pile[v[22]]=SS; pile[WZ1]=BT; pile[WZ2]=jvj+2; 

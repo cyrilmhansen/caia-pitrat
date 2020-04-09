@@ -42,7 +42,7 @@ K=pile[WZ2];
 pile[v[22]]=jvj+1; pile[WZ1]=273; pile[WZ2]=V8; 
 (*f[735])( );     /*PLUSC4(jvj+1,273,V8)*/
 l9:pile[v[22]]=K; pile[WZ1]=jvj+1; pile[WZ2]=X; pile[WZ3]=44; pile[WZ4]=S; 
-(*f[1982])( );     /*SPE1(K,jvj+1,X,44,S,J)*/
+(*f[1984])( );     /*SPE1(K,jvj+1,X,44,S,J)*/
 J=pile[WZ5]; 
 l11:v[0]=jvj; v[22]-=5; pile[v[22]+4]=J; return;
 l1:pile[v[22]]=273; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
@@ -72,7 +72,7 @@ pile[v[22]]=I; pile[WZ1]=P;
 (*f[38])( );     /*SPC0(I,P,V6)*/
 V6=pile[WZ2]; 
 pile[v[22]]=V6; pile[WZ1]=jvj+5; 
-(*f[1981])( );if(v[102]) goto l10;     /*SPSS0(V6,jvj+5,K)*/
+(*f[1983])( );if(v[102]) goto l10;     /*SPSS0(V6,jvj+5,K)*/
 K=pile[WZ2]; 
 pile[v[22]]=jvj+1; pile[WZ1]=334; pile[WZ2]=jvj+5; 
 (*f[36])( );     /*PLUSC0(jvj+1,334,jvj+5)*/

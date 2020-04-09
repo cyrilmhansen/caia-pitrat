@@ -63,10 +63,10 @@ goto l6;
 l9:if(L!=incon) goto l10;
 goto l12;
 l10:pile[v[22]]=P; pile[WZ1]=L; 
-(*f[1011])( );     /*PGCD0(P,L,V23)*/
+(*f[1012])( );     /*PGCD0(P,L,V23)*/
 V23=pile[WZ2]; 
 pile[v[22]]=V23; pile[WZ1]=K; 
-(*f[1011])( );     /*PGCD0(V23,K,Q)*/
+(*f[1012])( );     /*PGCD0(V23,K,Q)*/
 Q=pile[WZ2]; 
 if((Q==1)) goto l11;
 if((Q<=1)) goto l12;

@@ -342,7 +342,7 @@ Z=V113;
 goto l60;
 l56:x[jvj+32]=A ;z[jvj+32]=(A<=sepcte) ? A : 0;
 pile[v[22]]=jvj+32; pile[WZ1]=jvj+33; 
-(*f[4054])( );     /*FNDATT0(jvj+32,jvj+33)*/
+(*f[1005])( );     /*FNDATT0(jvj+32,jvj+33)*/
 V116=x[jvj+33];
 Z=V116;
 goto l60;
@@ -477,10 +477,10 @@ V78=x[jvj+60];
 if(V78!=incon) goto l42;
 goto l58;
 l100:pile[v[22]]=28; pile[WZ1]=2; pile[WZ2]=A; 
-(*f[1005])( );if(v[102]) goto l58;     /*RACN0(28,2,A,V168)*/
+(*f[1006])( );if(v[102]) goto l58;     /*RACN0(28,2,A,V168)*/
 V168=pile[WZ3]; 
 pile[v[22]]=2; pile[WZ1]=V168; 
-(*f[1006])( );if(v[102]) goto l58;     /*POWER0(2,V168,V169)*/
+(*f[1007])( );if(v[102]) goto l58;     /*POWER0(2,V168,V169)*/
 V169=pile[WZ2]; 
 if((V169!=A)) goto l58;
 Z=V168;
@@ -508,7 +508,7 @@ pile[WZ1]=V174;
 x[jvj+61]=t[x[jvj+61]];
 goto l102;
 l104:pile[v[22]]=A; pile[WZ1]=jvj+63; 
-(*f[1007])( );if(v[102]) goto l58;     /*DECFACTPREM0(A,jvj+63)*/
+(*f[1008])( );if(v[102]) goto l58;     /*DECFACTPREM0(A,jvj+63)*/
 x[jvj+65]=0 ;z[jvj+65]=0;
 l105:if((x[jvj+63]>0)) goto l106;
 V96=x[jvj+65];
@@ -523,7 +523,7 @@ pile[v[22]]=510;
 (*f[26])( );if(v[102]) goto l107;     /*FNDC0(510,jvj+64,V186)*/
 V186=pile[WZ2]; 
 pile[v[22]]=V185; pile[WZ1]=V186; 
-(*f[1006])( );if(v[102]) goto l107;     /*POWER0(V185,V186,V187)*/
+(*f[1007])( );if(v[102]) goto l107;     /*POWER0(V185,V186,V187)*/
 V187=pile[WZ2]; 
 pile[v[22]]=jvj+65; pile[WZ1]=V187; 
 (*f[207])( );     /*PLUE2(jvj+65,V187)*/

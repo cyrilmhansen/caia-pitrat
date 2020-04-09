@@ -37,7 +37,7 @@ l3:V33=r[V37];
 if((V4!=V33)) goto l4;
 V35=s[V37];
 pile[v[22]]=XN; pile[WZ1]=RX; pile[WZ2]=V35; pile[WZ3]=jvj+1; 
-(*f[1128])( );     /*TRI21(XN,RX,V35,jvj+1)*/
+(*f[1130])( );     /*TRI21(XN,RX,V35,jvj+1)*/
 if(V3>0) s[V3]=68;if(V3==(-1)||(V3>0&&v[122]!=0)) {ou[++v[14]]=V37;pl[v[14]]=0;av[v[14]]=s[V37];ty[v[14]]=(s[t[abs(r[ou[v[14]]])]]<=23) ? 1 : 0;};s[V37]=x[jvj+1];
 l4:if((V36>0)) goto l7;
 if((V36!=0)) goto l5;

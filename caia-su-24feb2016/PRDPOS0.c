@@ -25,7 +25,7 @@ for(a=x[jvj+4];a>0;a=t[a]) if(s[a]==x[jvj+1]) goto l3;
 pile[v[22]]=195; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
 (*f[33])( );     /*FNDE0(195,jvj+1,jvj+2)*/
 pile[v[22]]=jvj+2; pile[WZ1]=jvj+3; 
-(*f[4011])( );if(v[102]) goto l3;     /*APLIS0(jvj+2,jvj+3)*/
+(*f[4013])( );if(v[102]) goto l3;     /*APLIS0(jvj+2,jvj+3)*/
 pile[v[22]]=250; pile[WZ1]=459; pile[WZ2]=jvj+5; 
 (*f[54])( );     /*TRI1(250,459,jvj+5)*/
 pile[v[22]]=218; pile[WZ1]=jvj+1; pile[WZ2]=447; pile[WZ3]=jvj+3; pile[WZ4]=jvj+5; pile[WZ5]=S; 
@@ -33,7 +33,7 @@ pile[v[22]]=218; pile[WZ1]=jvj+1; pile[WZ2]=447; pile[WZ3]=jvj+3; pile[WZ4]=jvj+
 pile[v[22]]=jvj+4; 
 (*f[68])( );     /*PLUE0(jvj+4,jvj+1)*/
 pile[v[22]]=E; pile[WZ1]=jvj+4; pile[WZ2]=S; 
-(*f[4012])( );     /*PRDPOS1(E,jvj+4,S)*/
+(*f[4014])( );     /*PRDPOS1(E,jvj+4,S)*/
 v[0]=jvj; v[22]-=2; v[102]=0;return;
 l3:x[jvj+7]=t[x[jvj+7]];
 goto l1;

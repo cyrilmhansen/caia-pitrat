@@ -51,7 +51,7 @@ pile[v[22]]=322; pile[WZ1]=jvj+8;
 (*f[26])( );if(v[102]) goto l9;     /*FNDC0(322,jvj+8,V5)*/
 V5=pile[WZ2]; 
 pile[v[22]]=V5; pile[WZ1]=jvj+2; 
-(*f[1072])( );     /*CL2(V5,jvj+2)*/
+(*f[1074])( );     /*CL2(V5,jvj+2)*/
 pile[v[22]]=135; pile[WZ2]=jvj+7; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(135,jvj+2,jvj+7)*/
 pile[v[22]]=X; pile[WZ1]=135; 

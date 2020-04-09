@@ -33,7 +33,7 @@ pile[v[22]]=107; pile[WZ1]=ZZ; pile[WZ2]=jvj+11;
 l5:if((x[jvj+11]<=0)) goto l18;
 x[jvj+12]=s[x[jvj+11]] ;z[jvj+12]=(x[jvj+12]<=sepcte) ? x[jvj+12] : z[jvj+11];
 pile[v[22]]=jvj+12; pile[WZ1]=RR; pile[WZ2]=67; 
-(*f[1900])( );     /*TRINOMERIG1(jvj+12,RR,67)*/
+(*f[1902])( );     /*TRINOMERIG1(jvj+12,RR,67)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l5;
 l2:x[jvj+1]=s[x[jvj+48]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+48];

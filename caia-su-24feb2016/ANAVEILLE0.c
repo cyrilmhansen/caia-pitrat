@@ -64,7 +64,7 @@ V1=pile[WZ3];
 goto l5;
 l7:x[jvj+7]=s[x[jvj+5]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+5];
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+7; 
-(*f[1213])( );     /*FUSEPBSTAT0(jvj+6,jvj+7)*/
+(*f[1215])( );     /*FUSEPBSTAT0(jvj+6,jvj+7)*/
 x[jvj+5]=t[x[jvj+5]];
 goto l6;
 }

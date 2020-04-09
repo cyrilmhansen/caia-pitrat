@@ -39,13 +39,13 @@ l4:x[jvj+2]=s[x[jvj+9]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+9];
 pile[v[22]]=jvj+2; pile[WZ1]=BXXX; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+2,BXXX,jvj+3)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+4; 
-(*f[2029])( );     /*Z223Z0(jvj+3,jvj+4)*/
+(*f[2031])( );     /*Z223Z0(jvj+3,jvj+4)*/
 if((x[jvj+4]==135)) goto l1;
 l5:x[jvj+9]=t[x[jvj+9]];
 goto l3;
 l8:x[jvj+7]=s[x[jvj+11]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+11];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
-(*f[2029])( );     /*Z223Z0(jvj+7,jvj+8)*/
+(*f[2031])( );     /*Z223Z0(jvj+7,jvj+8)*/
 if((x[jvj+8]==135)) goto l1;
 x[jvj+11]=t[x[jvj+11]];
 goto l7;

@@ -29,13 +29,13 @@ for(a=x[jvj+2];a>0;a=t[a]) if(s[a]==x[jvj+3]) goto l3;
 pile[v[22]]=jvj+1; pile[WZ1]=128; pile[WZ2]=jvj+3; 
 (*f[36])( );     /*PLUSC0(jvj+1,128,jvj+3)*/
 pile[v[22]]=jvj+3; pile[WZ1]=I; 
-(*f[2077])( );     /*SPR0(jvj+3,I,V2)*/
+(*f[2079])( );     /*SPR0(jvj+3,I,V2)*/
 V2=pile[WZ2]; 
 pile[v[22]]=V2; pile[WZ1]=61; 
 (*f[38])( );     /*SPC0(V2,61,K)*/
 K=pile[WZ2]; 
 pile[v[22]]=jvj+1; pile[WZ1]=X; pile[WZ2]=K; 
-(*f[2221])( );     /*SPV1(jvj+1,X,K,J)*/
+(*f[2223])( );     /*SPV1(jvj+1,X,K,J)*/
 J=pile[WZ3]; 
 goto l4;
 l3:x[jvj+4]=t[x[jvj+4]];

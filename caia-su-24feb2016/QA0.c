@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=23;
 x[jvj+1]=11276;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2137&&v[97]==0) {
+if(v[90]==2139&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 I=pile[v[22]]; X=pile[v[22]+1]; v[22]+=3; 
@@ -103,7 +103,7 @@ pile[v[22]]=V2; pile[WZ1]=40;
 (*f[38])( );     /*SPC0(V2,40,V4)*/
 V4=pile[WZ2]; 
 pile[v[22]]=V4; pile[WZ1]=X; 
-(*f[1981])( );if(v[102]) goto l1;     /*SPSS0(V4,X,V8)*/
+(*f[1983])( );if(v[102]) goto l1;     /*SPSS0(V4,X,V8)*/
 V8=pile[WZ2]; 
 pile[v[22]]=V19; pile[WZ1]=V8; 
 (*f[64])( );     /*SRA2(V19,V8,V9)*/
@@ -121,7 +121,7 @@ pile[v[22]]=V20; pile[WZ1]=V6;
 (*f[64])( );     /*SRA2(V20,V6,V7)*/
 V7=pile[WZ2]; 
 pile[v[22]]=V7; pile[WZ1]=jvj+6; 
-(*f[1981])( );if(v[102]) goto l1;     /*SPSS0(V7,jvj+6,V5)*/
+(*f[1983])( );if(v[102]) goto l1;     /*SPSS0(V7,jvj+6,V5)*/
 V5=pile[WZ2]; 
 pile[v[22]]=V5; pile[WZ1]=41; 
 (*f[38])( );     /*SPC0(V5,41,V3)*/
@@ -130,7 +130,7 @@ pile[v[22]]=V3; pile[WZ1]=32;
 (*f[38])( );     /*SPC0(V3,32,V12)*/
 V12=pile[WZ2]; 
 pile[v[22]]=V12; pile[WZ1]=X; 
-(*f[2140])( );if(v[102]) goto l1;     /*QU0(V12,X,K)*/
+(*f[2142])( );if(v[102]) goto l1;     /*QU0(V12,X,K)*/
 K=pile[WZ2]; 
 goto l2;
 l8:V23=V65;
@@ -142,13 +142,13 @@ pile[v[22]]=V25; pile[WZ1]=40;
 (*f[38])( );     /*SPC0(V25,40,V27)*/
 V27=pile[WZ2]; 
 pile[v[22]]=V27; pile[WZ1]=X; 
-(*f[1981])( );if(v[102]) goto l3;     /*SPSS0(V27,X,V29)*/
+(*f[1983])( );if(v[102]) goto l3;     /*SPSS0(V27,X,V29)*/
 V29=pile[WZ2]; 
 pile[v[22]]=V43; pile[WZ1]=V29; 
 (*f[64])( );     /*SRA2(V43,V29,V30)*/
 V30=pile[WZ2]; 
 pile[v[22]]=V30; pile[WZ1]=jvj+11; 
-(*f[1981])( );if(v[102]) goto l3;     /*SPSS0(V30,jvj+11,V31)*/
+(*f[1983])( );if(v[102]) goto l3;     /*SPSS0(V30,jvj+11,V31)*/
 V31=pile[WZ2]; 
 pile[v[22]]=V42; pile[WZ1]=V31; 
 (*f[64])( );     /*SRA2(V42,V31,V32)*/
@@ -169,7 +169,7 @@ pile[v[22]]=V26; pile[WZ1]=32;
 (*f[38])( );     /*SPC0(V26,32,V35)*/
 V35=pile[WZ2]; 
 pile[v[22]]=V35; pile[WZ1]=X; 
-(*f[2140])( );if(v[102]) goto l3;     /*QU0(V35,X,J)*/
+(*f[2142])( );if(v[102]) goto l3;     /*QU0(V35,X,J)*/
 J=pile[WZ2]; 
 goto l4;
 }

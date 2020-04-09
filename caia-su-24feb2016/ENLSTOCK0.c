@@ -23,7 +23,7 @@ l2:x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];
 pile[v[22]]=jvj+2; pile[WZ1]=R; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(jvj+2,R,jvj+3)*/
 pile[v[22]]=jvj+3; 
-(*f[2111])( );     /*ENLSTOCK0(jvj+3)*/
+(*f[2113])( );     /*ENLSTOCK0(jvj+3)*/
 l3:x[jvj+1]=t[x[jvj+1]];
 goto l1;
 }

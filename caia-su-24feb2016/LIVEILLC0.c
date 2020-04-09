@@ -94,7 +94,7 @@ l11:x[jvj+23]=x[jvj+15] ;z[jvj+23]=z[jvj+15];
 l10:if((x[jvj+23]<=0)) goto l17;
 x[jvj+16]=s[x[jvj+23]] ;z[jvj+16]=(x[jvj+16]<=sepcte) ? x[jvj+16] : z[jvj+23];
 pile[v[22]]=jvj+16; pile[WZ1]=TX; pile[WZ2]=jvj+17; pile[WZ3]=jvj+5; pile[WZ4]=MU; 
-(*f[1221])( );     /*LIVEILLA0(jvj+16,TX,jvj+17,jvj+5,MU)*/
+(*f[1223])( );     /*LIVEILLA0(jvj+16,TX,jvj+17,jvj+5,MU)*/
 x[jvj+23]=t[x[jvj+23]];
 goto l10;
 l6:x[jvj+10]=s[x[jvj+22]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+22];

@@ -46,7 +46,7 @@ pile[WZ1]=V8; pile[WZ2]=V7; pile[WZ3]=1174;
 V9=pile[WZ4]; V10=pile[WZ5]; 
 pile[WZ1]=jvj+4; pile[WZ2]=R; 
 (*f[35])( );     /*CHGC1(jvj+5,jvj+4,R)*/
-(*f[1148])( );     /*METINV0(jvj+5)*/
+(*f[1150])( );     /*METINV0(jvj+5)*/
 l3:x[jvj+1]=t[x[jvj+1]];
 goto l1;
 l5:x[jvj+7]=s[x[jvj+6]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+6];
@@ -75,7 +75,7 @@ pile[WZ1]=V23; pile[WZ2]=V22; pile[WZ3]=1174;
 V24=pile[WZ4]; V25=pile[WZ5]; 
 pile[WZ1]=jvj+9; pile[WZ2]=R; 
 (*f[35])( );     /*CHGC1(jvj+10,jvj+9,R)*/
-(*f[1148])( );     /*METINV0(jvj+10)*/
+(*f[1150])( );     /*METINV0(jvj+10)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l7;
 l6:x[jvj+6]=t[x[jvj+6]];

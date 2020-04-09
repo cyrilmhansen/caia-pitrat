@@ -62,12 +62,12 @@ l5:x[jvj+7]=s[x[jvj+12]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+12];
 pile[v[22]]=jvj+7; pile[WZ1]=A; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+7,A,jvj+8)*/
 pile[v[22]]=jvj+8; pile[WZ1]=EV; 
-(*f[1397])( );     /*CVINST0(jvj+8,EV)*/
+(*f[1399])( );     /*CVINST0(jvj+8,EV)*/
 l6:x[jvj+12]=t[x[jvj+12]];
 goto l4;
 l9:x[jvj+11]=s[x[jvj+14]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+14];
 pile[v[22]]=jvj+11; pile[WZ1]=EV; 
-(*f[1397])( );     /*CVINST0(jvj+11,EV)*/
+(*f[1399])( );     /*CVINST0(jvj+11,EV)*/
 x[jvj+14]=t[x[jvj+14]];
 goto l8;
 l10:v[0]=jvj; v[22]-=2; return;

@@ -23,7 +23,7 @@ VL=V;
 l2:v[0]=jvj; v[22]-=3; pile[v[22]+2]=VL; return;
 l1:pile[v[22]]=A; pile[WZ1]=jvj+1; 
 (*f[255])( );     /*COPEXP0(A,jvj+1)*/
-(*f[1817])( );     /*NOUV2(VL)*/
+(*f[1819])( );     /*NOUV2(VL)*/
 VL=pile[v[22]]; 
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=179; pile[WZ4]=jvj+5; 
 (*f[181])( );     /*QUADRI2(100,20,101,179,jvj+5)*/

@@ -84,12 +84,12 @@ l12:x[jvj+12]=s[x[jvj+17]] ;z[jvj+12]=(x[jvj+12]<=sepcte) ? x[jvj+12] : z[jvj+17
 pile[v[22]]=jvj+12; pile[WZ1]=A; pile[WZ2]=jvj+13; 
 (*f[32])( );if(v[102]) goto l13;     /*FNDO0(jvj+12,A,jvj+13)*/
 pile[v[22]]=jvj+13; pile[WZ1]=R; 
-(*f[1913])( );     /*ENSCTES1(jvj+13,R)*/
+(*f[1915])( );     /*ENSCTES1(jvj+13,R)*/
 l13:x[jvj+17]=t[x[jvj+17]];
 goto l11;
 l16:x[jvj+16]=s[x[jvj+19]] ;z[jvj+16]=(x[jvj+16]<=sepcte) ? x[jvj+16] : z[jvj+19];
 pile[v[22]]=jvj+16; pile[WZ1]=R; 
-(*f[1913])( );     /*ENSCTES1(jvj+16,R)*/
+(*f[1915])( );     /*ENSCTES1(jvj+16,R)*/
 x[jvj+19]=t[x[jvj+19]];
 goto l15;
 l17:v[0]=jvj; v[22]-=2; return;

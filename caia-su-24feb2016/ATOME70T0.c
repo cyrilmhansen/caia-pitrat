@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=12;
 x[jvj+1]=20070;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3025&&v[97]==0) {
+if(v[90]==3027&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 S=pile[v[22]]; v[22]+=1; 
@@ -38,17 +38,17 @@ V6=pile[WZ2];
 pile[v[22]]=102; pile[WZ1]=S; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(102,S,jvj+8)*/
 pile[v[22]]=S; pile[WZ1]=0; 
-(*f[3026])( );if(v[102]) goto l1;     /*EXECUTE0(S,0,RN)*/
+(*f[3028])( );if(v[102]) goto l1;     /*EXECUTE0(S,0,RN)*/
 RN=pile[WZ2]; 
 pile[v[22]]=V6; pile[WZ1]=858; pile[WZ2]=jvj+10; 
 (*f[46])( );     /*TRI0(V6,858,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+11; 
 (*f[189])( );     /*TRI4(jvj+10,v[13],642,jvj+11)*/
-pile[v[22]]=jvj+11; pile[WZ1]=3025; pile[WZ2]=246; pile[WZ3]=jvj+12; 
-(*f[189])( );     /*TRI4(jvj+11,3025,246,jvj+12)*/
+pile[v[22]]=jvj+11; pile[WZ1]=3027; pile[WZ2]=246; pile[WZ3]=jvj+12; 
+(*f[189])( );     /*TRI4(jvj+11,3027,246,jvj+12)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20070; pile[WZ4]=jvj+12; pile[WZ5]=jvj+9; 
 (*f[269])( );     /*QUADRI6(158,1,218,20070,jvj+12,jvj+9)*/
 pile[v[22]]=jvj+9; pile[WZ1]=RN; pile[WZ2]=S; 
-(*f[3027])( );     /*NOUVCTE0(jvj+9,RN,S)*/
+(*f[3029])( );     /*NOUVCTE0(jvj+9,RN,S)*/
 l1:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 }

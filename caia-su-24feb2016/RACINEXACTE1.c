@@ -19,7 +19,7 @@ WZ2=v[22]+2; WZ1=v[22]+1;
 if((A==0)) goto l7;
 if((A<=0)) goto l8;
 pile[v[22]]=A; pile[WZ1]=jvj+4; 
-(*f[1007])( );if(v[102]) goto l8;     /*DECFACTPREM0(A,jvj+4)*/
+(*f[1008])( );if(v[102]) goto l8;     /*DECFACTPREM0(A,jvj+4)*/
 x[jvj+5]=x[jvj+4] ;z[jvj+5]=z[jvj+4];
 l1:if((x[jvj+5]>0)) goto l2;
 pile[v[22]]=1; pile[WZ1]=117; pile[WZ2]=jvj+3; 
@@ -47,7 +47,7 @@ pile[v[22]]=515;
 V7=pile[WZ2]; 
 V6=V7/2;
 pile[v[22]]=V6; pile[WZ1]=V8; 
-(*f[1006])( );if(v[102]) goto l6;     /*POWER0(V6,V8,V3)*/
+(*f[1007])( );if(v[102]) goto l6;     /*POWER0(V6,V8,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=jvj+3; pile[WZ1]=117; pile[WZ2]=V3; 
 (*f[818])( );     /*MTC0(jvj+3,117,V3)*/

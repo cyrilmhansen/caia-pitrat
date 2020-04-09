@@ -71,7 +71,7 @@ pile[v[22]]=V17; pile[WZ1]=V18;
 (*f[38])( );     /*SPC0(V17,V18,V6)*/
 V6=pile[WZ2]; 
 pile[v[22]]=V6; pile[WZ1]=jvj+4; 
-(*f[1981])( );if(v[102]) goto l10;     /*SPSS0(V6,jvj+4,K)*/
+(*f[1983])( );if(v[102]) goto l10;     /*SPSS0(V6,jvj+4,K)*/
 K=pile[WZ2]; 
 pile[v[22]]=Y; pile[WZ1]=334; pile[WZ2]=jvj+4; 
 (*f[36])( );     /*PLUSC0(Y,334,jvj+4)*/

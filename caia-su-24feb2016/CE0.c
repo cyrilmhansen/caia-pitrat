@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=10;
 x[jvj+1]=10612;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1070&&v[97]==0) {
+if(v[90]==1072&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 TL=pile[v[22]]; v[22]+=1; 
@@ -53,8 +53,8 @@ l3:x[jvj+4]=vo[20];z[jvj+4]=vz[20];
 pile[v[22]]=jvj+4; pile[WZ1]=617; pile[WZ2]=jvj+5; 
 (*f[35])( );     /*CHGC1(jvj+4,617,jvj+5)*/
 pile[v[22]]=TL; 
-(*f[1387])( );     /*MNA0(TL)*/
-(*f[1388])( );     /*MNB0(TL)*/
+(*f[1389])( );     /*MNA0(TL)*/
+(*f[1390])( );     /*MNB0(TL)*/
 l4:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l2:x[jvj+5]=67 ;z[jvj+5]=67;
 goto l3;

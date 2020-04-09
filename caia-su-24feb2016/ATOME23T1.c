@@ -14,14 +14,14 @@ v[0]+=23;
 x[jvj+1]=20023;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3267&&v[97]==0) {
+if(v[90]==3269&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 D=pile[v[22]]; v[22]+=1; 
 WZ5=v[22]+5; WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 x[jvj+3]=vo[16];z[jvj+3]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4; 
-(*f[1948])( );if(v[102]) goto l8;     /*FNDOND0(498,jvj+3,jvj+4)*/
+(*f[1950])( );if(v[102]) goto l8;     /*FNDOND0(498,jvj+3,jvj+4)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(1182,jvj+4,jvj+5)*/
 if((68!=x[jvj+5])) goto l8;
@@ -30,7 +30,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+6;
 (*f[26])( );if(v[102]) goto l8;     /*FNDC0(642,jvj+6,V22)*/
 V22=pile[WZ2]; 
 pile[v[22]]=509; pile[WZ1]=D; pile[WZ2]=jvj+7; 
-(*f[1969])( );     /*FNDEND0(509,D,jvj+7)*/
+(*f[1971])( );     /*FNDEND0(509,D,jvj+7)*/
 l4:if((x[jvj+7]<=0)) goto l8;
 x[jvj+8]=s[x[jvj+7]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+7];
 pile[v[22]]=100; pile[WZ1]=jvj+8; pile[WZ2]=jvj+9; 
@@ -83,8 +83,8 @@ pile[v[22]]=V22; pile[WZ1]=858; pile[WZ2]=jvj+19;
 (*f[46])( );     /*TRI0(V22,858,jvj+19)*/
 pile[v[22]]=jvj+19; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+20; 
 (*f[189])( );     /*TRI4(jvj+19,v[13],642,jvj+20)*/
-pile[v[22]]=jvj+20; pile[WZ1]=3267; pile[WZ2]=246; pile[WZ3]=jvj+21; 
-(*f[189])( );     /*TRI4(jvj+20,3267,246,jvj+21)*/
+pile[v[22]]=jvj+20; pile[WZ1]=3269; pile[WZ2]=246; pile[WZ3]=jvj+21; 
+(*f[189])( );     /*TRI4(jvj+20,3269,246,jvj+21)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20023; pile[WZ4]=jvj+21; pile[WZ5]=jvj+18; 
 (*f[269])( );     /*QUADRI6(158,1,218,20023,jvj+21,jvj+18)*/
 pile[v[22]]=jvj+18; pile[WZ1]=159; pile[WZ2]=jvj+22; 
@@ -92,7 +92,7 @@ pile[v[22]]=jvj+18; pile[WZ1]=159; pile[WZ2]=jvj+22;
 pile[WZ2]=jvj+23; 
 (*f[36])( );     /*PLUSC0(jvj+18,159,jvj+23)*/
 pile[WZ1]=280; pile[WZ2]=D; pile[WZ3]=M; 
-(*f[2056])( );     /*VAUT0(jvj+18,280,D,M)*/
+(*f[2058])( );     /*VAUT0(jvj+18,280,D,M)*/
 goto l5;
 l8:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=1; return;
 }

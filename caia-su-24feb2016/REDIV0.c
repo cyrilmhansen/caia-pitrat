@@ -49,7 +49,7 @@ pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+6; pile[WZ4]=jvj+22;
 pile[v[22]]=208; pile[WZ1]=jvj+11; pile[WZ2]=218; pile[WZ3]=67; pile[WZ4]=jvj+10; 
 (*f[181])( );     /*QUADRI2(208,jvj+11,218,67,jvj+10)*/
 pile[v[22]]=B; pile[WZ1]=jvj+10; pile[WZ2]=jvj+11; pile[WZ3]=208; 
-(*f[3993])( );     /*REDIZ0(B,jvj+10,jvj+11,208,jvj+10)*/
+(*f[3995])( );     /*REDIZ0(B,jvj+10,jvj+11,208,jvj+10)*/
 pile[v[22]]=218; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(218,jvj+10,jvj+12)*/
 if((x[jvj+12]!=67)) goto l3;
@@ -74,7 +74,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+16; pile[WZ2]=jvj+17;
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(101,jvj+16,jvj+17)*/
 if((x[jvj+17]!=625)) goto l7;
 pile[v[22]]=B; pile[WZ1]=jvj+15; pile[WZ2]=R; 
-(*f[3994])( );if(v[102]) goto l7;     /*REDIV1(B,jvj+15,R)*/
+(*f[3996])( );if(v[102]) goto l7;     /*REDIV1(B,jvj+15,R)*/
 goto l9;
 l7:x[R]=x[jvj+15] ;z[R]=z[jvj+15];
 goto l9;

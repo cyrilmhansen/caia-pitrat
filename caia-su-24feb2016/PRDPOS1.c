@@ -23,7 +23,7 @@ for(a=x[F];a>0;a=t[a]) if(s[a]==x[jvj+1]) goto l4;
 pile[v[22]]=195; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
 (*f[33])( );     /*FNDE0(195,jvj+1,jvj+2)*/
 pile[v[22]]=jvj+2; pile[WZ1]=jvj+3; 
-(*f[4011])( );if(v[102]) goto l4;     /*APLIS0(jvj+2,jvj+3)*/
+(*f[4013])( );if(v[102]) goto l4;     /*APLIS0(jvj+2,jvj+3)*/
 pile[v[22]]=250; pile[WZ1]=459; pile[WZ2]=jvj+6; 
 (*f[54])( );     /*TRI1(250,459,jvj+6)*/
 pile[v[22]]=218; pile[WZ1]=jvj+1; pile[WZ2]=447; pile[WZ3]=jvj+3; pile[WZ4]=jvj+6; pile[WZ5]=jvj+5; 

@@ -12,7 +12,7 @@ jvj=v[0];
 v[0]+=5;
 x[jvj+1]=11349;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3502&&v[97]==0) {
+if(v[90]==3504&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 HIST=pile[v[22]]; A=pile[v[22]+1]; B=pile[v[22]+2]; C=pile[v[22]+3]; v[22]+=4; 
@@ -28,10 +28,10 @@ if((x[jvj+3]==x[C])) goto l4;
 x[jvj+5]=x[jvj+2] ;z[jvj+5]=z[jvj+2];
 if((v[111]!=0)) goto l3;
 pile[WZ1]=HIST; pile[WZ2]=jvj+5; pile[WZ3]=C; 
-(*f[1768])( );     /*ARCHIVE4(A,HIST,jvj+5,C)*/
+(*f[1770])( );     /*ARCHIVE4(A,HIST,jvj+5,C)*/
 l3:z[jvj+5]=(-1);
 pile[v[22]]=A; pile[WZ1]=jvj+5; pile[WZ2]=HIST; 
-(*f[1365])( );     /*AJOUTER0(A,jvj+5,HIST)*/
+(*f[1367])( );     /*AJOUTER0(A,jvj+5,HIST)*/
 pile[v[22]]=jvj+5; pile[WZ1]=A; pile[WZ2]=C; 
 (*f[34])( );     /*CHGC0(jvj+5,A,C)*/
 l4:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; return;

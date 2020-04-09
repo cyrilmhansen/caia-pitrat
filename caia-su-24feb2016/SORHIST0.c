@@ -44,7 +44,7 @@ if((x[jvj+4]==0)) goto l5;
 V9=L+1;
 x[jvj+5]=0 ;z[jvj+5]=0;
 pile[v[22]]=V9; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; pile[WZ3]=91; pile[WZ4]=93; 
-(*f[1168])( );if(v[102]) goto l6;     /*SORHISTE0(V9,jvj+4,jvj+5,91,93,K)*/
+(*f[1170])( );if(v[102]) goto l6;     /*SORHISTE0(V9,jvj+4,jvj+5,91,93,K)*/
 K=pile[WZ5]; 
 c[v[1]][L]=32;
 l8:J=0;

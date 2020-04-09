@@ -13,7 +13,7 @@ int WZ1,WZ2,WZ3;
 TL=pile[v[22]]; v[22]+=2; 
 WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=1; pile[WZ1]=TL; pile[WZ2]=322; 
-(*f[1113])( );     /*INCM0(1,TL,322,V1)*/
+(*f[1115])( );     /*INCM0(1,TL,322,V1)*/
 V1=pile[WZ3]; 
 V2=V1;
 V=V2;

@@ -26,9 +26,9 @@ if(x[jvj+2]!=incon) goto l2;
 l3:if(x[jvj+3]!=incon) goto l4;
 l5:v[0]=jvj; v[22]-=2; return;
 l2:pile[v[22]]=135; pile[WZ1]=X; pile[WZ2]=jvj+2; 
-(*f[1380])( );     /*RECZ0(135,X,jvj+2)*/
+(*f[1382])( );     /*RECZ0(135,X,jvj+2)*/
 goto l3;
 l4:pile[v[22]]=134; pile[WZ1]=X; pile[WZ2]=jvj+3; 
-(*f[1380])( );     /*RECZ0(134,X,jvj+3)*/
+(*f[1382])( );     /*RECZ0(134,X,jvj+3)*/
 goto l5;
 }

@@ -31,7 +31,7 @@ V1=incon;
 pile[v[22]]=120; pile[WZ1]=X; pile[WZ2]=jvj+1; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(120,X,jvj+1)*/
 pile[v[22]]=K; pile[WZ1]=44; 
-(*f[1368])( );     /*XG0(K,44,jvj+1,V1)*/
+(*f[1370])( );     /*XG0(K,44,jvj+1,V1)*/
 V1=pile[WZ3]; 
 l2:J=V1;
 l4:v[0]=jvj; v[22]-=4; pile[v[22]+3]=J; return;

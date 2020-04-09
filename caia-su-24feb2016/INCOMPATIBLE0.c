@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=63;
 x[jvj+1]=11418;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1565&&v[97]==0) {
+if(v[90]==1567&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; B=pile[v[22]+1]; RES=pile[v[22]+2]; v[22]+=3; 
@@ -90,7 +90,7 @@ x[jvj+6]=t[x[jvj+6]];
 goto l2;
 l4:x[jvj+9]=s[x[jvj+63]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+63];
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; pile[WZ2]=jvj+10; 
-(*f[1565])( );     /*INCOMPATIBLE0(jvj+8,jvj+9,jvj+10)*/
+(*f[1567])( );     /*INCOMPATIBLE0(jvj+8,jvj+9,jvj+10)*/
 if((x[jvj+10]==135)) goto l5;
 x[jvj+63]=t[x[jvj+63]];
 goto l3;

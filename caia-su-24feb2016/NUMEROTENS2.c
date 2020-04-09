@@ -35,7 +35,7 @@ if((x[jvj+6]!=67)) goto l4;
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+1; pile[WZ2]=I; 
 (*f[43])( );     /*CHGC2(jvj+3,jvj+1,I)*/
 l4:pile[v[22]]=V3; pile[WZ1]=jvj+5; pile[WZ2]=jvj+1; pile[WZ3]=jvj+6; 
-(*f[1700])( );     /*NUMEROTENS1(V3,jvj+5,jvj+1,jvj+6,R)*/
+(*f[1702])( );     /*NUMEROTENS1(V3,jvj+5,jvj+1,jvj+6,R)*/
 R=pile[WZ4]; 
 goto l5;
 l6:pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=I; pile[WZ4]=jvj+4; 

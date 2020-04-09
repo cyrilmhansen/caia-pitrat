@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=23;
 x[jvj+1]=20054;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3257&&v[97]==0) {
+if(v[90]==3259&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -54,14 +54,14 @@ x[jvj+23]=x[jvj+5] ;z[jvj+23]=z[jvj+5];
 l3:if((x[jvj+23]<=0)) goto l2;
 x[jvj+14]=s[x[jvj+23]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+23];
 pile[v[22]]=509; pile[WZ1]=jvj+14; pile[WZ2]=jvj+15; 
-(*f[1969])( );     /*FNDEND0(509,jvj+14,jvj+15)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+14,jvj+15)*/
 for(a=x[jvj+15];a>0;a=t[a]) if(s[a]==x[R]) goto l5;
 l4:x[jvj+23]=t[x[jvj+23]];
 goto l3;
 l2:x[jvj+6]=t[x[jvj+6]];
 goto l1;
 l5:pile[v[22]]=L; pile[WZ1]=jvj+14; pile[WZ2]=jvj+16; 
-(*f[3105])( );if(v[102]) goto l4;     /*TROUVE0(L,jvj+14,jvj+16)*/
+(*f[3107])( );if(v[102]) goto l4;     /*TROUVE0(L,jvj+14,jvj+16)*/
 pile[v[22]]=101; pile[WZ1]=R; pile[WZ2]=110; pile[WZ3]=(-601); pile[WZ4]=jvj+21; 
 (*f[270])( );     /*QUADRI7(101,R,110,(-601),jvj+21)*/
 pile[WZ1]=jvj+14; pile[WZ3]=(-656); pile[WZ4]=jvj+22; 
@@ -70,8 +70,8 @@ pile[v[22]]=V21; pile[WZ1]=858; pile[WZ2]=jvj+18;
 (*f[46])( );     /*TRI0(V21,858,jvj+18)*/
 pile[v[22]]=jvj+18; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+19; 
 (*f[189])( );     /*TRI4(jvj+18,v[13],642,jvj+19)*/
-pile[v[22]]=jvj+19; pile[WZ1]=3257; pile[WZ2]=246; pile[WZ3]=jvj+20; 
-(*f[189])( );     /*TRI4(jvj+19,3257,246,jvj+20)*/
+pile[v[22]]=jvj+19; pile[WZ1]=3259; pile[WZ2]=246; pile[WZ3]=jvj+20; 
+(*f[189])( );     /*TRI4(jvj+19,3259,246,jvj+20)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20054; pile[WZ4]=jvj+20; pile[WZ5]=jvj+17; 
 (*f[269])( );     /*QUADRI6(158,1,218,20054,jvj+20,jvj+17)*/
 pile[v[22]]=jvj+17; pile[WZ1]=159; pile[WZ2]=jvj+21; 
@@ -79,7 +79,7 @@ pile[v[22]]=jvj+17; pile[WZ1]=159; pile[WZ2]=jvj+21;
 pile[WZ2]=jvj+22; 
 (*f[36])( );     /*PLUSC0(jvj+17,159,jvj+22)*/
 pile[WZ1]=489; pile[WZ2]=jvj+14; pile[WZ3]=jvj+16; 
-(*f[1753])( );     /*LIER1(jvj+17,489,jvj+14,jvj+16)*/
+(*f[1755])( );     /*LIER1(jvj+17,489,jvj+14,jvj+16)*/
 goto l4;
 l6:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 }

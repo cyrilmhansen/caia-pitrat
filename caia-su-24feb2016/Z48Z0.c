@@ -331,7 +331,7 @@ l40:x[jvj+81]=s[x[jvj+129]] ;z[jvj+81]=(x[jvj+81]<=sepcte) ? x[jvj+81] : z[jvj+1
 if((V212==x[jvj+81])) goto l41;
 x[jvj+79]=x[jvj+81] ;z[jvj+79]=z[jvj+81];
 pile[v[22]]=jvj+79; pile[WZ1]=jvj+80; 
-(*f[1353])( );     /*POSOUNUL0(jvj+79,jvj+80)*/
+(*f[1355])( );     /*POSOUNUL0(jvj+79,jvj+80)*/
 if((x[jvj+80]==135)) goto l42;
 l43:pile[v[22]]=130; pile[WZ1]=jvj+81; 
 (*f[26])( );if(v[102]) goto l41;     /*FNDC0(130,jvj+81,V42)*/

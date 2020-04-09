@@ -15,7 +15,7 @@ v[0]+=16;
 x[jvj+1]=11834;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1247&&v[97]==0) {
+if(v[90]==1249&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; RR=pile[v[22]+1]; BL=pile[v[22]+2]; BA=pile[v[22]+3]; v[22]+=4; 
@@ -23,7 +23,7 @@ WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1;
 pile[v[22]]=218; pile[WZ1]=R; pile[WZ2]=459; pile[WZ3]=68; pile[WZ4]=BA; 
 (*f[181])( );     /*QUADRI2(218,R,459,68,BA)*/
 pile[v[22]]=(-11438); pile[WZ1]=1881; pile[WZ2]=BA; 
-(*f[1506])( );     /*NATFNS0((-11438),1881,BA)*/
+(*f[1508])( );     /*NATFNS0((-11438),1881,BA)*/
 pile[v[22]]=1871; pile[WZ1]=BL; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l10;     /*FNDO0(1871,BL,jvj+5)*/
 pile[v[22]]=1673; pile[WZ1]=22; pile[WZ2]=jvj+7; 
@@ -38,19 +38,19 @@ pile[v[22]]=1877; pile[WZ2]=jvj+8;
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+5; pile[WZ2]=jvj+9; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(jvj+8,jvj+5,jvj+9)*/
 pile[v[22]]=V3; pile[WZ1]=jvj+9; pile[WZ2]=BA; 
-(*f[1506])( );     /*NATFNS0(V3,jvj+9,BA)*/
-(*f[1518])( );     /*NATFNS1(V3,jvj+9,BA)*/
+(*f[1508])( );     /*NATFNS0(V3,jvj+9,BA)*/
+(*f[1520])( );     /*NATFNS1(V3,jvj+9,BA)*/
 pile[v[22]]=1878; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(1878,jvj+3,jvj+4)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(jvj+4,jvj+5,jvj+6)*/
 pile[v[22]]=V3; pile[WZ1]=jvj+6; pile[WZ2]=BA; 
-(*f[1506])( );     /*NATFNS0(V3,jvj+6,BA)*/
+(*f[1508])( );     /*NATFNS0(V3,jvj+6,BA)*/
 l2:x[jvj+7]=t[x[jvj+7]];
 goto l1;
 l4:x[jvj+11]=s[x[jvj+10]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+10];
 pile[v[22]]=jvj+11; 
-(*f[1494])( );     /*FNDEXPR0(jvj+11)*/
+(*f[1496])( );     /*FNDEXPR0(jvj+11)*/
 x[jvj+10]=t[x[jvj+10]];
 l3:if((x[jvj+10]>0)) goto l4;
 pile[v[22]]=1260; pile[WZ1]=BA; pile[WZ2]=jvj+14; 
@@ -95,7 +95,7 @@ pile[v[22]]=20; pile[WZ1]=V23; pile[WZ2]=V21;
 V12=pile[WZ3]; 
 goto l9;
 l10:pile[v[22]]=RR; pile[WZ1]=BA; 
-(*f[1519])( );     /*NATFN0(RR,BA)*/
+(*f[1521])( );     /*NATFN0(RR,BA)*/
 pile[v[22]]=1260; pile[WZ2]=jvj+10; 
 (*f[33])( );     /*FNDE0(1260,BA,jvj+10)*/
 goto l3;

@@ -63,12 +63,12 @@ l5:x[jvj+4]=s[x[jvj+13]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+13];
 pile[v[22]]=jvj+4; pile[WZ1]=X; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(jvj+4,X,jvj+5)*/
 pile[v[22]]=X; pile[WZ1]=jvj+4; 
-(*f[1096])( );     /*SUBGEN1(X,jvj+4,jvj+5)*/
+(*f[1098])( );     /*SUBGEN1(X,jvj+4,jvj+5)*/
 l6:x[jvj+13]=t[x[jvj+13]];
 goto l4;
 l9:x[jvj+8]=s[x[jvj+15]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+15];
 pile[v[22]]=X; pile[WZ1]=jvj+6; pile[WZ2]=jvj+8; 
-(*f[1096])( );     /*SUBGEN1(X,jvj+6,jvj+8)*/
+(*f[1098])( );     /*SUBGEN1(X,jvj+6,jvj+8)*/
 x[jvj+15]=t[x[jvj+15]];
 goto l8;
 l10:v[0]=jvj; v[22]-=3; return;

@@ -14,7 +14,7 @@ v[0]+=9;
 x[jvj+1]=10480;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1640&&v[97]==0) {
+if(v[90]==1642&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 RX=pile[v[22]]; D=pile[v[22]+1]; v[22]+=2; 
@@ -23,7 +23,7 @@ pile[v[22]]=100; pile[WZ1]=RX; pile[WZ2]=jvj+3;
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(100,RX,jvj+3)*/
 if((x[jvj+3]!=39)) goto l3;
 pile[v[22]]=RX; pile[WZ1]=D; pile[WZ2]=jvj+4; 
-(*f[1641])( );if(v[102]) goto l3;     /*VC0(RX,D,jvj+4)*/
+(*f[1643])( );if(v[102]) goto l3;     /*VC0(RX,D,jvj+4)*/
 pile[v[22]]=130; pile[WZ1]=jvj+4; 
 (*f[26])( );if(v[102]) goto l3;     /*FNDC0(130,jvj+4,V3)*/
 V3=pile[WZ2]; 
@@ -41,7 +41,7 @@ x[jvj+5]=t[x[jvj+5]];
 goto l1;
 l5:x[jvj+8]=s[x[jvj+9]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+9];
 pile[v[22]]=jvj+8; pile[WZ1]=D; 
-(*f[1640])( );     /*VZ1(jvj+8,D)*/
+(*f[1642])( );     /*VZ1(jvj+8,D)*/
 x[jvj+9]=t[x[jvj+9]];
 goto l4;
 }

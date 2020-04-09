@@ -37,13 +37,13 @@ l3:x[jvj+3]=s[x[jvj+2]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+2];
 pile[v[22]]=jvj+3; pile[WZ1]=P; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+3,P,jvj+4)*/
 pile[v[22]]=A; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
-(*f[1398])( );     /*FIGUREFON0(A,jvj+4,jvj+5)*/
+(*f[1400])( );     /*FIGUREFON0(A,jvj+4,jvj+5)*/
 if((x[jvj+5]==135)) goto l1;
 l5:x[jvj+2]=t[x[jvj+2]];
 goto l2;
 l8:x[jvj+9]=s[x[jvj+12]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+12];
 pile[v[22]]=A; pile[WZ1]=jvj+9; pile[WZ2]=jvj+10; 
-(*f[1398])( );     /*FIGUREFON0(A,jvj+9,jvj+10)*/
+(*f[1400])( );     /*FIGUREFON0(A,jvj+9,jvj+10)*/
 if((x[jvj+10]==135)) goto l1;
 x[jvj+12]=t[x[jvj+12]];
 goto l7;

@@ -70,7 +70,7 @@ pile[v[22]]=jvj+16; pile[WZ1]=jvj+7; pile[WZ2]=107; pile[WZ3]=jvj+17;
 pile[v[22]]=jvj+17; pile[WZ1]=22; pile[WZ2]=100; pile[WZ3]=jvj+14; 
 (*f[58])( );     /*TRI3(jvj+17,22,100,jvj+14)*/
 pile[v[22]]=jvj+14; 
-(*f[1160])( );if(v[102]) goto l16;     /*SUP0(jvj+14,V8)*/
+(*f[1162])( );if(v[102]) goto l16;     /*SUP0(jvj+14,V8)*/
 V8=pile[WZ1]; 
 if((V8>=V13)) goto l16;
 pile[v[22]]=DD; pile[WZ1]=jvj+13; 

@@ -64,7 +64,7 @@ l9:V5=t[T];
 if((V5==0)) goto l10;
 if((V5<=0)) goto l11;
 pile[v[22]]=V5; pile[WZ1]=K; pile[WZ2]=C; 
-(*f[1053])( );     /*XM1(V5,K,C,J)*/
+(*f[1055])( );     /*XM1(V5,K,C,J)*/
 J=pile[WZ3]; 
 l12:v[0]=jvj; v[22]-=4; pile[v[22]+3]=J; return;
 l1:IL=I;

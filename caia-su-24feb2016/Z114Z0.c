@@ -285,7 +285,7 @@ goto l27;
 l29:x[jvj+52]=s[x[jvj+99]] ;z[jvj+52]=(x[jvj+52]<=sepcte) ? x[jvj+52] : z[jvj+99];
 if((V12==x[jvj+52])) goto l30;
 pile[v[22]]=jvj+52; pile[WZ1]=jvj+53; 
-(*f[1446])( );     /*NONUL0(jvj+52,jvj+53)*/
+(*f[1448])( );     /*NONUL0(jvj+52,jvj+53)*/
 if((x[jvj+53]==135)) goto l31;
 l30:x[jvj+99]=t[x[jvj+99]];
 goto l28;
@@ -328,7 +328,7 @@ goto l36;
 l38:x[jvj+68]=s[x[jvj+100]] ;z[jvj+68]=(x[jvj+68]<=sepcte) ? x[jvj+68] : z[jvj+100];
 if((V60==x[jvj+68])) goto l39;
 pile[v[22]]=jvj+68; pile[WZ1]=jvj+69; 
-(*f[1353])( );     /*POSOUNUL0(jvj+68,jvj+69)*/
+(*f[1355])( );     /*POSOUNUL0(jvj+68,jvj+69)*/
 if((x[jvj+69]==135)) goto l40;
 l39:x[jvj+100]=t[x[jvj+100]];
 goto l37;

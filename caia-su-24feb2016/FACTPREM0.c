@@ -32,11 +32,11 @@ pile[v[22]]=jvj+1; pile[WZ1]=2;
 V3=AA/P;
 if((V3<=1)) goto l3;
 pile[v[22]]=V3; pile[WZ1]=jvj+1; pile[WZ2]=Q; 
-(*f[1351])( );     /*FACTPREM1(V3,jvj+1,Q)*/
+(*f[1353])( );     /*FACTPREM1(V3,jvj+1,Q)*/
 l3:V9=AA%2;
 if((V9==0)) goto l7;
 pile[v[22]]=AA; pile[WZ1]=jvj+1; pile[WZ2]=1; 
-(*f[1351])( );     /*FACTPREM1(AA,jvj+1,1)*/
+(*f[1353])( );     /*FACTPREM1(AA,jvj+1,1)*/
 l7:pile[v[22]]=1; pile[WZ1]=117; pile[WZ2]=jvj+2; 
 (*f[46])( );     /*TRI0(1,117,jvj+2)*/
 V16=x[jvj+1];

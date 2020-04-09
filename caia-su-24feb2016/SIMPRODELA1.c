@@ -33,7 +33,7 @@ V1=V4;
 l9:pile[v[22]]=447; pile[WZ1]=jvj+1; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l10;     /*FNDO0(447,jvj+1,jvj+4)*/
 pile[v[22]]=P; pile[WZ1]=V1; pile[WZ3]=jvj+5; 
-(*f[1456])( );if(v[102]) goto l10;     /*SIMPRODEL0(P,V1,jvj+4,jvj+5)*/
+(*f[1458])( );if(v[102]) goto l10;     /*SIMPRODEL0(P,V1,jvj+4,jvj+5)*/
 V6=V12-V1;
 pile[v[22]]=EA; pile[WZ1]=jvj+5; 
 (*f[68])( );     /*PLUE0(EA,jvj+5)*/

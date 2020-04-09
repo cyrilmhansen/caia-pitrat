@@ -12,7 +12,7 @@ jvj=v[0];
 v[0]+=21;
 x[jvj+1]=10865;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1763&&v[97]==0) {
+if(v[90]==1765&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 
@@ -21,7 +21,7 @@ l1:x[jvj+2]=vo[14];z[jvj+2]=vz[14];
 pile[v[22]]=334; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
 (*f[33])( );     /*FNDE0(334,jvj+2,jvj+3)*/
 if((x[jvj+3]!=0)) goto l2;
-(*f[1954])( );     /*QTTBIS0()*/
+(*f[1956])( );     /*QTTBIS0()*/
 l2:x[jvj+4]=vo[14];z[jvj+4]=vz[14];
 pile[v[22]]=334; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
 (*f[33])( );     /*FNDE0(334,jvj+4,jvj+5)*/
@@ -38,7 +38,7 @@ pile[v[22]]=120; pile[WZ1]=jvj+15; pile[WZ2]=jvj+18;
 pile[v[22]]=698; pile[WZ1]=jvj+18; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l11;     /*FNDO0(698,jvj+18,jvj+6)*/
 pile[v[22]]=528; pile[WZ1]=jvj+6; 
-(*f[1956])( );     /*QRR0(528,jvj+6)*/
+(*f[1958])( );     /*QRR0(528,jvj+6)*/
 V3=g[488];
 if((V3<=0)) goto l12;
 V4=vg[488];
@@ -96,9 +96,9 @@ if((V18==2)) goto l7;
 goto l12;
 l11:if((v[190]<=0)) goto l14;
 pile[v[22]]=jvj+6; 
-(*f[1957])( );if(v[102]) goto l14;     /*QYYDNA0(jvj+6)*/
+(*f[1959])( );if(v[102]) goto l14;     /*QYYDNA0(jvj+6)*/
 pile[v[22]]=528; pile[WZ1]=jvj+6; 
-(*f[1956])( );     /*QRR0(528,jvj+6)*/
+(*f[1958])( );     /*QRR0(528,jvj+6)*/
 V18=g[419];
 if((V18<=0)) goto l12;
 V19=vg[419];
@@ -118,9 +118,9 @@ if((x[jvj+14]!=0)) goto l1;
 l15:x[jvj+1]=incon; v[0]=jvj; return;
 l17:x[jvj+19]=s[x[jvj+17]] ;z[jvj+19]=(x[jvj+19]<=sepcte) ? x[jvj+19] : z[jvj+17];
 pile[v[22]]=jvj+19; pile[WZ1]=jvj+20; 
-(*f[1958])( );     /*VALCOMP0(jvj+19,jvj+20)*/
+(*f[1960])( );     /*VALCOMP0(jvj+19,jvj+20)*/
 pile[v[22]]=jvj+20; pile[WZ1]=jvj+15; 
-(*f[1305])( );if(v[102]) goto l18;     /*VALGLO2(jvj+20,jvj+15,V42)*/
+(*f[1307])( );if(v[102]) goto l18;     /*VALGLO2(jvj+20,jvj+15,V42)*/
 V42=pile[WZ2]; 
 if((v[36]<=0)) goto l18;
 V47=x[jvj+19];
@@ -139,7 +139,7 @@ V50=pile[WZ3];
 pile[v[22]]=V50; 
 (*f[40])( );     /*SLG0(V50)*/
 pile[v[22]]=jvj+20; 
-(*f[1306])( );     /*SORJGT0(jvj+20)*/
+(*f[1308])( );     /*SORJGT0(jvj+20)*/
 l18:x[jvj+17]=t[x[jvj+17]];
 goto l16;
 }

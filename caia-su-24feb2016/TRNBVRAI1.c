@@ -143,7 +143,7 @@ l9:x[jvj+13]=s[x[jvj+47]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+47]
 pile[v[22]]=jvj+13; pile[WZ1]=X; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l10;     /*FNDO0(jvj+13,X,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ2]=jvj+13; pile[WZ3]=M; 
-(*f[2062])( );     /*TRNBVRAI1(jvj+14,X,jvj+13,M)*/
+(*f[2064])( );     /*TRNBVRAI1(jvj+14,X,jvj+13,M)*/
 l10:x[jvj+47]=t[x[jvj+47]];
 goto l8;
 l12:x[jvj+15]=s[x[jvj+48]] ;z[jvj+15]=(x[jvj+15]<=sepcte) ? x[jvj+15] : z[jvj+48];
@@ -155,7 +155,7 @@ x[jvj+48]=t[x[jvj+48]];
 goto l11;
 l14:x[jvj+17]=s[x[jvj+49]] ;z[jvj+17]=(x[jvj+17]<=sepcte) ? x[jvj+17] : z[jvj+49];
 pile[v[22]]=jvj+17; pile[WZ1]=X; pile[WZ2]=jvj+15; pile[WZ3]=M; 
-(*f[2062])( );     /*TRNBVRAI1(jvj+17,X,jvj+15,M)*/
+(*f[2064])( );     /*TRNBVRAI1(jvj+17,X,jvj+15,M)*/
 x[jvj+49]=t[x[jvj+49]];
 goto l13;
 l18:pile[v[22]]=Y; pile[WZ1]=BT; pile[WZ2]=jvj+46; 

@@ -20,7 +20,7 @@ x[jvj+1]=incon;
 pile[v[22]]=68; pile[WZ1]=158; pile[WZ2]=jvj+14; 
 (*f[54])( );     /*TRI1(68,158,jvj+14)*/
 pile[v[22]]=129; pile[WZ1]=Z; pile[WZ2]=jvj+1; 
-(*f[1157])( );if(v[102]) goto l1;     /*NORME1(129,Z,jvj+1)*/
+(*f[1159])( );if(v[102]) goto l1;     /*NORME1(129,Z,jvj+1)*/
 l1:if(x[jvj+1]!=incon) goto l2;
 l19:pile[v[22]]=jvj+14; pile[WZ1]=158; pile[WZ2]=12; 
 (*f[35])( );     /*CHGC1(jvj+14,158,12)*/
@@ -99,7 +99,7 @@ pile[v[22]]=107; pile[WZ1]=jvj+1; pile[WZ2]=jvj+12;
 l7:if((x[jvj+12]<=0)) goto l20;
 x[jvj+13]=s[x[jvj+12]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+12];
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; pile[WZ2]=67; 
-(*f[1900])( );     /*TRINOMERIG1(jvj+13,jvj+14,67)*/
+(*f[1902])( );     /*TRINOMERIG1(jvj+13,jvj+14,67)*/
 x[jvj+12]=t[x[jvj+12]];
 goto l7;
 l9:if((NK==1)) goto l10;

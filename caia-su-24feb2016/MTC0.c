@@ -66,7 +66,7 @@ goto l5;
 l8:v[45]=1;
 goto l4;
 l9:pile[v[22]]=XN; pile[WZ1]=V26; pile[WZ2]=jvj+4; 
-(*f[1165])( );     /*POSPRD1(XN,V26,jvj+4)*/
+(*f[1167])( );     /*POSPRD1(XN,V26,jvj+4)*/
 if((x[jvj+4]==134)) goto l8;
 goto l4;
 }

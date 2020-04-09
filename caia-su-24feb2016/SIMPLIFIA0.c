@@ -38,7 +38,7 @@ V6=pile[WZ2];
 if((V6==0)) goto l7;
 V9=(-V6);
 pile[v[22]]=V9; pile[WZ1]=V5; 
-(*f[1025])( );if(v[102]) goto l7;     /*POSOM0(V9,V5,V3)*/
+(*f[1026])( );if(v[102]) goto l7;     /*POSOM0(V9,V5,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=218; pile[WZ1]=jvj+3; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(218,jvj+3,jvj+4)*/
@@ -60,12 +60,12 @@ V12=(-NT);
 pile[v[22]]=jvj+7; pile[WZ1]=117; pile[WZ2]=V12; 
 (*f[43])( );     /*CHGC2(jvj+7,117,V12)*/
 pile[v[22]]=E1; pile[WZ1]=jvj+6; 
-(*f[1670])( );     /*OUTER3(E1,jvj+6)*/
+(*f[1672])( );     /*OUTER3(E1,jvj+6)*/
 goto l3;
 l9:pile[v[22]]=E1; pile[WZ1]=jvj+6; 
-(*f[1670])( );     /*OUTER3(E1,jvj+6)*/
+(*f[1672])( );     /*OUTER3(E1,jvj+6)*/
 l10:pile[v[22]]=E2; pile[WZ1]=jvj+7; 
-(*f[1670])( );     /*OUTER3(E2,jvj+7)*/
+(*f[1672])( );     /*OUTER3(E2,jvj+7)*/
 goto l3;
 l11:pile[v[22]]=jvj+6; pile[WZ1]=117; pile[WZ2]=NT; 
 (*f[43])( );     /*CHGC2(jvj+6,117,NT)*/

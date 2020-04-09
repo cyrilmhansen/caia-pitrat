@@ -54,6 +54,6 @@ l4:pile[v[22]]=J; pile[WZ1]=41;
 K=pile[WZ2]; 
 goto l5;
 l6:pile[v[22]]=K; pile[WZ1]=N; 
-(*f[1175])( );     /*SLG4(K,N)*/
+(*f[1177])( );     /*SLG4(K,N)*/
 l7:v[0]=jvj; v[22]-=3; return;
 }

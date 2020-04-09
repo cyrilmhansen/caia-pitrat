@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=26;
 x[jvj+1]=20599;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3838&&v[97]==0) {
+if(v[90]==3840&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NNNI=pile[v[22]]; v[22]+=1; 
@@ -55,14 +55,14 @@ if((x[jvj+15]!=68)) goto l2;
 pile[v[22]]=jvj+9; pile[WZ1]=jvj+16; 
 (*f[200])( );if(v[102]) goto l2;     /*NDD0(jvj+9,jvj+16)*/
 pile[v[22]]=202; pile[WZ2]=jvj+17; 
-(*f[1948])( );if(v[102]) goto l2;     /*FNDOND0(202,jvj+16,jvj+17)*/
+(*f[1950])( );if(v[102]) goto l2;     /*FNDOND0(202,jvj+16,jvj+17)*/
 if((x[jvj+17]!=68)) goto l2;
 pile[v[22]]=489; pile[WZ2]=jvj+18; 
-(*f[1969])( );     /*FNDEND0(489,jvj+16,jvj+18)*/
+(*f[1971])( );     /*FNDEND0(489,jvj+16,jvj+18)*/
 for(i=x[jvj+18],V6=0;i>0;i=t[i],V6++)  ;
 if((V6!=1)) goto l2;
 pile[v[22]]=365; pile[WZ2]=jvj+19; 
-(*f[1969])( );     /*FNDEND0(365,jvj+16,jvj+19)*/
+(*f[1971])( );     /*FNDEND0(365,jvj+16,jvj+19)*/
 for(i=x[jvj+19],V8=0;i>0;i=t[i],V8++)  ;
 if((V8!=1)) goto l2;
 pile[v[22]]=101; pile[WZ1]=NNNI; pile[WZ2]=110; pile[WZ3]=(-11593); pile[WZ4]=jvj+25; 
@@ -71,8 +71,8 @@ pile[v[22]]=V25; pile[WZ1]=858; pile[WZ2]=jvj+21;
 (*f[46])( );     /*TRI0(V25,858,jvj+21)*/
 pile[v[22]]=jvj+21; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+22; 
 (*f[189])( );     /*TRI4(jvj+21,v[13],642,jvj+22)*/
-pile[v[22]]=jvj+22; pile[WZ1]=3838; pile[WZ2]=246; pile[WZ3]=jvj+23; 
-(*f[189])( );     /*TRI4(jvj+22,3838,246,jvj+23)*/
+pile[v[22]]=jvj+22; pile[WZ1]=3840; pile[WZ2]=246; pile[WZ3]=jvj+23; 
+(*f[189])( );     /*TRI4(jvj+22,3840,246,jvj+23)*/
 pile[v[22]]=jvj+23; pile[WZ1]=20599; pile[WZ2]=218; pile[WZ3]=jvj+24; 
 (*f[58])( );     /*TRI3(jvj+23,20599,218,jvj+24)*/
 pile[v[22]]=jvj+25; pile[WZ1]=(-20); pile[WZ2]=jvj+24; pile[WZ3]=159; pile[WZ4]=jvj+26; 
@@ -80,7 +80,7 @@ pile[v[22]]=jvj+25; pile[WZ1]=(-20); pile[WZ2]=jvj+24; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+26; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+20; 
 (*f[58])( );     /*TRI3(jvj+26,1,158,jvj+20)*/
 pile[v[22]]=jvj+20; 
-(*f[1559])( );     /*CONTRADICTION0(jvj+20)*/
+(*f[1561])( );     /*CONTRADICTION0(jvj+20)*/
 l2:x[jvj+5]=t[x[jvj+5]];
 goto l1;
 l3:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;

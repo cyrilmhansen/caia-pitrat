@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=21;
 x[jvj+1]=10070;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1999&&v[97]==0) {
+if(v[90]==2001&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 Y=pile[v[22]]; v[22]+=1; 
@@ -41,7 +41,7 @@ x[jvj+20]=x[jvj+8] ;z[jvj+20]=z[jvj+8];
 l1:if((x[jvj+20]<=0)) goto l5;
 x[jvj+4]=s[x[jvj+20]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+20];
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
-(*f[2095])( );if(v[102]) goto l2;     /*MEVALQ0(jvj+3,jvj+4,jvj+5)*/
+(*f[2097])( );if(v[102]) goto l2;     /*MEVALQ0(jvj+3,jvj+4,jvj+5)*/
 if((x[jvj+5]==134)) goto l6;
 l2:x[jvj+20]=t[x[jvj+20]];
 goto l1;
@@ -70,7 +70,7 @@ x[jvj+21]=x[jvj+16] ;z[jvj+21]=z[jvj+16];
 l11:if((x[jvj+21]<=0)) goto l10;
 x[jvj+19]=s[x[jvj+21]] ;z[jvj+19]=(x[jvj+19]<=sepcte) ? x[jvj+19] : z[jvj+21];
 pile[v[22]]=jvj+18; pile[WZ1]=jvj+19; pile[WZ2]=Y; 
-(*f[2096])( );     /*MEVALR0(jvj+18,jvj+19,Y)*/
+(*f[2098])( );     /*MEVALR0(jvj+18,jvj+19,Y)*/
 x[jvj+21]=t[x[jvj+21]];
 goto l11;
 l8:x[jvj+14]=s[x[jvj+12]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+12];

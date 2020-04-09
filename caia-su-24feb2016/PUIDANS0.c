@@ -20,7 +20,7 @@ l2:v[22]-=3; pile[v[22]+2]=R; return;
 l1:V2=A/B;
 V3=S+1;
 pile[v[22]]=V2; pile[WZ1]=B; pile[WZ2]=V3; 
-(*f[1360])( );     /*PUIDANS1(V2,B,V3,R)*/
+(*f[1362])( );     /*PUIDANS1(V2,B,V3,R)*/
 R=pile[WZ3]; 
 goto l2;
 }

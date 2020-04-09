@@ -33,7 +33,7 @@ pile[v[22]]=jvj+1;
 (*f[1000])( );     /*PGCDEN0(jvj+1,V6)*/
 V6=pile[WZ1]; 
 pile[v[22]]=V6; pile[WZ1]=X; 
-(*f[1011])( );     /*PGCD0(V6,X,R)*/
+(*f[1012])( );     /*PGCD0(V6,X,R)*/
 R=pile[WZ2]; 
 l9:v[0]=jvj; v[22]-=2; pile[v[22]+1]=R; return;
 l1:R=1;
@@ -53,7 +53,7 @@ if((Y!=X)) goto l8;
 V12=t[V12];
 goto l6;
 l8:pile[v[22]]=Y; pile[WZ1]=X; 
-(*f[1011])( );     /*PGCD0(Y,X,R)*/
+(*f[1012])( );     /*PGCD0(Y,X,R)*/
 R=pile[WZ2]; 
 goto l9;
 }

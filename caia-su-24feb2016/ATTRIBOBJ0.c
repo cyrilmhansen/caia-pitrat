@@ -40,7 +40,7 @@ pile[v[22]]=E; pile[WZ1]=jvj+1;
 l3:V11=t[NN];
 if((V11<=0)) goto l4;
 pile[v[22]]=V11; pile[WZ1]=E; pile[WZ2]=F; 
-(*f[1538])( );     /*ATTRIBOBJ1(V11,E,F)*/
+(*f[1540])( );     /*ATTRIBOBJ1(V11,E,F)*/
 l4:v[0]=jvj; v[22]-=3; return;
 l2:pile[v[22]]=F; pile[WZ1]=jvj+1; 
 (*f[68])( );     /*PLUE0(F,jvj+1)*/

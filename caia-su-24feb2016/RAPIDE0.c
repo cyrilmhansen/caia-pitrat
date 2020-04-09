@@ -22,11 +22,11 @@ if((x[jvj+1]<=0)) goto l3;
 x[jvj+3]=s[x[jvj+1]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+1];
 x[jvj+2]=x[jvj+3] ;z[jvj+2]=z[jvj+3];
 pile[v[22]]=jvj+2; 
-(*f[1162])( );if(v[102]) goto l2;     /*Z229Z0(jvj+2,V2)*/
+(*f[1164])( );if(v[102]) goto l2;     /*Z229Z0(jvj+2,V2)*/
 V2=pile[WZ1]; 
 if((V2>0)) goto l1;
 l2:pile[v[22]]=jvj+2; 
-(*f[1172])( );if(v[102]) goto l3;     /*Z232Z0(jvj+2,V3)*/
+(*f[1174])( );if(v[102]) goto l3;     /*Z232Z0(jvj+2,V3)*/
 V3=pile[WZ1]; 
 if((V3>0)) goto l1;
 l3:x[R]=135 ;z[R]=135;

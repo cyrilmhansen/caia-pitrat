@@ -19,7 +19,7 @@ if((A!=0)) goto l1;
 R=0;
 l1:V3=B-1;
 pile[v[22]]=V3; pile[WZ1]=V19; 
-(*f[1006])( );if(v[102]) goto l26;     /*POWER0(V3,V19,H)*/
+(*f[1007])( );if(v[102]) goto l26;     /*POWER0(V3,V19,H)*/
 H=pile[WZ2]; 
 V2=B*H;
 if((V2<=0)) goto l26;
@@ -45,7 +45,7 @@ if((B>17)) goto l11;
 V10=3;
 l17:Y=V10;
 pile[v[22]]=B; pile[WZ1]=Y; 
-(*f[1006])( );if(v[102]) goto l19;     /*POWER0(B,Y,P)*/
+(*f[1007])( );if(v[102]) goto l19;     /*POWER0(B,Y,P)*/
 P=pile[WZ2]; 
 l19:if(R==incon) goto l20;
 l27:v[22]-=6; pile[v[22]+5]=R; v[102]=0;return;
@@ -90,7 +90,7 @@ goto l17;
 l18:V16=V17;
 l23:if((V16==(-99999998))) goto l24;
 pile[v[22]]=B; pile[WZ1]=V17; 
-(*f[1006])( );if(v[102]) goto l24;     /*POWER0(B,V17,V15)*/
+(*f[1007])( );if(v[102]) goto l24;     /*POWER0(B,V17,V15)*/
 V15=pile[WZ2]; 
 if((A>=V15)) goto l24;
 R=V16;

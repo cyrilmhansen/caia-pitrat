@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=28;
 x[jvj+1]=20123;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3616&&v[97]==0) {
+if(v[90]==3618&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -28,7 +28,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+4;
 (*f[26])( );if(v[102]) goto l4;     /*FNDC0(642,jvj+4,V8)*/
 V8=pile[WZ2]; 
 pile[v[22]]=R; pile[WZ1]=jvj+5; 
-(*f[1930])( );if(v[102]) goto l4;     /*DECTERMES0(R,jvj+5)*/
+(*f[1932])( );if(v[102]) goto l4;     /*DECTERMES0(R,jvj+5)*/
 pile[v[22]]=1294; pile[WZ1]=R; pile[WZ2]=jvj+6; 
 (*f[33])( );     /*FNDE0(1294,R,jvj+6)*/
 for(a=x[jvj+6];a>0;a=t[a]) if(s[a]==1327) goto l2;
@@ -51,7 +51,7 @@ x[jvj+28]=x[jvj+5] ;z[jvj+28]=z[jvj+5];
 l8:if((x[jvj+28]>0)) goto l9;
 x[jvj+7]=x[jvj+24] ;z[jvj+7]=z[jvj+24];
 pile[v[22]]=jvj+7; 
-(*f[3617])( );if(v[102]) goto l3;     /*PGCDSOMME0(jvj+7,I)*/
+(*f[3619])( );if(v[102]) goto l3;     /*PGCDSOMME0(jvj+7,I)*/
 I=pile[WZ1]; 
 if((I<=1)) goto l3;
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
@@ -62,8 +62,8 @@ pile[v[22]]=V8; pile[WZ1]=858; pile[WZ2]=jvj+12;
 (*f[46])( );     /*TRI0(V8,858,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+13; 
 (*f[189])( );     /*TRI4(jvj+12,v[13],642,jvj+13)*/
-pile[v[22]]=jvj+13; pile[WZ1]=3616; pile[WZ2]=246; pile[WZ3]=jvj+14; 
-(*f[189])( );     /*TRI4(jvj+13,3616,246,jvj+14)*/
+pile[v[22]]=jvj+13; pile[WZ1]=3618; pile[WZ2]=246; pile[WZ3]=jvj+14; 
+(*f[189])( );     /*TRI4(jvj+13,3618,246,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ1]=20123; pile[WZ2]=218; pile[WZ3]=jvj+15; 
 (*f[58])( );     /*TRI3(jvj+14,20123,218,jvj+15)*/
 pile[v[22]]=jvj+16; pile[WZ1]=(-20); pile[WZ2]=jvj+15; pile[WZ3]=159; pile[WZ4]=jvj+17; 
@@ -81,7 +81,7 @@ pile[v[22]]=jvj+19; pile[WZ1]=jvj+9; pile[WZ2]=103; pile[WZ3]=jvj+20;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+21; pile[WZ4]=jvj+20; pile[WZ5]=jvj+11; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+21,jvj+20,jvj+11)*/
 pile[v[22]]=jvj+11; pile[WZ1]=jvj+10; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+11,jvj+10)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+11,jvj+10)*/
 goto l3;
 l9:x[jvj+25]=s[x[jvj+28]] ;z[jvj+25]=(x[jvj+25]<=sepcte) ? x[jvj+25] : z[jvj+28];
 if((x[jvj+25]==x[jvj+22])) goto l10;

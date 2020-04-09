@@ -34,11 +34,11 @@ l3:pile[v[22]]=N; pile[WZ1]=120; pile[WZ2]=jvj+3;
 (*f[35])( );     /*CHGC1(N,120,jvj+3)*/
 l4:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; return;
 l1:pile[v[22]]=P; pile[WZ1]=B; pile[WZ2]=jvj+4; 
-(*f[1144])( );     /*VALSTRA0(P,B,jvj+4)*/
+(*f[1146])( );     /*VALSTRA0(P,B,jvj+4)*/
 pile[v[22]]=jvj+4; 
 (*f[766])( );if(v[102]) goto l2;     /*VALGLO0(jvj+4,RES)*/
 RES=pile[WZ1]; 
 pile[v[22]]=RES; pile[WZ1]=P; pile[WZ2]=N; 
-(*f[1145])( );     /*TRIE0(RES,P,N)*/
+(*f[1147])( );     /*TRIE0(RES,P,N)*/
 goto l2;
 }

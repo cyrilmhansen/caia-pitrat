@@ -31,7 +31,7 @@ pile[v[22]]=1564; pile[WZ1]=145; pile[WZ2]=jvj+7;
 for(a=x[jvj+7];a>0;a=t[a]) if(s[a]==x[jvj+6]) goto l4;
 l5:x[jvj+10]=x[A] ;z[jvj+10]=z[A];
 l6:pile[v[22]]=jvj+10; pile[WZ1]=jvj+11; 
-(*f[1964])( );     /*SETERM0(jvj+10,jvj+11)*/
+(*f[1966])( );     /*SETERM0(jvj+10,jvj+11)*/
 l7:if((x[jvj+11]>0)) goto l8;
 if(x[jvj+9]!=incon) goto l9;
 l1:pile[v[22]]=763; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
@@ -56,15 +56,15 @@ x[jvj+10]=x[jvj+8] ;z[jvj+10]=z[jvj+8];
 goto l6;
 l8:x[jvj+12]=s[x[jvj+11]] ;z[jvj+12]=(x[jvj+12]<=sepcte) ? x[jvj+12] : z[jvj+11];
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+1; pile[WZ2]=36; 
-(*f[2075])( );     /*COEFFDEGA0(jvj+12,jvj+1,36)*/
+(*f[2077])( );     /*COEFFDEGA0(jvj+12,jvj+1,36)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l7;
 l9:pile[v[22]]=jvj+9; pile[WZ1]=jvj+13; 
-(*f[1964])( );     /*SETERM0(jvj+9,jvj+13)*/
+(*f[1966])( );     /*SETERM0(jvj+9,jvj+13)*/
 l10:if((x[jvj+13]<=0)) goto l1;
 x[jvj+14]=s[x[jvj+13]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+13];
 pile[v[22]]=jvj+14; pile[WZ1]=jvj+1; pile[WZ2]=52; 
-(*f[2075])( );     /*COEFFDEGA0(jvj+14,jvj+1,52)*/
+(*f[2077])( );     /*COEFFDEGA0(jvj+14,jvj+1,52)*/
 x[jvj+13]=t[x[jvj+13]];
 goto l10;
 l11:R=0;

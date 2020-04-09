@@ -60,7 +60,7 @@ l5:pile[v[22]]=1081; pile[WZ1]=jvj+9; pile[WZ2]=jvj+10;
 (*f[33])( );     /*FNDE0(1081,jvj+9,jvj+10)*/
 l6:if((x[jvj+10]>0)) goto l7;
 pile[v[22]]=jvj+7; 
-(*f[1190])( );     /*MALICE0(jvj+7)*/
+(*f[1192])( );     /*MALICE0(jvj+7)*/
 x[jvj+21]=x[jvj+7] ;z[jvj+21]=z[jvj+7];
 v[244]=0;
 x[jvj+14]=vo[12];z[jvj+14]=vz[12];

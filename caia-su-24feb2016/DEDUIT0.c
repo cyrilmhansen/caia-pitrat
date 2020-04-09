@@ -15,7 +15,7 @@ v[0]+=25;
 x[jvj+1]=11678;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1551&&v[97]==0) {
+if(v[90]==1553&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 E=pile[v[22]]; EE=pile[v[22]+1]; v[22]+=2; 
@@ -69,7 +69,7 @@ for(a=x[jvj+12];a>0;a=t[a]) if(s[a]==x[jvj+23]) goto l5;
 pile[v[22]]=jvj+9; pile[WZ1]=jvj+5; pile[WZ2]=jvj+13; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+9,jvj+5,jvj+13)*/
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; 
-(*f[1739])( );     /*ALGEBRIQUE0(jvj+13,jvj+14)*/
+(*f[1741])( );     /*ALGEBRIQUE0(jvj+13,jvj+14)*/
 if((x[jvj+14]==68)) goto l12;
 l5:x[jvj+8]=t[x[jvj+8]];
 goto l4;
@@ -92,7 +92,7 @@ goto l6;
 l12:pile[v[22]]=EE; pile[WZ1]=jvj+23; 
 (*f[68])( );     /*PLUE0(EE,jvj+23)*/
 pile[WZ1]=V20; 
-(*f[1740])( );     /*DEDUIT1(EE,V20)*/
+(*f[1742])( );     /*DEDUIT1(EE,V20)*/
 l11:x[jvj+20]=t[x[jvj+20]];
 goto l9;
 }

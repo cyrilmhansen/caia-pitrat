@@ -32,7 +32,7 @@ l2:x[jvj+2]=s[x[jvj+22]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+22];
 pile[v[22]]=jvj+2; pile[WZ1]=BXXX; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(jvj+2,BXXX,jvj+3)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+4; 
-(*f[1732])( );     /*Z265Z0(jvj+3,jvj+4)*/
+(*f[1734])( );     /*Z265Z0(jvj+3,jvj+4)*/
 if((x[jvj+4]==135)) goto l4;
 l3:x[jvj+22]=t[x[jvj+22]];
 goto l1;
@@ -40,7 +40,7 @@ l4:x[BRRR]=135 ;z[BRRR]=135;
 l14:v[0]=jvj; v[22]-=2; return;
 l7:x[jvj+7]=s[x[jvj+24]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+24];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
-(*f[1732])( );     /*Z265Z0(jvj+7,jvj+8)*/
+(*f[1734])( );     /*Z265Z0(jvj+7,jvj+8)*/
 if((x[jvj+8]==135)) goto l4;
 x[jvj+24]=t[x[jvj+24]];
 goto l6;

@@ -38,11 +38,11 @@ l5:if((x[jvj+10]>0)) goto l6;
 x[jvj+68]=0 ;z[jvj+68]=0;
 x[EX]=x[jvj+68] ;z[EX]=z[jvj+68];
 pile[v[22]]=A; 
-(*f[1809])( );     /*NUMEROTENS3(A)*/
+(*f[1811])( );     /*NUMEROTENS3(A)*/
 pile[v[22]]=ED; pile[WZ1]=jvj+17; 
 (*f[4093])( );     /*ENSTYPVAR0(ED,jvj+17)*/
 pile[v[22]]=jvj+17; 
-(*f[1809])( );     /*NUMEROTENS3(jvj+17)*/
+(*f[1811])( );     /*NUMEROTENS3(jvj+17)*/
 for(i=x[jvj+17],V10=0;i>0;i=t[i],V10++)  ;
 ND=V10;
 l7:if((x[jvj+17]>0)) goto l8;

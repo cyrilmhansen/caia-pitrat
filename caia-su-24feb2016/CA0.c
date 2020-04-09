@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=10207;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1423&&v[97]==0) {
+if(v[90]==1425&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 TL=pile[v[22]]; BL=pile[v[22]+1]; R=pile[v[22]+2]; v[22]+=3; 
@@ -35,29 +35,29 @@ l1:if((V14>0)) goto l2;
 pile[v[22]]=250; pile[WZ1]=158; pile[WZ2]=jvj+10; 
 (*f[54])( );     /*TRI1(250,158,jvj+10)*/
 pile[v[22]]=68; pile[WZ1]=R; pile[WZ2]=357; pile[WZ3]=TL; pile[WZ4]=jvj+5; pile[WZ5]=jvj+10; pile[v[22]+6]=R; pile[v[22]+7]=250; 
-(*f[1632])( );     /*COPA0(68,R,357,TL,jvj+5,jvj+10,R,250)*/
+(*f[1634])( );     /*COPA0(68,R,357,TL,jvj+5,jvj+10,R,250)*/
 pile[v[22]]=TL; pile[WZ1]=357; pile[WZ2]=R; pile[WZ3]=jvj+10; pile[WZ4]=TL; pile[WZ5]=0; 
-(*f[1633])( );     /*COPTT0(TL,357,R,jvj+10,TL,0)*/
+(*f[1635])( );     /*COPTT0(TL,357,R,jvj+10,TL,0)*/
 pile[v[22]]=147; pile[WZ1]=BL; pile[WZ2]=jvj+9; 
 (*f[33])( );     /*FNDE0(147,BL,jvj+9)*/
 l9:if((x[jvj+7]>0)) goto l10;
 pile[v[22]]=jvj+10; 
-(*f[1634])( );     /*COPU0(jvj+10)*/
+(*f[1636])( );     /*COPU0(jvj+10)*/
 pile[v[22]]=147; pile[WZ1]=BL; pile[WZ2]=jvj+11; 
 (*f[33])( );     /*FNDE0(147,BL,jvj+11)*/
 pile[v[22]]=20; pile[WZ1]=R; pile[WZ2]=jvj+12; 
 (*f[409])( );     /*TRI14(20,R,jvj+12)*/
 pile[v[22]]=R; pile[WZ1]=357; pile[WZ2]=TL; pile[WZ3]=R; 
-(*f[1635])( );     /*COPT0(R,357,TL,R)*/
+(*f[1637])( );     /*COPT0(R,357,TL,R)*/
 pile[WZ1]=BL; pile[WZ2]=jvj+11; pile[WZ3]=jvj+12; 
-(*f[1636])( );     /*CBX0(R,BL,jvj+11,jvj+12)*/
-(*f[1637])( );     /*CBR0(R)*/
+(*f[1638])( );     /*CBX0(R,BL,jvj+11,jvj+12)*/
+(*f[1639])( );     /*CBR0(R)*/
 pile[WZ1]=67; pile[WZ2]=R; 
-(*f[1638])( );     /*DEKB0(R,67,R)*/
+(*f[1640])( );     /*DEKB0(R,67,R)*/
 pile[v[22]]=67; pile[WZ1]=415; pile[WZ2]=jvj+13; 
 (*f[54])( );     /*TRI1(67,415,jvj+13)*/
 pile[v[22]]=R; pile[WZ1]=jvj+13; pile[WZ2]=68; 
-(*f[1639])( );     /*DOUB0(R,jvj+13,68)*/
+(*f[1641])( );     /*DOUB0(R,jvj+13,68)*/
 l12:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; return;
 l2:V=s[V14];
 for(a=x[jvj+3];a>0;a=t[a]) if(s[a]==V) goto l4;
@@ -65,7 +65,7 @@ l3:V14=t[V14];
 goto l1;
 l4:for(a=x[jvj+2];a>0;a=t[a]) if(s[a]==V) goto l3;
 pile[v[22]]=V; pile[WZ1]=TL; pile[WZ2]=jvj+4; 
-(*f[1631])( );     /*NOUV1(V,TL,jvj+4)*/
+(*f[1633])( );     /*NOUV1(V,TL,jvj+4)*/
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+4; 
 (*f[68])( );     /*PLUE0(jvj+5,jvj+4)*/
 goto l3;

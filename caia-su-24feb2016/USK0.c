@@ -39,14 +39,14 @@ x[jvj+10]=t[x[jvj+10]];
 goto l6;
 l1:x[jvj+8]=x[jvj+1] ;z[jvj+8]=z[jvj+1];
 l9:pile[v[22]]=jvj+8; pile[WZ1]=V; pile[WZ2]=T; 
-(*f[1114])( );     /*USK1(jvj+8,V,T)*/
+(*f[1116])( );     /*USK1(jvj+8,V,T)*/
 x[jvj+11]=t[x[jvj+11]];
 goto l7;
 l4:x[jvj+4]=s[x[jvj+9]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+9];
 pile[v[22]]=jvj+4; pile[WZ1]=X; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+4,X,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=V; pile[WZ2]=T; 
-(*f[1114])( );     /*USK1(jvj+5,V,T)*/
+(*f[1116])( );     /*USK1(jvj+5,V,T)*/
 l5:x[jvj+9]=t[x[jvj+9]];
 goto l3;
 l8:x[jvj+1]=s[x[jvj+11]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+11];

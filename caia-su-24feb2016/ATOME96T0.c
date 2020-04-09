@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=131;
 x[jvj+1]=20096;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3252&&v[97]==0) {
+if(v[90]==3254&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -68,7 +68,7 @@ if((x[jvj+3]!=484)) goto l2;
 pile[v[22]]=jvj+2; pile[WZ1]=jvj+21; 
 (*f[200])( );if(v[102]) goto l6;     /*NDD0(jvj+2,jvj+21)*/
 pile[v[22]]=509; pile[WZ2]=jvj+22; 
-(*f[1969])( );     /*FNDEND0(509,jvj+21,jvj+22)*/
+(*f[1971])( );     /*FNDEND0(509,jvj+21,jvj+22)*/
 x[jvj+130]=x[jvj+20] ;z[jvj+130]=z[jvj+20];
 l3:if((x[jvj+130]<=0)) goto l6;
 x[jvj+4]=s[x[jvj+130]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+130];
@@ -137,7 +137,7 @@ if((V96==V98)) goto l10;
 pile[v[22]]=107; pile[WZ1]=jvj+32; pile[WZ2]=jvj+38; 
 (*f[33])( );     /*FNDE0(107,jvj+32,jvj+38)*/
 pile[v[22]]=jvj+20; pile[WZ1]=jvj+38; pile[WZ2]=jvj+39; 
-(*f[1081])( );     /*IDENSEXP0(jvj+20,jvj+38,jvj+39)*/
+(*f[1083])( );     /*IDENSEXP0(jvj+20,jvj+38,jvj+39)*/
 if((x[jvj+39]==135)) goto l11;
 l10:x[jvj+131]=t[x[jvj+131]];
 goto l9;
@@ -164,8 +164,8 @@ pile[v[22]]=V94; pile[WZ1]=858; pile[WZ2]=jvj+43;
 (*f[46])( );     /*TRI0(V94,858,jvj+43)*/
 pile[v[22]]=jvj+43; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+44; 
 (*f[189])( );     /*TRI4(jvj+43,v[13],642,jvj+44)*/
-pile[v[22]]=jvj+44; pile[WZ1]=3252; pile[WZ2]=246; pile[WZ3]=jvj+45; 
-(*f[189])( );     /*TRI4(jvj+44,3252,246,jvj+45)*/
+pile[v[22]]=jvj+44; pile[WZ1]=3254; pile[WZ2]=246; pile[WZ3]=jvj+45; 
+(*f[189])( );     /*TRI4(jvj+44,3254,246,jvj+45)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20096; pile[WZ4]=jvj+45; pile[WZ5]=jvj+41; 
 (*f[269])( );     /*QUADRI6(158,1,218,20096,jvj+45,jvj+41)*/
 pile[v[22]]=jvj+41; pile[WZ1]=159; pile[WZ2]=jvj+46; 
@@ -333,7 +333,7 @@ pile[WZ2]=jvj+53;
 pile[WZ2]=jvj+54; 
 (*f[36])( );     /*PLUSC0(jvj+42,107,jvj+54)*/
 pile[WZ1]=jvj+41; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+42,jvj+41)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+42,jvj+41)*/
 goto l10;
 l12:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 }

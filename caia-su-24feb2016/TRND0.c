@@ -20,7 +20,7 @@ pile[v[22]]=277; pile[WZ1]=A; pile[WZ2]=jvj+1;
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(277,A,jvj+1)*/
 if(x[jvj+1]!=480&&x[jvj+1]!=481) goto l1;
 pile[v[22]]=A; pile[WZ1]=R; 
-(*f[1290])( );if(v[102]) goto l1;     /*DEPEXP0(A,R)*/
+(*f[1292])( );if(v[102]) goto l1;     /*DEPEXP0(A,R)*/
 l5:v[0]=jvj; v[22]-=2; return;
 l1:pile[v[22]]=100; pile[WZ1]=A; pile[WZ2]=jvj+2; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(100,A,jvj+2)*/

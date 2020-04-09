@@ -36,7 +36,7 @@ V6=s[V13];
 if((V6<=sepcte)) goto l1;
 x[jvj+1]=V6 ;z[jvj+1]=(V6<=sepcte) ? V6 : 0;
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
-(*f[1770])( );     /*COPEXPFAIT0(jvj+1,jvj+2)*/
+(*f[1772])( );     /*COPEXPFAIT0(jvj+1,jvj+2)*/
 V9=x[jvj+2];
 V1=V9;
 goto l4;

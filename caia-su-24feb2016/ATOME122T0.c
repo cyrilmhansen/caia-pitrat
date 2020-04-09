@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=25;
 x[jvj+1]=20122;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3544&&v[97]==0) {
+if(v[90]==3546&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -43,7 +43,7 @@ pile[v[22]]=130; pile[WZ1]=jvj+8;
 V10=pile[WZ2]; 
 I=V10;
 pile[v[22]]=I; pile[WZ1]=jvj+23; 
-(*f[1007])( );if(v[102]) goto l2;     /*DECFACTPREM0(I,jvj+23)*/
+(*f[1008])( );if(v[102]) goto l2;     /*DECFACTPREM0(I,jvj+23)*/
 x[jvj+25]=0 ;z[jvj+25]=0;
 l5:if((x[jvj+23]>0)) goto l6;
 V3=x[jvj+25];
@@ -60,8 +60,8 @@ pile[v[22]]=V17; pile[WZ1]=858; pile[WZ2]=jvj+13;
 (*f[46])( );     /*TRI0(V17,858,jvj+13)*/
 pile[v[22]]=jvj+13; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+14; 
 (*f[189])( );     /*TRI4(jvj+13,v[13],642,jvj+14)*/
-pile[v[22]]=jvj+14; pile[WZ1]=3544; pile[WZ2]=246; pile[WZ3]=jvj+15; 
-(*f[189])( );     /*TRI4(jvj+14,3544,246,jvj+15)*/
+pile[v[22]]=jvj+14; pile[WZ1]=3546; pile[WZ2]=246; pile[WZ3]=jvj+15; 
+(*f[189])( );     /*TRI4(jvj+14,3546,246,jvj+15)*/
 pile[v[22]]=jvj+15; pile[WZ1]=20122; pile[WZ2]=218; pile[WZ3]=jvj+16; 
 (*f[58])( );     /*TRI3(jvj+15,20122,218,jvj+16)*/
 pile[v[22]]=jvj+17; pile[WZ1]=(-20); pile[WZ2]=jvj+16; pile[WZ3]=159; pile[WZ4]=jvj+18; 
@@ -79,7 +79,7 @@ pile[v[22]]=jvj+20; pile[WZ1]=jvj+10; pile[WZ2]=103; pile[WZ3]=jvj+21;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+22; pile[WZ4]=jvj+21; pile[WZ5]=jvj+12; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+22,jvj+21,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=jvj+11; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+12,jvj+11)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+12,jvj+11)*/
 V20=t[V20];
 goto l3;
 l2:x[jvj+5]=t[x[jvj+5]];
@@ -93,7 +93,7 @@ pile[v[22]]=510;
 (*f[26])( );if(v[102]) goto l7;     /*FNDC0(510,jvj+24,V38)*/
 V38=pile[WZ2]; 
 pile[v[22]]=V37; pile[WZ1]=V38; 
-(*f[1006])( );if(v[102]) goto l7;     /*POWER0(V37,V38,V39)*/
+(*f[1007])( );if(v[102]) goto l7;     /*POWER0(V37,V38,V39)*/
 V39=pile[WZ2]; 
 pile[v[22]]=jvj+25; pile[WZ1]=V39; 
 (*f[207])( );     /*PLUE2(jvj+25,V39)*/

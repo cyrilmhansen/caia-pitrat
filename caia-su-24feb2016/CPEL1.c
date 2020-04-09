@@ -40,7 +40,7 @@ if((V16!=V4)) goto l4;
 V5=s[V20];
 if((V5<=sepcte)) goto l4;
 pile[v[22]]=V5; pile[WZ1]=T; pile[WZ2]=jvj+3; 
-(*f[1799])( );     /*CPIM1(V5,T,jvj+3)*/
+(*f[1801])( );     /*CPIM1(V5,T,jvj+3)*/
 V7=x[jvj+3];
 V1=V7;
 l8:pile[v[22]]=V1; pile[WZ1]=V16; pile[WZ2]=jvj+4; 

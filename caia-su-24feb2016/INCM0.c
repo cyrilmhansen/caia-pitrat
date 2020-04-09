@@ -22,7 +22,7 @@ l1:V3=x[A];
 V4=x[B];
 V5=z[B];
 pile[v[22]]=V3; pile[WZ1]=V4; pile[WZ2]=C; pile[WZ3]=0; pile[WZ4]=V5; 
-(*f[1433])( );     /*INCT0(V3,V4,C,0,V5,R)*/
+(*f[1435])( );     /*INCT0(V3,V4,C,0,V5,R)*/
 R=pile[WZ5]; 
 v[22]-=4; pile[v[22]+3]=R; return;
 }

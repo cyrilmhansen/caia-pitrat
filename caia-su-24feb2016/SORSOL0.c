@@ -53,7 +53,7 @@ pile[v[22]]=V26; pile[WZ1]=jvj+3;
 (*f[344])( );if(v[102]) goto l6;     /*XX1(V26,jvj+3,I)*/
 I=pile[WZ2]; 
 pile[v[22]]=V8; pile[WZ1]=I; 
-(*f[1726])( );     /*SORSOL1(V8,I)*/
+(*f[1728])( );     /*SORSOL1(V8,I)*/
 l6:pile[v[22]]=1051; pile[WZ1]=X; pile[WZ2]=jvj+7; 
 (*f[33])( );     /*FNDE0(1051,X,jvj+7)*/
 l7:if((x[jvj+7]>0)) goto l8;

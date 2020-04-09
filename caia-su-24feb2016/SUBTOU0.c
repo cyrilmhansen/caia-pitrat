@@ -19,7 +19,7 @@ pile[v[22]]=X; pile[WZ1]=191; pile[WZ2]=68;
 pile[v[22]]=102; pile[WZ1]=X; pile[WZ2]=jvj+1; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(102,X,jvj+1)*/
 pile[v[22]]=VA; pile[WZ1]=VB; 
-(*f[2101])( );     /*SUBVT0(VA,VB,jvj+1)*/
+(*f[2103])( );     /*SUBVT0(VA,VB,jvj+1)*/
 l3:x[jvj+4]=d[108];z[jvj+4]=0;
 l1:if((x[jvj+4]>0)) goto l2;
 v[0]=jvj; v[22]-=3; return;
@@ -31,7 +31,7 @@ pile[v[22]]=191; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3;
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(191,jvj+2,jvj+3)*/
 if((x[jvj+3]==68)) goto l4;
 l5:pile[v[22]]=jvj+2; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2214])( );     /*SUBTOU0(jvj+2,VA,VB)*/
+(*f[2216])( );     /*SUBTOU0(jvj+2,VA,VB)*/
 l4:x[jvj+4]=t[x[jvj+4]];
 goto l1;
 }

@@ -16,7 +16,7 @@ if(v[0]>99700) (*f[6])( );
 A=pile[v[22]]; R=pile[v[22]+1]; v[22]+=2; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=A; pile[WZ1]=jvj+3; 
-(*f[1205])( );     /*LINELEM0(A,jvj+3)*/
+(*f[1207])( );     /*LINELEM0(A,jvj+3)*/
 if((x[jvj+3]==135)) goto l2;
 pile[v[22]]=111; pile[WZ1]=A; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(111,A,jvj+4)*/
@@ -28,7 +28,7 @@ pile[v[22]]=107; pile[WZ1]=A; pile[WZ2]=jvj+6;
 l1:if((x[jvj+6]<=0)) goto l2;
 x[jvj+1]=s[x[jvj+6]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+6];
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
-(*f[1205])( );     /*LINELEM0(jvj+1,jvj+2)*/
+(*f[1207])( );     /*LINELEM0(jvj+1,jvj+2)*/
 if((x[jvj+2]==134)) goto l3;
 x[jvj+6]=t[x[jvj+6]];
 goto l1;

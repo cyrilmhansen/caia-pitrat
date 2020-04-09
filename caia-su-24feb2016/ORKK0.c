@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=15;
 x[jvj+1]=10711;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2020&&v[97]==0) {
+if(v[90]==2022&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 XP=pile[v[22]]; X=pile[v[22]+1]; R=pile[v[22]+2]; BB=pile[v[22]+3]; v[22]+=4; 
@@ -43,7 +43,7 @@ pile[v[22]]=311; pile[WZ2]=jvj+4;
 for(a=x[jvj+4];a>0;a=t[a]) if(s[a]==x[jvj+9]) goto l4;
 l5:V3=V11;
 l9:pile[v[22]]=jvj+5; pile[WZ1]=R; 
-(*f[2108])( );if(v[102]) goto l11;     /*ORW0(jvj+5,R,C,H,L)*/
+(*f[2110])( );if(v[102]) goto l11;     /*ORW0(jvj+5,R,C,H,L)*/
 C=pile[WZ2]; H=pile[WZ3]; L=pile[WZ4]; 
 V2=incon;
 if((C<=BB)) goto l1;
@@ -104,7 +104,7 @@ x[jvj+11]=s[x[jvj+10]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+10];
 pile[v[22]]=jvj+11; pile[WZ1]=X; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(jvj+11,X,jvj+12)*/
 pile[v[22]]=XP; pile[WZ1]=jvj+12; pile[WZ2]=R; pile[WZ3]=BB; 
-(*f[2020])( );     /*ORKK0(XP,jvj+12,R,BB)*/
+(*f[2022])( );     /*ORKK0(XP,jvj+12,R,BB)*/
 l8:x[jvj+10]=t[x[jvj+10]];
 goto l6;
 l2:V17=V3/BB;

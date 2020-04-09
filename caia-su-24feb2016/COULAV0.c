@@ -37,7 +37,7 @@ if((x[jvj+4]!=69)) goto l4;
 pile[v[22]]=108; pile[WZ2]=jvj+5; 
 (*f[33])( );     /*FNDE0(108,jvj+3,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=Z; 
-(*f[2176])( );     /*COULAV0(jvj+5,Z)*/
+(*f[2178])( );     /*COULAV0(jvj+5,Z)*/
 l4:x[jvj+6]=t[x[jvj+6]];
 goto l1;
 }

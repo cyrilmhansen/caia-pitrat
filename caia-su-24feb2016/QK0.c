@@ -14,14 +14,14 @@ jvj=v[0];
 v[0]+=2;
 x[jvj+1]=10289;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1961&&v[97]==0) {
+if(v[90]==1963&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 I=pile[v[22]]; v[22]+=2; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 V1=I;
 l1:pile[v[22]]=V1; pile[WZ2]=jvj+2; 
-(*f[2074])( );     /*QKB0(V1,L,jvj+2)*/
+(*f[2076])( );     /*QKB0(V1,L,jvj+2)*/
 L=pile[WZ1]; 
 if((x[jvj+2]==67)) goto l2;
 if((x[jvj+2]==68)) goto l4;

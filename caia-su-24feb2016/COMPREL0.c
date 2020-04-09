@@ -62,7 +62,7 @@ if((x[jvj+10]==25)) goto l16;
 pile[v[22]]=jvj+1; pile[WZ1]=117; pile[WZ2]=1; 
 (*f[186])( );     /*BTC0(jvj+1,117,1)*/
 pile[v[22]]=jvj+8; pile[WZ1]=AA; pile[WZ2]=jvj+10; pile[WZ3]=jvj+1; pile[WZ4]=jvj+11; 
-(*f[2116])( );if(v[102]) goto l16;     /*COMPREL1(jvj+8,AA,jvj+10,jvj+1,jvj+11)*/
+(*f[2118])( );if(v[102]) goto l16;     /*COMPREL1(jvj+8,AA,jvj+10,jvj+1,jvj+11)*/
 x[RK]=x[jvj+11] ;z[RK]=z[jvj+11];
 goto l18;
 l13:x[jvj+13]=30 ;z[jvj+13]=30;

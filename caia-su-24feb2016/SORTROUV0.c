@@ -58,7 +58,7 @@ pile[v[22]]=V28; pile[WZ1]=V9; pile[WZ2]=41;
 (*f[179])( );     /*SDX1(V28,V9,41,II)*/
 II=pile[WZ3]; 
 pile[v[22]]=II; pile[WZ1]=V12; pile[WZ2]=44; 
-(*f[1976])( );     /*SORTROUV1(II,V12,44,JJ)*/
+(*f[1978])( );     /*SORTROUV1(II,V12,44,JJ)*/
 JJ=pile[WZ3]; 
 l2:v[0]=jvj; v[22]-=2; return;
 l1:pile[v[22]]=489; pile[WZ1]=jvj+2; pile[WZ2]=jvj+4; 
@@ -84,7 +84,7 @@ pile[v[22]]=V34; pile[WZ1]=V21; pile[WZ2]=41;
 (*f[179])( );     /*SDX1(V34,V21,41,II)*/
 II=pile[WZ3]; 
 pile[v[22]]=II; pile[WZ1]=V12; pile[WZ2]=44; 
-(*f[1976])( );     /*SORTROUV1(II,V12,44,V15)*/
+(*f[1978])( );     /*SORTROUV1(II,V12,44,V15)*/
 V15=pile[WZ3]; 
 goto l2;
 l3:V31=0;

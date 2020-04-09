@@ -38,7 +38,7 @@ pile[v[22]]=E;
 l3:V9=t[NN];
 if((V9<=0)) goto l4;
 pile[v[22]]=V9; pile[WZ1]=E; pile[WZ2]=F; 
-(*f[1098])( );     /*ATTRIBOBJGRAM1(V9,E,F)*/
+(*f[1100])( );     /*ATTRIBOBJGRAM1(V9,E,F)*/
 l4:v[0]=jvj; v[22]-=3; return;
 l2:pile[v[22]]=F; pile[WZ1]=jvj+1; 
 (*f[68])( );     /*PLUE0(F,jvj+1)*/

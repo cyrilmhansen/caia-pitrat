@@ -144,7 +144,7 @@ goto l29;
 l28:x[jvj+32]=x[jvj+28] ;z[jvj+32]=z[jvj+28];
 goto l29;
 l30:pile[v[22]]=jvj+33; pile[WZ1]=X; pile[WZ2]=ND; pile[WZ3]=jvj+3; pile[WZ4]=jvj+34; 
-(*f[1094])( );     /*MODIFPRIO0(jvj+33,X,ND,jvj+3,jvj+34)*/
+(*f[1096])( );     /*MODIFPRIO0(jvj+33,X,ND,jvj+3,jvj+34)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=jvj+34; pile[WZ4]=jvj+35; 
 (*f[181])( );     /*QUADRI2(100,20,101,jvj+34,jvj+35)*/
 pile[v[22]]=X; pile[WZ1]=959; pile[WZ2]=jvj+35; 

@@ -41,6 +41,6 @@ for(a=x[jvj+6];a>0;a=t[a]) if(s[a]==VB) goto l8;
 l7:x[jvj+7]=t[x[jvj+7]];
 goto l5;
 l8:pile[v[22]]=jvj+5; pile[WZ1]=VA; pile[WZ2]=VB; 
-(*f[2212])( );     /*OROK0(jvj+5,VA,VB)*/
+(*f[2214])( );     /*OROK0(jvj+5,VA,VB)*/
 goto l7;
 }

@@ -28,7 +28,7 @@ for(a=x[jvj+1];a>0;a=t[a]) if(s[a]==x[jvj+2]) goto l4;
 pile[v[22]]=Y; pile[WZ1]=128; pile[WZ2]=jvj+2; 
 (*f[36])( );     /*PLUSC0(Y,128,jvj+2)*/
 pile[v[22]]=jvj+2; pile[WZ1]=V5; 
-(*f[2077])( );     /*SPR0(jvj+2,V5,V2)*/
+(*f[2079])( );     /*SPR0(jvj+2,V5,V2)*/
 V2=pile[WZ2]; 
 pile[v[22]]=V2; pile[WZ1]=61; 
 (*f[38])( );     /*SPC0(V2,61,K)*/

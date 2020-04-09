@@ -21,11 +21,11 @@ if((V1==0)) goto l1;
 if((V1<=0)) goto l2;
 x[jvj+1]=V1 ;z[jvj+1]=0;
 pile[v[22]]=jvj+1; 
-(*f[4020])( );if(v[102]) goto l2;     /*PPCMENS0(jvj+1,RR)*/
+(*f[4022])( );if(v[102]) goto l2;     /*PPCMENS0(jvj+1,RR)*/
 RR=pile[WZ1]; 
 V7=s[x[E]];
 pile[v[22]]=RR; pile[WZ1]=V7; 
-(*f[1021])( );if(v[102]) goto l2;     /*PPCM0(RR,V7,R)*/
+(*f[1022])( );if(v[102]) goto l2;     /*PPCM0(RR,V7,R)*/
 R=pile[WZ2]; 
 l3:v[0]=jvj; v[22]-=2; pile[v[22]+1]=R; v[102]=0;return;
 l1:V2=s[x[E]];

@@ -13,13 +13,13 @@ jvj=v[0];
 v[0]+=4;
 x[jvj+1]=11755;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1917&&v[97]==0) {
+if(v[90]==1919&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 RR=pile[v[22]]; BA=pile[v[22]+1]; F=pile[v[22]+2]; v[22]+=3; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=RR; pile[WZ1]=BA; pile[WZ2]=jvj+2; pile[WZ3]=jvj+4; pile[WZ4]=jvj+3; 
-(*f[1708])( );     /*TYPEXPR2(RR,BA,jvj+2,jvj+4,jvj+3)*/
+(*f[1710])( );     /*TYPEXPR2(RR,BA,jvj+2,jvj+4,jvj+3)*/
 if((x[jvj+2]==129)) goto l1;
 if((x[jvj+2]==1881)) goto l2;
 if((x[jvj+4]==23)) goto l3;

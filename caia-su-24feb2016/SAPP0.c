@@ -24,13 +24,13 @@ V6=pile[WZ2];
 V5=s[V11];
 x[jvj+1]=V5 ;z[jvj+1]=(V5<=sepcte) ? V5 : 0;
 pile[v[22]]=V; pile[WZ1]=V12; 
-(*f[2077])( );     /*SPR0(V,V12,V2)*/
+(*f[2079])( );     /*SPR0(V,V12,V2)*/
 V2=pile[WZ2]; 
 pile[v[22]]=V6; pile[WZ1]=V2; 
 (*f[64])( );     /*SRA2(V6,V2,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=jvj+1; pile[WZ1]=V3; 
-(*f[2077])( );     /*SPR0(jvj+1,V3,L)*/
+(*f[2079])( );     /*SPR0(jvj+1,V3,L)*/
 L=pile[WZ2]; 
 V10=t[V11];
 if((V10==0)) goto l2;

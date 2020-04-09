@@ -42,7 +42,7 @@ pile[WZ1]=510;
 pile[v[22]]=134; pile[WZ1]=jvj+1; pile[WZ2]=jvj+10; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(134,jvj+1,jvj+10)*/
 pile[v[22]]=jvj+10; 
-(*f[2105])( );     /*ORKB0(jvj+10)*/
+(*f[2107])( );     /*ORKB0(jvj+10)*/
 l8:x[jvj+1]=x[jvj+11] ;z[jvj+1]=z[jvj+11];
 goto l4;
 l3:x[jvj+4]=s[x[jvj+8]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+8];

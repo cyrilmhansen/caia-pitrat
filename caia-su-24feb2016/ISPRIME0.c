@@ -54,7 +54,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=107; pile[WZ2]=jvj+46;
 pile[WZ2]=jvj+47; 
 (*f[36])( );     /*PLUSC0(jvj+3,107,jvj+47)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+3; pile[WZ2]=jvj+2; pile[WZ3]=jvj+5; 
-(*f[1719])( );     /*SUBSTITUTES0(jvj+4,jvj+3,jvj+2,jvj+5)*/
+(*f[1721])( );     /*SUBSTITUTES0(jvj+4,jvj+3,jvj+2,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; 
 (*f[799])( );if(v[102]) goto l20;     /*NORME0(jvj+5,jvj+6)*/
 pile[v[22]]=111; pile[WZ2]=jvj+9; 
@@ -114,7 +114,7 @@ pile[v[22]]=130; pile[WZ1]=jvj+27;
 V60=pile[WZ2]; 
 T=V60;
 pile[v[22]]=T; pile[WZ1]=V29; 
-(*f[1011])( );     /*PGCD0(T,V29,V35)*/
+(*f[1012])( );     /*PGCD0(T,V29,V35)*/
 V35=pile[WZ2]; 
 if((V35==1)) goto l18;
 x[jvj+38]=incon;

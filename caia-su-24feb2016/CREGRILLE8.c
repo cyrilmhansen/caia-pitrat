@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=3;
 x[jvj+1]=26127;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2520&&v[97]==0) {
+if(v[90]==2522&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NH=pile[v[22]]; NV=pile[v[22]+1]; A=pile[v[22]+2]; NNNE=pile[v[22]+3]; v[22]+=4; 
@@ -27,7 +27,7 @@ l21:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; return;
 l2:S++;
 l1:if((S>NH)) goto l20;
 pile[v[22]]=S; pile[WZ1]=(-7730); 
-(*f[3979])( );if(v[102]) goto l2;     /*LONGUEUR0(S,(-7730),V2)*/
+(*f[3981])( );if(v[102]) goto l2;     /*LONGUEUR0(S,(-7730),V2)*/
 V2=pile[WZ2]; 
 SS=1;
 l3:if((SS>V2)) goto l2;
@@ -36,7 +36,7 @@ pile[v[22]]=SS; pile[WZ1]=S; pile[WZ2]=(-7730);
 V3=pile[WZ3]; 
 if((V3!=I)) goto l4;
 pile[v[22]]=S; pile[WZ1]=(-7730); 
-(*f[3979])( );if(v[102]) goto l6;     /*LONGUEUR0(S,(-7730),V6)*/
+(*f[3981])( );if(v[102]) goto l6;     /*LONGUEUR0(S,(-7730),V6)*/
 V6=pile[WZ2]; 
 K=1;
 l10:if((K>V6)) goto l6;
@@ -45,7 +45,7 @@ pile[v[22]]=K; pile[WZ1]=S; pile[WZ2]=(-7730);
 V7=pile[WZ3]; 
 if((V7<=I)) goto l11;
 pile[v[22]]=S; pile[WZ1]=(-7730); 
-(*f[3979])( );if(v[102]) goto l6;     /*LONGUEUR0(S,(-7730),V8)*/
+(*f[3981])( );if(v[102]) goto l6;     /*LONGUEUR0(S,(-7730),V8)*/
 V8=pile[WZ2]; 
 KK=1;
 l12:if((KK>V8)) goto l6;
@@ -60,7 +60,7 @@ goto l3;
 l6:T=1;
 l5:if((T>NV)) goto l20;
 pile[v[22]]=T; pile[WZ1]=(-7732); 
-(*f[3979])( );if(v[102]) goto l7;     /*LONGUEUR0(T,(-7732),V4)*/
+(*f[3981])( );if(v[102]) goto l7;     /*LONGUEUR0(T,(-7732),V4)*/
 V4=pile[WZ2]; 
 TT=1;
 l8:if((TT>V4)) goto l7;
@@ -69,7 +69,7 @@ pile[v[22]]=TT; pile[WZ1]=T; pile[WZ2]=(-7732);
 V5=pile[WZ3]; 
 if((V5!=I)) goto l9;
 pile[v[22]]=T; pile[WZ1]=(-7732); 
-(*f[3979])( );if(v[102]) goto l22;     /*LONGUEUR0(T,(-7732),V10)*/
+(*f[3981])( );if(v[102]) goto l22;     /*LONGUEUR0(T,(-7732),V10)*/
 V10=pile[WZ2]; 
 L=1;
 l14:if((L>V10)) goto l22;
@@ -78,7 +78,7 @@ pile[v[22]]=L; pile[WZ1]=T; pile[WZ2]=(-7732);
 V11=pile[WZ3]; 
 if((V11<=I)) goto l15;
 pile[v[22]]=T; pile[WZ1]=(-7732); 
-(*f[3979])( );if(v[102]) goto l22;     /*LONGUEUR0(T,(-7732),V12)*/
+(*f[3981])( );if(v[102]) goto l22;     /*LONGUEUR0(T,(-7732),V12)*/
 V12=pile[WZ2]; 
 LL=1;
 l16:if((LL>V12)) goto l22;

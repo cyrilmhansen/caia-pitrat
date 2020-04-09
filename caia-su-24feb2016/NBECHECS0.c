@@ -33,7 +33,7 @@ goto l2;
 l3:if((x[jvj+2]<=0)) goto l5;
 x[jvj+3]=s[x[jvj+2]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+2];
 pile[v[22]]=jvj+3; 
-(*f[1777])( );if(v[102]) goto l4;     /*NBECHECS1(jvj+3,HH,KK)*/
+(*f[1779])( );if(v[102]) goto l4;     /*NBECHECS1(jvj+3,HH,KK)*/
 HH=pile[WZ1]; KK=pile[WZ2]; 
 pile[v[22]]=Z; pile[WZ1]=876; pile[WZ2]=HH; 
 (*f[186])( );     /*BTC0(Z,876,HH)*/

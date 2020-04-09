@@ -179,7 +179,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+16; pile[WZ2]=jvj+17;
 if((x[jvj+17]==1714)) goto l33;
 if((x[jvj+17]==1764)) goto l33;
 l35:pile[v[22]]=X; pile[WZ1]=I; 
-(*f[1049])( );if(v[102]) goto l36;     /*Z11Z0(X,I,J)*/
+(*f[1051])( );if(v[102]) goto l36;     /*Z11Z0(X,I,J)*/
 J=pile[WZ2]; 
 goto l62;
 l33:pile[v[22]]=107; pile[WZ1]=X; pile[WZ2]=jvj+10; 
@@ -281,7 +281,7 @@ pile[v[22]]=V225; pile[WZ1]=34;
 (*f[38])( );     /*SPC0(V225,34,V226)*/
 V226=pile[WZ2]; 
 pile[v[22]]=X; pile[WZ1]=1325; pile[WZ2]=V226; 
-(*f[1050])( );if(v[102]) goto l51;     /*XE0(X,1325,V226,J)*/
+(*f[1052])( );if(v[102]) goto l51;     /*XE0(X,1325,V226,J)*/
 J=pile[WZ3]; 
 goto l62;
 l41:pile[v[22]]=1480; pile[WZ1]=jvj+27; 

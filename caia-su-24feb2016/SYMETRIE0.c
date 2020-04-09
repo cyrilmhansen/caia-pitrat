@@ -321,7 +321,7 @@ l49:x[jvj+65]=vo[12];z[jvj+65]=vz[12];
 pile[v[22]]=1081; pile[WZ1]=jvj+65; pile[WZ2]=jvj+66; 
 (*f[33])( );     /*FNDE0(1081,jvj+65,jvj+66)*/
 pile[v[22]]=jvj+33; pile[WZ1]=jvj+66; pile[WZ2]=jvj+67; 
-(*f[1328])( );     /*VERIFSYM0(jvj+33,jvj+66,jvj+67)*/
+(*f[1330])( );     /*VERIFSYM0(jvj+33,jvj+66,jvj+67)*/
 if((x[jvj+67]==135)) goto l45;
 goto l51;
 l52:pile[v[22]]=jvj+32; pile[WZ1]=1179; pile[WZ2]=jvj+3; 

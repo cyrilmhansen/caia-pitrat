@@ -47,12 +47,12 @@ l4:x[jvj+5]=s[x[jvj+10]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+10];
 pile[v[22]]=jvj+5; pile[WZ1]=A; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+5,A,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=RR; pile[WZ2]=B; pile[WZ3]=C; 
-(*f[4024])( );     /*CPTOCCURVAR1(jvj+6,RR,B,C)*/
+(*f[4026])( );     /*CPTOCCURVAR1(jvj+6,RR,B,C)*/
 l5:x[jvj+10]=t[x[jvj+10]];
 goto l3;
 l8:x[jvj+9]=s[x[jvj+12]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+12];
 pile[v[22]]=jvj+9; pile[WZ1]=RR; pile[WZ2]=B; pile[WZ3]=C; 
-(*f[4024])( );     /*CPTOCCURVAR1(jvj+9,RR,B,C)*/
+(*f[4026])( );     /*CPTOCCURVAR1(jvj+9,RR,B,C)*/
 x[jvj+12]=t[x[jvj+12]];
 goto l7;
 }

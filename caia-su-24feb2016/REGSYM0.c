@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=44;
 x[jvj+1]=11118;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3987&&v[97]==0) {
+if(v[90]==3989&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; FF=pile[v[22]+1]; P=pile[v[22]+2]; v[22]+=3; 
@@ -23,7 +23,7 @@ ND=NT=x[jvj+11]=x[P]=incon;
 pile[v[22]]=250; pile[WZ1]=158; pile[WZ2]=jvj+10; 
 (*f[54])( );     /*TRI1(250,158,jvj+10)*/
 pile[v[22]]=A; 
-(*f[1809])( );     /*NUMEROTENS3(A)*/
+(*f[1811])( );     /*NUMEROTENS3(A)*/
 x[jvj+4]=0 ;z[jvj+4]=0;
 x[jvj+35]=x[A] ;z[jvj+35]=z[A];
 l1:if((x[jvj+35]>0)) goto l2;
@@ -31,7 +31,7 @@ x[jvj+9]=x[jvj+4] ;z[jvj+9]=z[jvj+4];
 x[jvj+37]=x[A] ;z[jvj+37]=z[A];
 l5:if((x[jvj+37]>0)) goto l6;
 pile[v[22]]=jvj+9; 
-(*f[1809])( );     /*NUMEROTENS3(jvj+9)*/
+(*f[1811])( );     /*NUMEROTENS3(jvj+9)*/
 if((FF==(-9009))) goto l9;
 if((FF!=(-5963))) goto l12;
 x[jvj+38]=x[A] ;z[jvj+38]=z[A];
@@ -76,7 +76,7 @@ x[jvj+37]=t[x[jvj+37]];
 goto l5;
 l8:x[jvj+6]=s[x[jvj+38]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+38];
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+7; 
-(*f[1229])( );     /*ENSOP0(jvj+6,jvj+7)*/
+(*f[1231])( );     /*ENSOP0(jvj+6,jvj+7)*/
 pile[WZ1]=1197; pile[WZ2]=jvj+7; 
 (*f[34])( );     /*CHGC0(jvj+6,1197,jvj+7)*/
 pile[WZ1]=jvj+8; 
@@ -111,7 +111,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+26;
 (*f[26])( );if(v[102]) goto l37;     /*FNDC0(642,jvj+26,V51)*/
 V51=pile[WZ2]; 
 pile[v[22]]=jvj+26; pile[WZ1]=jvj+27; 
-(*f[1290])( );if(v[102]) goto l37;     /*DEPEXP0(jvj+26,jvj+27)*/
+(*f[1292])( );if(v[102]) goto l37;     /*DEPEXP0(jvj+26,jvj+27)*/
 x[jvj+28]=x[jvj+27] ;z[jvj+28]=z[jvj+27];
 pile[v[22]]=jvj+28; pile[WZ1]=642; pile[WZ2]=V51; 
 (*f[43])( );     /*CHGC2(jvj+28,642,V51)*/

@@ -15,7 +15,7 @@ v[0]+=49;
 x[jvj+1]=11781;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1233&&v[97]==0) {
+if(v[90]==1235&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; BA=pile[v[22]+1]; XP=pile[v[22]+2]; R=pile[v[22]+3]; v[22]+=4; 
@@ -32,7 +32,7 @@ x[jvj+6]=incon;
 if((x[XP]==228)) goto l2;
 x[jvj+6]=x[jvj+11] ;z[jvj+6]=z[jvj+11];
 l4:pile[v[22]]=jvj+5; pile[WZ1]=BA; pile[WZ2]=XP; pile[WZ3]=jvj+6; pile[WZ4]=jvj+7; 
-(*f[1498])( );     /*CALCULABLE0(jvj+5,BA,XP,jvj+6,jvj+7)*/
+(*f[1500])( );     /*CALCULABLE0(jvj+5,BA,XP,jvj+6,jvj+7)*/
 V7=incon;
 if((x[jvj+7]==68)) goto l3;
 V7=924;
@@ -44,9 +44,9 @@ pile[v[22]]=1682; pile[WZ1]=BA; pile[WZ2]=jvj+34;
 V44=x[jvj+34];
 V46=x[jvj+5];
 pile[v[22]]=jvj+5; pile[WZ2]=XP; pile[WZ3]=jvj+32; 
-(*f[1497])( );if(v[102]) goto l17;     /*AJUSTECAL0(jvj+5,BA,XP,jvj+32)*/
+(*f[1499])( );if(v[102]) goto l17;     /*AJUSTECAL0(jvj+5,BA,XP,jvj+32)*/
 pile[v[22]]=jvj+32; pile[WZ2]=jvj+30; pile[WZ3]=jvj+35; 
-(*f[1496])( );     /*TYPEXPR0(jvj+32,BA,jvj+30,jvj+35)*/
+(*f[1498])( );     /*TYPEXPR0(jvj+32,BA,jvj+30,jvj+35)*/
 x[jvj+46]=incon;
 if((x[jvj+35]!=1881)) goto l14;
 if(x[XP]!=228&&x[XP]!=129) goto l14;
@@ -87,7 +87,7 @@ l3:V7=1865;
 goto l5;
 l7:x[jvj+10]=s[x[jvj+26]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+26];
 pile[v[22]]=jvj+10; pile[WZ1]=BA; pile[WZ2]=1881; pile[WZ3]=jvj+11; pile[WZ4]=jvj+12; 
-(*f[1500])( );if(v[102]) goto l8;     /*MISENFORME1(jvj+10,BA,1881,jvj+11,jvj+12)*/
+(*f[1502])( );if(v[102]) goto l8;     /*MISENFORME1(jvj+10,BA,1881,jvj+11,jvj+12)*/
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+12; 
 (*f[68])( );     /*PLUE0(jvj+13,jvj+12)*/
 l8:x[jvj+26]=t[x[jvj+26]];
@@ -95,7 +95,7 @@ l6:if((x[jvj+26]>0)) goto l7;
 pile[v[22]]=102; pile[WZ1]=jvj+21; pile[WZ2]=jvj+27; 
 (*f[32])( );if(v[102]) goto l16;     /*FNDO0(102,jvj+21,jvj+27)*/
 pile[v[22]]=jvj+27; pile[WZ1]=BA; pile[WZ2]=228; pile[WZ3]=jvj+11; pile[WZ4]=jvj+28; 
-(*f[1500])( );if(v[102]) goto l16;     /*MISENFORME1(jvj+27,BA,228,jvj+11,jvj+28)*/
+(*f[1502])( );if(v[102]) goto l16;     /*MISENFORME1(jvj+27,BA,228,jvj+11,jvj+28)*/
 pile[v[22]]=jvj+28; pile[WZ1]=jvj+29; 
 (*f[255])( );     /*COPEXP0(jvj+28,jvj+29)*/
 x[jvj+16]=0 ;z[jvj+16]=0;
@@ -132,7 +132,7 @@ pile[v[22]]=1682; pile[WZ1]=BA; pile[WZ2]=jvj+17;
 V53=x[jvj+17];
 V55=x[jvj+5];
 pile[v[22]]=jvj+5; pile[WZ2]=XP; pile[WZ3]=228; pile[WZ4]=jvj+8; 
-(*f[1499])( );if(v[102]) goto l12;     /*AJUSTEXP0(jvj+5,BA,XP,228,jvj+8)*/
+(*f[1501])( );if(v[102]) goto l12;     /*AJUSTEXP0(jvj+5,BA,XP,228,jvj+8)*/
 x[jvj+38]=incon;
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
 (*f[255])( );     /*COPEXP0(jvj+8,jvj+9)*/

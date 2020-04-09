@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=99;
 x[jvj+1]=11478;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1158&&v[97]==0) {
+if(v[90]==1160&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; RX=pile[v[22]+1]; RES=pile[v[22]+2]; v[22]+=3; 
@@ -46,7 +46,7 @@ pile[WZ1]=jvj+2;
 if((x[jvj+2]<=0)) goto l5;
 x[jvj+13]=s[x[jvj+2]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+2];
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; 
-(*f[1290])( );if(v[102]) goto l5;     /*DEPEXP0(jvj+13,jvj+14)*/
+(*f[1292])( );if(v[102]) goto l5;     /*DEPEXP0(jvj+13,jvj+14)*/
 x[jvj+24]=x[jvj+9] ;z[jvj+24]=z[jvj+9];
 x[jvj+21]=x[jvj+11] ;z[jvj+21]=z[jvj+11];
 x[jvj+22]=x[jvj+12] ;z[jvj+22]=z[jvj+12];
@@ -54,7 +54,7 @@ if((x[jvj+24]!=25)) goto l12;
 if((v[53]<=0)) goto l12;
 V49=x[R];
 pile[v[22]]=jvj+21; pile[WZ1]=jvj+22; pile[WZ2]=jvj+14; pile[WZ3]=jvj+23; 
-(*f[1463])( );if(v[102]) goto l12;     /*TRILIMRIG0(jvj+21,jvj+22,jvj+14,jvj+23)*/
+(*f[1465])( );if(v[102]) goto l12;     /*TRILIMRIG0(jvj+21,jvj+22,jvj+14,jvj+23)*/
 V51=x[jvj+23];
 pile[v[22]]=20; pile[WZ1]=11609; pile[WZ2]=0; 
 (*f[39])( );     /*SDX0(20,11609,0,V47)*/
@@ -68,7 +68,7 @@ V50=pile[WZ3];
 pile[v[22]]=V50; 
 (*f[40])( );     /*SLG0(V50)*/
 l12:pile[v[22]]=jvj+21; pile[WZ1]=jvj+22; pile[WZ2]=jvj+24; pile[v[22]+7]=jvj+25; 
-(*f[1462])( );if(v[102]) goto l14;     /*TRILIM0(jvj+21,jvj+22,jvj+24,V17,V18,RC,RD,jvj+25)*/
+(*f[1464])( );if(v[102]) goto l14;     /*TRILIM0(jvj+21,jvj+22,jvj+24,V17,V18,RC,RD,jvj+25)*/
 V17=pile[WZ3]; V18=pile[WZ4]; RC=pile[WZ5]; RD=pile[v[22]+6]; 
 x[jvj+27]=incon;
 if(x[jvj+25]!=135&&x[jvj+25]!=134) goto l6;
@@ -100,7 +100,7 @@ pile[v[22]]=V45;
 l17:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; v[102]=0;return;
 l2:x[jvj+3]=s[x[jvj+15]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+15];
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+5; pile[WZ2]=jvj+4; 
-(*f[1158])( );if(v[102]) goto l3;     /*USETRINOME0(jvj+3,jvj+5,jvj+4)*/
+(*f[1160])( );if(v[102]) goto l3;     /*USETRINOME0(jvj+3,jvj+5,jvj+4)*/
 if((x[jvj+4]==68)) goto l18;
 l3:x[jvj+15]=t[x[jvj+15]];
 l1:if((x[jvj+15]>0)) goto l2;

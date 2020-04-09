@@ -55,7 +55,7 @@ if((x[jvj+18]!=596)) goto l24;
 pile[v[22]]=103; pile[WZ1]=A; pile[WZ2]=jvj+23; 
 (*f[32])( );if(v[102]) goto l24;     /*FNDO0(103,A,jvj+23)*/
 pile[v[22]]=jvj+23; pile[WZ1]=jvj+24; 
-(*f[1352])( );     /*POSITIF0(jvj+23,jvj+24)*/
+(*f[1354])( );     /*POSITIF0(jvj+23,jvj+24)*/
 if((x[jvj+24]==135)) goto l23;
 l24:v[0]=jvj; v[22]-=2; v[102]=1;return;
 l6:x[jvj+4]=s[x[jvj+27]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+27];

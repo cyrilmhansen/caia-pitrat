@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=36;
 x[jvj+1]=20170;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3552&&v[97]==0) {
+if(v[90]==3554&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -37,7 +37,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+7;
 (*f[26])( );if(v[102]) goto l7;     /*FNDC0(642,jvj+7,V31)*/
 V31=pile[WZ2]; 
 pile[v[22]]=V28; pile[WZ1]=jvj+8; 
-(*f[1007])( );if(v[102]) goto l7;     /*DECFACTPREM0(V28,jvj+8)*/
+(*f[1008])( );if(v[102]) goto l7;     /*DECFACTPREM0(V28,jvj+8)*/
 x[jvj+9]=d[20];z[jvj+9]=0;
 l3:if((x[jvj+9]<=0)) goto l7;
 x[jvj+10]=s[x[jvj+9]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+9];
@@ -63,7 +63,7 @@ V19=pile[WZ2];
 if((V19!=0)) goto l4;
 I=V16;
 pile[v[22]]=I; pile[WZ1]=jvj+17; 
-(*f[1007])( );if(v[102]) goto l4;     /*DECFACTPREM0(I,jvj+17)*/
+(*f[1008])( );if(v[102]) goto l4;     /*DECFACTPREM0(I,jvj+17)*/
 pile[v[22]]=103; pile[WZ1]=jvj+11; pile[WZ2]=jvj+18; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(103,jvj+11,jvj+18)*/
 pile[v[22]]=jvj+18; pile[WZ1]=jvj+19; 
@@ -93,8 +93,8 @@ pile[v[22]]=V31; pile[WZ1]=858; pile[WZ2]=jvj+22;
 (*f[46])( );     /*TRI0(V31,858,jvj+22)*/
 pile[v[22]]=jvj+22; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+23; 
 (*f[189])( );     /*TRI4(jvj+22,v[13],642,jvj+23)*/
-pile[v[22]]=jvj+23; pile[WZ1]=3552; pile[WZ2]=246; pile[WZ3]=jvj+24; 
-(*f[189])( );     /*TRI4(jvj+23,3552,246,jvj+24)*/
+pile[v[22]]=jvj+23; pile[WZ1]=3554; pile[WZ2]=246; pile[WZ3]=jvj+24; 
+(*f[189])( );     /*TRI4(jvj+23,3554,246,jvj+24)*/
 pile[v[22]]=jvj+24; pile[WZ1]=20170; pile[WZ2]=218; pile[WZ3]=jvj+25; 
 (*f[58])( );     /*TRI3(jvj+24,20170,218,jvj+25)*/
 pile[v[22]]=jvj+26; pile[WZ1]=(-20); pile[WZ2]=jvj+25; pile[WZ3]=159; pile[WZ4]=jvj+27; 
@@ -122,7 +122,7 @@ pile[v[22]]=jvj+29; pile[WZ1]=jvj+30; pile[WZ2]=103; pile[WZ3]=jvj+31;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+32; pile[WZ4]=jvj+31; pile[WZ5]=jvj+21; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+32,jvj+31,jvj+21)*/
 pile[v[22]]=jvj+21; pile[WZ1]=jvj+20; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+21,jvj+20)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+21,jvj+20)*/
 l6:x[jvj+36]=t[x[jvj+36]];
 goto l5;
 l2:x[jvj+35]=t[x[jvj+35]];

@@ -27,7 +27,7 @@ pile[v[22]]=ST; pile[WZ1]=117; pile[WZ2]=jvj+2;
 TT=V3;
 x[jvj+1]=x[jvj+2] ;z[jvj+1]=z[jvj+2];
 pile[v[22]]=TT; pile[WZ1]=jvj+1; pile[WZ2]=R; 
-(*f[4021])( );if(v[102]) goto l1;     /*CROISSANT1(TT,jvj+1,R)*/
+(*f[4023])( );if(v[102]) goto l1;     /*CROISSANT1(TT,jvj+1,R)*/
 v[0]=jvj; v[22]-=2; v[102]=0;return;
 l1:v[0]=jvj; v[22]-=2; v[102]=1;return;
 }

@@ -13,13 +13,13 @@ jvj=v[0];
 v[0]+=29;
 x[jvj+1]=10314;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1851&&v[97]==0) {
+if(v[90]==1853&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 TL=pile[v[22]]; v[22]+=1; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=TL; 
-(*f[2015])( );     /*ISSA0(TL)*/
+(*f[2017])( );     /*ISSA0(TL)*/
 pile[v[22]]=302; pile[WZ1]=TL; pile[WZ2]=jvj+19; 
 (*f[33])( );     /*FNDE0(302,TL,jvj+19)*/
 l17:if((x[jvj+19]>0)) goto l18;
@@ -98,7 +98,7 @@ if((x[jvj+14]==85)) goto l23;
 l13:x[jvj+11]=t[x[jvj+11]];
 l11:if((x[jvj+11]>0)) goto l12;
 pile[v[22]]=10314; pile[WZ1]=(-4380); pile[WZ2]=85; 
-(*f[2016])( );     /*FAUTE10(10314,(-4380),85)*/
+(*f[2018])( );     /*FAUTE10(10314,(-4380),85)*/
 l23:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l14:V33=2;
 goto l15;

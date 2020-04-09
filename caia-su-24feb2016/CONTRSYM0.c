@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=11086;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1735&&v[97]==0) {
+if(v[90]==1737&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; HIST=pile[v[22]+1]; v[22]+=2; 
@@ -40,7 +40,7 @@ if((V12==V11)) goto l7;
 x[jvj+12]=t[x[jvj+12]];
 goto l6;
 l3:pile[v[22]]=R; pile[WZ1]=jvj+7; pile[WZ2]=jvj+8; 
-(*f[1578])( );if(v[102]) goto l2;     /*SUBSTSYM0(R,jvj+7,jvj+8)*/
+(*f[1580])( );if(v[102]) goto l2;     /*SUBSTSYM0(R,jvj+7,jvj+8)*/
 pile[WZ1]=jvj+8; pile[WZ2]=jvj+9; 
 (*f[760])( );     /*MEMEX0(R,jvj+8,jvj+9)*/
 if((x[jvj+9]==134)) goto l4;
@@ -53,7 +53,7 @@ V4=pile[WZ2];
 for(a=x[jvj+3];a>0;a=t[a]) if(s[a]==V4) goto l3;
 goto l2;
 l4:pile[v[22]]=jvj+8; pile[WZ1]=R; pile[WZ2]=HIST; 
-(*f[1548])( );     /*NOUVCONTRA0(jvj+8,R,HIST)*/
+(*f[1550])( );     /*NOUVCONTRA0(jvj+8,R,HIST)*/
 goto l2;
 l5:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;
 l7:x[jvj+5]=x[jvj+13] ;z[jvj+5]=z[jvj+13];

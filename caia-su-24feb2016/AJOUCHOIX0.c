@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=126;
 x[jvj+1]=10533;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1317&&v[97]==0) {
+if(v[90]==1319&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 M=pile[v[22]]; v[22]+=1; 
@@ -221,10 +221,10 @@ pile[v[22]]=870;
 V61=pile[WZ2]; 
 if((V61<2)) goto l22;
 pile[v[22]]=M; 
-(*f[1564])( );if(v[102]) goto l34;     /*MEDIUM0(M,NK)*/
+(*f[1566])( );if(v[102]) goto l34;     /*MEDIUM0(M,NK)*/
 NK=pile[WZ1]; 
 pile[WZ1]=jvj+29; 
-(*f[1290])( );if(v[102]) goto l37;     /*DEPEXP0(M,jvj+29)*/
+(*f[1292])( );if(v[102]) goto l37;     /*DEPEXP0(M,jvj+29)*/
 pile[v[22]]=jvj+29; pile[WZ1]=jvj+30; 
 (*f[255])( );     /*COPEXP0(jvj+29,jvj+30)*/
 V66=K+1;
@@ -343,7 +343,7 @@ pile[v[22]]=576; pile[WZ1]=jvj+57; pile[WZ2]=jvj+58;
 pile[v[22]]=613; pile[WZ2]=jvj+59; 
 (*f[32])( );if(v[102]) goto l45;     /*FNDO0(613,jvj+57,jvj+59)*/
 pile[v[22]]=jvj+59; pile[WZ1]=jvj+55; pile[WZ2]=jvj+60; 
-(*f[1565])( );     /*INCOMPATIBLE0(jvj+59,jvj+55,jvj+60)*/
+(*f[1567])( );     /*INCOMPATIBLE0(jvj+59,jvj+55,jvj+60)*/
 if((x[jvj+60]==134)) goto l46;
 l45:x[jvj+125]=t[x[jvj+125]];
 goto l44;
@@ -392,7 +392,7 @@ pile[v[22]]=287; pile[WZ1]=jvj+71; pile[WZ2]=jvj+72;
 pile[v[22]]=80; pile[WZ2]=jvj+73; 
 (*f[32])( );if(v[102]) goto l54;     /*FNDO0(80,jvj+71,jvj+73)*/
 pile[v[22]]=jvj+73; pile[WZ1]=jvj+74; 
-(*f[1291])( );if(v[102]) goto l54;     /*CONVEXP0(jvj+73,jvj+74)*/
+(*f[1293])( );if(v[102]) goto l54;     /*CONVEXP0(jvj+73,jvj+74)*/
 pile[v[22]]=jvj+74; pile[WZ1]=jvj+75; 
 (*f[255])( );     /*COPEXP0(jvj+74,jvj+75)*/
 x[jvj+126]=t[x[jvj+70]];
@@ -403,7 +403,7 @@ pile[v[22]]=576; pile[WZ1]=jvj+76; pile[WZ2]=jvj+77;
 pile[v[22]]=287; pile[WZ2]=jvj+78; 
 (*f[32])( );if(v[102]) goto l56;     /*FNDO0(287,jvj+76,jvj+78)*/
 pile[v[22]]=jvj+78; pile[WZ1]=jvj+79; 
-(*f[1290])( );if(v[102]) goto l56;     /*DEPEXP0(jvj+78,jvj+79)*/
+(*f[1292])( );if(v[102]) goto l56;     /*DEPEXP0(jvj+78,jvj+79)*/
 pile[v[22]]=jvj+79; pile[WZ1]=jvj+80; 
 (*f[255])( );     /*COPEXP0(jvj+79,jvj+80)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=26; pile[WZ4]=jvj+117; 

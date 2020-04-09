@@ -27,10 +27,10 @@ x[jvj+1]=0 ;z[jvj+1]=0;
 V9=x[A];
 l1:if((V9>0)) goto l2;
 pile[v[22]]=jvj+1; 
-(*f[2027])( );if(v[102]) goto l10;     /*PGCDENS0(jvj+1,RR)*/
+(*f[2029])( );if(v[102]) goto l10;     /*PGCDENS0(jvj+1,RR)*/
 RR=pile[WZ1]; 
 pile[v[22]]=RR; pile[WZ1]=S; 
-(*f[1011])( );     /*PGCD0(RR,S,R)*/
+(*f[1012])( );     /*PGCD0(RR,S,R)*/
 R=pile[WZ2]; 
 l11:v[0]=jvj; v[22]-=2; pile[v[22]+1]=R; v[102]=0;return;
 l2:Q=s[V9];
@@ -56,7 +56,7 @@ if((I!=J)) goto l9;
 V12=t[V12];
 goto l7;
 l9:pile[v[22]]=J; pile[WZ1]=I; 
-(*f[1011])( );     /*PGCD0(J,I,R)*/
+(*f[1012])( );     /*PGCD0(J,I,R)*/
 R=pile[WZ2]; 
 goto l11;
 l10:v[0]=jvj; v[22]-=2; v[102]=1;return;

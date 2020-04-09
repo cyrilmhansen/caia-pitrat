@@ -24,7 +24,7 @@ l1:if((x[jvj+1]>0)) goto l2;
 pile[v[22]]=1525; pile[WZ1]=MM; pile[WZ2]=jvj+10; 
 (*f[32])( );if(v[102]) goto l9;     /*FNDO0(1525,MM,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=IG; 
-(*f[1211])( );     /*MARKUTILE0(jvj+10,IG)*/
+(*f[1213])( );     /*MARKUTILE0(jvj+10,IG)*/
 l9:pile[v[22]]=MM; pile[WZ1]=IG; pile[WZ2]=1; 
 (*f[43])( );     /*CHGC2(MM,IG,1)*/
 pile[v[22]]=159; pile[WZ1]=MM; pile[WZ2]=jvj+4; 
@@ -40,7 +40,7 @@ if((x[jvj+8]!=22)) goto l5;
 pile[v[22]]=1513; pile[WZ2]=jvj+9; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(1513,jvj+7,jvj+9)*/
 pile[v[22]]=jvj+9; pile[WZ1]=IG; 
-(*f[1211])( );     /*MARKUTILE0(jvj+9,IG)*/
+(*f[1213])( );     /*MARKUTILE0(jvj+9,IG)*/
 l5:x[jvj+4]=t[x[jvj+4]];
 goto l4;
 l2:x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];

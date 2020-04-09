@@ -24,6 +24,6 @@ pile[v[22]]=R; pile[WZ1]=A;
 l1:if((A>=B)) goto l2;
 V2=A+1;
 pile[v[22]]=V2; pile[WZ1]=B; pile[WZ2]=R; 
-(*f[4033])( );     /*ENSINTERV1(V2,B,R)*/
+(*f[4035])( );     /*ENSINTERV1(V2,B,R)*/
 l2:v[0]=jvj; v[22]-=3; return;
 }

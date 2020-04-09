@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=24;
 x[jvj+1]=11642;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1153&&v[97]==0) {
+if(v[90]==1155&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; RES=pile[v[22]+1]; v[22]+=2; 
@@ -33,9 +33,9 @@ pile[v[22]]=103; pile[WZ2]=jvj+6;
 x[jvj+23]=x[jvj+4] ;z[jvj+23]=z[jvj+4];
 x[jvj+7]=x[jvj+5] ;z[jvj+7]=z[jvj+5];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
-(*f[1457])( );     /*FACT0(jvj+7,jvj+8)*/
+(*f[1459])( );     /*FACT0(jvj+7,jvj+8)*/
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+9; 
-(*f[1457])( );     /*FACT0(jvj+6,jvj+9)*/
+(*f[1459])( );     /*FACT0(jvj+6,jvj+9)*/
 x[jvj+24]=x[jvj+8] ;z[jvj+24]=z[jvj+8];
 l2:if((x[jvj+24]<=0)) goto l6;
 x[jvj+13]=s[x[jvj+24]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+24];
@@ -43,21 +43,21 @@ for(a=x[jvj+9];a>0;a=t[a]) if(s[a]==x[jvj+13]) goto l4;
 l3:x[jvj+24]=t[x[jvj+24]];
 goto l2;
 l4:pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; 
-(*f[1290])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+13,jvj+14)*/
+(*f[1292])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+13,jvj+14)*/
 x[jvj+10]=x[jvj+14] ;z[jvj+10]=z[jvj+14];
 if(x[jvj+23]!=25&&x[jvj+23]!=26&&x[jvj+23]!=408) goto l1;
 pile[v[22]]=jvj+10; pile[WZ1]=jvj+11; 
-(*f[1446])( );     /*NONUL0(jvj+10,jvj+11)*/
+(*f[1448])( );     /*NONUL0(jvj+10,jvj+11)*/
 if((x[jvj+11]==135)) goto l5;
 l1:if(x[jvj+23]!=29&&x[jvj+23]!=30&&x[jvj+23]!=27&&x[jvj+23]!=28) goto l3;
 pile[v[22]]=jvj+10; pile[WZ1]=jvj+12; 
-(*f[1352])( );     /*POSITIF0(jvj+10,jvj+12)*/
+(*f[1354])( );     /*POSITIF0(jvj+10,jvj+12)*/
 if((x[jvj+12]==135)) goto l5;
 goto l3;
 l5:pile[v[22]]=jvj+7; pile[WZ1]=jvj+10; pile[WZ2]=jvj+15; 
-(*f[1458])( );if(v[102]) goto l3;     /*ENLVFACT0(jvj+7,jvj+10,jvj+15)*/
+(*f[1460])( );if(v[102]) goto l3;     /*ENLVFACT0(jvj+7,jvj+10,jvj+15)*/
 pile[v[22]]=jvj+6; pile[WZ2]=jvj+16; 
-(*f[1458])( );if(v[102]) goto l3;     /*ENLVFACT0(jvj+6,jvj+10,jvj+16)*/
+(*f[1460])( );if(v[102]) goto l3;     /*ENLVFACT0(jvj+6,jvj+10,jvj+16)*/
 pile[v[22]]=jvj+15; pile[WZ1]=jvj+17; 
 (*f[255])( );     /*COPEXP0(jvj+15,jvj+17)*/
 pile[v[22]]=jvj+16; pile[WZ1]=jvj+18; 

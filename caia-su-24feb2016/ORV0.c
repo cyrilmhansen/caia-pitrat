@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=6;
 x[jvj+1]=10686;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2170&&v[97]==0) {
+if(v[90]==2172&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; R=pile[v[22]+1]; v[22]+=2; 
@@ -29,8 +29,8 @@ V1=pile[WZ2];
 x[jvj+6]=t[x[jvj+6]];
 l1:if((x[jvj+6]>0)) goto l2;
 pile[v[22]]=jvj+3; pile[WZ1]=R; 
-(*f[2209])( );     /*ORY0(jvj+3,R)*/
-(*f[2170])( );     /*ORV0(jvj+3,R)*/
+(*f[2211])( );     /*ORY0(jvj+3,R)*/
+(*f[2172])( );     /*ORV0(jvj+3,R)*/
 l5:x[jvj+5]=t[x[jvj+5]];
 goto l3;
 l4:x[jvj+3]=s[x[jvj+5]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+5];

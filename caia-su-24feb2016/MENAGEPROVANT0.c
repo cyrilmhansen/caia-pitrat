@@ -35,7 +35,7 @@ pile[v[22]]=159; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6;
 l3:if((x[jvj+6]<=0)) goto l4;
 x[jvj+7]=s[x[jvj+6]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+6];
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+7; 
-(*f[1224])( );     /*MENAGEPROVANTA0(jvj+5,jvj+7)*/
+(*f[1226])( );     /*MENAGEPROVANTA0(jvj+5,jvj+7)*/
 x[jvj+6]=t[x[jvj+6]];
 goto l3;
 l2:x[jvj+2]=t[x[jvj+2]];

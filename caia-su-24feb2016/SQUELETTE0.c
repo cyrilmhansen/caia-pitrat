@@ -32,7 +32,7 @@ pile[v[22]]=jvj+13; pile[WZ1]=867;
 l8:pile[v[22]]=S; pile[WZ1]=226; pile[WZ2]=jvj+13; 
 (*f[774])( );     /*TJPLUS0(S,226,jvj+13)*/
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+1; 
-(*f[1287])( );     /*SQUELETTE0(jvj+13,jvj+1)*/
+(*f[1289])( );     /*SQUELETTE0(jvj+13,jvj+1)*/
 l6:x[jvj+14]=t[x[jvj+14]];
 goto l4;
 l3:x[jvj+19]=(-99999998);
@@ -49,12 +49,12 @@ pile[v[22]]=80; pile[WZ2]=jvj+4;
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(80,jvj+1,jvj+4)*/
 x[jvj+5]=x[jvj+3] ;z[jvj+5]=z[jvj+3];
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; 
-(*f[1290])( );if(v[102]) goto l2;     /*DEPEXP0(jvj+5,jvj+6)*/
+(*f[1292])( );if(v[102]) goto l2;     /*DEPEXP0(jvj+5,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+7; 
 (*f[255])( );     /*COPEXP0(jvj+6,jvj+7)*/
 x[jvj+8]=x[jvj+4] ;z[jvj+8]=z[jvj+4];
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
-(*f[1291])( );if(v[102]) goto l2;     /*CONVEXP0(jvj+8,jvj+9)*/
+(*f[1293])( );if(v[102]) goto l2;     /*CONVEXP0(jvj+8,jvj+9)*/
 pile[v[22]]=jvj+9; pile[WZ1]=jvj+10; 
 (*f[255])( );     /*COPEXP0(jvj+9,jvj+10)*/
 x[jvj+18]=x[jvj+7] ;z[jvj+18]=z[jvj+7];

@@ -92,7 +92,7 @@ V26=vg[175];
 if((V26!=0)) goto l15;
 if((V25<3)) goto l17;
 l15:pile[v[22]]=175; pile[WZ1]=10035; pile[WZ2]=0; pile[WZ3]=(-675); pile[WZ4]=jvj+1; pile[WZ5]=(-9); pile[v[22]+6]=jvj+2; pile[v[22]+7]=(-596); pile[v[22]+8]=V85; pile[v[22]+9]=jvj+3; 
-(*f[1340])( );     /*INTERP16(175,10035,0,(-675),jvj+1,(-9),jvj+2,(-596),V85,jvj+3)*/
+(*f[1342])( );     /*INTERP16(175,10035,0,(-675),jvj+1,(-9),jvj+2,(-596),V85,jvj+3)*/
 if((x[jvj+3]==135)) goto l16;
 goto l19;
 l4:V2=0;
@@ -186,7 +186,7 @@ V54=vg[499];
 if((V54!=0)) goto l20;
 if((V53<3)) goto l22;
 l20:pile[v[22]]=499; pile[WZ1]=10035; pile[WZ2]=0; pile[WZ3]=(-596); pile[WZ4]=V85; pile[WZ5]=(-699); pile[v[22]+6]=XR; pile[v[22]+7]=jvj+4; 
-(*f[1256])( );     /*INTERP12(499,10035,0,(-596),V85,(-699),XR,jvj+4)*/
+(*f[1258])( );     /*INTERP12(499,10035,0,(-596),V85,(-699),XR,jvj+4)*/
 if((x[jvj+4]==135)) goto l21;
 goto l30;
 l25:if(ST==20||ST==23) goto l26;
@@ -201,7 +201,7 @@ if((V46<=sepcte)) goto l29;
 if((XR==I)) goto l29;
 if((XR==J)) goto l29;
 pile[v[22]]=V46; 
-(*f[1068])( );     /*CORVA2(V46,K)*/
+(*f[1070])( );     /*CORVA2(V46,K)*/
 K=pile[WZ1]; 
 goto l29;
 l31:V48=s[V85];

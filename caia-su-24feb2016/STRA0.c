@@ -37,7 +37,7 @@ l13:if((V7!=20)) goto l16;
 V16=s[V25];
 if((V16<=sepcte)) goto l16;
 pile[v[22]]=V16; 
-(*f[1068])( );     /*CORVA2(V16,V18)*/
+(*f[1070])( );     /*CORVA2(V16,V18)*/
 V18=pile[WZ1]; 
 l14:sy[V24]=((V18>>8)&0xff);sy[V24+1]=(V18&0xff);
 V20=t[V25];
@@ -74,7 +74,7 @@ V5=0;
 goto l9;
 l8:V3=V14+2;
 pile[v[22]]=X; pile[WZ1]=V3; pile[WZ2]=I; pile[WZ3]=J; 
-(*f[1066])( );     /*STRO0(X,V3,I,J,R)*/
+(*f[1068])( );     /*STRO0(X,V3,I,J,R)*/
 R=pile[WZ4]; 
 sy[V14]=((stonorm>>8)&0xff);sy[V14+1]=(stonorm&0xff);
 goto l10;

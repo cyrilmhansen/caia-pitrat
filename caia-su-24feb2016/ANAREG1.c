@@ -13,7 +13,7 @@ v[0]+=13;
 x[jvj+1]=10990;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1265&&v[97]==0) {
+if(v[90]==1267&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 N=pile[v[22]]; K=pile[v[22]+1]; E=pile[v[22]+2]; SS=pile[v[22]+3]; G=pile[v[22]+4]; NR=pile[v[22]+5]; v[22]+=6; 

@@ -31,7 +31,7 @@ pile[v[22]]=jvj+2; pile[WZ1]=jvj+3; pile[WZ2]=EE;
 (*f[196])( );     /*PLUF0(jvj+2,jvj+3,EE)*/
 if((NM<=0)) goto l5;
 pile[v[22]]=NM; pile[WZ1]=EE; pile[WZ2]=E; pile[WZ3]=Z; pile[WZ4]=I; 
-(*f[4004])( );     /*POLYSEQ1(NM,EE,E,Z,I)*/
+(*f[4006])( );     /*POLYSEQ1(NM,EE,E,Z,I)*/
 l5:v[0]=jvj; v[22]-=4; return;
 l2:x[jvj+1]=s[x[jvj+4]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+4];
 pile[v[22]]=117; pile[WZ1]=jvj+1; 

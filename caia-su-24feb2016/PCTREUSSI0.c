@@ -80,7 +80,7 @@ l2:pile[v[22]]=466; pile[WZ1]=10886; pile[WZ2]=0; pile[WZ3]=(-1961); pile[WZ4]=R
 if((x[jvj+2]==135)) goto l3;
 goto l7;
 l6:
-(*f[1258])( );if(v[102]) goto l9;     /*ACHEVE0(RS)*/
+(*f[1260])( );if(v[102]) goto l9;     /*ACHEVE0(RS)*/
 RS=pile[v[22]]; 
 goto l7;
 }

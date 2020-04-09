@@ -23,9 +23,9 @@ pile[v[22]]=1640; pile[WZ1]=N; pile[WZ2]=jvj+5;
 pile[v[22]]=287; pile[WZ1]=1640; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(287,1640,jvj+6)*/
 pile[v[22]]=N; pile[WZ1]=jvj+7; 
-(*f[1099])( );     /*ATTRIBOBJGRAM2(N,jvj+7)*/
+(*f[1101])( );     /*ATTRIBOBJGRAM2(N,jvj+7)*/
 pile[v[22]]=jvj+6; pile[WZ1]=N; pile[WZ2]=jvj+7; pile[WZ3]=I; 
-(*f[1100])( );if(v[102]) goto l1;     /*SORGRAMA0(jvj+6,N,jvj+7,I,J)*/
+(*f[1102])( );if(v[102]) goto l1;     /*SORGRAMA0(jvj+6,N,jvj+7,I,J)*/
 J=pile[WZ4]; 
 l6:x[jvj+1]=incon; v[0]=jvj; v[22]-=3; pile[v[22]+2]=J; v[102]=0;return;
 l1:pile[v[22]]=1640; pile[WZ1]=N; pile[WZ2]=jvj+2; 

@@ -35,7 +35,7 @@ l6:pile[v[22]]=120; pile[WZ1]=N; pile[WZ2]=jvj+2;
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(120,N,jvj+2)*/
 L=V4;
 pile[v[22]]=jvj+2; pile[WZ1]=L; pile[WZ2]=TY; 
-(*f[1119])( );     /*XU1(jvj+2,L,TY)*/
+(*f[1121])( );     /*XU1(jvj+2,L,TY)*/
 l10:v[0]=jvj; v[22]-=3; return;
 l1:J=I;
 goto l2;

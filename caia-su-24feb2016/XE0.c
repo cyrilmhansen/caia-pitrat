@@ -41,7 +41,7 @@ pile[v[22]]=L; pile[WZ1]=44;
 (*f[38])( );     /*SPC0(L,44,K)*/
 K=pile[WZ2]; 
 pile[v[22]]=X; pile[WZ1]=jvj+1; pile[WZ2]=K; 
-(*f[1050])( );if(v[102]) goto l5;     /*XE0(X,jvj+1,K,J)*/
+(*f[1052])( );if(v[102]) goto l5;     /*XE0(X,jvj+1,K,J)*/
 J=pile[WZ3]; 
 l7:v[0]=jvj; v[22]-=4; pile[v[22]+3]=J; v[102]=0;return;
 l1:P=I;

@@ -15,7 +15,7 @@ v[0]+=2;
 x[jvj+1]=11542;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1592&&v[97]==0) {
+if(v[90]==1594&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; B=pile[v[22]+1]; K=pile[v[22]+2]; v[22]+=5; 
@@ -26,7 +26,7 @@ if((C==1)) goto l1;
 if((C<=1)) goto l5;
 V7=(-K);
 pile[v[22]]=B; pile[WZ1]=C; pile[WZ2]=V7; 
-(*f[1779])( );if(v[102]) goto l5;     /*RESEQDV1(B,C,V7,T)*/
+(*f[1781])( );if(v[102]) goto l5;     /*RESEQDV1(B,C,V7,T)*/
 T=pile[WZ3]; 
 l2:V4=A*T;
 V3=V4+K;

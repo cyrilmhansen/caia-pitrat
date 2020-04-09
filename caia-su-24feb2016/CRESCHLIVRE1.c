@@ -13,13 +13,13 @@ jvj=v[0];
 v[0]+=1;
 x[jvj+1]=26159;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==2646&&v[97]==0) {
+if(v[90]==2648&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 I=pile[v[22]]; v[22]+=2; 
 WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=I; pile[WZ1]=(-600); 
-(*f[1010])( );if(v[102]) goto l1;     /*FVECT0(I,(-600),NNNX)*/
+(*f[1011])( );if(v[102]) goto l1;     /*FVECT0(I,(-600),NNNX)*/
 NNNX=pile[WZ2]; 
 l2:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; pile[v[22]+1]=NNNX; v[102]=0;return;
 l1:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; v[102]=1;return;

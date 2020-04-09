@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=39;
 x[jvj+1]=10593;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1928&&v[97]==0) {
+if(v[90]==1930&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -33,7 +33,7 @@ pile[v[22]]=0; pile[WZ1]=1274; pile[WZ2]=jvj+38;
 pile[v[22]]=868; pile[WZ1]=jvj+17; pile[WZ2]=870; pile[WZ3]=V7; pile[WZ4]=jvj+38; pile[WZ5]=jvj+2; 
 (*f[47])( );     /*QUADRI0(868,jvj+17,870,V7,jvj+38,jvj+2)*/
 pile[v[22]]=R; pile[WZ1]=jvj+2; pile[WZ2]=0; 
-(*f[2050])( );     /*TRVFONC0(R,jvj+2,0)*/
+(*f[2052])( );     /*TRVFONC0(R,jvj+2,0)*/
 pile[v[22]]=1101; pile[WZ1]=R; 
 (*f[26])( );if(v[102]) goto l9;     /*FNDC0(1101,R,V8)*/
 V8=pile[WZ2]; 
@@ -61,7 +61,7 @@ pile[v[22]]=107; pile[WZ1]=R; pile[WZ2]=jvj+27;
 l19:if((x[jvj+27]<=0)) goto l27;
 x[jvj+28]=s[x[jvj+27]] ;z[jvj+28]=(x[jvj+28]<=sepcte) ? x[jvj+28] : z[jvj+27];
 pile[v[22]]=jvj+28; 
-(*f[1928])( );     /*ETUCONTRBIS0(jvj+28)*/
+(*f[1930])( );     /*ETUCONTRBIS0(jvj+28)*/
 x[jvj+27]=t[x[jvj+27]];
 goto l19;
 l4:x[jvj+39]=t[x[jvj+39]];

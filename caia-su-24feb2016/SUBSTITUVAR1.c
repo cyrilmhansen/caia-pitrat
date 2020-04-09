@@ -26,7 +26,7 @@ for(a=x[jvj+2];a>0;a=t[a]) if(s[a]==x[jvj+1]) goto l1;
 l4:pile[v[22]]=134; pile[WZ1]=218; pile[WZ2]=jvj+3; 
 (*f[54])( );     /*TRI1(134,218,jvj+3)*/
 pile[v[22]]=T; pile[WZ1]=T; pile[WZ2]=250; pile[WZ3]=X; pile[WZ4]=Y; pile[WZ5]=jvj+3; 
-(*f[1074])( );     /*SUBSTITUVARB0(T,T,250,X,Y,jvj+3)*/
+(*f[1076])( );     /*SUBSTITUVARB0(T,T,250,X,Y,jvj+3)*/
 l1:pile[v[22]]=1006; pile[WZ1]=Z; pile[WZ2]=jvj+4; 
 (*f[33])( );     /*FNDE0(1006,Z,jvj+4)*/
 pile[v[22]]=T; pile[WZ1]=1006; 

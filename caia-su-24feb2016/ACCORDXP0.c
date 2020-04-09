@@ -22,7 +22,7 @@ pile[v[22]]=292; pile[WZ1]=21; pile[WZ2]=jvj+1;
 (*f[33])( );     /*FNDE0(292,21,jvj+1)*/
 for(a=x[jvj+1];a>0;a=t[a]) if(s[a]==V) goto l1;
 l2:pile[v[22]]=BA; pile[WZ1]=V; pile[WZ2]=jvj+2; 
-(*f[1491])( );     /*VDSBA0(BA,V,jvj+2)*/
+(*f[1493])( );     /*VDSBA0(BA,V,jvj+2)*/
 pile[v[22]]=1261; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
 (*f[33])( );     /*FNDE0(1261,jvj+2,jvj+3)*/
 if(x[RES]==incon) goto l3;

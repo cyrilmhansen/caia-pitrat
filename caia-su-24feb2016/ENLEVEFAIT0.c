@@ -24,7 +24,7 @@ x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];
 pile[v[22]]=jvj+2; pile[WZ1]=X; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(jvj+2,X,jvj+3)*/
 pile[v[22]]=jvj+3; 
-(*f[2215])( );     /*ENLEVEFAIT0(jvj+3)*/
+(*f[2217])( );     /*ENLEVEFAIT0(jvj+3)*/
 l2:x[jvj+1]=t[x[jvj+1]];
 goto l1;
 l3:v[0]=jvj; v[22]-=1; return;

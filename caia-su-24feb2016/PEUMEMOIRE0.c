@@ -40,7 +40,7 @@ pile[v[22]]=1056; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6;
 (*f[33])( );     /*FNDE0(1056,jvj+5,jvj+6)*/
 for(a=x[jvj+6];a>0;a=t[a]) if(s[a]==1060) goto l9;
 l10:
-(*f[1279])( );     /*MENAMONIT0()*/
+(*f[1281])( );     /*MENAMONIT0()*/
 x[jvj+7]=vo[12];z[jvj+7]=vz[12];
 pile[v[22]]=jvj+7; 
 (*f[600])( );     /*REPARTITEMPS0(jvj+7)*/
@@ -56,7 +56,7 @@ l12:pile[v[22]]=510; pile[WZ1]=M;
 V15=pile[WZ2]; 
 if((V15>=2000000)) goto l16;
 pile[v[22]]=jvj+8; 
-(*f[1280])( );     /*REDUIREMEM0(jvj+8)*/
+(*f[1282])( );     /*REDUIREMEM0(jvj+8)*/
 V18=g[540];
 if((V18<=0)) goto l13;
 V19=vg[540];

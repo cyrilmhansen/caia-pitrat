@@ -75,7 +75,7 @@ l15:if(VB!=incon) goto l16;
 goto l21;
 l16:if((VA<=VB)) goto l18;
 pile[v[22]]=jvj+4; pile[WZ1]=HIST; pile[WZ2]=jvj+6; pile[WZ3]=120; pile[WZ4]=jvj+3; 
-(*f[1167])( );     /*AJOULISENV1(jvj+4,HIST,jvj+6,120,jvj+3)*/
+(*f[1169])( );     /*AJOULISENV1(jvj+4,HIST,jvj+6,120,jvj+3)*/
 goto l18;
 l17:if(x[jvj+3]!=incon) goto l18;
 goto l21;

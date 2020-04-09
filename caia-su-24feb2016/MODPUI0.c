@@ -77,16 +77,16 @@ l5:if((B<=100)) goto l6;
 V13=B/100;
 V14=B%100;
 pile[v[22]]=C; pile[WZ1]=100; pile[WZ2]=AA; 
-(*f[1041])( );if(v[102]) goto l8;     /*MODPUI0(C,100,AA,V9)*/
+(*f[1043])( );if(v[102]) goto l8;     /*MODPUI0(C,100,AA,V9)*/
 V9=pile[WZ3]; 
 pile[WZ1]=V13; pile[WZ2]=V9; 
-(*f[1041])( );if(v[102]) goto l8;     /*MODPUI0(C,V13,V9,QQ)*/
+(*f[1043])( );if(v[102]) goto l8;     /*MODPUI0(C,V13,V9,QQ)*/
 QQ=pile[WZ3]; 
 pile[v[22]]=QQ; 
 (*f[990])( );     /*ORDG0(QQ,V11)*/
 V11=pile[WZ1]; 
 pile[v[22]]=C; pile[WZ1]=V14; pile[WZ2]=AA; 
-(*f[1041])( );if(v[102]) goto l8;     /*MODPUI0(C,V14,AA,Q)*/
+(*f[1043])( );if(v[102]) goto l8;     /*MODPUI0(C,V14,AA,Q)*/
 Q=pile[WZ3]; 
 pile[v[22]]=Q; 
 (*f[990])( );     /*ORDG0(Q,V10)*/
@@ -107,7 +107,7 @@ l6:pile[v[22]]=AA;
 V19=pile[WZ1]; 
 V23=B-1;
 pile[v[22]]=C; pile[WZ1]=V23; pile[WZ2]=AA; 
-(*f[1041])( );if(v[102]) goto l7;     /*MODPUI0(C,V23,AA,V17)*/
+(*f[1043])( );if(v[102]) goto l7;     /*MODPUI0(C,V23,AA,V17)*/
 V17=pile[WZ3]; 
 pile[v[22]]=V17; 
 (*f[990])( );     /*ORDG0(V17,V20)*/

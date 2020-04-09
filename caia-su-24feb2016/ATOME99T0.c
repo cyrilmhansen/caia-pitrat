@@ -14,7 +14,7 @@ v[0]+=63;
 x[jvj+1]=20099;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3606&&v[97]==0) {
+if(v[90]==3608&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; RR=pile[v[22]+1]; v[22]+=2; 
@@ -92,7 +92,7 @@ l11:if((x[jvj+59]<=0)) goto l10;
 x[jvj+34]=s[x[jvj+59]] ;z[jvj+34]=(x[jvj+34]<=sepcte) ? x[jvj+34] : z[jvj+59];
 if((x[jvj+58]==x[jvj+34])) goto l12;
 pile[v[22]]=jvj+34; pile[WZ1]=jvj+35; 
-(*f[1446])( );     /*NONUL0(jvj+34,jvj+35)*/
+(*f[1448])( );     /*NONUL0(jvj+34,jvj+35)*/
 if((x[jvj+35]==135)) goto l13;
 l12:x[jvj+59]=t[x[jvj+59]];
 goto l11;
@@ -132,7 +132,7 @@ l16:if((x[jvj+61]<=0)) goto l15;
 x[jvj+40]=s[x[jvj+61]] ;z[jvj+40]=(x[jvj+40]<=sepcte) ? x[jvj+40] : z[jvj+61];
 if((x[jvj+60]==x[jvj+40])) goto l18;
 pile[v[22]]=jvj+40; pile[WZ1]=jvj+41; 
-(*f[1446])( );     /*NONUL0(jvj+40,jvj+41)*/
+(*f[1448])( );     /*NONUL0(jvj+40,jvj+41)*/
 if((x[jvj+41]==135)) goto l19;
 l18:x[jvj+61]=t[x[jvj+61]];
 goto l16;
@@ -170,8 +170,8 @@ pile[v[22]]=V60; pile[WZ1]=858; pile[WZ2]=jvj+52;
 (*f[46])( );     /*TRI0(V60,858,jvj+52)*/
 pile[v[22]]=jvj+52; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+53; 
 (*f[189])( );     /*TRI4(jvj+52,v[13],642,jvj+53)*/
-pile[v[22]]=jvj+53; pile[WZ1]=3606; pile[WZ2]=246; pile[WZ3]=jvj+54; 
-(*f[189])( );     /*TRI4(jvj+53,3606,246,jvj+54)*/
+pile[v[22]]=jvj+53; pile[WZ1]=3608; pile[WZ2]=246; pile[WZ3]=jvj+54; 
+(*f[189])( );     /*TRI4(jvj+53,3608,246,jvj+54)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20099; pile[WZ4]=jvj+54; pile[WZ5]=jvj+43; 
 (*f[269])( );     /*QUADRI6(158,1,218,20099,jvj+54,jvj+43)*/
 pile[v[22]]=jvj+43; pile[WZ1]=159; pile[WZ2]=jvj+55; 
@@ -179,7 +179,7 @@ pile[v[22]]=jvj+43; pile[WZ1]=159; pile[WZ2]=jvj+55;
 pile[WZ2]=jvj+56; 
 (*f[36])( );     /*PLUSC0(jvj+43,159,jvj+56)*/
 pile[v[22]]=jvj+44; pile[WZ1]=jvj+43; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+44,jvj+43)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+44,jvj+43)*/
 goto l18;
 l20:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=2; return;
 }

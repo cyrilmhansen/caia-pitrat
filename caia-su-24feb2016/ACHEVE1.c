@@ -53,7 +53,7 @@ pile[v[22]]=867; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5;
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(867,jvj+4,jvj+5)*/
 if((x[jvj+5]!=178)) goto l6;
 pile[v[22]]=jvj+4; pile[WZ1]=S; pile[WZ2]=V9; 
-(*f[1530])( );     /*ACHEVE1(jvj+4,S,V9)*/
+(*f[1532])( );     /*ACHEVE1(jvj+4,S,V9)*/
 l6:x[jvj+9]=t[x[jvj+9]];
 goto l4;
 l9:v[0]=jvj; v[22]-=3; return;

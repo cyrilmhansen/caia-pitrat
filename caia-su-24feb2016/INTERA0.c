@@ -29,7 +29,7 @@ l8:x[jvj+10]=t[x[jvj+10]];
 goto l7;
 l2:if((V11<4)) goto l3;
 l11:pile[v[22]]=AT; pile[WZ1]=Y; 
-(*f[1110])( );     /*INTERB0(AT,Y)*/
+(*f[1112])( );     /*INTERB0(AT,Y)*/
 l12:v[0]=jvj; v[22]-=3; return;
 l3:V21=x[Y];
 pile[v[22]]=0; pile[WZ1]=123; 

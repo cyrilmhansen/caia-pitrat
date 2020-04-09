@@ -13,12 +13,12 @@ int WZ1,WZ2,WZ3,WZ4;
 VV=pile[v[22]]; TL=pile[v[22]+1]; R=pile[v[22]+2]; v[22]+=3; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=1; pile[WZ1]=TL; pile[WZ2]=322; 
-(*f[1113])( );     /*INCM0(1,TL,322,V1)*/
+(*f[1115])( );     /*INCM0(1,TL,322,V1)*/
 V1=pile[WZ3]; 
 V2=V1;
 V=V2;
 pile[v[22]]=110; pile[WZ1]=V; pile[WZ2]=140; pile[WZ3]=VV; pile[WZ4]=R; 
-(*f[1385])( );     /*QUADRI16(110,V,140,VV,R)*/
+(*f[1387])( );     /*QUADRI16(110,V,140,VV,R)*/
 pile[v[22]]=TL; pile[WZ1]=273; pile[WZ2]=V; 
 (*f[735])( );     /*PLUSC4(TL,273,V)*/
 v[22]-=3; return;

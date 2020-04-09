@@ -59,12 +59,12 @@ l3:x[jvj+7]=t[x[jvj+7]];
 goto l2;
 l4:x[jvj+16]=x[A] ;z[jvj+16]=z[A];
 pile[v[22]]=jvj+16; 
-(*f[1321])( );     /*ENLISENVNOM0(jvj+16)*/
+(*f[1323])( );     /*ENLISENVNOM0(jvj+16)*/
 x[jvj+21]=vo[13];z[jvj+21]=vz[13];
 pile[v[22]]=120; pile[WZ1]=jvj+21; pile[WZ2]=jvj+22; 
 (*f[32])( );if(v[102]) goto l14;     /*FNDO0(120,jvj+21,jvj+22)*/
 pile[v[22]]=jvj+16; 
-(*f[1322])( );     /*ENLISNOM0(jvj+16,jvj+21,jvj+22)*/
+(*f[1324])( );     /*ENLISNOM0(jvj+16,jvj+21,jvj+22)*/
 l14:x[jvj+23]=x[jvj+21] ;z[jvj+23]=z[jvj+21];
 pile[v[22]]=120; pile[WZ1]=jvj+23; pile[WZ2]=jvj+24; 
 (*f[32])( );if(v[102]) goto l15;     /*FNDO0(120,jvj+23,jvj+24)*/
@@ -164,7 +164,7 @@ x[jvj+28]=1203 ;z[jvj+28]=1203;
 l12:if(x[jvj+28]==incon) goto l13;
 goto l17;
 l18:pile[v[22]]=jvj+28; pile[WZ1]=HIST; pile[WZ2]=jvj+16; 
-(*f[1320])( );     /*ARCHIVE1(jvj+28,HIST,jvj+16)*/
+(*f[1322])( );     /*ARCHIVE1(jvj+28,HIST,jvj+16)*/
 goto l19;
 l21:x[jvj+30]=s[x[jvj+29]] ;z[jvj+30]=(x[jvj+30]<=sepcte) ? x[jvj+30] : z[jvj+29];
 z[jvj+30]=(-1);
@@ -213,6 +213,6 @@ goto l29;
 l32:if((S==67)) goto l33;
 goto l34;
 l33:pile[v[22]]=HIST; 
-(*f[1323])( );     /*ESTCEFINI0(HIST)*/
+(*f[1325])( );     /*ESTCEFINI0(HIST)*/
 goto l34;
 }

@@ -51,7 +51,7 @@ pile[v[22]]=1; pile[WZ1]=642; pile[WZ2]=jvj+4;
 pile[v[22]]=jvj+4; pile[WZ1]=1; pile[WZ2]=510; pile[WZ3]=jvj+5; 
 (*f[189])( );     /*TRI4(jvj+4,1,510,jvj+5)*/
 pile[v[22]]=1; pile[WZ1]=(-41); pile[WZ2]=jvj+5; pile[WZ3]=195; pile[WZ4]=jvj+6; 
-(*f[1349])( );     /*TRIENS2(1,(-41),jvj+5,195,jvj+6)*/
+(*f[1351])( );     /*TRIENS2(1,(-41),jvj+5,195,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=P; pile[WZ2]=117; pile[WZ3]=jvj+7; 
 (*f[189])( );     /*TRI4(jvj+6,P,117,jvj+7)*/
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+7; 
@@ -82,7 +82,7 @@ pile[v[22]]=R; pile[WZ1]=V25;
 (*f[978])( );     /*PLUB3(R,V25)*/
 l18:V45=V7;
 l19:pile[v[22]]=jvj+8; pile[WZ1]=V45; 
-(*f[1017])( );if(v[102]) goto l9;     /*ELTN0(jvj+8,V45,V35)*/
+(*f[1018])( );if(v[102]) goto l9;     /*ELTN0(jvj+8,V45,V35)*/
 V35=pile[WZ2]; 
 x[jvj+18]=V35 ;z[jvj+18]=(V35<=sepcte) ? V35 : 0;
 x[jvj+12]=x[jvj+18] ;z[jvj+12]=z[jvj+18];
@@ -125,7 +125,7 @@ V30=pile[WZ2];
 pile[v[22]]=195; pile[WZ2]=jvj+14; 
 (*f[33])( );     /*FNDE0(195,jvj+13,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ1]=V30; 
-(*f[1017])( );if(v[102]) goto l22;     /*ELTN0(jvj+14,V30,V31)*/
+(*f[1018])( );if(v[102]) goto l22;     /*ELTN0(jvj+14,V30,V31)*/
 V31=pile[WZ2]; 
 pile[v[22]]=jvj+11; pile[WZ1]=117; pile[WZ2]=V31; 
 (*f[818])( );     /*MTC0(jvj+11,117,V31)*/

@@ -24,7 +24,7 @@ pile[v[22]]=41; pile[WZ1]=V16; pile[WZ2]=R;
 l10:v[0]=jvj; v[22]-=2; return;
 l2:x[jvj+1]=s[x[jvj+8]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+8];
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+2; 
-(*f[1966])( );     /*SETCOEFFS0(jvj+1,jvj+2)*/
+(*f[1968])( );     /*SETCOEFFS0(jvj+1,jvj+2)*/
 V22=x[jvj+2];
 l3:if((V22>0)) goto l4;
 x[jvj+8]=t[x[jvj+8]];

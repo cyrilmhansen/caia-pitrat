@@ -35,14 +35,14 @@ V2=V5;
 l8:pile[v[22]]=447; pile[WZ1]=jvj+1; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l9;     /*FNDO0(447,jvj+1,jvj+4)*/
 pile[v[22]]=P; pile[WZ1]=V2; pile[WZ3]=jvj+5; 
-(*f[1456])( );if(v[102]) goto l9;     /*SIMPRODEL0(P,V2,jvj+4,jvj+5)*/
+(*f[1458])( );if(v[102]) goto l9;     /*SIMPRODEL0(P,V2,jvj+4,jvj+5)*/
 V7=Q-V2;
 pile[v[22]]=EA; pile[WZ1]=jvj+5; 
 (*f[68])( );     /*PLUE0(EA,jvj+5)*/
 pile[v[22]]=jvj+1; pile[WZ1]=510; pile[WZ2]=(-1); 
 (*f[43])( );     /*CHGC2(jvj+1,510,(-1))*/
 pile[v[22]]=EA; pile[WZ1]=V7; pile[WZ2]=EE; pile[WZ3]=P; 
-(*f[1897])( );     /*SIMPRODELA1(EA,V7,EE,P)*/
+(*f[1899])( );     /*SIMPRODELA1(EA,V7,EE,P)*/
 l9:v[0]=jvj; v[22]-=4; return;
 l2:x[jvj+7]=t[x[jvj+7]];
 goto l1;

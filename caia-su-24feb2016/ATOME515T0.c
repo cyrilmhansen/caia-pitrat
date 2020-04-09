@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=38;
 x[jvj+1]=20515;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3811&&v[97]==0) {
+if(v[90]==3813&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NNNI=pile[v[22]]; v[22]+=1; 
@@ -29,7 +29,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+2;
 V27=pile[WZ2]; 
 x[jvj+3]=0 ;z[jvj+3]=0;
 pile[v[22]]=929; 
-(*f[1975])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V24)*/
+(*f[1977])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V24)*/
 V24=pile[WZ2]; 
 pile[v[22]]=jvj+3; pile[WZ1]=V24; 
 (*f[207])( );     /*PLUE2(jvj+3,V24)*/
@@ -53,7 +53,7 @@ pile[v[22]]=268; pile[WZ1]=jvj+8; pile[WZ2]=jvj+13;
 pile[v[22]]=jvj+13; pile[WZ1]=NNNI; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+13,NNNI,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ1]=jvj+15; 
-(*f[1446])( );     /*NONUL0(jvj+14,jvj+15)*/
+(*f[1448])( );     /*NONUL0(jvj+14,jvj+15)*/
 if((x[jvj+15]==135)) goto l6;
 l5:x[jvj+7]=t[x[jvj+7]];
 goto l4;
@@ -104,8 +104,8 @@ pile[v[22]]=V27; pile[WZ1]=858; pile[WZ2]=jvj+32;
 (*f[46])( );     /*TRI0(V27,858,jvj+32)*/
 pile[v[22]]=jvj+32; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+33; 
 (*f[189])( );     /*TRI4(jvj+32,v[13],642,jvj+33)*/
-pile[v[22]]=jvj+33; pile[WZ1]=3811; pile[WZ2]=246; pile[WZ3]=jvj+34; 
-(*f[189])( );     /*TRI4(jvj+33,3811,246,jvj+34)*/
+pile[v[22]]=jvj+33; pile[WZ1]=3813; pile[WZ2]=246; pile[WZ3]=jvj+34; 
+(*f[189])( );     /*TRI4(jvj+33,3813,246,jvj+34)*/
 pile[v[22]]=jvj+34; pile[WZ1]=20515; pile[WZ2]=218; pile[WZ3]=jvj+35; 
 (*f[58])( );     /*TRI3(jvj+34,20515,218,jvj+35)*/
 pile[v[22]]=jvj+36; pile[WZ1]=(-20); pile[WZ2]=jvj+35; pile[WZ3]=159; pile[WZ4]=jvj+37; 
@@ -113,7 +113,7 @@ pile[v[22]]=jvj+36; pile[WZ1]=(-20); pile[WZ2]=jvj+35; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+37; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+20; 
 (*f[58])( );     /*TRI3(jvj+37,1,158,jvj+20)*/
 pile[v[22]]=jvj+19; pile[WZ1]=jvj+20; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+19,jvj+20)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+19,jvj+20)*/
 x[jvj+38]=t[x[jvj+38]];
 goto l7;
 l8:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;

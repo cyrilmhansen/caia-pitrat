@@ -89,7 +89,7 @@ R=V1;
 goto l20;
 l12:x[jvj+16]=s[x[jvj+23]] ;z[jvj+16]=(x[jvj+16]<=sepcte) ? x[jvj+16] : z[jvj+23];
 pile[v[22]]=jvj+16; pile[WZ1]=B; 
-(*f[1583])( );if(v[102]) goto l13;     /*ELTMAX1(jvj+16,B,RR)*/
+(*f[1585])( );if(v[102]) goto l13;     /*ELTMAX1(jvj+16,B,RR)*/
 RR=pile[WZ2]; 
 V9=RR;
 if(V9>V8) V8=V9;

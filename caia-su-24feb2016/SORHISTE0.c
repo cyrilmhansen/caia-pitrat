@@ -49,7 +49,7 @@ for(i=x[E],V18=0;i>0;i=t[i],V18++)  ;
 for(i=x[F],V19=0;i>0;i=t[i],V19++)  ;
 if((V18<=V19)) goto l16;
 pile[v[22]]=L; pile[WZ1]=E; pile[WZ2]=F; pile[WZ3]=A; pile[WZ4]=B; 
-(*f[1168])( );if(v[102]) goto l16;     /*SORHISTE0(L,E,F,A,B,J)*/
+(*f[1170])( );if(v[102]) goto l16;     /*SORHISTE0(L,E,F,A,B,J)*/
 J=pile[WZ5]; 
 l17:v[0]=jvj; v[22]-=6; pile[v[22]+5]=J; v[102]=0;return;
 l4:V4=V3;

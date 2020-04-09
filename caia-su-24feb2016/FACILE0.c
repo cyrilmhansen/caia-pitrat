@@ -41,11 +41,11 @@ if(F==875||F==859) goto l3;
 l2:x[jvj+16]=t[x[jvj+16]];
 goto l1;
 l6:pile[v[22]]=jvj+2; 
-(*f[1162])( );if(v[102]) goto l8;     /*Z229Z0(jvj+2,V21)*/
+(*f[1164])( );if(v[102]) goto l8;     /*Z229Z0(jvj+2,V21)*/
 V21=pile[WZ1]; 
 if((V21>0)) goto l7;
 l8:pile[v[22]]=jvj+2; 
-(*f[1163])( );if(v[102]) goto l3;     /*Z230Z0(jvj+2,V23)*/
+(*f[1165])( );if(v[102]) goto l3;     /*Z230Z0(jvj+2,V23)*/
 V23=pile[WZ1]; 
 if((V23>0)) goto l7;
 l3:x[R]=135 ;z[R]=135;

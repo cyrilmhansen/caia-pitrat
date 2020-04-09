@@ -377,7 +377,7 @@ l36:pile[v[22]]=EXEXEX; pile[WZ1]=141;
 (*f[207])( );     /*PLUE2(EXEXEX,141)*/
 goto l35;
 l37:pile[v[22]]=jvj+1; pile[WZ1]=jvj+87; 
-(*f[1446])( );     /*NONUL0(jvj+1,jvj+87)*/
+(*f[1448])( );     /*NONUL0(jvj+1,jvj+87)*/
 if((x[jvj+87]==135)) goto l39;
 goto l32;
 l39:x[jvj+158]=x[jvj+85] ;z[jvj+158]=z[jvj+85];

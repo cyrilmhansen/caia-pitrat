@@ -78,7 +78,7 @@ l13:if((V50<=0)) goto l12;
 V51=(-41);
 V52=t[V60];
 pile[v[22]]=V48; pile[WZ1]=V51; pile[WZ2]=V52; pile[WZ3]=jvj+8; 
-(*f[1128])( );     /*TRI21(V48,V51,V52,jvj+8)*/
+(*f[1130])( );     /*TRI21(V48,V51,V52,jvj+8)*/
 t[V60]=x[jvj+8];
 l12:s[V60]=S;
 goto l5;
@@ -104,14 +104,14 @@ l17:if((V50<=0)) goto l5;
 if((V48>=S)) goto l5;
 V58=(-41);
 pile[v[22]]=S; pile[WZ1]=V58; pile[WZ2]=V57; pile[WZ3]=jvj+9; 
-(*f[1128])( );     /*TRI21(S,V58,V57,jvj+9)*/
+(*f[1130])( );     /*TRI21(S,V58,V57,jvj+9)*/
 t[V60]=x[jvj+9];
 goto l5;
 l19:if((V64<=0)) goto l18;
 V65=(-41);
 V66=t[V74];
 pile[v[22]]=V62; pile[WZ1]=V65; pile[WZ2]=V66; pile[WZ3]=jvj+10; 
-(*f[1128])( );     /*TRI21(V62,V65,V66,jvj+10)*/
+(*f[1130])( );     /*TRI21(V62,V65,V66,jvj+10)*/
 t[V74]=x[jvj+10];
 l18:s[V74]=S;
 goto l5;
@@ -119,7 +119,7 @@ l20:if((V64<=0)) goto l5;
 if((V62<=S)) goto l5;
 V72=(-41);
 pile[v[22]]=S; pile[WZ1]=V72; pile[WZ2]=V71; pile[WZ3]=jvj+11; 
-(*f[1128])( );     /*TRI21(S,V72,V71,jvj+11)*/
+(*f[1130])( );     /*TRI21(S,V72,V71,jvj+11)*/
 t[V74]=x[jvj+11];
 goto l5;
 }

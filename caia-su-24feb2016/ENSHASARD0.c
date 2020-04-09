@@ -54,7 +54,7 @@ for(i=x[R],V8=0;i>0;i=t[i],V8++)  ;
 if((V8>=A)) goto l6;
 V9=K+1;
 pile[v[22]]=R; pile[WZ1]=A; pile[WZ2]=B; pile[WZ3]=C; pile[WZ4]=V9; 
-(*f[1363])( );     /*ENSHASARD1(R,A,B,C,V9)*/
+(*f[1365])( );     /*ENSHASARD1(R,A,B,C,V9)*/
 l6:v[0]=jvj; v[22]-=4; v[102]=0;return;
 l8:V33=V31%100000;
 V40=V31/100000;

@@ -14,7 +14,7 @@ v[0]+=43;
 x[jvj+1]=20065;z[jvj+1]=(-100);
 x[jvj+2]=2;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3147&&v[97]==0) {
+if(v[90]==3149&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -26,7 +26,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+10; pile[WZ2]=jvj+11;
 if((x[jvj+11]!=25)) goto l14;
 x[jvj+12]=vo[16];z[jvj+12]=vz[16];
 pile[v[22]]=498; pile[WZ1]=jvj+12; pile[WZ2]=jvj+13; 
-(*f[1948])( );if(v[102]) goto l14;     /*FNDOND0(498,jvj+12,jvj+13)*/
+(*f[1950])( );if(v[102]) goto l14;     /*FNDOND0(498,jvj+12,jvj+13)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+13; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l14;     /*FNDO0(1182,jvj+13,jvj+14)*/
 if((68!=x[jvj+14])) goto l14;
@@ -86,7 +86,7 @@ x[jvj+43]=x[jvj+9] ;z[jvj+43]=z[jvj+9];
 l12:if((x[jvj+43]<=0)) goto l11;
 x[jvj+32]=s[x[jvj+43]] ;z[jvj+32]=(x[jvj+32]<=sepcte) ? x[jvj+32] : z[jvj+43];
 pile[v[22]]=365; pile[WZ1]=jvj+32; pile[WZ2]=jvj+33; 
-(*f[1969])( );     /*FNDEND0(365,jvj+32,jvj+33)*/
+(*f[1971])( );     /*FNDEND0(365,jvj+32,jvj+33)*/
 for(i=x[jvj+33],V10=0;i>0;i=t[i],V10++)  ;
 if((V10!=2)) goto l13;
 pile[v[22]]=101; pile[WZ1]=R; pile[WZ2]=110; pile[WZ3]=(-601); pile[WZ4]=jvj+38; 
@@ -97,8 +97,8 @@ pile[v[22]]=206; pile[WZ1]=715; pile[WZ2]=jvj+35;
 (*f[54])( );     /*TRI1(206,715,jvj+35)*/
 pile[v[22]]=jvj+35; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+36; 
 (*f[189])( );     /*TRI4(jvj+35,v[13],642,jvj+36)*/
-pile[v[22]]=jvj+36; pile[WZ1]=3085; pile[WZ2]=246; pile[WZ3]=jvj+37; 
-(*f[189])( );     /*TRI4(jvj+36,3085,246,jvj+37)*/
+pile[v[22]]=jvj+36; pile[WZ1]=3087; pile[WZ2]=246; pile[WZ3]=jvj+37; 
+(*f[189])( );     /*TRI4(jvj+36,3087,246,jvj+37)*/
 pile[v[22]]=158; pile[WZ1]=289; pile[WZ2]=218; pile[WZ3]=20065; pile[WZ4]=jvj+37; pile[WZ5]=jvj+34; 
 (*f[269])( );     /*QUADRI6(158,289,218,20065,jvj+37,jvj+34)*/
 pile[v[22]]=jvj+34; pile[WZ1]=159; pile[WZ2]=jvj+38; 
@@ -118,7 +118,7 @@ goto l1;
 l4:x[jvj+7]=s[x[jvj+40]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+40];
 for(a=x[jvj+4];a>0;a=t[a]) if(s[a]==x[jvj+7]) goto l5;
 pile[v[22]]=365; pile[WZ1]=jvj+7; pile[WZ2]=jvj+8; 
-(*f[1969])( );     /*FNDEND0(365,jvj+7,jvj+8)*/
+(*f[1971])( );     /*FNDEND0(365,jvj+7,jvj+8)*/
 for(i=x[jvj+8],V48=0;i>0;i=t[i],V48++)  ;
 if((V48!=2)) goto l5;
 pile[v[22]]=jvj+9; 

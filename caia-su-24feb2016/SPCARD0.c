@@ -28,13 +28,13 @@ V6=pile[WZ2];
 V5=s[T];
 x[jvj+3]=V5 ;z[jvj+3]=(V5<=sepcte) ? V5 : 0;
 pile[v[22]]=jvj+1; pile[WZ1]=I; 
-(*f[2077])( );     /*SPR0(jvj+1,I,V2)*/
+(*f[2079])( );     /*SPR0(jvj+1,I,V2)*/
 V2=pile[WZ2]; 
 pile[v[22]]=V6; pile[WZ1]=V2; 
 (*f[64])( );     /*SRA2(V6,V2,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=jvj+3; pile[WZ1]=V3; 
-(*f[2077])( );     /*SPR0(jvj+3,V3,L)*/
+(*f[2079])( );     /*SPR0(jvj+3,V3,L)*/
 L=pile[WZ2]; 
 V8=t[T];
 if((V8<=0)) goto l1;
@@ -45,7 +45,7 @@ pile[v[22]]=V10; pile[WZ1]=L;
 (*f[64])( );     /*SRA2(V10,L,N)*/
 N=pile[WZ2]; 
 pile[v[22]]=V8; pile[WZ1]=N; pile[WZ2]=jvj+1; 
-(*f[2219])( );if(v[102]) goto l1;     /*SPCARD1(V8,N,jvj+1,J)*/
+(*f[2221])( );if(v[102]) goto l1;     /*SPCARD1(V8,N,jvj+1,J)*/
 J=pile[WZ3]; 
 l3:v[0]=jvj; v[22]-=3; pile[v[22]+2]=J; v[102]=0;return;
 l1:V11=t[T];

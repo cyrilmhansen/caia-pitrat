@@ -33,7 +33,7 @@ pile[v[22]]=107; pile[WZ1]=ZZ; pile[WZ2]=jvj+1;
 l1:if((x[jvj+1]<=0)) goto l26;
 x[jvj+2]=s[x[jvj+1]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+1];
 pile[v[22]]=jvj+2; pile[WZ1]=RR; pile[WZ2]=67; 
-(*f[1898])( );     /*TRINOME1(jvj+2,RR,67)*/
+(*f[1900])( );     /*TRINOME1(jvj+2,RR,67)*/
 x[jvj+1]=t[x[jvj+1]];
 goto l1;
 l5:pile[v[22]]=RR; pile[WZ1]=515; pile[WZ2]=1; 
@@ -72,7 +72,7 @@ if((x[jvj+9]!=52)) goto l25;
 pile[v[22]]=102; pile[WZ1]=ZZ; pile[WZ2]=jvj+23; 
 (*f[32])( );if(v[102]) goto l25;     /*FNDO0(102,ZZ,jvj+23)*/
 pile[v[22]]=jvj+23; pile[WZ1]=67; pile[WZ5]=jvj+3; 
-(*f[1899])( );     /*TRINOME2(jvj+23,67,AA,BB,CC,jvj+3)*/
+(*f[1901])( );     /*TRINOME2(jvj+23,67,AA,BB,CC,jvj+3)*/
 AA=pile[WZ2]; BB=pile[WZ3]; CC=pile[WZ4]; 
 if((AA==0)) goto l2;
 V56=(-AA);

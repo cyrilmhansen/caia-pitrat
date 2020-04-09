@@ -36,7 +36,7 @@ pile[v[22]]=V25; pile[WZ1]=123;
 (*f[38])( );     /*SPC0(V25,123,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=V3; pile[WZ1]=jvj+7; pile[WZ2]=V9; 
-(*f[2126])( );     /*QF0(V3,jvj+7,V9,V4)*/
+(*f[2128])( );     /*QF0(V3,jvj+7,V9,V4)*/
 V4=pile[WZ3]; 
 pile[v[22]]=V4; pile[WZ1]=125; 
 (*f[38])( );     /*SPC0(V4,125,V2)*/

@@ -31,7 +31,7 @@ l4:x[jvj+4]=s[x[jvj+3]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+3];
 pile[v[22]]=jvj+4; pile[WZ1]=X; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+4,X,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; 
-(*f[2023])( );     /*INVEQEQM0(jvj+5,jvj+6)*/
+(*f[2025])( );     /*INVEQEQM0(jvj+5,jvj+6)*/
 if((x[jvj+6]==135)) goto l1;
 l5:x[jvj+3]=t[x[jvj+3]];
 goto l3;

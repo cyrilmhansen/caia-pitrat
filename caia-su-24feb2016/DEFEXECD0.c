@@ -223,7 +223,7 @@ pile[v[22]]=V53;
 pile[v[22]]=jvj+4; pile[WZ1]=158; pile[WZ2]=67; 
 (*f[35])( );     /*CHGC1(jvj+4,158,67)*/
 pile[v[22]]=N; pile[WZ1]=D; pile[WZ2]=I; 
-(*f[1055])( );     /*DEFEXECD0(N,D,I)*/
+(*f[1057])( );     /*DEFEXECD0(N,D,I)*/
 l17:if((V10==46)) goto l19;
 if((V10==70)) goto l20;
 if((V10!=80)) goto l11;

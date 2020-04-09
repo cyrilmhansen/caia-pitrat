@@ -34,7 +34,7 @@ if((x[jvj+5]==255)) goto l1;
 l7:pile[v[22]]=X; pile[WZ1]=220; pile[WZ2]=K; 
 (*f[43])( );     /*CHGC2(X,220,K)*/
 pile[v[22]]=VA; pile[WZ1]=VB; pile[WZ2]=jvj+1; 
-(*f[2101])( );     /*SUBVT0(VA,VB,jvj+1)*/
+(*f[2103])( );     /*SUBVT0(VA,VB,jvj+1)*/
 pile[v[22]]=436; pile[WZ1]=jvj+1; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(436,jvj+1,jvj+8)*/
 pile[v[22]]=140; pile[WZ1]=jvj+8; 
@@ -51,7 +51,7 @@ x[jvj+10]=s[x[jvj+9]] ;z[jvj+10]=(x[jvj+10]<=sepcte) ? x[jvj+10] : z[jvj+9];
 pile[v[22]]=jvj+10; pile[WZ1]=X; pile[WZ2]=jvj+11; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+10,X,jvj+11)*/
 pile[v[22]]=VA; pile[WZ1]=VB; pile[WZ3]=K; 
-(*f[2100])( );     /*ISQ0(VA,VB,jvj+11,K)*/
+(*f[2102])( );     /*ISQ0(VA,VB,jvj+11,K)*/
 l5:x[jvj+9]=t[x[jvj+9]];
 goto l3;
 l1:if((x[jvj+3]<=0)) goto l7;

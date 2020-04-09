@@ -35,7 +35,7 @@ l2:x[jvj+4]=0 ;z[jvj+4]=0;
 x[jvj+7]=x[A] ;z[jvj+7]=z[A];
 l3:if((x[jvj+7]>0)) goto l4;
 pile[v[22]]=V5; pile[WZ1]=jvj+4; pile[WZ2]=R; 
-(*f[3995])( );if(v[102]) goto l7;     /*MOINSBAG1(V5,jvj+4,R)*/
+(*f[3997])( );if(v[102]) goto l7;     /*MOINSBAG1(V5,jvj+4,R)*/
 l8:v[0]=jvj; v[22]-=3; v[102]=0;return;
 l4:x[jvj+5]=s[x[jvj+7]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+7];
 if((x[jvj+5]==x[jvj+2])) goto l5;

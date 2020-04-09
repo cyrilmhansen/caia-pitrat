@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=29;
 x[jvj+1]=20159;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3643&&v[97]==0) {
+if(v[90]==3645&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -33,7 +33,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+10;
 (*f[26])( );if(v[102]) goto l3;     /*FNDC0(642,jvj+10,V17)*/
 V17=pile[WZ2]; 
 pile[v[22]]=V14; pile[WZ1]=jvj+27; 
-(*f[1007])( );if(v[102]) goto l3;     /*DECFACTPREM0(V14,jvj+27)*/
+(*f[1008])( );if(v[102]) goto l3;     /*DECFACTPREM0(V14,jvj+27)*/
 x[jvj+29]=0 ;z[jvj+29]=0;
 l4:if((x[jvj+27]>0)) goto l5;
 E=x[jvj+29];
@@ -66,8 +66,8 @@ pile[v[22]]=V17; pile[WZ1]=858; pile[WZ2]=jvj+22;
 (*f[46])( );     /*TRI0(V17,858,jvj+22)*/
 pile[v[22]]=jvj+22; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+23; 
 (*f[189])( );     /*TRI4(jvj+22,v[13],642,jvj+23)*/
-pile[v[22]]=jvj+23; pile[WZ1]=3643; pile[WZ2]=246; pile[WZ3]=jvj+24; 
-(*f[189])( );     /*TRI4(jvj+23,3643,246,jvj+24)*/
+pile[v[22]]=jvj+23; pile[WZ1]=3645; pile[WZ2]=246; pile[WZ3]=jvj+24; 
+(*f[189])( );     /*TRI4(jvj+23,3645,246,jvj+24)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20159; pile[WZ4]=jvj+24; pile[WZ5]=jvj+14; 
 (*f[269])( );     /*QUADRI6(158,1,218,20159,jvj+24,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ1]=159; pile[WZ2]=jvj+25; 
@@ -75,7 +75,7 @@ pile[v[22]]=jvj+14; pile[WZ1]=159; pile[WZ2]=jvj+25;
 pile[WZ2]=jvj+26; 
 (*f[36])( );     /*PLUSC0(jvj+14,159,jvj+26)*/
 pile[v[22]]=R; pile[WZ1]=jvj+13; pile[WZ2]=jvj+14; 
-(*f[1558])( );     /*RESTAURE0(R,jvj+13,jvj+14)*/
+(*f[1560])( );     /*RESTAURE0(R,jvj+13,jvj+14)*/
 l3:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l2:Y=s[E];
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=408; pile[WZ4]=jvj+18; 
@@ -100,7 +100,7 @@ pile[v[22]]=510;
 (*f[26])( );if(v[102]) goto l6;     /*FNDC0(510,jvj+28,V40)*/
 V40=pile[WZ2]; 
 pile[v[22]]=V39; pile[WZ1]=V40; 
-(*f[1006])( );if(v[102]) goto l6;     /*POWER0(V39,V40,V41)*/
+(*f[1007])( );if(v[102]) goto l6;     /*POWER0(V39,V40,V41)*/
 V41=pile[WZ2]; 
 pile[v[22]]=jvj+29; pile[WZ1]=V41; 
 (*f[207])( );     /*PLUE2(jvj+29,V41)*/

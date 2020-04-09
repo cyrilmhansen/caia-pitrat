@@ -90,7 +90,7 @@ goto l5;
 l8:x[P]=x[jvj+7] ;z[P]=z[jvj+7];
 if((x[P]==250)) goto l10;
 pile[v[22]]=P; pile[WZ1]=1230; 
-(*f[1261])( );     /*NOUVSAUVE1(P,1230)*/
+(*f[1263])( );     /*NOUVSAUVE1(P,1230)*/
 pile[WZ1]=1218; pile[WZ2]=68; 
 (*f[35])( );     /*CHGC1(P,1218,68)*/
 pile[WZ1]=1161; pile[WZ2]=1097; 

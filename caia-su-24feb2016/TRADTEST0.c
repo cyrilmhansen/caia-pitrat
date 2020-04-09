@@ -67,7 +67,7 @@ x[jvj+3]=t[x[jvj+3]];
 goto l2;
 l4:x[jvj+5]=s[x[jvj+2]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+2];
 pile[v[22]]=jvj+5; pile[WZ1]=jvj+6; 
-(*f[1229])( );     /*ENSOP0(jvj+5,jvj+6)*/
+(*f[1231])( );     /*ENSOP0(jvj+5,jvj+6)*/
 x[jvj+34]=x[jvj+6] ;z[jvj+34]=z[jvj+6];
 l5:if((x[jvj+34]>0)) goto l6;
 x[jvj+2]=t[x[jvj+2]];

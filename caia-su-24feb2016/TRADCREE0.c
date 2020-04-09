@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=46;
 x[jvj+1]=11722;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1234&&v[97]==0) {
+if(v[90]==1236&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 C=pile[v[22]]; B=pile[v[22]+1]; A=pile[v[22]+2]; R=pile[v[22]+3]; v[22]+=4; 
@@ -41,13 +41,13 @@ if((x[jvj+24]!=826)) goto l11;
 pile[v[22]]=459; pile[WZ1]=C; pile[WZ2]=jvj+25; 
 (*f[32])( );if(v[102]) goto l11;     /*FNDO0(459,C,jvj+25)*/
 pile[v[22]]=V39; pile[WZ1]=1841; pile[WZ2]=B; 
-(*f[1501])( );     /*NATFNDA0(V39,1841,B)*/
+(*f[1503])( );     /*NATFNDA0(V39,1841,B)*/
 pile[v[22]]=447; pile[WZ1]=67; pile[WZ2]=459; pile[WZ3]=jvj+25; pile[WZ4]=jvj+27; 
 (*f[181])( );     /*QUADRI2(447,67,459,jvj+25,jvj+27)*/
 l13:pile[v[22]]=jvj+27; pile[WZ1]=B; pile[WZ2]=A; pile[WZ3]=jvj+28; 
-(*f[1503])( );if(v[102]) goto l14;     /*BOOTRADA0(jvj+27,B,A,jvj+28)*/
+(*f[1505])( );if(v[102]) goto l14;     /*BOOTRADA0(jvj+27,B,A,jvj+28)*/
 pile[v[22]]=jvj+28; pile[WZ2]=jvj+27; pile[WZ3]=jvj+29; pile[WZ4]=jvj+30; 
-(*f[1502])( );if(v[102]) goto l14;     /*TRADCREA0(jvj+28,B,jvj+27,jvj+29,jvj+30)*/
+(*f[1504])( );if(v[102]) goto l14;     /*TRADCREA0(jvj+28,B,jvj+27,jvj+29,jvj+30)*/
 l23:x[R]=x[jvj+29] ;z[R]=z[jvj+29];
 if(x[jvj+30]!=incon) goto l28;
 l26:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; v[102]=0;return;
@@ -144,14 +144,14 @@ l17:x[jvj+34]=s[x[jvj+44]] ;z[jvj+34]=(x[jvj+34]<=sepcte) ? x[jvj+34] : z[jvj+44
 pile[v[22]]=jvj+34; pile[WZ1]=A; pile[WZ2]=jvj+35; 
 (*f[32])( );if(v[102]) goto l18;     /*FNDO0(jvj+34,A,jvj+35)*/
 pile[v[22]]=jvj+27; pile[WZ1]=B; pile[WZ3]=jvj+36; 
-(*f[1234])( );if(v[102]) goto l18;     /*TRADCREE0(jvj+27,B,jvj+35,jvj+36)*/
+(*f[1236])( );if(v[102]) goto l18;     /*TRADCREE0(jvj+27,B,jvj+35,jvj+36)*/
 pile[v[22]]=jvj+29; pile[WZ1]=jvj+34; pile[WZ2]=jvj+36; 
 (*f[35])( );     /*CHGC1(jvj+29,jvj+34,jvj+36)*/
 l18:x[jvj+44]=t[x[jvj+44]];
 goto l16;
 l21:x[jvj+39]=s[x[jvj+46]] ;z[jvj+39]=(x[jvj+39]<=sepcte) ? x[jvj+39] : z[jvj+46];
 pile[v[22]]=jvj+27; pile[WZ1]=B; pile[WZ2]=jvj+39; pile[WZ3]=jvj+40; 
-(*f[1234])( );if(v[102]) goto l22;     /*TRADCREE0(jvj+27,B,jvj+39,jvj+40)*/
+(*f[1236])( );if(v[102]) goto l22;     /*TRADCREE0(jvj+27,B,jvj+39,jvj+40)*/
 pile[v[22]]=jvj+29; pile[WZ1]=jvj+37; pile[WZ2]=jvj+40; 
 (*f[36])( );     /*PLUSC0(jvj+29,jvj+37,jvj+40)*/
 l22:x[jvj+46]=t[x[jvj+46]];

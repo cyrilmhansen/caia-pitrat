@@ -32,7 +32,7 @@ l2:x[jvj+2]=s[x[jvj+9]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+9];
 pile[v[22]]=jvj+2; pile[WZ1]=X; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(jvj+2,X,jvj+3)*/
 pile[v[22]]=jvj+3; pile[WZ1]=E; pile[WZ2]=jvj+4; 
-(*f[1415])( );     /*COMPTEST0(jvj+3,E,jvj+4)*/
+(*f[1417])( );     /*COMPTEST0(jvj+3,E,jvj+4)*/
 if((x[jvj+4]==134)) goto l4;
 l3:x[jvj+9]=t[x[jvj+9]];
 goto l1;
@@ -40,7 +40,7 @@ l4:x[RES]=134 ;z[RES]=134;
 l9:v[0]=jvj; v[22]-=3; return;
 l7:x[jvj+7]=s[x[jvj+11]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+11];
 pile[v[22]]=jvj+7; pile[WZ1]=E; pile[WZ2]=jvj+8; 
-(*f[1415])( );     /*COMPTEST0(jvj+7,E,jvj+8)*/
+(*f[1417])( );     /*COMPTEST0(jvj+7,E,jvj+8)*/
 if((x[jvj+8]==134)) goto l4;
 x[jvj+11]=t[x[jvj+11]];
 goto l6;

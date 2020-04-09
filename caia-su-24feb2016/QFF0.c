@@ -35,7 +35,7 @@ pile[v[22]]=I; pile[WZ1]=123;
 (*f[38])( );     /*SPC0(I,123,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=V3; pile[WZ1]=jvj+7; pile[WZ2]=V9; 
-(*f[2126])( );     /*QF0(V3,jvj+7,V9,V4)*/
+(*f[2128])( );     /*QF0(V3,jvj+7,V9,V4)*/
 V4=pile[WZ3]; 
 pile[v[22]]=V4; pile[WZ1]=125; 
 (*f[38])( );     /*SPC0(V4,125,V2)*/
@@ -44,7 +44,7 @@ pile[v[22]]=V2; pile[WZ1]=44;
 (*f[38])( );     /*SPC0(V2,44,V5)*/
 V5=pile[WZ2]; 
 pile[v[22]]=V5; pile[WZ1]=X; pile[WZ2]=V10; 
-(*f[2183])( );     /*QFF1(V5,X,V10,J)*/
+(*f[2185])( );     /*QFF1(V5,X,V10,J)*/
 J=pile[WZ3]; 
 l10:v[0]=jvj; v[22]-=3; pile[v[22]+2]=J; return;
 l2:x[jvj+1]=t[x[jvj+1]];
@@ -74,7 +74,7 @@ pile[v[22]]=V13; pile[WZ1]=44;
 (*f[38])( );     /*SPC0(V13,44,V16)*/
 V16=pile[WZ2]; 
 pile[v[22]]=V16; pile[WZ1]=X; pile[WZ2]=V21; 
-(*f[2183])( );     /*QFF1(V16,X,V21,J)*/
+(*f[2185])( );     /*QFF1(V16,X,V21,J)*/
 J=pile[WZ3]; 
 goto l10;
 l5:x[jvj+4]=s[x[jvj+3]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+3];

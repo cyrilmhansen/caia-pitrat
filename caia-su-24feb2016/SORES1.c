@@ -14,7 +14,7 @@ v[0]+=37;
 x[jvj+1]=10403;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1487&&v[97]==0) {
+if(v[90]==1489&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 UR=pile[v[22]]; v[22]+=1; 
@@ -60,12 +60,12 @@ l1:if((x[jvj+4]>0)) goto l2;
 I=0;
 l6:if((I<=V13)) goto l7;
 pile[v[22]]=V13; pile[WZ1]=0; 
-(*f[1183])( );     /*UTILE0(V13,0)*/
+(*f[1185])( );     /*UTILE0(V13,0)*/
 x[jvj+11]=x[jvj+10] ;z[jvj+11]=z[jvj+10];
 pile[v[22]]=jvj+3; pile[WZ1]=89; pile[WZ2]=90; 
 (*f[69])( );     /*CHGC3(jvj+3,89,90)*/
 pile[v[22]]=jvj+11; pile[WZ1]=V13; pile[WZ2]=jvj+12; 
-(*f[1184])( );if(v[102]) goto l21;     /*MNMXNEC0(jvj+11,V13,jvj+12)*/
+(*f[1186])( );if(v[102]) goto l21;     /*MNMXNEC0(jvj+11,V13,jvj+12)*/
 if((x[jvj+12]==135)) goto l8;
 l21:x[jvj+22]=250 ;z[jvj+22]=250;
 if((UR==70)) goto l44;
@@ -79,7 +79,7 @@ V28=135;
 l19:if((V28==135)) goto l20;
 V27=v[149];
 l46:pile[v[22]]=V27; 
-(*f[1186])( );     /*CAUSES0(V27)*/
+(*f[1188])( );     /*CAUSES0(V27)*/
 l47:if(UR!=85&&UR!=73&&UR!=72&&UR!=80) goto l48;
 x[jvj+23]=0 ;z[jvj+23]=0;
 V33=incon;
@@ -129,7 +129,7 @@ l7:tu[I]=0;
 I++;
 goto l6;
 l8:pile[v[22]]=V13; pile[WZ1]=1; 
-(*f[1183])( );     /*UTILE0(V13,1)*/
+(*f[1185])( );     /*UTILE0(V13,1)*/
 goto l21;
 l11:if((UR==65)) goto l50;
 l52:x[jvj+37]=x[jvj+30] ;z[jvj+37]=z[jvj+30];
@@ -224,14 +224,14 @@ goto l34;
 l29:V56=bh[v[1]][2];
 if(V56==45||V56==60) goto l30;
 pile[v[22]]=V31; pile[WZ1]=jvj+22; pile[WZ2]=UR; 
-(*f[1189])( );     /*SORELT1(V31,jvj+22,UR)*/
+(*f[1191])( );     /*SORELT1(V31,jvj+22,UR)*/
 l30:if(V56!=45&&V56!=60) goto l34;
 if((V56!=60)) goto l31;
 V55=tt[V31];
 V54=V55;
 if(V54!=44&&V54!=289) goto l34;
 l31:pile[v[22]]=V31; pile[WZ1]=jvj+23; 
-(*f[1188])( );     /*SORTOTAL0(V31,jvj+23)*/
+(*f[1190])( );     /*SORTOTAL0(V31,jvj+23)*/
 goto l34;
 l35:V37=0;
 l41:x[jvj+36]=x[jvj+23] ;z[jvj+36]=z[jvj+23];
@@ -286,13 +286,13 @@ goto l41;
 l39:V59++;
 goto l38;
 l44:
-(*f[1185])( );     /*CHERCHE0()*/
+(*f[1187])( );     /*CHERCHE0()*/
 goto l47;
 l45:pile[v[22]]=2; 
 (*f[126])( );     /*LND2(2,V30,KK)*/
 V30=pile[WZ1]; KK=pile[WZ2]; 
 pile[v[22]]=V30; 
-(*f[1187])( );     /*SORELT0(V30)*/
+(*f[1189])( );     /*SORELT0(V30)*/
 v[149]=V30;
 goto l47;
 l48:if(UR!=84&&UR!=68&&UR!=65) goto l53;

@@ -137,7 +137,7 @@ l27:pile[v[22]]=130; pile[WZ1]=jvj+6;
 (*f[26])( );if(v[102]) goto l22;     /*FNDC0(130,jvj+6,V36)*/
 V36=pile[WZ2]; 
 pile[v[22]]=V36; pile[WZ1]=jvj+15; 
-(*f[1007])( );if(v[102]) goto l22;     /*DECFACTPREM0(V36,jvj+15)*/
+(*f[1008])( );if(v[102]) goto l22;     /*DECFACTPREM0(V36,jvj+15)*/
 V40=incon;
 goto l20;
 l29:x[jvj+23]=s[x[jvj+11]] ;z[jvj+23]=(x[jvj+23]<=sepcte) ? x[jvj+23] : z[jvj+11];
@@ -227,7 +227,7 @@ l44:pile[v[22]]=130; pile[WZ1]=X;
 (*f[26])( );if(v[102]) goto l39;     /*FNDC0(130,X,V75)*/
 V75=pile[WZ2]; 
 pile[v[22]]=V75; pile[WZ1]=jvj+32; 
-(*f[1007])( );if(v[102]) goto l39;     /*DECFACTPREM0(V75,jvj+32)*/
+(*f[1008])( );if(v[102]) goto l39;     /*DECFACTPREM0(V75,jvj+32)*/
 V79=incon;
 goto l37;
 l46:x[jvj+40]=s[x[jvj+28]] ;z[jvj+40]=(x[jvj+40]<=sepcte) ? x[jvj+40] : z[jvj+28];

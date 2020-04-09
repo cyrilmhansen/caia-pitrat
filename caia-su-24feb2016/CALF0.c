@@ -32,10 +32,10 @@ l4:J++;
 goto l3;
 l5:V5=J+V6;
 pile[v[22]]=V5; pile[WZ1]=(-2241); 
-(*f[1020])( );if(v[102]) goto l4;     /*VALTAB0(V5,(-2241),V1)*/
+(*f[1021])( );if(v[102]) goto l4;     /*VALTAB0(V5,(-2241),V1)*/
 V1=pile[WZ2]; 
 pile[WZ1]=(-662); 
-(*f[1020])( );if(v[102]) goto l4;     /*VALTAB0(V5,(-662),V2)*/
+(*f[1021])( );if(v[102]) goto l4;     /*VALTAB0(V5,(-662),V2)*/
 V2=pile[WZ2]; 
 N=V2;
 if((N<=0)) goto l4;

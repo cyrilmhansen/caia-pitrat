@@ -88,7 +88,7 @@ pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; pile[WZ2]=103; pile[WZ3]=jvj+15;
 pile[v[22]]=100; pile[WZ1]=22; pile[WZ2]=102; pile[WZ3]=jvj+16; pile[WZ4]=jvj+15; pile[WZ5]=jvj+10; 
 (*f[269])( );     /*QUADRI6(100,22,102,jvj+16,jvj+15,jvj+10)*/
 pile[v[22]]=jvj+10; pile[WZ1]=E; pile[WZ2]=jvj+11; 
-(*f[1415])( );     /*COMPTEST0(jvj+10,E,jvj+11)*/
+(*f[1417])( );     /*COMPTEST0(jvj+10,E,jvj+11)*/
 if((x[jvj+11]==135)) goto l8;
 l6:x[jvj+38]=t[x[jvj+38]];
 l5:if((x[jvj+38]<=0)) goto l4;

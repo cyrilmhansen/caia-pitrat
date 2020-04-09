@@ -20,8 +20,8 @@ pile[v[22]]=134; pile[WZ2]=jvj+2;
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(134,X,jvj+2)*/
 x[jvj+3]=x[jvj+1] ;z[jvj+3]=z[jvj+1];
 pile[v[22]]=135; 
-(*f[1380])( );     /*RECZ0(135,X,jvj+2)*/
+(*f[1382])( );     /*RECZ0(135,X,jvj+2)*/
 pile[v[22]]=134; pile[WZ2]=jvj+3; 
-(*f[1380])( );     /*RECZ0(134,X,jvj+3)*/
+(*f[1382])( );     /*RECZ0(134,X,jvj+3)*/
 l1:v[0]=jvj; v[22]-=1; return;
 }

@@ -32,7 +32,7 @@ if((V36!=0)) goto l4;
 pile[v[22]]=102; pile[WZ1]=A; pile[WZ2]=jvj+8; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(102,A,jvj+8)*/
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
-(*f[1446])( );     /*NONUL0(jvj+8,jvj+9)*/
+(*f[1448])( );     /*NONUL0(jvj+8,jvj+9)*/
 if((x[jvj+9]==135)) goto l15;
 l4:if((V36==0)) goto l5;
 pile[v[22]]=102; pile[WZ1]=A; pile[WZ2]=jvj+1; 
@@ -106,12 +106,12 @@ l9:x[jvj+13]=s[x[jvj+28]] ;z[jvj+13]=(x[jvj+13]<=sepcte) ? x[jvj+13] : z[jvj+28]
 pile[v[22]]=jvj+13; pile[WZ1]=A; pile[WZ2]=jvj+14; 
 (*f[32])( );if(v[102]) goto l10;     /*FNDO0(jvj+13,A,jvj+14)*/
 pile[v[22]]=jvj+14; pile[WZ1]=jvj+13; pile[WZ2]=A; 
-(*f[1666])( );     /*DECODEPUI1(jvj+14,jvj+13,A)*/
+(*f[1668])( );     /*DECODEPUI1(jvj+14,jvj+13,A)*/
 l10:x[jvj+28]=t[x[jvj+28]];
 goto l8;
 l13:x[jvj+17]=s[x[jvj+30]] ;z[jvj+17]=(x[jvj+17]<=sepcte) ? x[jvj+17] : z[jvj+30];
 pile[v[22]]=jvj+17; pile[WZ1]=jvj+15; pile[WZ2]=A; 
-(*f[1666])( );     /*DECODEPUI1(jvj+17,jvj+15,A)*/
+(*f[1668])( );     /*DECODEPUI1(jvj+17,jvj+15,A)*/
 x[jvj+30]=t[x[jvj+30]];
 goto l12;
 l15:pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=1; pile[WZ4]=jvj+18; 

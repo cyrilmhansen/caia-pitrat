@@ -24,7 +24,7 @@ v[0]=jvj; v[22]-=3; v[102]=0;return;
 l2:pile[v[22]]=135; pile[WZ1]=X; pile[WZ2]=jvj+2; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(135,X,jvj+2)*/
 pile[v[22]]=jvj+2; pile[WZ1]=Y; pile[WZ2]=jvj+3; 
-(*f[2008])( );if(v[102]) goto l3;     /*ISI0(jvj+2,Y,jvj+3)*/
+(*f[2010])( );if(v[102]) goto l3;     /*ISI0(jvj+2,Y,jvj+3)*/
 if((x[jvj+3]==135)) goto l1;
 goto l3;
 }

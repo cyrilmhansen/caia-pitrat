@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=8;
 x[jvj+1]=11011;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1269&&v[97]==0) {
+if(v[90]==1271&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 A=pile[v[22]]; Z=pile[v[22]+1]; v[22]+=2; 
@@ -26,7 +26,7 @@ pile[v[22]]=1078; pile[WZ1]=A; pile[WZ2]=jvj+2;
 pile[v[22]]=1249; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l25;     /*FNDO0(1249,jvj+2,jvj+3)*/
 pile[v[22]]=607; pile[WZ1]=607; pile[WZ2]=Z; pile[WZ3]=5; pile[WZ4]=36; 
-(*f[1122])( );     /*EVALJGT0(607,607,Z,5,36)*/
+(*f[1124])( );     /*EVALJGT0(607,607,Z,5,36)*/
 l25:pile[v[22]]=913; pile[WZ1]=A; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l30;     /*FNDO0(913,A,jvj+4)*/
 x[jvj+5]=incon;
@@ -51,7 +51,7 @@ if((V3<=25)) goto l11;
 if((V3<=44)) goto l12;
 x[jvj+6]=606 ;z[jvj+6]=606;
 l28:pile[v[22]]=jvj+6; pile[WZ1]=607; pile[WZ2]=Z; pile[WZ3]=2; pile[WZ4]=36; 
-(*f[1122])( );     /*EVALJGT0(jvj+6,607,Z,2,36)*/
+(*f[1124])( );     /*EVALJGT0(jvj+6,607,Z,2,36)*/
 l18:x[jvj+7]=incon;
 if((V3<0)) goto l30;
 if((V3<=2)) goto l19;
@@ -62,7 +62,7 @@ if((V3<=156)) goto l23;
 if((V3<=468)) goto l24;
 x[jvj+7]=606 ;z[jvj+7]=606;
 l29:pile[v[22]]=jvj+7; pile[WZ1]=607; pile[WZ2]=Z; pile[WZ3]=4; pile[WZ4]=36; 
-(*f[1122])( );     /*EVALJGT0(jvj+7,607,Z,4,36)*/
+(*f[1124])( );     /*EVALJGT0(jvj+7,607,Z,4,36)*/
 l30:pile[v[22]]=510; pile[WZ1]=A; 
 (*f[26])( );if(v[102]) goto l32;     /*FNDC0(510,A,V1)*/
 V1=pile[WZ2]; 
@@ -76,7 +76,7 @@ if((V1<=94832)) goto l5;
 if((V1<=956428)) goto l6;
 x[jvj+8]=606 ;z[jvj+8]=606;
 l31:pile[v[22]]=jvj+8; pile[WZ1]=607; pile[WZ2]=Z; pile[WZ3]=1; pile[WZ4]=36; 
-(*f[1122])( );     /*EVALJGT0(jvj+8,607,Z,1,36)*/
+(*f[1124])( );     /*EVALJGT0(jvj+8,607,Z,1,36)*/
 l32:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;
 l1:x[jvj+8]=607 ;z[jvj+8]=607;
 goto l31;
@@ -104,7 +104,7 @@ l12:x[jvj+6]=605 ;z[jvj+6]=605;
 goto l28;
 l13:x[jvj+5]=603 ;z[jvj+5]=603;
 l26:pile[v[22]]=jvj+5; pile[WZ1]=602; pile[WZ2]=Z; pile[WZ3]=3; pile[WZ4]=36; 
-(*f[1122])( );     /*EVALJGT0(jvj+5,602,Z,3,36)*/
+(*f[1124])( );     /*EVALJGT0(jvj+5,602,Z,3,36)*/
 goto l27;
 l14:x[jvj+5]=607 ;z[jvj+5]=607;
 goto l26;

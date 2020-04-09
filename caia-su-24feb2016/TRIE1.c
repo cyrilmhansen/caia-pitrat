@@ -34,7 +34,7 @@ V3=pile[WZ2];
 if((RES>=V3)) goto l6;
 goto l2;
 l3:pile[v[22]]=jvj+3; pile[WZ1]=RES; pile[WZ2]=Z; pile[WZ3]=SN; 
-(*f[1444])( );     /*TRIE2(jvj+3,RES,Z,SN)*/
+(*f[1446])( );     /*TRIE2(jvj+3,RES,Z,SN)*/
 goto l4;
 l5:pile[v[22]]=204; pile[WZ1]=RES; pile[WZ2]=698; pile[WZ3]=Z; pile[WZ4]=jvj+4; 
 (*f[567])( );     /*QUADRI11(204,RES,698,Z,jvj+4)*/

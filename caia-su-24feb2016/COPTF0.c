@@ -33,12 +33,12 @@ l2:x[jvj+2]=s[x[jvj+7]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+7];
 pile[v[22]]=jvj+2; pile[WZ1]=X; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(jvj+2,X,jvj+3)*/
 pile[v[22]]=jvj+3; 
-(*f[1827])( );     /*COPTF0(jvj+3)*/
+(*f[1829])( );     /*COPTF0(jvj+3)*/
 l3:x[jvj+7]=t[x[jvj+7]];
 goto l1;
 l6:x[jvj+6]=s[x[jvj+9]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+9];
 pile[v[22]]=jvj+6; 
-(*f[1827])( );     /*COPTF0(jvj+6)*/
+(*f[1829])( );     /*COPTF0(jvj+6)*/
 x[jvj+9]=t[x[jvj+9]];
 goto l5;
 l7:v[0]=jvj; v[22]-=1; return;

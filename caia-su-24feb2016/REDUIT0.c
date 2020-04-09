@@ -25,7 +25,7 @@ pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=V3; pile[WZ4]=R;
 l9:v[0]=jvj; v[22]-=3; v[102]=0;return;
 l2:x[jvj+1]=s[x[jvj+10]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+10];
 pile[v[22]]=B; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
-(*f[1461])( );if(v[102]) goto l3;     /*REDUIT0(B,jvj+1,jvj+2)*/
+(*f[1463])( );if(v[102]) goto l3;     /*REDUIT0(B,jvj+1,jvj+2)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+2; 
 (*f[68])( );     /*PLUE0(jvj+3,jvj+2)*/
 l3:x[jvj+10]=t[x[jvj+10]];
@@ -86,7 +86,7 @@ pile[WZ1]=22; pile[WZ2]=111; pile[WZ3]=jvj+12; pile[WZ4]=R;
 pile[v[22]]=R; pile[WZ1]=107; pile[WZ2]=jvj+13; 
 (*f[36])( );     /*PLUSC0(R,107,jvj+13)*/
 pile[v[22]]=jvj+9; pile[WZ1]=R; pile[WZ2]=107; 
-(*f[1118])( );     /*AJE3(jvj+9,R,107)*/
+(*f[1120])( );     /*AJE3(jvj+9,R,107)*/
 goto l9;
 l14:x[jvj+20]=s[x[jvj+23]] ;z[jvj+20]=(x[jvj+20]<=sepcte) ? x[jvj+20] : z[jvj+23];
 if((x[jvj+20]==x[jvj+17])) goto l15;

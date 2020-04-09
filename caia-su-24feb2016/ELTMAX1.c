@@ -36,7 +36,7 @@ l3:x[jvj+5]=t[x[jvj+5]];
 goto l1;
 l5:x[jvj+2]=s[x[jvj+8]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+8];
 pile[v[22]]=jvj+2; pile[WZ1]=B; 
-(*f[1583])( );if(v[102]) goto l6;     /*ELTMAX1(jvj+2,B,RR)*/
+(*f[1585])( );if(v[102]) goto l6;     /*ELTMAX1(jvj+2,B,RR)*/
 RR=pile[WZ2]; 
 V9=RR;
 if(V9>V8) V8=V9;

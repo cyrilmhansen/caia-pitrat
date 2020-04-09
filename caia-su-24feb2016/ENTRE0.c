@@ -30,7 +30,7 @@ pile[v[22]]=AT; pile[WZ1]=A; pile[WZ2]=jvj+1;
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(AT,A,jvj+1)*/
 V2=P+1;
 pile[v[22]]=jvj+1; pile[WZ1]=B; pile[WZ2]=V2; pile[WZ3]=AT; 
-(*f[1613])( );if(v[102]) goto l4;     /*ENTRE1(jvj+1,B,V2,AT,N)*/
+(*f[1615])( );if(v[102]) goto l4;     /*ENTRE1(jvj+1,B,V2,AT,N)*/
 N=pile[WZ4]; 
 l5:v[0]=jvj; v[22]-=4; pile[v[22]+2]=N; v[102]=0;return;
 l1:x[AT]=196 ;z[AT]=196;

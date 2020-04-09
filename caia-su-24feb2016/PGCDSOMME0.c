@@ -31,10 +31,10 @@ x[jvj+1]=0 ;z[jvj+1]=0;
 x[jvj+35]=x[E] ;z[jvj+35]=z[E];
 l2:if((x[jvj+35]>0)) goto l3;
 pile[v[22]]=jvj+1; 
-(*f[3617])( );if(v[102]) goto l10;     /*PGCDSOMME0(jvj+1,RR)*/
+(*f[3619])( );if(v[102]) goto l10;     /*PGCDSOMME0(jvj+1,RR)*/
 RR=pile[WZ1]; 
 pile[v[22]]=RR; pile[WZ1]=V4; 
-(*f[1011])( );     /*PGCD0(RR,V4,V5)*/
+(*f[1012])( );     /*PGCD0(RR,V4,V5)*/
 V5=pile[WZ2]; 
 if((V5<=1)) goto l10;
 I=V5;
@@ -57,7 +57,7 @@ V62=pile[WZ2];
 RB=V62;
 l8:if((RB<=1)) goto l7;
 pile[v[22]]=RB; pile[WZ1]=RA; 
-(*f[1011])( );     /*PGCD0(RB,RA,RK)*/
+(*f[1012])( );     /*PGCD0(RB,RA,RK)*/
 RK=pile[WZ2]; 
 if((RK<=1)) goto l7;
 I=RK;

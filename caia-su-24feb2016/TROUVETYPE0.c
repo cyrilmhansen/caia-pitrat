@@ -14,7 +14,7 @@ jvj=v[0];
 v[0]+=38;
 x[jvj+1]=11241;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1392&&v[97]==0) {
+if(v[90]==1394&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; EA=pile[v[22]+1]; v[22]+=2; 
@@ -30,7 +30,7 @@ pile[v[22]]=454; pile[WZ1]=jvj+11; pile[WZ2]=jvj+12;
 (*f[33])( );     /*FNDE0(454,jvj+11,jvj+12)*/
 l6:if((x[jvj+12]>0)) goto l7;
 pile[v[22]]=X; pile[WZ1]=jvj+36; 
-(*f[1612])( );     /*Z261Z0(X,jvj+36)*/
+(*f[1614])( );     /*Z261Z0(X,jvj+36)*/
 l15:if((x[jvj+36]>0)) goto l16;
 l18:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;
 l2:x[jvj+4]=s[x[jvj+3]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+3];
@@ -51,7 +51,7 @@ pile[v[22]]=102; pile[WZ1]=jvj+4; pile[WZ2]=jvj+9;
 (*f[32])( );if(v[102]) goto l3;     /*FNDO0(102,jvj+4,jvj+9)*/
 V=V9;
 pile[v[22]]=V; pile[WZ1]=EA; 
-(*f[1611])( );     /*FTYPE0(V,EA,jvj+9)*/
+(*f[1613])( );     /*FTYPE0(V,EA,jvj+9)*/
 l3:x[jvj+3]=t[x[jvj+3]];
 goto l1;
 l5:x[jvj+38]=t[x[jvj+38]];
@@ -101,7 +101,7 @@ pile[v[22]]=103; pile[WZ1]=jvj+21; pile[WZ2]=jvj+25;
 (*f[32])( );if(v[102]) goto l17;     /*FNDO0(103,jvj+21,jvj+25)*/
 V30=V59;
 pile[v[22]]=V30; pile[WZ1]=EA; 
-(*f[1611])( );     /*FTYPE0(V30,EA,jvj+25)*/
+(*f[1613])( );     /*FTYPE0(V30,EA,jvj+25)*/
 l17:x[jvj+36]=t[x[jvj+36]];
 goto l15;
 l11:x[jvj+26]=d[20];z[jvj+26]=0;
@@ -118,7 +118,7 @@ pile[v[22]]=jvj+29; pile[WZ1]=jvj+21; pile[WZ2]=jvj+30;
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(jvj+29,jvj+21,jvj+30)*/
 V29=V37;
 pile[v[22]]=V29; pile[WZ1]=EA; 
-(*f[1611])( );     /*FTYPE0(V29,EA,jvj+30)*/
+(*f[1613])( );     /*FTYPE0(V29,EA,jvj+30)*/
 l12:x[jvj+26]=t[x[jvj+26]];
 goto l10;
 l16:x[jvj+21]=s[x[jvj+36]] ;z[jvj+21]=(x[jvj+21]<=sepcte) ? x[jvj+21] : z[jvj+36];
@@ -143,7 +143,7 @@ pile[v[22]]=jvj+34; pile[WZ1]=jvj+21; pile[WZ2]=jvj+35;
 (*f[32])( );if(v[102]) goto l14;     /*FNDO0(jvj+34,jvj+21,jvj+35)*/
 VV=V47;
 pile[v[22]]=VV; pile[WZ1]=EA; 
-(*f[1611])( );     /*FTYPE0(VV,EA,jvj+35)*/
+(*f[1613])( );     /*FTYPE0(VV,EA,jvj+35)*/
 l14:x[jvj+31]=t[x[jvj+31]];
 goto l13;
 }

@@ -47,7 +47,7 @@ l16:x[R]=135 ;z[R]=135;
 l17:v[0]=jvj; v[22]-=3; return;
 l2:V17=abs(K);
 pile[v[22]]=V17; pile[WZ1]=N; 
-(*f[1006])( );if(v[102]) goto l15;     /*POWER0(V17,N,V9)*/
+(*f[1007])( );if(v[102]) goto l15;     /*POWER0(V17,N,V9)*/
 V9=pile[WZ2]; 
 V16=A%V9;
 if((V16!=0)) goto l6;
@@ -58,13 +58,13 @@ if((K==0)) goto l3;
 if((K<0)) goto l2;
 if((K<=0)) goto l15;
 pile[v[22]]=K; pile[WZ1]=N; 
-(*f[1006])( );if(v[102]) goto l1;     /*POWER0(K,N,V7)*/
+(*f[1007])( );if(v[102]) goto l1;     /*POWER0(K,N,V7)*/
 V7=pile[WZ2]; 
 V13=A%V7;
 if((V13!=0)) goto l6;
 l1:V15=K+1;
 pile[v[22]]=V15; pile[WZ1]=N; 
-(*f[1006])( );if(v[102]) goto l15;     /*POWER0(V15,N,V8)*/
+(*f[1007])( );if(v[102]) goto l15;     /*POWER0(V15,N,V8)*/
 V8=pile[WZ2]; 
 V14=A%V8;
 if((V14==0)) goto l6;

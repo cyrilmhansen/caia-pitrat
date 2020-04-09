@@ -80,7 +80,7 @@ pile[v[22]]=jvj+12; pile[WZ1]=623; pile[WZ2]=246; pile[WZ3]=jvj+13;
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=10514; pile[WZ4]=jvj+13; pile[WZ5]=jvj+6; 
 (*f[269])( );     /*QUADRI6(158,1,218,10514,jvj+13,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+7; pile[WZ2]=jvj+8; 
-(*f[1047])( );     /*EVENEMENT0(jvj+6,jvj+7,jvj+8)*/
+(*f[1049])( );     /*EVENEMENT0(jvj+6,jvj+7,jvj+8)*/
 goto l22;
 l10:v[A]=B;
 goto l22;
@@ -128,7 +128,7 @@ if((x[Y]==1434)) goto l38;
 if((x[Y]!=16)) goto l39;
 V1=A;
 pile[v[22]]=C; pile[WZ1]=B; pile[WZ2]=V1; 
-(*f[1046])( );     /*EVLJ0(C,B,V1)*/
+(*f[1048])( );     /*EVLJ0(C,B,V1)*/
 goto l39;
 l27:for(i=1;i<=C;i++) putc(' ',fx[v[27]]);for(i=A;i<B;i++) putc(c[v[1]][i],fx[v[27]]);putc('\n',fx[v[27]]);
 goto l39;

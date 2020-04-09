@@ -35,7 +35,7 @@ pile[v[22]]=jvj+3; pile[WZ1]=jvj+2;
 l6:if((AA==1)) goto l7;
 if((AA<=1)) goto l8;
 pile[v[22]]=AA; pile[WZ1]=jvj+3; pile[WZ2]=P; pile[WZ3]=R; 
-(*f[1590])( );if(v[102]) goto l8;     /*DECPREM1(AA,jvj+3,P,R)*/
+(*f[1592])( );if(v[102]) goto l8;     /*DECPREM1(AA,jvj+3,P,R)*/
 l9:v[0]=jvj; v[22]-=2; v[102]=0;return;
 l2:x[jvj+1]=s[x[jvj+5]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+5];
 pile[v[22]]=117; pile[WZ1]=jvj+1; 

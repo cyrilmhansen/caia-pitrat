@@ -32,7 +32,7 @@ if((x[jvj+6]!=52)) goto l12;
 pile[v[22]]=102; pile[WZ1]=Y; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(102,Y,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=H; pile[WZ2]=X; 
-(*f[1667])( );     /*DECOMP0(jvj+12,H,X,NN)*/
+(*f[1669])( );     /*DECOMP0(jvj+12,H,X,NN)*/
 NN=pile[WZ3]; 
 V31=(-NN);
 N=V31;

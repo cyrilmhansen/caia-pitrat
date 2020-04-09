@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=29;
 x[jvj+1]=11833;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3798&&v[97]==0) {
+if(v[90]==3800&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -94,7 +94,7 @@ pile[WZ1]=473; pile[WZ2]=1;
 pile[WZ1]=472; 
 (*f[43])( );     /*CHGC2(jvj+5,472,1)*/
 pile[v[22]]=jvj+7; pile[WZ1]=R; 
-(*f[1290])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+7,R)*/
+(*f[1292])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+7,R)*/
 l4:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; v[102]=0;return;
 l2:x[jvj+29]=s[x[jvj+4]] ;z[jvj+29]=(x[jvj+29]<=sepcte) ? x[jvj+29] : z[jvj+4];
 pile[v[22]]=117; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=jvj+29; pile[WZ4]=jvj+6; 

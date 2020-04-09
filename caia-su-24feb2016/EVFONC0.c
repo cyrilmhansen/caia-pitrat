@@ -52,13 +52,13 @@ l2:pile[v[22]]=241; pile[WZ1]=B;
 (*f[44])( );if(v[102]) goto l3;     /*FNDC1(241,B,V19)*/
 V19=pile[WZ2]; 
 pile[v[22]]=A; pile[WZ1]=I; 
-(*f[2077])( );     /*SPR0(A,I,V21)*/
+(*f[2079])( );     /*SPR0(A,I,V21)*/
 V21=pile[WZ2]; 
 pile[v[22]]=V19; pile[WZ1]=V21; 
 (*f[64])( );     /*SRA2(V19,V21,V22)*/
 V22=pile[WZ2]; 
 pile[v[22]]=C; pile[WZ1]=V22; 
-(*f[2077])( );     /*SPR0(C,V22,J)*/
+(*f[2079])( );     /*SPR0(C,V22,J)*/
 J=pile[WZ2]; 
 goto l4;
 l3:v[0]=jvj; v[22]-=5; v[102]=1;return;

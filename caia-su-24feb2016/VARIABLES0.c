@@ -41,12 +41,12 @@ if((x[jvj+2]==111)) goto l4;
 pile[v[22]]=jvj+2; pile[WZ1]=A; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(jvj+2,A,jvj+3)*/
 pile[v[22]]=jvj+3; pile[WZ1]=R; 
-(*f[1079])( );     /*VARIABLES1(jvj+3,R)*/
+(*f[1081])( );     /*VARIABLES1(jvj+3,R)*/
 l4:x[jvj+8]=t[x[jvj+8]];
 goto l2;
 l7:x[jvj+6]=s[x[jvj+10]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+10];
 pile[v[22]]=jvj+6; pile[WZ1]=R; 
-(*f[1079])( );     /*VARIABLES1(jvj+6,R)*/
+(*f[1081])( );     /*VARIABLES1(jvj+6,R)*/
 x[jvj+10]=t[x[jvj+10]];
 goto l6;
 l8:v[0]=jvj; v[22]-=2; return;

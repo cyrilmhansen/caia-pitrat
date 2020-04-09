@@ -31,13 +31,13 @@ l3:x[jvj+3]=s[x[jvj+2]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+2];
 pile[v[22]]=jvj+3; pile[WZ1]=A; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(jvj+3,A,jvj+4)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
-(*f[1739])( );     /*ALGEBRIQUE0(jvj+4,jvj+5)*/
+(*f[1741])( );     /*ALGEBRIQUE0(jvj+4,jvj+5)*/
 if((x[jvj+5]==67)) goto l1;
 l5:x[jvj+2]=t[x[jvj+2]];
 goto l2;
 l7:x[jvj+7]=s[x[jvj+6]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+6];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
-(*f[1739])( );     /*ALGEBRIQUE0(jvj+7,jvj+8)*/
+(*f[1741])( );     /*ALGEBRIQUE0(jvj+7,jvj+8)*/
 if((x[jvj+8]==67)) goto l1;
 x[jvj+6]=t[x[jvj+6]];
 goto l6;

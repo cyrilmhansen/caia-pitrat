@@ -48,7 +48,7 @@ l4:x[jvj+7]=t[x[jvj+7]];
 goto l2;
 l3:x[jvj+2]=s[x[jvj+7]] ;z[jvj+2]=(x[jvj+2]<=sepcte) ? x[jvj+2] : z[jvj+7];
 pile[v[22]]=jvj+2; 
-(*f[1130])( );     /*CLASSECONDA0(jvj+2)*/
+(*f[1132])( );     /*CLASSECONDA0(jvj+2)*/
 pile[v[22]]=510; pile[WZ1]=jvj+2; 
 (*f[26])( );if(v[102]) goto l1;     /*FNDC0(510,jvj+2,V1)*/
 V1=pile[WZ2]; 

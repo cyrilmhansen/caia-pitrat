@@ -20,7 +20,7 @@ x[jvj+1]=incon;
 pile[v[22]]=68; pile[WZ1]=158; pile[WZ2]=jvj+2; 
 (*f[54])( );     /*TRI1(68,158,jvj+2)*/
 pile[v[22]]=129; pile[WZ1]=Z; pile[WZ2]=jvj+1; 
-(*f[1157])( );if(v[102]) goto l5;     /*NORME1(129,Z,jvj+1)*/
+(*f[1159])( );if(v[102]) goto l5;     /*NORME1(129,Z,jvj+1)*/
 l5:if(x[jvj+1]!=incon) goto l6;
 l27:pile[v[22]]=jvj+2; pile[WZ1]=158; pile[WZ2]=12; 
 (*f[35])( );     /*CHGC1(jvj+2,158,12)*/
@@ -59,7 +59,7 @@ pile[v[22]]=107; pile[WZ1]=jvj+1; pile[WZ2]=jvj+5;
 l4:if((x[jvj+5]<=0)) goto l28;
 x[jvj+6]=s[x[jvj+5]] ;z[jvj+6]=(x[jvj+6]<=sepcte) ? x[jvj+6] : z[jvj+5];
 pile[v[22]]=jvj+6; pile[WZ1]=jvj+2; pile[WZ2]=67; 
-(*f[1898])( );     /*TRINOME1(jvj+6,jvj+2,67)*/
+(*f[1900])( );     /*TRINOME1(jvj+6,jvj+2,67)*/
 x[jvj+5]=t[x[jvj+5]];
 goto l4;
 l7:pile[v[22]]=jvj+2; pile[WZ1]=515; pile[WZ2]=1; 
@@ -80,7 +80,7 @@ if((x[jvj+11]!=52)) goto l27;
 pile[v[22]]=102; pile[WZ1]=jvj+1; pile[WZ2]=jvj+25; 
 (*f[32])( );if(v[102]) goto l27;     /*FNDO0(102,jvj+1,jvj+25)*/
 pile[v[22]]=jvj+25; pile[WZ1]=67; pile[WZ5]=jvj+3; 
-(*f[1899])( );     /*TRINOME2(jvj+25,67,AA,BB,CC,jvj+3)*/
+(*f[1901])( );     /*TRINOME2(jvj+25,67,AA,BB,CC,jvj+3)*/
 AA=pile[WZ2]; BB=pile[WZ3]; CC=pile[WZ4]; 
 if((AA==0)) goto l1;
 V57=(-AA);

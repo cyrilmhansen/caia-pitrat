@@ -24,7 +24,7 @@ pile[v[22]]=642;
 (*f[26])( );if(v[102]) goto l5;     /*FNDC0(642,LL,V3)*/
 V3=pile[WZ2]; 
 pile[v[22]]=69; pile[WZ1]=V3; 
-(*f[1180])( );     /*GEREDQ1(69,V3)*/
+(*f[1182])( );     /*GEREDQ1(69,V3)*/
 pile[v[22]]=1576; pile[WZ1]=1567; pile[WZ2]=LL; 
 (*f[36])( );     /*PLUSC0(1576,1567,LL)*/
 V4=(time(tzt)-inccc);
@@ -54,9 +54,9 @@ l5:pile[v[22]]=642; pile[WZ1]=LL;
 V12=pile[WZ2]; 
 if((V12<1000)) goto l6;
 pile[v[22]]=999; pile[WZ1]=V12; pile[WZ2]=jvj+6; 
-(*f[1181])( );     /*GERED0(999,V12,jvj+6)*/
+(*f[1183])( );     /*GERED0(999,V12,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=250; 
-(*f[1182])( );     /*SORGERED0(jvj+6,250)*/
+(*f[1184])( );     /*SORGERED0(jvj+6,250)*/
 l6:x[jvj+1]=incon; v[0]=jvj; v[22]-=1; return;
 l1:x[jvj+3]=301 ;z[jvj+3]=301;
 goto l2;

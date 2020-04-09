@@ -32,7 +32,7 @@ if((V10<=V12)) goto l4;
 pile[v[22]]=ST; pile[WZ1]=1274; pile[WZ2]=V10; 
 (*f[43])( );     /*CHGC2(ST,1274,V10)*/
 l4:pile[v[22]]=jvj+4; pile[WZ1]=ST; pile[WZ2]=V10; 
-(*f[2050])( );     /*TRVFONC0(jvj+4,ST,V10)*/
+(*f[2052])( );     /*TRVFONC0(jvj+4,ST,V10)*/
 l5:pile[v[22]]=111; pile[WZ1]=X; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l8;     /*FNDO0(111,X,jvj+5)*/
 pile[v[22]]=101; pile[WZ1]=jvj+5; pile[WZ2]=jvj+6; 
@@ -71,12 +71,12 @@ l7:x[jvj+11]=s[x[jvj+10]] ;z[jvj+11]=(x[jvj+11]<=sepcte) ? x[jvj+11] : z[jvj+10]
 pile[v[22]]=jvj+11; pile[WZ1]=X; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l9;     /*FNDO0(jvj+11,X,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=ST; pile[WZ2]=N; 
-(*f[2050])( );     /*TRVFONC0(jvj+12,ST,N)*/
+(*f[2052])( );     /*TRVFONC0(jvj+12,ST,N)*/
 l9:x[jvj+10]=t[x[jvj+10]];
 goto l6;
 l11:x[jvj+14]=s[x[jvj+13]] ;z[jvj+14]=(x[jvj+14]<=sepcte) ? x[jvj+14] : z[jvj+13];
 pile[v[22]]=jvj+14; pile[WZ1]=ST; pile[WZ2]=N; 
-(*f[2050])( );     /*TRVFONC0(jvj+14,ST,N)*/
+(*f[2052])( );     /*TRVFONC0(jvj+14,ST,N)*/
 x[jvj+13]=t[x[jvj+13]];
 goto l10;
 }

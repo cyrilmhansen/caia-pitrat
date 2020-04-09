@@ -34,7 +34,7 @@ for(a=x[jvj+3];a>0;a=t[a]) if(s[a]==W) goto l4;
 pile[v[22]]=jvj+3; pile[WZ1]=W; 
 (*f[331])( );     /*PLUE3(jvj+3,W)*/
 pile[WZ1]=jvj+2; pile[WZ2]=V; pile[WZ3]=M; pile[WZ4]=jvj+4; 
-(*f[1914])( );     /*TRADCONSA1(jvj+3,jvj+2,V,M,jvj+4)*/
+(*f[1916])( );     /*TRADCONSA1(jvj+3,jvj+2,V,M,jvj+4)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
 (*f[255])( );     /*COPEXP0(jvj+4,jvj+5)*/
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=1320; pile[WZ4]=jvj+6; 

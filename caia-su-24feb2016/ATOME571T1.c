@@ -5,7 +5,7 @@ This file is part of CAIA.
 CAIA is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 CAIA is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with CAIA.  If not, see <http://www.gnu.org/licenses/>. */
-{int V24=0,V27=0,V19=0,V20=0,V22=0,V21=0,V26=0,V23=0;
+{int V24=0,V27=0,V26=0,V19=0,V20=0,V22=0,V21=0,V23=0;
 int C;
 int WZ1,WZ2,WZ3,WZ4,WZ5;
 int jvj;
@@ -14,7 +14,7 @@ v[0]+=40;
 x[jvj+1]=20571;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3959&&v[97]==0) {
+if(v[90]==3961&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 C=pile[v[22]]; v[22]+=1; 
@@ -25,33 +25,33 @@ for(i=x[jvj+17],V24=0;i>0;i=t[i],V24++)  ;
 pile[v[22]]=481; pile[WZ2]=jvj+18; 
 (*f[33])( );     /*FNDE0(481,C,jvj+18)*/
 for(i=x[jvj+18],V27=0;i>0;i=t[i],V27++)  ;
-pile[v[22]]=473; 
-(*f[1975])( );if(v[102]) goto l11;     /*FNDCND0(473,C,V19)*/
-V19=pile[WZ2]; 
-if((V19!=1)) goto l11;
-pile[v[22]]=472; 
-(*f[1975])( );if(v[102]) goto l11;     /*FNDCND0(472,C,V20)*/
-V20=pile[WZ2]; 
-if((V20!=1)) goto l11;
-pile[v[22]]=688; 
-(*f[1975])( );if(v[102]) goto l11;     /*FNDCND0(688,C,V22)*/
-V22=pile[WZ2]; 
-pile[v[22]]=750; 
-(*f[1975])( );if(v[102]) goto l11;     /*FNDCND0(750,C,V21)*/
-V21=pile[WZ2]; 
-if((V21!=V22)) goto l11;
 x[jvj+10]=0 ;z[jvj+10]=0;
 l4:if((x[jvj+18]>0)) goto l5;
 for(i=x[jvj+10],V26=0;i>0;i=t[i],V26++)  ;
 if((V26!=V27)) goto l11;
+pile[v[22]]=473; pile[WZ1]=C; 
+(*f[1977])( );if(v[102]) goto l11;     /*FNDCND0(473,C,V19)*/
+V19=pile[WZ2]; 
+if((V19!=1)) goto l11;
+pile[v[22]]=472; 
+(*f[1977])( );if(v[102]) goto l11;     /*FNDCND0(472,C,V20)*/
+V20=pile[WZ2]; 
+if((V20!=1)) goto l11;
+pile[v[22]]=688; 
+(*f[1977])( );if(v[102]) goto l11;     /*FNDCND0(688,C,V22)*/
+V22=pile[WZ2]; 
+pile[v[22]]=750; 
+(*f[1977])( );if(v[102]) goto l11;     /*FNDCND0(750,C,V21)*/
+V21=pile[WZ2]; 
+if((V21!=V22)) goto l11;
+x[jvj+16]=0 ;z[jvj+16]=0;
+l9:if((x[jvj+10]>0)) goto l10;
 x[jvj+6]=0 ;z[jvj+6]=0;
 l1:if((x[jvj+17]>0)) goto l2;
 for(i=x[jvj+6],V23=0;i>0;i=t[i],V23++)  ;
 if((V23!=V24)) goto l11;
 x[jvj+13]=0 ;z[jvj+13]=0;
 l7:if((x[jvj+6]>0)) goto l8;
-x[jvj+16]=0 ;z[jvj+16]=0;
-l9:if((x[jvj+10]>0)) goto l10;
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=25; pile[WZ4]=jvj+20; 
 (*f[181])( );     /*QUADRI2(100,20,101,25,jvj+20)*/
 pile[WZ3]=485; pile[WZ4]=jvj+26; 
@@ -92,8 +92,8 @@ pile[v[22]]=206; pile[WZ1]=715; pile[WZ2]=jvj+35;
 (*f[54])( );     /*TRI1(206,715,jvj+35)*/
 pile[v[22]]=jvj+35; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+36; 
 (*f[189])( );     /*TRI4(jvj+35,v[13],642,jvj+36)*/
-pile[v[22]]=jvj+36; pile[WZ1]=3958; pile[WZ2]=246; pile[WZ3]=jvj+37; 
-(*f[189])( );     /*TRI4(jvj+36,3958,246,jvj+37)*/
+pile[v[22]]=jvj+36; pile[WZ1]=3960; pile[WZ2]=246; pile[WZ3]=jvj+37; 
+(*f[189])( );     /*TRI4(jvj+36,3960,246,jvj+37)*/
 pile[v[22]]=jvj+37; pile[WZ1]=20571; pile[WZ2]=218; pile[WZ3]=jvj+38; 
 (*f[58])( );     /*TRI3(jvj+37,20571,218,jvj+38)*/
 pile[v[22]]=jvj+39; pile[WZ1]=(-20); pile[WZ2]=jvj+38; pile[WZ3]=159; pile[WZ4]=jvj+40; 
@@ -105,7 +105,7 @@ pile[v[22]]=jvj+19;
 l11:x[jvj+1]=incon; x[jvj+2]=incon; v[0]=jvj; v[22]-=1; return;
 l2:x[jvj+3]=s[x[jvj+17]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+17];
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+4; 
-(*f[1290])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+3,jvj+4)*/
+(*f[1292])( );if(v[102]) goto l3;     /*DEPEXP0(jvj+3,jvj+4)*/
 pile[v[22]]=jvj+4; pile[WZ1]=jvj+5; 
 (*f[255])( );     /*COPEXP0(jvj+4,jvj+5)*/
 pile[v[22]]=jvj+6; 
@@ -114,7 +114,7 @@ l3:x[jvj+17]=t[x[jvj+17]];
 goto l1;
 l5:x[jvj+7]=s[x[jvj+18]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+18];
 pile[v[22]]=jvj+7; pile[WZ1]=jvj+8; 
-(*f[1291])( );if(v[102]) goto l6;     /*CONVEXP0(jvj+7,jvj+8)*/
+(*f[1293])( );if(v[102]) goto l6;     /*CONVEXP0(jvj+7,jvj+8)*/
 pile[v[22]]=jvj+8; pile[WZ1]=jvj+9; 
 (*f[255])( );     /*COPEXP0(jvj+8,jvj+9)*/
 pile[v[22]]=jvj+10; 

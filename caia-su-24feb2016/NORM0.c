@@ -48,7 +48,7 @@ pile[v[22]]=V14;
 l1:pile[v[22]]=102; pile[WZ1]=jvj+4; pile[WZ2]=jvj+5; 
 (*f[32])( );if(v[102]) goto l6;     /*FNDO0(102,jvj+4,jvj+5)*/
 pile[v[22]]=jvj+5; pile[WZ1]=102; pile[WZ2]=jvj+4; 
-(*f[1319])( );     /*BALAITER0(jvj+5,102,jvj+4)*/
+(*f[1321])( );     /*BALAITER0(jvj+5,102,jvj+4)*/
 l6:pile[v[22]]=102; pile[WZ1]=jvj+4; pile[WZ2]=jvj+12; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(102,jvj+4,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=R; 

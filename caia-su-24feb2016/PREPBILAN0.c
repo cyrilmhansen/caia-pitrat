@@ -82,10 +82,10 @@ l6:pile[v[22]]=860; pile[WZ1]=M; pile[WZ2]=jvj+5;
 if((x[jvj+5]==1085)) goto l7;
 if((x[jvj+5]!=493)) goto l8;
 pile[v[22]]=M; pile[WZ1]=jvj+6; 
-(*f[1268])( );     /*BILSOL0(M,jvj+6)*/
+(*f[1270])( );     /*BILSOL0(M,jvj+6)*/
 l8:if(x[jvj+5]!=1082&&x[jvj+5]!=336&&x[jvj+5]!=301&&x[jvj+5]!=1085) goto l9;
 pile[v[22]]=M; pile[WZ1]=jvj+6; 
-(*f[1266])( );     /*ANEXPER0(M,jvj+6)*/
+(*f[1268])( );     /*ANEXPER0(M,jvj+6)*/
 l9:
 (*f[275])( );     /*DATE2(MM,A,J)*/
 MM=pile[v[22]]; A=pile[WZ1]; J=pile[WZ2]; 
@@ -128,11 +128,11 @@ V22=pile[WZ2];
 pile[v[22]]=jvj+4; pile[WZ1]=163; pile[WZ2]=V22; 
 (*f[177])( );     /*CHGC4(jvj+4,163,V22)*/
 l12:pile[v[22]]=jvj+12; pile[WZ1]=67; pile[WZ2]=jvj+9; pile[WZ3]=67; pile[WZ4]=jvj+14; pile[WZ5]=V19; 
-(*f[1265])( );     /*ANAREG1(jvj+12,67,jvj+9,67,jvj+14,V19)*/
+(*f[1267])( );     /*ANAREG1(jvj+12,67,jvj+9,67,jvj+14,V19)*/
 l11:V13++;
 goto l10;
 l7:pile[v[22]]=M; pile[WZ1]=jvj+6; 
-(*f[1267])( );     /*BILEXPLORE0(M,jvj+6)*/
+(*f[1269])( );     /*BILEXPLORE0(M,jvj+6)*/
 goto l8;
 l13:V27=x[M];
 pile[v[22]]=1109; pile[WZ1]=924; pile[WZ2]=V27; 

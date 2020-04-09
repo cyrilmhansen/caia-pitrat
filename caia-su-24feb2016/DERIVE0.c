@@ -67,7 +67,7 @@ V81=pile[WZ2];
 V53=V81;
 for(a=x[E];a>0;a=t[a]) if(s[a]==V53) goto l7;
 pile[v[22]]=V53; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(V53,E,BL)*/
+(*f[1440])( );     /*DERIVE1(V53,E,BL)*/
 l7:pile[v[22]]=103; pile[WZ1]=jvj+14; pile[WZ2]=jvj+20; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(103,jvj+14,jvj+20)*/
 pile[v[22]]=111; pile[WZ1]=jvj+20; pile[WZ2]=jvj+21; 
@@ -83,7 +83,7 @@ V114=pile[WZ2];
 V86=V114;
 for(a=x[E];a>0;a=t[a]) if(s[a]==V86) goto l5;
 pile[v[22]]=V86; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(V86,E,BL)*/
+(*f[1440])( );     /*DERIVE1(V86,E,BL)*/
 l5:x[jvj+58]=t[x[jvj+58]];
 goto l3;
 l6:pile[v[22]]=102; pile[WZ1]=jvj+4; pile[WZ2]=jvj+7; 
@@ -110,7 +110,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+11; pile[WZ2]=jvj+12;
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(101,jvj+11,jvj+12)*/
 if((x[jvj+12]!=509)) goto l5;
 pile[v[22]]=V161; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(V161,E,BL)*/
+(*f[1440])( );     /*DERIVE1(V161,E,BL)*/
 goto l5;
 l9:x[jvj+25]=s[x[jvj+24]] ;z[jvj+25]=(x[jvj+25]<=sepcte) ? x[jvj+25] : z[jvj+24];
 pile[v[22]]=111; pile[WZ1]=jvj+25; pile[WZ2]=jvj+26; 
@@ -172,7 +172,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+50; pile[WZ2]=jvj+51;
 (*f[32])( );if(v[102]) goto l15;     /*FNDO0(101,jvj+50,jvj+51)*/
 if((x[jvj+51]!=509)) goto l15;
 pile[v[22]]=V119; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(V119,E,BL)*/
+(*f[1440])( );     /*DERIVE1(V119,E,BL)*/
 l15:x[jvj+59]=t[x[jvj+59]];
 goto l14;
 l12:x[jvj+28]=d[20];z[jvj+28]=0;
@@ -205,7 +205,7 @@ pile[v[22]]=101; pile[WZ1]=jvj+35; pile[WZ2]=jvj+36;
 F=x[jvj+36];
 if(F!=102&&F!=103) goto l13;
 pile[v[22]]=W; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(W,E,BL)*/
+(*f[1440])( );     /*DERIVE1(W,E,BL)*/
 l13:x[jvj+28]=t[x[jvj+28]];
 goto l11;
 l16:pile[v[22]]=100; pile[WZ1]=jvj+37; pile[WZ2]=jvj+52; 
@@ -232,7 +232,7 @@ if((x[jvj+56]!=509)) goto l10;
 pile[v[22]]=E; pile[WZ1]=X; 
 (*f[331])( );     /*PLUE3(E,X)*/
 pile[v[22]]=X; pile[WZ1]=E; pile[WZ2]=BL; 
-(*f[1438])( );     /*DERIVE1(X,E,BL)*/
+(*f[1440])( );     /*DERIVE1(X,E,BL)*/
 l10:x[jvj+24]=t[x[jvj+24]];
 goto l8;
 }

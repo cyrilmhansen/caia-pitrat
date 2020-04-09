@@ -70,7 +70,7 @@ pile[WZ1]=22; pile[WZ2]=111; pile[WZ3]=jvj+7; pile[WZ4]=R;
 pile[v[22]]=R; pile[WZ1]=107; pile[WZ2]=jvj+8; 
 (*f[36])( );     /*PLUSC0(R,107,jvj+8)*/
 pile[v[22]]=jvj+6; pile[WZ1]=R; pile[WZ2]=107; 
-(*f[1118])( );     /*AJE3(jvj+6,R,107)*/
+(*f[1120])( );     /*AJE3(jvj+6,R,107)*/
 goto l5;
 l10:x[jvj+12]=s[x[jvj+15]] ;z[jvj+12]=(x[jvj+12]<=sepcte) ? x[jvj+12] : z[jvj+15];
 if((x[jvj+12]==x[jvj+9])) goto l11;

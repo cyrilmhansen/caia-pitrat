@@ -326,7 +326,7 @@ pile[v[22]]=117;
 (*f[26])( );if(v[102]) goto l27;     /*FNDC0(117,jvj+15,V57)*/
 V57=pile[WZ2]; 
 pile[v[22]]=V54; pile[WZ1]=jvj+27; pile[WZ2]=V56; pile[WZ3]=V57; pile[WZ4]=jvj+18; 
-(*f[1271])( );if(v[102]) goto l27;     /*CHERBLOC0(V54,jvj+27,V56,V57,jvj+18,NT)*/
+(*f[1273])( );if(v[102]) goto l27;     /*CHERBLOC0(V54,jvj+27,V56,V57,jvj+18,NT)*/
 NT=pile[WZ5]; 
 x[Q]=x[jvj+25] ;z[Q]=z[jvj+25];
 V59=g[494];
@@ -335,7 +335,7 @@ V60=vg[494];
 if((V60!=0)) goto l11;
 if((V59<3)) goto l13;
 l11:pile[v[22]]=494; pile[WZ1]=10920; pile[WZ2]=0; pile[WZ3]=(-620); pile[WZ4]=jvj+15; pile[WZ5]=(-604); pile[v[22]+6]=jvj+18; pile[v[22]+7]=(-3141); pile[v[22]+8]=NT; pile[v[22]+9]=(-612); pile[v[22]+10]=K; pile[v[22]+11]=jvj+19; 
-(*f[1272])( );     /*INTERP14(494,10920,0,(-620),jvj+15,(-604),jvj+18,(-3141),NT,(-612),K,jvj+19)*/
+(*f[1274])( );     /*INTERP14(494,10920,0,(-620),jvj+15,(-604),jvj+18,(-3141),NT,(-612),K,jvj+19)*/
 if((x[jvj+19]==135)) goto l12;
 goto l25;
 l26:if((S==68)) goto l27;

@@ -44,7 +44,7 @@ if((x[jvj+15]!=x[jvj+9])) goto l5;
 pile[v[22]]=1078; pile[WZ2]=jvj+16; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(1078,jvj+13,jvj+16)*/
 pile[v[22]]=jvj+17; pile[WZ1]=jvj+16; pile[WZ2]=jvj+18; 
-(*f[1143])( );     /*MEMEPB0(jvj+17,jvj+16,jvj+18)*/
+(*f[1145])( );     /*MEMEPB0(jvj+17,jvj+16,jvj+18)*/
 if((x[jvj+18]==68)) goto l8;
 l5:x[jvj+10]=x[jvj+11] ;z[jvj+10]=z[jvj+11];
 goto l4;
@@ -63,9 +63,9 @@ goto l6;
 l7:pile[v[22]]=K; pile[WZ1]=1055; 
 (*f[762])( );     /*AJNUM0(K,1055)*/
 pile[WZ1]=jvj+19; 
-(*f[1269])( );     /*VALCREUSE0(K,jvj+19)*/
+(*f[1271])( );     /*VALCREUSE0(K,jvj+19)*/
 pile[v[22]]=jvj+19; pile[WZ1]=1055; 
-(*f[1270])( );     /*VALGLO1(jvj+19,1055)*/
+(*f[1272])( );     /*VALGLO1(jvj+19,1055)*/
 pile[v[22]]=jvj+20; pile[WZ1]=1245; pile[WZ2]=1; 
 (*f[186])( );     /*BTC0(jvj+20,1245,1)*/
 pile[v[22]]=jvj+17; pile[WZ1]=1161; pile[WZ2]=1055; 

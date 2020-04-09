@@ -52,7 +52,7 @@ l4:x[jvj+3]=t[x[jvj+3]];
 goto l2;
 l6:x[jvj+4]=s[x[jvj+13]] ;z[jvj+4]=(x[jvj+4]<=sepcte) ? x[jvj+4] : z[jvj+13];
 pile[v[22]]=jvj+4; pile[WZ1]=NA; pile[WZ2]=jvj+5; 
-(*f[1511])( );if(v[102]) goto l10;     /*CALKA0(jvj+4,NA,jvj+5)*/
+(*f[1513])( );if(v[102]) goto l10;     /*CALKA0(jvj+4,NA,jvj+5)*/
 if((x[jvj+5]==68)) goto l7;
 goto l10;
 l7:x[jvj+13]=t[x[jvj+13]];
@@ -61,7 +61,7 @@ l9:x[jvj+11]=0 ;z[jvj+11]=0;
 pile[v[22]]=107; pile[WZ1]=B; pile[WZ2]=jvj+10; 
 (*f[33])( );     /*FNDE0(107,B,jvj+10)*/
 pile[v[22]]=B; pile[WZ1]=NA; pile[WZ3]=jvj+11; pile[WZ4]=250; pile[WZ5]=jvj+12; 
-(*f[1922])( );     /*CALK3(B,NA,jvj+10,jvj+11,250,jvj+12)*/
+(*f[1924])( );     /*CALK3(B,NA,jvj+10,jvj+11,250,jvj+12)*/
 if((x[jvj+12]!=0)) goto l1;
 x[RES]=68 ;z[RES]=68;
 goto l11;

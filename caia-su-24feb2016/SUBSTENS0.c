@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=13;
 x[jvj+1]=11066;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3199&&v[97]==0) {
+if(v[90]==3201&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 X=pile[v[22]]; Y=pile[v[22]+1]; E=pile[v[22]+2]; F=pile[v[22]+3]; v[22]+=4; 
@@ -24,10 +24,10 @@ l3:if((x[jvj+11]>0)) goto l4;
 x[F]=x[jvj+10] ;z[F]=z[jvj+10];
 l8:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; return;
 l1:pile[v[22]]=jvj+5; pile[WZ1]=X; pile[WZ2]=Y; pile[WZ3]=jvj+7; pile[WZ4]=jvj+8; 
-(*f[3130])( );if(v[102]) goto l2;     /*SUBSTITUVAR1(jvj+5,X,Y,jvj+7,jvj+8)*/
+(*f[3132])( );if(v[102]) goto l2;     /*SUBSTITUVAR1(jvj+5,X,Y,jvj+7,jvj+8)*/
 if((x[jvj+8]==876)) goto l2;
 pile[v[22]]=68; pile[WZ1]=jvj+7; pile[WZ2]=jvj+9; 
-(*f[1157])( );if(v[102]) goto l2;     /*NORME1(68,jvj+7,jvj+9)*/
+(*f[1159])( );if(v[102]) goto l2;     /*NORME1(68,jvj+7,jvj+9)*/
 x[jvj+13]=x[jvj+9] ;z[jvj+13]=z[jvj+9];
 x[jvj+12]=x[jvj+13] ;z[jvj+12]=z[jvj+13];
 l6:x[jvj+2]=x[jvj+12] ;z[jvj+2]=z[jvj+12];

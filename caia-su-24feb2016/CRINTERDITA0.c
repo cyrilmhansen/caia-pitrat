@@ -17,6 +17,6 @@ WZ2=v[22]+2; WZ1=v[22]+1;
 pile[v[22]]=120; pile[WZ1]=S; pile[WZ2]=jvj+1; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(120,S,jvj+1)*/
 pile[v[22]]=X; 
-(*f[2117])( );     /*CRINTERDITA1(X,S,jvj+1)*/
+(*f[2119])( );     /*CRINTERDITA1(X,S,jvj+1)*/
 l1:v[0]=jvj; v[22]-=2; return;
 }

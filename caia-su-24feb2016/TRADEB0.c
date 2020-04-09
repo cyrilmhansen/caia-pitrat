@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=5;
 x[jvj+1]=11848;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1717&&v[97]==0) {
+if(v[90]==1719&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 N=pile[v[22]]; BA=pile[v[22]+1]; v[22]+=2; 
@@ -29,12 +29,12 @@ l3:if((x[jvj+4]>0)) goto l4;
 l5:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;
 l2:x[jvj+3]=s[x[jvj+2]] ;z[jvj+3]=(x[jvj+3]<=sepcte) ? x[jvj+3] : z[jvj+2];
 pile[v[22]]=jvj+3; pile[WZ1]=BA; pile[WZ2]=865; 
-(*f[1493])( );     /*NATFNA0(jvj+3,BA,865)*/
+(*f[1495])( );     /*NATFNA0(jvj+3,BA,865)*/
 x[jvj+2]=t[x[jvj+2]];
 goto l1;
 l4:x[jvj+5]=s[x[jvj+4]] ;z[jvj+5]=(x[jvj+5]<=sepcte) ? x[jvj+5] : z[jvj+4];
 pile[v[22]]=jvj+5; pile[WZ1]=BA; pile[WZ2]=228; 
-(*f[1493])( );     /*NATFNA0(jvj+5,BA,228)*/
+(*f[1495])( );     /*NATFNA0(jvj+5,BA,228)*/
 x[jvj+4]=t[x[jvj+4]];
 goto l3;
 }

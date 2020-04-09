@@ -31,7 +31,7 @@ pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; pile[WZ2]=E;
 l15:v[0]=jvj; v[22]-=4; return;
 l2:x[jvj+1]=s[x[jvj+10]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+10];
 pile[v[22]]=jvj+1; pile[WZ1]=N; pile[WZ2]=E; pile[WZ3]=jvj+2; 
-(*f[4002])( );     /*COEFFPOLYA0(jvj+1,N,E,jvj+2)*/
+(*f[4004])( );     /*COEFFPOLYA0(jvj+1,N,E,jvj+2)*/
 if((x[jvj+2]==134)) goto l14;
 x[jvj+10]=t[x[jvj+10]];
 l1:if((x[jvj+10]>0)) goto l2;

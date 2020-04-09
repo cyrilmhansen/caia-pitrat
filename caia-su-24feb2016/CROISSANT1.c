@@ -33,7 +33,7 @@ x[jvj+6]=x[jvj+4] ;z[jvj+6]=z[jvj+4];
 pile[v[22]]=jvj+4; pile[WZ1]=120; pile[WZ2]=Z; 
 (*f[35])( );     /*CHGC1(jvj+4,120,Z)*/
 l12:pile[v[22]]=TT; pile[WZ1]=jvj+6; pile[WZ2]=R; 
-(*f[4021])( );if(v[102]) goto l14;     /*CROISSANT1(TT,jvj+6,R)*/
+(*f[4023])( );if(v[102]) goto l14;     /*CROISSANT1(TT,jvj+6,R)*/
 l14:if(x[R]!=incon) goto l15;
 l13:v[0]=jvj; v[22]-=3; v[102]=1;return;
 l1:x[R]=x[Z] ;z[R]=z[Z];

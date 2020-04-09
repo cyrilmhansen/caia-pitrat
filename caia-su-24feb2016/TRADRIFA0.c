@@ -12,18 +12,18 @@ jvj=v[0];
 v[0]+=6;
 x[jvj+1]=11831;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1495&&v[97]==0) {
+if(v[90]==1497&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 BA=pile[v[22]]; X=pile[v[22]+1]; Q=pile[v[22]+2]; v[22]+=3; 
 WZ4=v[22]+4; WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 pile[v[22]]=X; pile[WZ1]=BA; pile[WZ2]=1881; pile[WZ3]=Q; pile[WZ4]=jvj+2; 
-(*f[1232])( );     /*CORRECTIF0(X,BA,1881,Q,jvj+2)*/
+(*f[1234])( );     /*CORRECTIF0(X,BA,1881,Q,jvj+2)*/
 pile[v[22]]=101; pile[WZ1]=jvj+2; pile[WZ2]=jvj+3; 
 (*f[32])( );if(v[102]) goto l1;     /*FNDO0(101,jvj+2,jvj+3)*/
 if((250==x[jvj+3])) goto l3;
 l1:pile[v[22]]=jvj+2; pile[WZ1]=BA; pile[WZ2]=1881; pile[WZ3]=jvj+6; 
-(*f[1233])( );if(v[102]) goto l3;     /*MISENFORME0(jvj+2,BA,1881,jvj+6)*/
+(*f[1235])( );if(v[102]) goto l3;     /*MISENFORME0(jvj+2,BA,1881,jvj+6)*/
 if((x[jvj+6]!=250)) goto l2;
 pile[v[22]]=218; pile[WZ2]=jvj+4; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(218,BA,jvj+4)*/

@@ -21,7 +21,7 @@ l10:pile[v[22]]=130; pile[WZ1]=jvj+14;
 (*f[26])( );if(v[102]) goto l11;     /*FNDC0(130,jvj+14,V30)*/
 V30=pile[WZ2]; 
 pile[v[22]]=Q; pile[WZ1]=P; 
-(*f[1006])( );if(v[102]) goto l11;     /*POWER0(Q,P,L)*/
+(*f[1007])( );if(v[102]) goto l11;     /*POWER0(Q,P,L)*/
 L=pile[WZ2]; 
 V32=V30%L;
 if((V32!=0)) goto l11;
@@ -31,7 +31,7 @@ pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=V35; pile[WZ4]=AA;
 l15:v[0]=jvj; v[22]-=4; v[102]=0;return;
 l2:x[jvj+1]=s[x[jvj+20]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+20];
 pile[v[22]]=P; pile[WZ1]=Q; pile[WZ2]=jvj+1; pile[WZ3]=jvj+2; 
-(*f[1456])( );if(v[102]) goto l3;     /*SIMPRODEL0(P,Q,jvj+1,jvj+2)*/
+(*f[1458])( );if(v[102]) goto l3;     /*SIMPRODEL0(P,Q,jvj+1,jvj+2)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+2; 
 (*f[68])( );     /*PLUE0(jvj+3,jvj+2)*/
 l3:x[jvj+20]=t[x[jvj+20]];
@@ -58,7 +58,7 @@ x[jvj+3]=t[x[jvj+3]];
 goto l4;
 l7:x[jvj+8]=s[x[jvj+18]] ;z[jvj+8]=(x[jvj+8]<=sepcte) ? x[jvj+8] : z[jvj+18];
 pile[v[22]]=jvj+8; pile[WZ1]=P; 
-(*f[1674])( );     /*SIMPRODX0(jvj+8,P,N)*/
+(*f[1676])( );     /*SIMPRODX0(jvj+8,P,N)*/
 N=pile[WZ2]; 
 pile[v[22]]=447; pile[WZ1]=jvj+8; pile[WZ2]=510; pile[WZ3]=N; pile[WZ4]=jvj+9; 
 (*f[192])( );     /*QUADRI4(447,jvj+8,510,N,jvj+9)*/
@@ -67,7 +67,7 @@ pile[v[22]]=jvj+7; pile[WZ1]=jvj+9; pile[WZ2]=jvj+10;
 x[jvj+18]=t[x[jvj+18]];
 l6:if((x[jvj+18]>0)) goto l7;
 pile[v[22]]=jvj+10; pile[WZ1]=Q; pile[WZ2]=P; pile[WZ3]=jvj+19; 
-(*f[1673])( );     /*SIMPRODELA0(jvj+10,Q,P,jvj+19)*/
+(*f[1675])( );     /*SIMPRODELA0(jvj+10,Q,P,jvj+19)*/
 x[jvj+13]=0 ;z[jvj+13]=0;
 l8:if((x[jvj+19]>0)) goto l9;
 pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=486; pile[WZ4]=jvj+21; 

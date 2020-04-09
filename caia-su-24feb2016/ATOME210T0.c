@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=25;
 x[jvj+1]=20210;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3561&&v[97]==0) {
+if(v[90]==3563&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 R=pile[v[22]]; v[22]+=1; 
@@ -33,7 +33,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+6;
 (*f[26])( );if(v[102]) goto l13;     /*FNDC0(642,jvj+6,V28)*/
 V28=pile[WZ2]; 
 pile[v[22]]=P; pile[WZ1]=jvj+7; 
-(*f[1007])( );if(v[102]) goto l13;     /*DECFACTPREM0(P,jvj+7)*/
+(*f[1008])( );if(v[102]) goto l13;     /*DECFACTPREM0(P,jvj+7)*/
 x[jvj+8]=d[20];z[jvj+8]=0;
 l7:if((x[jvj+8]<=0)) goto l13;
 x[jvj+9]=s[x[jvj+8]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+8];
@@ -56,7 +56,7 @@ if((II<0)) goto l1;
 V2=II;
 l9:I=V2;
 pile[v[22]]=I; pile[WZ1]=jvj+14; 
-(*f[1007])( );if(v[102]) goto l8;     /*DECFACTPREM0(I,jvj+14)*/
+(*f[1008])( );if(v[102]) goto l8;     /*DECFACTPREM0(I,jvj+14)*/
 x[jvj+25]=x[jvj+7] ;z[jvj+25]=z[jvj+7];
 l10:if((x[jvj+25]<=0)) goto l8;
 x[jvj+15]=s[x[jvj+25]] ;z[jvj+15]=(x[jvj+15]<=sepcte) ? x[jvj+15] : z[jvj+25];
@@ -93,8 +93,8 @@ pile[v[22]]=V28; pile[WZ1]=858; pile[WZ2]=jvj+18;
 (*f[46])( );     /*TRI0(V28,858,jvj+18)*/
 pile[v[22]]=jvj+18; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+19; 
 (*f[189])( );     /*TRI4(jvj+18,v[13],642,jvj+19)*/
-pile[v[22]]=jvj+19; pile[WZ1]=3561; pile[WZ2]=246; pile[WZ3]=jvj+20; 
-(*f[189])( );     /*TRI4(jvj+19,3561,246,jvj+20)*/
+pile[v[22]]=jvj+19; pile[WZ1]=3563; pile[WZ2]=246; pile[WZ3]=jvj+20; 
+(*f[189])( );     /*TRI4(jvj+19,3563,246,jvj+20)*/
 pile[v[22]]=jvj+20; pile[WZ1]=20210; pile[WZ2]=218; pile[WZ3]=jvj+21; 
 (*f[58])( );     /*TRI3(jvj+20,20210,218,jvj+21)*/
 pile[v[22]]=jvj+22; pile[WZ1]=(-20); pile[WZ2]=jvj+21; pile[WZ3]=159; pile[WZ4]=jvj+23; 
@@ -102,7 +102,7 @@ pile[v[22]]=jvj+22; pile[WZ1]=(-20); pile[WZ2]=jvj+21; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+23; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+17; 
 (*f[58])( );     /*TRI3(jvj+23,1,158,jvj+17)*/
 pile[v[22]]=jvj+17; pile[WZ1]=jvj+10; pile[WZ2]=Q; pile[WZ3]=jvj+16; 
-(*f[3501])( );     /*AFP1(jvj+17,jvj+10,Q,jvj+16)*/
+(*f[3503])( );     /*AFP1(jvj+17,jvj+10,Q,jvj+16)*/
 l11:x[jvj+25]=t[x[jvj+25]];
 goto l10;
 l1:V24=II+P;

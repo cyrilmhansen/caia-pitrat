@@ -178,7 +178,7 @@ V41=pile[WZ2];
 pile[v[22]]=jvj+22; pile[WZ1]=163; pile[WZ2]=V41; 
 (*f[177])( );     /*CHGC4(jvj+22,163,V41)*/
 l18:pile[v[22]]=jvj+16; 
-(*f[1190])( );     /*MALICE0(jvj+16)*/
+(*f[1192])( );     /*MALICE0(jvj+16)*/
 pile[v[22]]=jvj+14; pile[WZ1]=191; pile[WZ2]=68; 
 (*f[35])( );     /*CHGC1(jvj+14,191,68)*/
 x[jvj+20]=vo[14];z[jvj+20]=vz[14];
@@ -209,7 +209,7 @@ V21=pile[WZ2];
 pile[v[22]]=jvj+13; pile[WZ1]=163; pile[WZ2]=V21; 
 (*f[177])( );     /*CHGC4(jvj+13,163,V21)*/
 l25:pile[v[22]]=jvj+9; 
-(*f[1190])( );     /*MALICE0(jvj+9)*/
+(*f[1192])( );     /*MALICE0(jvj+9)*/
 pile[v[22]]=20; pile[WZ1]=V43; pile[WZ2]=0; 
 (*f[39])( );     /*SDX0(20,V43,0,V8)*/
 V8=pile[WZ3]; 

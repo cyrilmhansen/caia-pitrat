@@ -62,7 +62,7 @@ l8:x[jvj+12]=t[x[jvj+12]];
 goto l7;
 l4:x[jvj+19]=x[jvj+7] ;z[jvj+19]=z[jvj+7];
 l18:pile[v[22]]=jvj+19; pile[WZ1]=R; 
-(*f[1902])( );     /*VCAL1(jvj+19,R)*/
+(*f[1904])( );     /*VCAL1(jvj+19,R)*/
 x[jvj+22]=t[x[jvj+22]];
 l17:if((x[jvj+22]<=0)) goto l16;
 x[jvj+7]=s[x[jvj+22]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+22];
@@ -93,7 +93,7 @@ if((x[jvj+15]==103)) goto l12;
 l13:pile[v[22]]=jvj+15; pile[WZ1]=A; pile[WZ2]=jvj+16; 
 (*f[32])( );if(v[102]) goto l12;     /*FNDO0(jvj+15,A,jvj+16)*/
 pile[v[22]]=jvj+16; pile[WZ1]=R; 
-(*f[1902])( );     /*VCAL1(jvj+16,R)*/
+(*f[1904])( );     /*VCAL1(jvj+16,R)*/
 l12:x[jvj+20]=t[x[jvj+20]];
 goto l11;
 l14:x[jvj+21]=w[x[jvj+1]][8];

@@ -33,7 +33,7 @@ if((V4!=36)) goto l2;
 pile[v[22]]=103; pile[WZ1]=jvj+1; pile[WZ2]=jvj+6; 
 (*f[32])( );if(v[102]) goto l2;     /*FNDO0(103,jvj+1,jvj+6)*/
 pile[v[22]]=jvj+6; pile[WZ1]=XA; 
-(*f[2082])( );     /*COPSA0(jvj+6,XA)*/
+(*f[2084])( );     /*COPSA0(jvj+6,XA)*/
 l2:pile[v[22]]=120; pile[WZ1]=jvj+1; pile[WZ2]=jvj+2; 
 (*f[32])( );if(v[102]) goto l4;     /*FNDO0(120,jvj+1,jvj+2)*/
 goto l1;

@@ -14,7 +14,7 @@ v[0]+=16;
 x[jvj+1]=20051;z[jvj+1]=(-100);
 x[jvj+2]=1;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3074&&v[97]==0) {
+if(v[90]==3076&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 D=pile[v[22]]; N=pile[v[22]+1]; v[22]+=2; 
@@ -39,8 +39,8 @@ pile[v[22]]=V9; pile[WZ1]=858; pile[WZ2]=jvj+12;
 (*f[46])( );     /*TRI0(V9,858,jvj+12)*/
 pile[v[22]]=jvj+12; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+13; 
 (*f[189])( );     /*TRI4(jvj+12,v[13],642,jvj+13)*/
-pile[v[22]]=jvj+13; pile[WZ1]=3074; pile[WZ2]=246; pile[WZ3]=jvj+14; 
-(*f[189])( );     /*TRI4(jvj+13,3074,246,jvj+14)*/
+pile[v[22]]=jvj+13; pile[WZ1]=3076; pile[WZ2]=246; pile[WZ3]=jvj+14; 
+(*f[189])( );     /*TRI4(jvj+13,3076,246,jvj+14)*/
 pile[v[22]]=158; pile[WZ1]=1; pile[WZ2]=218; pile[WZ3]=20051; pile[WZ4]=jvj+14; pile[WZ5]=jvj+11; 
 (*f[269])( );     /*QUADRI6(158,1,218,20051,jvj+14,jvj+11)*/
 pile[v[22]]=jvj+11; pile[WZ1]=159; pile[WZ2]=jvj+15; 
@@ -48,14 +48,14 @@ pile[v[22]]=jvj+11; pile[WZ1]=159; pile[WZ2]=jvj+15;
 pile[WZ2]=jvj+16; 
 (*f[36])( );     /*PLUSC0(jvj+11,159,jvj+16)*/
 pile[WZ1]=164; pile[WZ2]=D; pile[WZ3]=V1; 
-(*f[2056])( );     /*VAUT0(jvj+11,164,D,V1)*/
+(*f[2058])( );     /*VAUT0(jvj+11,164,D,V1)*/
 goto l5;
 l4:pile[v[22]]=498; pile[WZ1]=D; pile[WZ2]=jvj+6; 
-(*f[1948])( );if(v[102]) goto l5;     /*FNDOND0(498,D,jvj+6)*/
+(*f[1950])( );if(v[102]) goto l5;     /*FNDOND0(498,D,jvj+6)*/
 if((x[N]!=x[jvj+6])) goto l5;
 x[jvj+7]=vo[16];z[jvj+7]=vz[16];
 pile[WZ1]=jvj+7; pile[WZ2]=jvj+8; 
-(*f[1948])( );if(v[102]) goto l5;     /*FNDOND0(498,jvj+7,jvj+8)*/
+(*f[1950])( );if(v[102]) goto l5;     /*FNDOND0(498,jvj+7,jvj+8)*/
 pile[v[22]]=1182; pile[WZ1]=jvj+8; pile[WZ2]=jvj+9; 
 (*f[32])( );if(v[102]) goto l5;     /*FNDO0(1182,jvj+8,jvj+9)*/
 if((68!=x[jvj+9])) goto l5;
@@ -65,6 +65,6 @@ pile[v[22]]=642; pile[WZ1]=jvj+10;
 V9=pile[WZ2]; 
 V1=(-999999);
 pile[v[22]]=365; pile[WZ1]=D; pile[WZ2]=jvj+3; 
-(*f[1969])( );     /*FNDEND0(365,D,jvj+3)*/
+(*f[1971])( );     /*FNDEND0(365,D,jvj+3)*/
 goto l1;
 }

@@ -38,7 +38,7 @@ pile[v[22]]=100; pile[WZ1]=41; pile[WZ2]=130; pile[WZ3]=V48; pile[WZ4]=R;
 l25:v[0]=jvj; v[22]-=4; return;
 l2:x[jvj+1]=s[x[jvj+22]] ;z[jvj+1]=(x[jvj+1]<=sepcte) ? x[jvj+1] : z[jvj+22];
 pile[v[22]]=jvj+1; pile[WZ1]=P; pile[WZ2]=EX; pile[WZ3]=jvj+2; 
-(*f[4030])( );     /*FERMATBISA0(jvj+1,P,EX,jvj+2)*/
+(*f[4032])( );     /*FERMATBISA0(jvj+1,P,EX,jvj+2)*/
 pile[v[22]]=jvj+3; pile[WZ1]=jvj+2; 
 (*f[68])( );     /*PLUE0(jvj+3,jvj+2)*/
 x[jvj+22]=t[x[jvj+22]];
@@ -75,7 +75,7 @@ l7:x[jvj+3]=t[x[jvj+3]];
 goto l5;
 l9:x[jvj+9]=s[x[jvj+23]] ;z[jvj+9]=(x[jvj+9]<=sepcte) ? x[jvj+9] : z[jvj+23];
 pile[v[22]]=jvj+9; pile[WZ1]=P; pile[WZ2]=EX; pile[WZ3]=jvj+8; 
-(*f[4030])( );     /*FERMATBISA0(jvj+9,P,EX,jvj+8)*/
+(*f[4032])( );     /*FERMATBISA0(jvj+9,P,EX,jvj+8)*/
 pile[v[22]]=130; pile[WZ1]=jvj+8; 
 (*f[26])( );if(v[102]) goto l11;     /*FNDC0(130,jvj+8,V36)*/
 V36=pile[WZ2]; 

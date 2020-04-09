@@ -26,7 +26,7 @@ pile[v[22]]=DP;
 (*f[107])( );     /*CRC0(DP,V2)*/
 V2=pile[WZ1]; 
 pile[v[22]]=V2; pile[WZ1]=EX; 
-(*f[1097])( );if(v[102]) goto l1;     /*LBAR1(V2,EX,DX)*/
+(*f[1099])( );if(v[102]) goto l1;     /*LBAR1(V2,EX,DX)*/
 DX=pile[WZ2]; 
 v[0]=jvj; v[22]-=3; pile[v[22]+2]=DX; v[102]=0;return;
 l1:x[EX]=DX=incon;

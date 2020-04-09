@@ -26,9 +26,9 @@ x[jvj+30]=x[E] ;z[jvj+30]=z[E];
 l1:if((x[jvj+30]>0)) goto l2;
 x[jvj+29]=0 ;z[jvj+29]=0;
 pile[v[22]]=E; 
-(*f[1091])( );     /*PREORDRE0(E)*/
+(*f[1093])( );     /*PREORDRE0(E)*/
 pile[WZ1]=jvj+2; pile[WZ2]=jvj+29; 
-(*f[1092])( );     /*METDANSORD0(E,jvj+2,jvj+29)*/
+(*f[1094])( );     /*METDANSORD0(E,jvj+2,jvj+29)*/
 x[jvj+33]=x[E] ;z[jvj+33]=z[E];
 l18:if((x[jvj+33]>0)) goto l19;
 l20:x[jvj+1]=incon; v[0]=jvj; v[22]-=2; return;

@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=45;
 x[jvj+1]=11808;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1782&&v[97]==0) {
+if(v[90]==1784&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 HIST=pile[v[22]]; VB=pile[v[22]+1]; Q=pile[v[22]+2]; TY=pile[v[22]+3]; XX=pile[v[22]+4]; v[22]+=5; 
@@ -114,7 +114,7 @@ pile[v[22]]=100; pile[WZ1]=20; pile[WZ2]=101; pile[WZ3]=jvj+29; pile[WZ4]=jvj+31
 pile[v[22]]=jvj+30; pile[WZ1]=959; pile[WZ2]=jvj+31; 
 (*f[35])( );     /*CHGC1(jvj+30,959,jvj+31)*/
 l20:pile[v[22]]=jvj+35; pile[WZ1]=HIST; pile[WZ2]=jvj+30; pile[WZ3]=jvj+32; 
-(*f[1594])( );     /*AJOULISBIS0(jvj+35,HIST,jvj+30,jvj+32)*/
+(*f[1596])( );     /*AJOULISBIS0(jvj+35,HIST,jvj+30,jvj+32)*/
 l19:x[jvj+45]=t[x[jvj+45]];
 l18:if((x[jvj+45]<=0)) goto l21;
 x[jvj+35]=s[x[jvj+45]] ;z[jvj+35]=(x[jvj+35]<=sepcte) ? x[jvj+35] : z[jvj+45];

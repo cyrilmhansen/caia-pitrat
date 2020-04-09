@@ -15,7 +15,7 @@ v[0]+=28;
 x[jvj+1]=11440;z[jvj+1]=(-100);
 x[jvj+2]=0;z[jvj+2]=(-101);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3635&&v[97]==0) {
+if(v[90]==3637&&v[97]==0) {
 (*f[4])( ); x[jvj+2]=incon; x[jvj+1]=incon;v[0]=jvj;return;
 }
 P=pile[v[22]]; S=pile[v[22]+1]; M=pile[v[22]+2]; EZ=pile[v[22]+3]; v[22]+=4; 
@@ -87,7 +87,7 @@ pile[v[22]]=117; pile[WZ1]=K; pile[WZ2]=218; pile[WZ3]=jvj+14; pile[WZ4]=jvj+16;
 pile[v[22]]=jvj+15; pile[WZ1]=120; pile[WZ2]=jvj+16; 
 (*f[35])( );     /*CHGC1(jvj+15,120,jvj+16)*/
 pile[v[22]]=N; pile[WZ1]=EZ; pile[WZ2]=V5; pile[WZ3]=V9; pile[WZ4]=jvj+17; pile[WZ5]=P; pile[v[22]+6]=S; pile[v[22]+7]=M; pile[v[22]+8]=jvj+16; 
-(*f[4008])( );     /*CMSSENS1(N,EZ,V5,V9,jvj+17,P,S,M,jvj+16)*/
+(*f[4010])( );     /*CMSSENS1(N,EZ,V5,V9,jvj+17,P,S,M,jvj+16)*/
 l10:x[jvj+13]=t[x[jvj+13]];
 goto l9;
 l3:x[jvj+28]=t[x[jvj+28]];

@@ -92,7 +92,7 @@ pile[v[22]]=145; pile[WZ1]=jvj+16; pile[WZ2]=jvj+17;
 if((x[jvj+17]!=x[jvj+27])) goto l20;
 x[jvj+22]=x[jvj+16] ;z[jvj+22]=z[jvj+16];
 l29:pile[v[22]]=Q; pile[WZ1]=A; pile[WZ2]=B; pile[WZ3]=Y; pile[WZ4]=jvj+22; 
-(*f[1173])( );     /*COMPNORD1(Q,A,B,Y,jvj+22)*/
+(*f[1175])( );     /*COMPNORD1(Q,A,B,Y,jvj+22)*/
 pile[v[22]]=109; pile[WZ1]=Y; pile[WZ2]=jvj+24; 
 (*f[32])( );if(v[102]) goto l31;     /*FNDO0(109,Y,jvj+24)*/
 pile[v[22]]=jvj+24; pile[WZ1]=109; pile[WZ2]=jvj+23; 

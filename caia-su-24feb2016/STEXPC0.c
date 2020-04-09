@@ -20,7 +20,7 @@ AT=pile[v[22]]; EB=pile[v[22]+1]; NV=pile[v[22]+2]; v[22]+=3;
 WZ3=v[22]+3; WZ2=v[22]+2; WZ1=v[22]+1; 
 x[jvj+2]=0 ;z[jvj+2]=0;
 pile[v[22]]=NV; pile[WZ1]=AT; pile[WZ2]=jvj+2; pile[WZ3]=EB; 
-(*f[1123])( );     /*NMEILLEURS0(NV,AT,jvj+2,EB)*/
+(*f[1125])( );     /*NMEILLEURS0(NV,AT,jvj+2,EB)*/
 V1=incon;
 if((x[AT]==610)) goto l1;
 V1=61;

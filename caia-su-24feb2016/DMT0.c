@@ -12,7 +12,7 @@ jvj=v[0];
 v[0]+=3;
 x[jvj+1]=10006;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==1647&&v[97]==0) {
+if(v[90]==1649&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 Y=pile[v[22]]; BT=pile[v[22]+1]; X=pile[v[22]+2]; R=pile[v[22]+3]; v[22]+=4; 
@@ -22,15 +22,15 @@ pile[v[22]]=123; pile[WZ1]=X; pile[WZ2]=jvj+2;
 pile[v[22]]=Y; pile[WZ1]=123; 
 (*f[35])( );     /*CHGC1(Y,123,jvj+2)*/
 l1:pile[v[22]]=R; pile[WZ1]=BT; pile[WZ2]=X; pile[WZ3]=R; pile[WZ4]=Y; 
-(*f[1818])( );     /*COPV0(R,BT,X,R,Y)*/
+(*f[1820])( );     /*COPV0(R,BT,X,R,Y)*/
 pile[v[22]]=Y; 
-(*f[1424])( );     /*VZ0(Y)*/
+(*f[1426])( );     /*VZ0(Y)*/
 pile[v[22]]=R; pile[WZ1]=67; pile[WZ2]=Y; 
-(*f[1638])( );     /*DEKB0(R,67,Y)*/
+(*f[1640])( );     /*DEKB0(R,67,Y)*/
 x[jvj+3]=vo[15];z[jvj+3]=vz[15];
 pile[WZ1]=Y; 
-(*f[1600])( );     /*DVA0(R,Y)*/
+(*f[1602])( );     /*DVA0(R,Y)*/
 pile[v[22]]=Y; pile[WZ1]=R; pile[WZ2]=jvj+3; pile[WZ3]=BT; pile[WZ4]=Y; 
-(*f[1426])( );     /*DMP0(Y,R,jvj+3,BT,Y)*/
+(*f[1428])( );     /*DMP0(Y,R,jvj+3,BT,Y)*/
 l2:x[jvj+1]=incon; v[0]=jvj; v[22]-=4; return;
 }

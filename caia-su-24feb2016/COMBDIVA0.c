@@ -37,7 +37,7 @@ l1:pile[v[22]]=Q; pile[WZ1]=jvj+6;
 x[jvj+10]=x[jvj+6] ;z[jvj+10]=z[jvj+6];
 l2:if((x[jvj+10]>0)) goto l3;
 pile[v[22]]=V9; pile[WZ1]=R; pile[WZ2]=jvj+5; 
-(*f[4037])( );     /*COMBDIVA0(V9,R,jvj+5)*/
+(*f[4039])( );     /*COMBDIVA0(V9,R,jvj+5)*/
 x[jvj+9]=t[x[jvj+9]];
 goto l4;
 l3:x[jvj+7]=s[x[jvj+10]] ;z[jvj+7]=(x[jvj+7]<=sepcte) ? x[jvj+7] : z[jvj+10];

@@ -13,7 +13,7 @@ jvj=v[0];
 v[0]+=27;
 x[jvj+1]=20565;z[jvj+1]=(-100);
 if(v[0]>99700) (*f[6])( );
-if(v[90]==3831&&v[97]==0) {
+if(v[90]==3833&&v[97]==0) {
 (*f[4])( ); x[jvj+1]=incon;v[0]=jvj;return;
 }
 NNNI=pile[v[22]]; v[22]+=1; 
@@ -29,7 +29,7 @@ pile[v[22]]=642; pile[WZ1]=jvj+2;
 V18=pile[WZ2]; 
 x[jvj+3]=0 ;z[jvj+3]=0;
 pile[v[22]]=929; 
-(*f[1975])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V15)*/
+(*f[1977])( );if(v[102]) goto l1;     /*FNDCND0(929,jvj+2,V15)*/
 V15=pile[WZ2]; 
 pile[v[22]]=jvj+3; pile[WZ1]=V15; 
 (*f[207])( );     /*PLUE2(jvj+3,V15)*/
@@ -47,7 +47,7 @@ pile[v[22]]=130; pile[WZ1]=jvj+10;
 (*f[26])( );if(v[102]) goto l5;     /*FNDC0(130,jvj+10,V13)*/
 V13=pile[WZ2]; 
 pile[v[22]]=V13; pile[WZ1]=jvj+25; 
-(*f[1007])( );if(v[102]) goto l5;     /*DECFACTPREM0(V13,jvj+25)*/
+(*f[1008])( );if(v[102]) goto l5;     /*DECFACTPREM0(V13,jvj+25)*/
 x[jvj+27]=0 ;z[jvj+27]=0;
 l8:if((x[jvj+25]>0)) goto l9;
 V3=x[jvj+27];
@@ -76,8 +76,8 @@ pile[v[22]]=V18; pile[WZ1]=858; pile[WZ2]=jvj+19;
 (*f[46])( );     /*TRI0(V18,858,jvj+19)*/
 pile[v[22]]=jvj+19; pile[WZ1]=v[13]; pile[WZ2]=642; pile[WZ3]=jvj+20; 
 (*f[189])( );     /*TRI4(jvj+19,v[13],642,jvj+20)*/
-pile[v[22]]=jvj+20; pile[WZ1]=3831; pile[WZ2]=246; pile[WZ3]=jvj+21; 
-(*f[189])( );     /*TRI4(jvj+20,3831,246,jvj+21)*/
+pile[v[22]]=jvj+20; pile[WZ1]=3833; pile[WZ2]=246; pile[WZ3]=jvj+21; 
+(*f[189])( );     /*TRI4(jvj+20,3833,246,jvj+21)*/
 pile[v[22]]=jvj+21; pile[WZ1]=20565; pile[WZ2]=218; pile[WZ3]=jvj+22; 
 (*f[58])( );     /*TRI3(jvj+21,20565,218,jvj+22)*/
 pile[v[22]]=jvj+23; pile[WZ1]=(-20); pile[WZ2]=jvj+22; pile[WZ3]=159; pile[WZ4]=jvj+24; 
@@ -85,7 +85,7 @@ pile[v[22]]=jvj+23; pile[WZ1]=(-20); pile[WZ2]=jvj+22; pile[WZ3]=159; pile[WZ4]=
 pile[v[22]]=jvj+24; pile[WZ1]=1; pile[WZ2]=158; pile[WZ3]=jvj+14; 
 (*f[58])( );     /*TRI3(jvj+24,1,158,jvj+14)*/
 pile[v[22]]=jvj+13; pile[WZ1]=jvj+14; 
-(*f[1296])( );     /*NOUVCONTR0(jvj+13,jvj+14)*/
+(*f[1298])( );     /*NOUVCONTR0(jvj+13,jvj+14)*/
 V22=t[V22];
 goto l6;
 l3:V6=s[x[jvj+4]];
@@ -104,7 +104,7 @@ pile[v[22]]=510;
 (*f[26])( );if(v[102]) goto l10;     /*FNDC0(510,jvj+26,V39)*/
 V39=pile[WZ2]; 
 pile[v[22]]=V38; pile[WZ1]=V39; 
-(*f[1006])( );if(v[102]) goto l10;     /*POWER0(V38,V39,V40)*/
+(*f[1007])( );if(v[102]) goto l10;     /*POWER0(V38,V39,V40)*/
 V40=pile[WZ2]; 
 pile[v[22]]=jvj+27; pile[WZ1]=V40; 
 (*f[207])( );     /*PLUE2(jvj+27,V40)*/

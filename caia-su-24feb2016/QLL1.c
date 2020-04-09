@@ -95,12 +95,12 @@ l6:x[jvj+18]=s[x[jvj+39]] ;z[jvj+18]=(x[jvj+18]<=sepcte) ? x[jvj+18] : z[jvj+39]
 pile[v[22]]=jvj+18; pile[WZ1]=jvj+1; pile[WZ2]=jvj+19; 
 (*f[32])( );if(v[102]) goto l7;     /*FNDO0(jvj+18,jvj+1,jvj+19)*/
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+18; 
-(*f[2189])( );     /*QLL1(jvj+1,jvj+18,jvj+19)*/
+(*f[2191])( );     /*QLL1(jvj+1,jvj+18,jvj+19)*/
 l7:x[jvj+39]=t[x[jvj+39]];
 goto l5;
 l10:x[jvj+22]=s[x[jvj+41]] ;z[jvj+22]=(x[jvj+22]<=sepcte) ? x[jvj+22] : z[jvj+41];
 pile[v[22]]=jvj+1; pile[WZ1]=jvj+20; pile[WZ2]=jvj+22; 
-(*f[2189])( );     /*QLL1(jvj+1,jvj+20,jvj+22)*/
+(*f[2191])( );     /*QLL1(jvj+1,jvj+20,jvj+22)*/
 x[jvj+41]=t[x[jvj+41]];
 goto l9;
 l11:v[0]=jvj; v[22]-=3; return;

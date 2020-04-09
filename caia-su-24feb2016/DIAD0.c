@@ -23,7 +23,7 @@ l1:pile[v[22]]=110; pile[WZ1]=X;
 (*f[44])( );if(v[102]) goto l2;     /*FNDC1(110,X,V1)*/
 V1=pile[WZ2]; 
 pile[v[22]]=BL; 
-(*f[1071])( );if(v[102]) goto l2;     /*NOUB0(BL)*/
+(*f[1073])( );if(v[102]) goto l2;     /*NOUB0(BL)*/
 pile[v[22]]=10664; pile[WZ1]=10666; 
 (*f[294])( );     /*PLUK2(10664,10666)*/
 pile[v[22]]=X; pile[WZ1]=109; pile[WZ2]=BL; 
