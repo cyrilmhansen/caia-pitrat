@@ -14,42 +14,57 @@ Je propose aussi une convention dès la v0.1 :
 
 Le corps d'une fonction est constitué de clauses gardées.
 
-Une clause typique :
+Une clause a la forme :
 
 ```text
-conditions
-    =>
-actions / productions
+G1,...,Gn => A1,...,Am
 ```
 
-La position textuelle des clauses n'est pas nécessairement leur ordre d'exécution dans le C généré.
+La partie gauche contient des gardes, mais aussi des producteurs de bindings nécessaires à l'activation de la clause. La partie droite contient les productions ou effets.
 
-`FNDEXPR` en fournit une preuve directe : le compilateur réordonne les calculs pour satisfaire les dépendances tout en conservant les priorités sémantiques.
+Une clause n'est pas une instruction séquentielle placée à cet endroit du texte. Le compilateur peut réordonner les calculs selon les dépendances et les contraintes de priorité.
+
+**OBSERVÉ —** `FNDEXPR`, `NATFNDA` et `ENTRAINE` fournissent des couples source/C importants pour l'étude de cet ordonnancement. Dans `NATFNDA`, notamment, une valeur `KK` utilisée textuellement avant sa production est calculée auparavant dans le C généré.
 
 ## 2. Modèle d'exécution provisoire
+
+**Modèle opérationnel provisoire — DÉDUIT des listings et du C généré, et non définition formelle démontrée du compilateur.**
 
 Une procédure CAIA peut être vue comme :
 
 ```text
-ensemble de clauses
-+ variables initialement connues ou inconnues
-+ dépendances entre clauses
-+ priorités particulières
+ÉTAT
+    environnement de valeurs/bindings
+    + heap relationnel CAIA
+    + état connu/inconnu des résultats
+
+PROCÉDURE
+    ensemble de clauses
+    + classes éventuelles de priorité
+
+CLAUSE
+    gardes/producteurs -> productions/effets
 ```
 
-Le compilateur :
+Le modèle provisoire du travail du compilateur est :
 
 ```text
-analyse les dépendances
-        ↓
-détermine un ordre d'évaluation
-        ↓
-génère un CFG impératif
-        ↓
-if / goto / loops en C
+1. déterminer les dépendances producteurs/consommateurs
+2. respecter les phases DABORD / normale / ENDERNIER
+3. organiser les alternatives pouvant produire une même valeur
+4. positionner les gardes INCONNU après les producteurs pertinents
+5. transformer générateurs/parcours en boucles
+6. éventuellement développer certaines procédures (exemple : FND)
+7. émettre un CFG impératif C (if, goto, boucles)
 ```
 
-Il reste à déterminer si la sémantique source permet réellement un point fixe général ou seulement un ordonnancement statique suffisamment riche.
+Cette vue rassemble des comportements distincts :
+
+**A. Ordonnancement statique — OBSERVÉ.** `ENTRAINE`, `FNDEXPR` et `NATFNDA` montrent que le compilateur organise clauses et calculs selon leurs dépendances. Cet ordonnancement peut produire un CFG sans boucle.
+
+**B. Générateurs dynamiques — OBSERVÉ.** `APP`, `POURTOUS`, `UN` et le pattern matching peuvent énumérer des solutions ou bindings à l'exécution. Une SCC ou un `goto` arrière dans le C ne prouve donc pas un calcul de point fixe : cela peut représenter une énumération ou du backtracking.
+
+**C. Générateurs sur collections mutées — OBSERVÉ pour `PROCEDURALISE`.** L'énumération d'une collection qui est également modifiée peut former une worklist implicite et produire une saturation locale. Cela ne démontre pas l'existence d'un moteur général de point fixe.
 
 ## 3. Clauses
 
@@ -59,7 +74,7 @@ Forme générale observée :
 P1,P2,...,Pn => Q1,Q2,...,Qm
 ```
 
-La partie gauche représente une conjonction de conditions, bindings ou calculs nécessaires.
+La partie gauche représente une conjonction de gardes et de producteurs de bindings ou calculs nécessaires à l'activation de la clause.
 
 La partie droite produit des valeurs ou effets.
 
@@ -78,12 +93,20 @@ DABORD ...
 ENDERNIER ...
 ```
 
-**DÉDUIT :**
+**DÉDUIT —** les observations sur `FNDEXPR`, `NATFNDA` et `TRADNAM` soutiennent le modèle suivant :
 
-- `DABORD` marque des règles devant établir des connaissances prioritaires.
-- `ENDERNIER` marque des règles de finalisation.
+- `DABORD` impose un placement dans une phase antérieure.
+- `ENDERNIER` impose un placement dans une phase postérieure.
 
-Le détail exact de leur ordonnancement relatif doit encore être spécifié formellement.
+Modèle provisoire :
+
+```text
+phase DABORD
+phase normale
+phase ENDERNIER
+```
+
+Ces annotations apparaissent aussi dans des constructions imbriquées. Il ne faut donc pas les réduire à un simple prologue et épilogue de fonction : leur portée peut être plus locale, et plusieurs niveaux de portée restent possibles.
 
 ## 5. Variables et état inconnu
 
@@ -98,7 +121,16 @@ CONNU(X)
 
 Le C généré utilise notamment une valeur sentinelle `incon`.
 
-L'échec à produire une valeur peut faire partie du fonctionnement normal.
+**DÉDUIT —** `INCONNU(X)` sert fréquemment de garde de fallback. Provisoirement, elle est vraie lorsque `X` n'a pas été produit par les producteurs applicables antérieurs dans l'ordre sémantique calculé. « Antérieurs » désigne cet ordre calculé, pas nécessairement l'ordre du texte source.
+
+Le style suivant constitue un équivalent déclaratif fréquent d'un `else` :
+
+```text
+règles spécialisées => X := ...
+INCONNU(X) => X := valeur_par_défaut
+```
+
+Cette description reste provisoire : la sémantique formelle générale de `INCONNU` n'est pas établie. L'absence de valeur peut faire partie du fonctionnement normal.
 
 ## 6. Affectation
 
@@ -237,6 +269,14 @@ NAPP : n'appartient pas à
 ```
 
 Dans certaines clauses, `X.APP.E` peut aussi introduire successivement les bindings correspondant aux éléments de `E`.
+
+**OBSERVÉ — C généré de `PROCEDURALISE`.** `X.APP.E` y est compilé comme un parcours direct de la représentation de la collection. En particulier, `X.APP.THEN(N)` parcourt directement la chaîne représentant `THEN(N)`. Des actions de la même procédure peuvent exécuter `PLUS THEN(N) ...` et `OTE THEN(N) X`; `PLUSC0` ajoute des éléments à la collection existante.
+
+Dans cet exemple, l'énumération de `THEN(N)` ne travaille pas sur un snapshot préalable : elle parcourt la structure courante et les mutations peuvent affecter les bindings futurs.
+
+**DÉDUIT —** `X.APP.E` est généralement un générateur sur une collection vivante : un élément ajouté à la suite pendant l'énumération peut être visité dans la même invocation. La généralisation reste prudente, car d'autres représentations de `E` peuvent avoir un comportement différent.
+
+**Conséquence observée dans `PROCEDURALISE` :** une procédure peut exprimer une saturation locale sans boucle explicite dans le source. Des clauses génératrices ajoutent des éléments à la relation qu'elles énumèrent, puis ces éléments deviennent candidats aux mêmes clauses. On peut décrire cela comme une worklist implicite ou un parcours vivant, sans en faire un moteur général de point fixe.
 
 ## 12. Collections
 
@@ -401,9 +441,15 @@ La consolidation produit notamment :
 
 ## 20. Échec
 
-Une condition ou un appel peut ne pas produire de valeur.
+Il faut distinguer trois cas :
 
-Ce cas est généralement traité comme une non-applicabilité normale plutôt qu'une erreur.
+```text
+succès avec une valeur
+absence / valeur inconnue normale dans le modèle CAIA
+échec d'un appel, signalé dans le C par v[102]
+```
+
+`AJUSTFIN` illustre la différence entre le résultat sémantique (`@OUI` ou `@NON`) et l'échec de l'appel lui-même. Il ne faut pas assimiler automatiquement `incon`, un non-match et `v[102]`.
 
 Le C généré utilise notamment :
 
@@ -473,14 +519,18 @@ puis B
 puis C
 ```
 
+### Note méthodologique sur le C généré
+
+La structure du C doit toujours être confrontée au listing CAIA correspondant. Beaucoup de labels et de `goto` ne signifient pas qu'il y a une boucle : le CFG de `ENTRAINE` est acyclique malgré ses nombreux labels. `EVLJ` est essentiellement un dispatch. Les SCC de `POSTMORTEM` correspondent notamment au générateur explicite `C.APP.[1 TO 3]`, et des SCC issues du pattern matching peuvent représenter l'énumération ou le backtracking.
+
 ## 24. Ce qui reste ouvert
 
 Les principaux points encore non spécifiés sont :
 
 ```text
 sémantique formelle exacte de =>
-règles de priorité exactes de DABORD / ENDERNIER
-existence éventuelle d'un calcul de point fixe
+portée et niveaux éventuels des phases DABORD / normale / ENDERNIER
+existence ailleurs dans CAIA d'un mécanisme plus général de réactivation ou de calcul de point fixe
 sémantique exacte de UN
 portée et durée de vie des variables
 critère d'inlining comme FND
@@ -490,6 +540,8 @@ sémantique complète des modes @COURANT/@CREE/@MATCHE
 gestion complète des erreurs
 modèle de concurrence éventuel — rien ne l'indique pour l'instant
 ```
+
+État actuel concernant les calculs répétés : aucune preuve d'un moteur générique de point fixe ; preuves d'ordonnancement statique, de générateurs dynamiques et d'une saturation locale obtenue par mutation d'une collection pendant son énumération.
 
 ---
 
@@ -515,91 +567,4 @@ Langage système CAIA
         comment elles sont ordonnancées
         comment elles sont compilées
 ```
-
------
-
-
-Maj en attente
-
-Une clause CAIA a la forme G1,...,Gn => A1,...,Am. Les expressions de gauche constituent les conditions et producteurs de bindings nécessaires à l'activation de la clause. Les expressions de droite constituent les productions ou effets de la clause. Une clause n'est pas une instruction placée à une position séquentielle : le compilateur peut la déplacer relativement aux autres clauses tant que leurs dépendances et contraintes de priorité sont respectées.
-
---
-Donc INCONNU(R) peut être spécifié provisoirement comme :
-
-garde vraie lorsque la valeur n'a pas été produite par les producteurs applicables précédents dans l'ordre sémantique calculé.
-
-Le mot « précédents » désigne ici l'ordre calculé, pas nécessairement l'ordre textuel.
-
-Cela explique une grande partie du style CAIA :
-
-règles spécialisées produisent X
-INCONNU(X) => valeur par défaut
-
-Il n'y a nul besoin d'un else.
-
-
---
-Cela suggère une hiérarchie :
-phase DABORD
-phase normale
-phase ENDERNIER
-
-mais potentiellement à plusieurs niveaux de portée.
-
-C'est un point à garder comme question ouverte plutôt que de l'aplatir prématurément.
-
-DABORD    = contrainte de placement dans une phase antérieure
-ENDERNIER = contrainte de placement dans une phase postérieure
-
---
-Il faut donc distinguer trois états :
-
-succès avec une valeur
-absence / inconnu normal dans le modèle CAIA
-échec d'un appel de procédure (`v[102]` dans la cible C)
---
-
-ÉTAT
-    environnement de valeurs/bindings
-    + heap relationnel CAIA
-    + état connu/inconnu des résultats
-
-PROCÉDURE
-    ensemble de clauses réparties éventuellement
-    entre plusieurs classes de priorité
-
-CLAUSE
-    garde/producteurs -> productions/effets
-
-COMPILATION
-    1. construire les dépendances entre producteurs et consommateurs
-    2. respecter les phases DABORD / normale / ENDERNIER
-    3. organiser les alternatives produisant la même valeur
-    4. placer les gardes INCONNU après les producteurs pertinents
-    5. transformer parcours/générateurs en boucles
-    6. éventuellement développer certaines procédures
-    7. émettre un CFG impératif C
---
-
-Cela précise fortement notre sémantique de APP
-Je mettrais maintenant dans syslang.md, avec statut OBSERVÉ pour le C généré de PROCEDURALISE, puis DÉDUIT comme règle générale :
-X.APP.E est un générateur qui lie successivement X aux éléments de E. L’implémentation observée parcourt directement la représentation courante de la collection et ne construit pas de snapshot préalable. Les mutations de E intervenant pendant son parcours peuvent donc affecter les bindings futurs. En particulier, un élément ajouté à la suite de la collection pendant l’énumération peut être visité au cours de la même invocation.
-
-Puis une conséquence séparée :
-Une procédure CAIA peut ainsi exprimer une saturation locale sans boucle explicite : des clauses génératrices peuvent ajouter de nouveaux éléments à la relation qu’elles énumèrent, lesquels seront ensuite soumis aux mêmes clauses.
-
-C’est beaucoup plus fort et beaucoup plus précis que notre ancienne hypothèse « peut-être un calcul de point fixe ».
----
-1. ordonnanceur statique
-   ENTRAINE, FNDEXPR, NATFNDA...
-   → le compilateur organise les clauses selon leurs dépendances
-
-2. générateurs dynamiques
-   APP, POURTOUS, UN, pattern matching...
-   → le programme C énumère des solutions à l'exécution
-
-3. générateurs sur collections mutées
-   PROCEDURALISE
-   → worklist / saturation locale implicite
----
 
