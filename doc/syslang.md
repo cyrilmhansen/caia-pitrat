@@ -516,3 +516,90 @@ Langage système CAIA
         comment elles sont compilées
 ```
 
+-----
+
+
+Maj en attente
+
+Une clause CAIA a la forme G1,...,Gn => A1,...,Am. Les expressions de gauche constituent les conditions et producteurs de bindings nécessaires à l'activation de la clause. Les expressions de droite constituent les productions ou effets de la clause. Une clause n'est pas une instruction placée à une position séquentielle : le compilateur peut la déplacer relativement aux autres clauses tant que leurs dépendances et contraintes de priorité sont respectées.
+
+--
+Donc INCONNU(R) peut être spécifié provisoirement comme :
+
+garde vraie lorsque la valeur n'a pas été produite par les producteurs applicables précédents dans l'ordre sémantique calculé.
+
+Le mot « précédents » désigne ici l'ordre calculé, pas nécessairement l'ordre textuel.
+
+Cela explique une grande partie du style CAIA :
+
+règles spécialisées produisent X
+INCONNU(X) => valeur par défaut
+
+Il n'y a nul besoin d'un else.
+
+
+--
+Cela suggère une hiérarchie :
+phase DABORD
+phase normale
+phase ENDERNIER
+
+mais potentiellement à plusieurs niveaux de portée.
+
+C'est un point à garder comme question ouverte plutôt que de l'aplatir prématurément.
+
+DABORD    = contrainte de placement dans une phase antérieure
+ENDERNIER = contrainte de placement dans une phase postérieure
+
+--
+Il faut donc distinguer trois états :
+
+succès avec une valeur
+absence / inconnu normal dans le modèle CAIA
+échec d'un appel de procédure (`v[102]` dans la cible C)
+--
+
+ÉTAT
+    environnement de valeurs/bindings
+    + heap relationnel CAIA
+    + état connu/inconnu des résultats
+
+PROCÉDURE
+    ensemble de clauses réparties éventuellement
+    entre plusieurs classes de priorité
+
+CLAUSE
+    garde/producteurs -> productions/effets
+
+COMPILATION
+    1. construire les dépendances entre producteurs et consommateurs
+    2. respecter les phases DABORD / normale / ENDERNIER
+    3. organiser les alternatives produisant la même valeur
+    4. placer les gardes INCONNU après les producteurs pertinents
+    5. transformer parcours/générateurs en boucles
+    6. éventuellement développer certaines procédures
+    7. émettre un CFG impératif C
+--
+
+Cela précise fortement notre sémantique de APP
+Je mettrais maintenant dans syslang.md, avec statut OBSERVÉ pour le C généré de PROCEDURALISE, puis DÉDUIT comme règle générale :
+X.APP.E est un générateur qui lie successivement X aux éléments de E. L’implémentation observée parcourt directement la représentation courante de la collection et ne construit pas de snapshot préalable. Les mutations de E intervenant pendant son parcours peuvent donc affecter les bindings futurs. En particulier, un élément ajouté à la suite de la collection pendant l’énumération peut être visité au cours de la même invocation.
+
+Puis une conséquence séparée :
+Une procédure CAIA peut ainsi exprimer une saturation locale sans boucle explicite : des clauses génératrices peuvent ajouter de nouveaux éléments à la relation qu’elles énumèrent, lesquels seront ensuite soumis aux mêmes clauses.
+
+C’est beaucoup plus fort et beaucoup plus précis que notre ancienne hypothèse « peut-être un calcul de point fixe ».
+---
+1. ordonnanceur statique
+   ENTRAINE, FNDEXPR, NATFNDA...
+   → le compilateur organise les clauses selon leurs dépendances
+
+2. générateurs dynamiques
+   APP, POURTOUS, UN, pattern matching...
+   → le programme C énumère des solutions à l'exécution
+
+3. générateurs sur collections mutées
+   PROCEDURALISE
+   → worklist / saturation locale implicite
+---
+
