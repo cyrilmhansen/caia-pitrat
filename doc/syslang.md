@@ -572,3 +572,16 @@ Langage système CAIA
         comment elles sont compilées
 ```
 
+Maj
+
+OBSERVÉ :
+DABORD et ENDERNIER peuvent apparaître à plusieurs niveaux syntaxiques
+et être imbriqués.
+
+EASB est probablement le cas canonique pour cette propriété.
+
+DÉDUIT :
+leur priorité est relative à la portée englobante ; l’ordonnancement
+forme donc une hiérarchie récursive de phases plutôt qu’un unique
+triplet global de phases.
+
