@@ -62,7 +62,11 @@ Cette vue rassemble des comportements distincts :
 
 **A. Ordonnancement statique — OBSERVÉ.** `ENTRAINE`, `FNDEXPR` et `NATFNDA` montrent que le compilateur organise clauses et calculs selon leurs dépendances. Cet ordonnancement peut produire un CFG sans boucle.
 
-**B. Générateurs dynamiques — OBSERVÉ.** `APP`, `POURTOUS`, `UN` et le pattern matching peuvent énumérer des solutions ou bindings à l'exécution. Une SCC ou un `goto` arrière dans le C ne prouve donc pas un calcul de point fixe : cela peut représenter une énumération ou du backtracking.
+**B. Générateurs dynamiques — OBSERVÉ pour plusieurs constructions.**
+`APP`, `POURTOUS` et le pattern matching peuvent entraîner une
+énumération de solutions ou de bindings à l'exécution. `UN` appartient
+vraisemblablement à cette famille, mais sa sémantique exacte reste à
+établir.
 
 **C. Générateurs sur collections mutées — OBSERVÉ pour `PROCEDURALISE`.** L'énumération d'une collection qui est également modifiée peut former une worklist implicite et produire une saturation locale. Cela ne démontre pas l'existence d'un moteur général de point fixe.
 
